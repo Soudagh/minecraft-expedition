@@ -1,6 +1,6 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.3.1-dev",
+  "version": "0.3.2-dev",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,
@@ -1023,20 +1023,20 @@
       "size": 10298057
     },
     {
-      "name": "Xaero's Minimap (Fair-Play)",
-      "slug": "xaeros-minimap-fair",
-      "project_id": "JkSi2Fzx",
-      "version_id": "kN9k0jQJ",
-      "version": "FP24.2.0_Forge_1.20",
-      "filename": "Xaeros_Minimap_FP24.2.0_Forge_1.20.jar",
-      "url": "https://cdn.modrinth.com/data/JkSi2Fzx/versions/kN9k0jQJ/Xaeros_Minimap_FP24.2.0_Forge_1.20.jar",
+      "name": "Xaero's Minimap",
+      "slug": "xaeros-minimap",
+      "project_id": "1bokaNcj",
+      "version_id": "dB6E0CY9",
+      "version": "forge-1.20.1-26.6.0",
+      "filename": "xaerominimap-forge-1.20.1-26.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/dB6E0CY9/xaerominimap-forge-1.20.1-26.6.0.jar",
       "hashes": {
-        "sha1": "f1ff67cf781da9769a1e0260f8925e6889b751b7",
-        "sha512": "a95a1c7575568cad6381d58bfc1bec01fde31dfd50d2112c02520d07b0c98526e1e58f7dc53b5a6cd9eb023bf6a275453196e45aae5fe35fca1d4b9d7fe2a0dc",
-        "sha256": "1134c9856a28acfb6ffede3fe936a4ede981cb360db60006b01a34f8078fd487"
+        "sha1": "ee73886f2f5f27bf28cffa7cc8f2b9b4540df2aa",
+        "sha512": "9c566a2b9537c37b438a38a060cc251187e6643e96522466c50c90c7fa747a4e4edc3a5fff0f31fb042e1eeefd047df2a57d1bbe6a3d741837cef8cdb6426a25",
+        "sha256": "9b39cd06094d7631c8614d172d0ba8399c71c981530af417f12a7909fcb855bd"
       },
       "side": "client",
-      "source": "https://modrinth.com/mod/xaeros-minimap-fair",
+      "source": "https://modrinth.com/mod/xaeros-minimap",
       "dependencies": [
         {
           "version_id": null,
@@ -1045,20 +1045,20 @@
           "dependency_type": "optional"
         }
       ],
-      "size": 1470125
+      "size": 2196194
     },
     {
       "name": "Xaero's World Map",
       "slug": "xaeros-world-map",
       "project_id": "NcUtCpym",
-      "version_id": "3t3qLyne",
-      "version": "1.38.8_Forge_1.20",
-      "filename": "XaerosWorldMap_1.38.8_Forge_1.20.jar",
-      "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/3t3qLyne/XaerosWorldMap_1.38.8_Forge_1.20.jar",
+      "version_id": "KtEupJvB",
+      "version": "forge-1.20.1-1.47.0",
+      "filename": "xaeroworldmap-forge-1.20.1-1.47.0.jar",
+      "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/KtEupJvB/xaeroworldmap-forge-1.20.1-1.47.0.jar",
       "hashes": {
-        "sha1": "a7e0a8a5fc1e31bfff5fb733c51b361ffb1fb5da",
-        "sha512": "4393652b0930ebe9cf8154acafbaebd38d049d6961574326ff949ba1dc8d7a4d9e5ae4e8998c73229f4ee9b8361f4e042e85c736c62591a7daa7f1d1c9d4555c",
-        "sha256": "760f564e581a585be38ec727fcc84b4d29ddf7613017031797455c256af1a9ba"
+        "sha1": "6715c1d3758a3805589d82c41dc581537fe185cd",
+        "sha512": "a8c775ad1645cd3dc922072955fff65f7874bd6a1c99e6a61d370e7a9a5880e450ba61dafa6c719ad8f719fcff3b17ec6124b7f47288009547b4b136d81e5657",
+        "sha256": "88c6d844163c95a94d92bc6d87d9011cc840bd6207c3099a81b113d4450a3f6b"
       },
       "side": "client",
       "source": "https://modrinth.com/mod/xaeros-world-map",
@@ -1070,7 +1070,7 @@
           "dependency_type": "optional"
         }
       ],
-      "size": 928120
+      "size": 1429424
     },
     {
       "name": "YUNG's API",

@@ -1,3 +1,9 @@
+# Исправление 0.3.2-dev
+
+Лог пользователя message (2).txt: клиент 0.3.1 падал на ClassMetadataNotFoundException xaero.lib.client.gui.widget.Tooltip. Сканирование JAR подтвердило ссылки в mixins/integration GregTech 7.5.3; это конфликт старой World Map с GT, не NEA. Карты заменены на Xaero Minimap 26.6.0 + World Map 1.47.0 со встроенной XaeroLib 1.7.3, содержащей нужный класс. Теперь мини-карта обычная: автоматические ограничения Fair-Play НЕ перенесены; отключить радар/пещеры в UI, затем внедрить defaults. Серверный состав не менялся. Проверки статические/установочные; клиентский запуск ожидает пользователя. Save schema 2.
+
+---
+
 # Обновление 0.3.1-dev — карта и анимации
 
 Добавлены только на клиент: Xaero’s Minimap Fair-Play 24.2.0 (kN9k0jQJ), Xaero’s World Map 1.38.8 (3t3qLyne), Not Enough Animations 1.12.6 (kGjMleOz). Всего 48 модов, прежние 45 неизменны; серверный состав тот же. Save schema 2. Мини-карта без радара/пещер, NEA — анимации персонажа от третьего лица; Better Combat/Combat Roll сохранены. Проверены JAR-манифесты/хеши и установка клиента. Визуальный клиентский тест совместимости НЕ выполнен. Релиз: https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.3.1-dev

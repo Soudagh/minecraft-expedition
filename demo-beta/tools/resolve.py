@@ -13,8 +13,8 @@ ROOTS = ['create', 'gregtechceu-modern', 'better-combat', 'combat-roll',
  'jei', 'modernfix', 'ferrite-core', 'embeddium', 'geckolib', 'curios',
  'caelus', 'patchouli', 'architectury-api', 'melody',
  'the-graveyard-forge', 'attributefix', 'huge-structure-blocks',
- 'xaeros-minimap-fair', 'xaeros-world-map', 'not-enough-animations']
-CLIENT_ONLY = {'embeddium', 'jei', 'xaeros-minimap-fair', 'xaeros-world-map', 'not-enough-animations'}
+ 'xaeros-minimap', 'xaeros-world-map', 'not-enough-animations']
+CLIENT_ONLY = {'embeddium', 'jei', 'xaeros-minimap', 'xaeros-world-map', 'not-enough-animations'}
 resolved = {}
 query = urllib.parse.urlencode({'game_versions': '["1.20.1"]', 'loaders': '["forge"]'})
 
@@ -23,7 +23,7 @@ def resolve(project_id, version_id=None):
     # Hex metadata pins older files, but its mods.toml accepts these versions.
     # Botania requires Patchouli >=83; retain the tested shared dependencies.
     version_id = {'patchouli': '94dtOLgZ', 'caelus': 'mRry0DgY',
-                  'xaeros-minimap-fair': 'kN9k0jQJ', 'xaeros-world-map': '3t3qLyne',
+                  'xaeros-minimap': 'dB6E0CY9', 'xaeros-world-map': 'KtEupJvB',
                   'not-enough-animations': 'kGjMleOz'}.get(project['slug'], version_id)
     pid = project['id']
     if pid in resolved:
@@ -95,7 +95,7 @@ if __name__ == '__main__':
           'hashes':{}, 'side':'both', 'source': f['url'], 'curseforge_project_id':pid, 'curseforge_file_id':fid}
     with ThreadPoolExecutor(max_workers=5) as pool:
         entries = list(pool.map(fetch_file, resolved.values()))
-    lock={'name':'Expedition Demo Beta', 'version':'0.3.1-dev', 'save_schema':2, 'minecraft':'1.20.1',
+    lock={'name':'Expedition Demo Beta', 'version':'0.3.2-dev', 'save_schema':2, 'minecraft':'1.20.1',
           'forge':'47.4.10','java':17,'mods':sorted(entries,key=lambda x:x['slug'])}
     (ROOT/'mods.lock.json').write_text(json.dumps(lock,ensure_ascii=False,indent=2)+'\n')
     print('LOCKED', len(entries), 'mods')
