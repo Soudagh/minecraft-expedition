@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 ROOT = Path(__file__).resolve().parents[1]
 SLUGS = ['create', 'gregtechceu-modern', 'better-combat', 'combat-roll',
-         'simply-swords', 'irons-spells-n-spellbooks', 'botania', 'cataclysm',
+         'simply-swords', 'hex-casting', 'botania', 'cataclysm',
          'yungs-better-dungeons', 'chipped', 'framedblocks', 'kubejs',
          'lootjs', 'ftb-quests', 'ftb-teams', 'ftb-xmod-compat', 'jei',
          'modernfix', 'ferrite-core', 'embeddium', 'geckolib', 'curios', 'playeranimator', 'caelus', 'patchouli', 'ftb-library', 'l_enders-cataclysm']

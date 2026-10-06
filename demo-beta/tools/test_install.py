@@ -40,6 +40,13 @@ class PreservationTests(unittest.TestCase):
                         self.assertEqual((second/name).read_bytes(),data)
                     self.assertEqual((first/'config/pack.txt').read_text(),'v1')
                     self.assertEqual((second/'config/pack.txt').read_text(),'v2')
+                    lock['save_schema'] = 2
+                    (pack/'mods.lock.json').write_text(json.dumps(lock))
+                    with self.assertRaisesRegex(ValueError, 'migration is blocked'):
+                        install.install(root/'incompatible', 'server', second, True, cache)
+                    self.assertFalse((root/'incompatible').exists())
+                    del lock['save_schema']
+                    (pack/'mods.lock.json').write_text(json.dumps(lock))
                     with self.assertRaises(ValueError): install.install(second,'server',cache=cache)
                     with self.assertRaises(ValueError): install.install(root/'third','server',first,False,cache)
                     (first/'config/pack.txt').write_text('user edit')

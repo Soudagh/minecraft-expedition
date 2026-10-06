@@ -2,9 +2,6 @@
 LootJS.modifiers(event => {
   event.addLootTypeModifier(LootType.CHEST)
     .removeLoot('#simplyswords:uniques')
-    .removeLoot('irons_spellbooks:scroll')
-    .removeLoot('irons_spellbooks:epic_ink')
-    .removeLoot('irons_spellbooks:legendary_ink')
   event.addLootTypeModifier(LootType.CHEST, LootType.ENTITY)
     .removeLoot('cataclysm:laser_gatling')
     .removeLoot('cataclysm:wither_assault_shoulder_weapon')

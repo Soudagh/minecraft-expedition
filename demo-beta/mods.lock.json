@@ -1,6 +1,6 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.1.1-dev",
+  "version": "0.2.0-dev",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,
@@ -471,47 +471,72 @@
       "size": 18209988
     },
     {
-      "name": "Iron's Lib",
-      "slug": "irons-lib",
-      "project_id": "9nfaJPtX",
-      "version_id": "6HqXQkgC",
-      "version": "1.20.1-2.2.0",
-      "filename": "irons_lib-1.20.1-2.2.0.jar",
-      "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/6HqXQkgC/irons_lib-1.20.1-2.2.0.jar",
+      "name": "Hex Casting",
+      "slug": "hex-casting",
+      "project_id": "nTW3yKrm",
+      "version_id": "e41256fb",
+      "version": "0.11.4",
+      "filename": "hexcasting-forge-1.20.1-0.11.4.jar",
+      "url": "https://cdn.modrinth.com/data/nTW3yKrm/versions/e41256fb/hexcasting-forge-1.20.1-0.11.4.jar",
       "hashes": {
-        "sha1": "8cad65f57a4bdcbbf3ea8a5eda9240810e3a55aa",
-        "sha512": "5d3ce588f692233672f5059e527fa093a3a3d40f2121a90101aa5c815c1677dc9d5eeca0528a010c0ad6d417b244943fc935bc093e66af72c9a6e1b0b674eeab",
-        "sha256": "48f1c1d80fa85b0ddea59465bef9ac86fc1e46c58caaea839c8e8f89f29b9ebb"
+        "sha1": "73f5b4a049d2132a2daf522451a15793b20100cc",
+        "sha512": "bbae5917d401acb1b573f4d29c2d334007df7a48de99346412a6b2890692a1795563d7e4db6bd67b578a2ea5f4983a1685b5068a0e64cf764cbc382a1087d124",
+        "sha256": "038ede2a5db9206dc0ee82b1c2030992668010e32d569894635e387d6b059ca4"
       },
       "side": "both",
-      "source": "https://modrinth.com/mod/irons-lib",
+      "source": "https://modrinth.com/mod/hex-casting",
       "dependencies": [
         {
-          "version_id": null,
-          "project_id": "8BmcQJ2H",
+          "version_id": "H1jsvy53",
+          "project_id": "fin1PX4m",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": "fs9CeXYZ",
+          "project_id": "40FYwb4z",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": "HyBiJPtT",
+          "project_id": "TZo2wHFe",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": "scPQNgN5",
+          "project_id": "nU0bVIaL",
           "file_name": null,
           "dependency_type": "required"
         }
       ],
-      "size": 490088
+      "size": 4131835
     },
     {
-      "name": "Iron's Spells 'n Spellbooks",
-      "slug": "irons-spells-n-spellbooks",
-      "project_id": "s4OWxYQQ",
-      "version_id": "hZaEegS9",
-      "version": "1.20.1-3.16.3",
-      "filename": "irons_spellbooks-1.20.1-3.16.3.jar",
-      "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/hZaEegS9/irons_spellbooks-1.20.1-3.16.3.jar",
+      "name": "Inline",
+      "slug": "inline",
+      "project_id": "fin1PX4m",
+      "version_id": "H1jsvy53",
+      "version": "1.20.1-1.2.2-forge",
+      "filename": "inline-forge-1.20.1-1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/fin1PX4m/versions/H1jsvy53/inline-forge-1.20.1-1.2.2.jar",
       "hashes": {
-        "sha1": "726345aa215756bd30b7cf8c338c9ae6bbc59799",
-        "sha512": "a699631fa56568d39a30773b8fe96d7a49f1cd7f8e243340ce7ad91b09ccf49c9a6802a944f4bd04b2d88d9fc796a70add1d18d8f326bb2be238b02a8c8076da",
-        "sha256": "54b5aaa52887c38f570fbd820288171234d8541c17a5e953f9271189fdd480fb"
+        "sha1": "f19ae88f41256a74eed7b08b434d5c4695aaa6dd",
+        "sha512": "ff631012ef59eb560999dab05b65325f9ab848f0f7253818c9202ab1b8ecfc0de3417c6d57c2b63573da00814c8b87cdc86bc0b35952d1f927b97983dde0a153",
+        "sha256": "fe34e79fa98d67cfd48e1fa8da1893a9e0be4165c792374ede3099642c8b0336"
       },
       "side": "both",
-      "source": "https://modrinth.com/mod/irons-spells-n-spellbooks",
-      "dependencies": [],
-      "size": 15570397
+      "source": "https://modrinth.com/mod/inline",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "9s6osm5g",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 375864
     },
     {
       "name": "Just Enough Items (JEI)",
@@ -661,6 +686,23 @@
       "size": 242267
     },
     {
+      "name": "Mana and Artifice",
+      "slug": "mana-and-artifice",
+      "version": "3.1.11",
+      "filename": "mna-forge-1.20.1-3.1.11-all.jar",
+      "url": "https://mediafilez.forgecdn.net/files/6847/805/mna-forge-1.20.1-3.1.11-all.jar",
+      "hashes": {
+        "sha1": "e920557c9709f756b298e63eb24b623e0657dab5",
+        "sha512": "1a571bf1dca7a56c7cd9af318a6f8b461aa55ae28eddfd91f344041bd7f252a76ba9cfef9ff123ce67ab3ab888ffcad3a199b34f48a099eb4cccc9cb19559ab4",
+        "sha256": "6bda8e55a9492ea1baf3186088d9b5de405b5efdea079801527de8ae7fc30e15"
+      },
+      "side": "both",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/mana-and-artifice/files/6847805",
+      "curseforge_project_id": 406360,
+      "curseforge_file_id": 6847805,
+      "size": 32388968
+    },
+    {
       "name": "Melody",
       "slug": "melody",
       "project_id": "CVT4pFB2",
@@ -713,6 +755,24 @@
       "source": "https://modrinth.com/mod/patchouli",
       "dependencies": [],
       "size": 642732
+    },
+    {
+      "name": "PAUCAL",
+      "slug": "paucal",
+      "project_id": "TZo2wHFe",
+      "version_id": "HyBiJPtT",
+      "version": "0.6.0",
+      "filename": "paucal-0.6.0+1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/TZo2wHFe/versions/HyBiJPtT/paucal-0.6.0%2B1.20.1-forge.jar",
+      "hashes": {
+        "sha1": "360a748d33bc23674399781992489e10e613e5ea",
+        "sha512": "c970d419650a54fbf90319d5a2187228ab634ada8b9a2b381f8365066718e006203f0769217b47c9a875eb296751eadfa5fb79788deb36d7c07ca258e9d3e249",
+        "sha256": "3f403fc200e744cc85c348206da70e4fb34808f14fda3fc88b0bde1688b784ca"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/paucal",
+      "dependencies": [],
+      "size": 283568
     },
     {
       "name": "playerAnimator",
@@ -892,5 +952,6 @@
       ],
       "size": 792381
     }
-  ]
+  ],
+  "save_schema": 2
 }

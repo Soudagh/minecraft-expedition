@@ -51,6 +51,8 @@ def install(destination, side, source=None, stopped=False, cache=None):
             if p.exists() and digest(p) != expected:
                 raise ValueError('Locally changed managed file; merge manually first: ' + name)
     lock = json.loads((ROOT / 'mods.lock.json').read_text(encoding='utf-8'))
+    if old and old.get('save_schema', 1) != lock.get('save_schema', 1):
+        raise ValueError('This release changes the world format/mod set. Automatic migration is blocked. Keep the old instance and install a NEW test world; see release notes.')
     entries = [m for m in lock['mods'] if side == 'client' or m['side'] != 'client']
     cache = Path(cache) if cache else ROOT / '.cache' / 'mods'
     cache.mkdir(parents=True, exist_ok=True)
@@ -91,7 +93,7 @@ def install(destination, side, source=None, stopped=False, cache=None):
     for src in sorted((ROOT / 'overrides').rglob('*')):
         if src.is_file():
             put(src, src.relative_to(ROOT / 'overrides'))
-    state = {'version': lock['version'], 'minecraft': lock['minecraft'],
+    state = {'version': lock['version'], 'save_schema': lock.get('save_schema', 1), 'minecraft': lock['minecraft'],
              'forge': lock['forge'], 'side': side, 'files': managed}
     (destination / 'expedition-installed.json').write_text(json.dumps(state, indent=2), encoding='utf-8')
     print('Prepared:', destination)

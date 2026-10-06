@@ -8,16 +8,19 @@ ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.cache' / 'mods'
 CACHE.mkdir(parents=True, exist_ok=True)
 ROOTS = ['create', 'gregtechceu-modern', 'better-combat', 'combat-roll',
- 'simply-swords', 'irons-spells-n-spellbooks', 'botania', 'l_enders-cataclysm',
+ 'simply-swords', 'hex-casting', 'botania', 'l_enders-cataclysm',
  'yungs-better-dungeons', 'chipped', 'framedblocks', 'kubejs', 'lootjs',
  'jei', 'modernfix', 'ferrite-core', 'embeddium', 'geckolib', 'curios',
- 'caelus', 'patchouli', 'architectury-api', 'melody', 'irons-lib']
+ 'caelus', 'patchouli', 'architectury-api', 'melody']
 CLIENT_ONLY = {'embeddium', 'jei'}
 resolved = {}
 query = urllib.parse.urlencode({'game_versions': '["1.20.1"]', 'loaders': '["forge"]'})
 
 def resolve(project_id, version_id=None):
     project = get('project/' + project_id)
+    # Hex metadata pins older files, but its mods.toml accepts these versions.
+    # Botania requires Patchouli >=83; retain the tested shared dependencies.
+    version_id = {'patchouli': '94dtOLgZ', 'caelus': 'mRry0DgY'}.get(project['slug'], version_id)
     pid = project['id']
     if pid in resolved:
         if version_id and resolved[pid]['version_id'] != version_id:
@@ -70,7 +73,8 @@ if __name__ == '__main__':
         resolve(slug)
     # FTB distributes these releases through CurseForge, not Modrinth.
     for slug, pid in [('ftb-library-forge',404465), ('ftb-teams-forge',404468),
-                      ('ftb-quests-forge',289412), ('ftb-xmod-compat',889915)]:
+                      ('ftb-quests-forge',289412), ('ftb-xmod-compat',889915),
+                      ('mana-and-artifice',406360)]:
         local_meta = ROOT/'metadata'/(slug+'-cf.json')
         if not local_meta.exists():
             subprocess.run(['curl','-fsSL','https://api.cfwidget.com/'+str(pid),'-o',str(local_meta)],check=True)
@@ -83,7 +87,7 @@ if __name__ == '__main__':
           'hashes':{}, 'side':'both', 'source': f['url'], 'curseforge_project_id':pid, 'curseforge_file_id':fid}
     with ThreadPoolExecutor(max_workers=5) as pool:
         entries = list(pool.map(fetch_file, resolved.values()))
-    lock={'name':'Expedition Demo Beta', 'version':'0.1.0-dev', 'minecraft':'1.20.1',
+    lock={'name':'Expedition Demo Beta', 'version':'0.2.0-dev', 'save_schema':2, 'minecraft':'1.20.1',
           'forge':'47.4.10','java':17,'mods':sorted(entries,key=lambda x:x['slug'])}
     (ROOT/'mods.lock.json').write_text(json.dumps(lock,ensure_ascii=False,indent=2)+'\n')
     print('LOCKED', len(entries), 'mods')
