@@ -1,8 +1,10 @@
 """Create a source/bootstrap ZIP, never bundle caches, worlds or third-party jars."""
 from pathlib import Path
 import zipfile
+import json
 ROOT=Path(__file__).resolve().parents[1]
-dest=ROOT/'dist/expedition-0.1.0-dev-bootstrap.zip'
+version=json.loads((ROOT/'mods.lock.json').read_text())['version']
+dest=ROOT/('dist/expedition-'+version+'-bootstrap.zip')
 dest.parent.mkdir(exist_ok=True)
 files=[ROOT/'README.md',ROOT/'mods.lock.json']
 files+=list((ROOT/'overrides').rglob('*'))
