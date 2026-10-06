@@ -1,6 +1,6 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.3.0-dev",
+  "version": "0.3.1-dev",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,
@@ -792,6 +792,24 @@
       "size": 1003271
     },
     {
+      "name": "Not Enough Animations",
+      "slug": "not-enough-animations",
+      "project_id": "MPCX6s5C",
+      "version_id": "kGjMleOz",
+      "version": "1.12.6",
+      "filename": "notenoughanimations-forge-1.12.6-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/MPCX6s5C/versions/kGjMleOz/notenoughanimations-forge-1.12.6-mc1.20.1.jar",
+      "hashes": {
+        "sha1": "993252c9946e22aa4ba0b28cb5b81183d5bcf50d",
+        "sha512": "deb10b44e923a5ead4379651328f28c7e7aa862f825f0938ffc4d641119671fedeb5129161553618efb7e4b578d23393c225ade7ce486d1e6e36de256b2ec793",
+        "sha256": "66f1f6d61102dd03a4afafe4c9f1d39be9e55dabc8d0821cb46acca1328b525d"
+      },
+      "side": "client",
+      "source": "https://modrinth.com/mod/not-enough-animations",
+      "dependencies": [],
+      "size": 1870649
+    },
+    {
       "name": "Patchouli",
       "slug": "patchouli",
       "project_id": "nU0bVIaL",
@@ -1003,6 +1021,56 @@
         }
       ],
       "size": 10298057
+    },
+    {
+      "name": "Xaero's Minimap (Fair-Play)",
+      "slug": "xaeros-minimap-fair",
+      "project_id": "JkSi2Fzx",
+      "version_id": "kN9k0jQJ",
+      "version": "FP24.2.0_Forge_1.20",
+      "filename": "Xaeros_Minimap_FP24.2.0_Forge_1.20.jar",
+      "url": "https://cdn.modrinth.com/data/JkSi2Fzx/versions/kN9k0jQJ/Xaeros_Minimap_FP24.2.0_Forge_1.20.jar",
+      "hashes": {
+        "sha1": "f1ff67cf781da9769a1e0260f8925e6889b751b7",
+        "sha512": "a95a1c7575568cad6381d58bfc1bec01fde31dfd50d2112c02520d07b0c98526e1e58f7dc53b5a6cd9eb023bf6a275453196e45aae5fe35fca1d4b9d7fe2a0dc",
+        "sha256": "1134c9856a28acfb6ffede3fe936a4ede981cb360db60006b01a34f8078fd487"
+      },
+      "side": "client",
+      "source": "https://modrinth.com/mod/xaeros-minimap-fair",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "gF3BGWvG",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "size": 1470125
+    },
+    {
+      "name": "Xaero's World Map",
+      "slug": "xaeros-world-map",
+      "project_id": "NcUtCpym",
+      "version_id": "3t3qLyne",
+      "version": "1.38.8_Forge_1.20",
+      "filename": "XaerosWorldMap_1.38.8_Forge_1.20.jar",
+      "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/3t3qLyne/XaerosWorldMap_1.38.8_Forge_1.20.jar",
+      "hashes": {
+        "sha1": "a7e0a8a5fc1e31bfff5fb733c51b361ffb1fb5da",
+        "sha512": "4393652b0930ebe9cf8154acafbaebd38d049d6961574326ff949ba1dc8d7a4d9e5ae4e8998c73229f4ee9b8361f4e042e85c736c62591a7daa7f1d1c9d4555c",
+        "sha256": "760f564e581a585be38ec727fcc84b4d29ddf7613017031797455c256af1a9ba"
+      },
+      "side": "client",
+      "source": "https://modrinth.com/mod/xaeros-world-map",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "gF3BGWvG",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "size": 928120
     },
     {
       "name": "YUNG's API",

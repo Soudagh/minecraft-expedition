@@ -1,3 +1,9 @@
+# Обновление 0.3.1-dev — карта и анимации
+
+Добавлены только на клиент: Xaero’s Minimap Fair-Play 24.2.0 (kN9k0jQJ), Xaero’s World Map 1.38.8 (3t3qLyne), Not Enough Animations 1.12.6 (kGjMleOz). Всего 48 модов, прежние 45 неизменны; серверный состав тот же. Save schema 2. Мини-карта без радара/пещер, NEA — анимации персонажа от третьего лица; Better Combat/Combat Roll сохранены. Проверены JAR-манифесты/хеши и установка клиента. Визуальный клиентский тест совместимости НЕ выполнен. Релиз: https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.3.1-dev
+
+---
+
 # Актуальное состояние 0.3.0-dev — 7 октября 2026
 
 Приоритет над историей ниже. Пользователь выбрал полный Souls like Bosses + The Graveyard + EEEAB’s Mobs: девять основных боссов. Два финала Chaos Guardian и Wither Storm отложены, НЕ установлены. Исключены Aquamirae, Meet Your Fight, Колосс/Legendary Monsters и Йети/Bosses’Rise. Cataclysm не удалён ради сохранности мира, но больше не основная обязательная цепочка.
