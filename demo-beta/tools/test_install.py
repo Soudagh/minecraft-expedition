@@ -4,6 +4,7 @@ import io
 import json
 import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 import install
 
@@ -58,6 +59,41 @@ class PreservationTests(unittest.TestCase):
     def test_unsafe_paths_rejected(self):
         for name in ['../world', '/etc/passwd', 'C:\\world', 'mods/../../world']:
             with self.assertRaises(ValueError): install.safe_relative(name)
+
+    def test_generated_compatibility_files_are_preserved_and_protected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            pack = root/'pack'; pack.mkdir()
+            (pack/'overrides').mkdir()
+            cache = root/'cache'; cache.mkdir()
+            jar = cache/'souls.jar'
+            with zipfile.ZipFile(jar, 'w') as z:
+                z.writestr('data/example/functions/fix.mcfunction', 'execut at @s run say test')
+                for target in ('aw', 'nl'):
+                    z.writestr('data/souls_like_bosses/tags/entity_types/'+target+'_target.json',
+                               json.dumps({'values':['minecraft:player','minecraft:cow']}))
+            lock = {'version':'test','minecraft':'1.20.1','forge':'47.4.10','save_schema':2,
+                    'mods':[{'slug':'souls-like-bosses','curseforge_file_id':7955163,
+                             'filename':jar.name,'side':'both',
+                             'hashes':{'sha256':install.digest(jar)}}]}
+            (pack/'mods.lock.json').write_text(json.dumps(lock))
+            previous = install.ROOT; install.ROOT = pack
+            try:
+                with contextlib.redirect_stdout(io.StringIO()):
+                    first = install.install(root/'first','server',cache=cache)
+                    name = 'kubejs/data/example/functions/fix.mcfunction'
+                    self.assertEqual((first/name).read_text(), 'execute at @s run say test\n')
+                    self.assertIn(name, json.loads((first/'expedition-installed.json').read_text())['files'])
+                    (first/'world').mkdir(); (first/'world/data').write_bytes(b'world-progress')
+                    second = install.install(root/'second','server',first,True,cache)
+                    self.assertEqual((second/'world/data').read_bytes(), b'world-progress')
+                    self.assertEqual((first/name).read_bytes(), (second/name).read_bytes())
+                    (first/name).write_text('user change')
+                    with self.assertRaisesRegex(ValueError, 'Locally changed managed file'):
+                        install.install(root/'third','server',first,True,cache)
+                    self.assertFalse((root/'third').exists())
+            finally:
+                install.ROOT = previous
 
 
 if __name__ == '__main__': unittest.main()

@@ -34,10 +34,35 @@ for n,title,item,deps,x,y,description in rows:
 ROOT.mkdir(parents=True,exist_ok=True)
 (ROOT/'chapters').mkdir(exist_ok=True)
 for name,data in {
- 'data.snbt':{'version':13,'title':'Экспедиция • демо 0.1','default_consume_items':False,
+ 'data.snbt':{'version':13,'title':'Экспедиция • демо 0.3','default_consume_items':False,
               'default_reward_team':True,'default_autoclaim_rewards':'disabled','progression_mode':'linear'},
  'chapter_groups.snbt':{'chapter_groups':[]},
  'chapters/demo.snbt':{'id':'3000000000000001','filename':'demo','title':'От мастерской к электричеству',
                       'order_index':0,'quests':quests}
 }.items():
  (ROOT/name).write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+# Read-only planning cards: checkmarks acknowledge reading, never unlock recipes
+# or stand in for a recorded boss kill. Existing demo quest IDs remain unchanged.
+cards = [
+ ('Маршрут 9 + 2: как пользоваться', 'Это атлас для тестирования. Галочка означает только «прочитано», не победу. Порядок — проект будущего баланса. Девять основных боссов установлены, два финальных мода пока отложены. Доступ и трофеи ещё не связаны с общей командной прогрессией.'),
+ ('1 · Abyss Watchers', 'Souls like Bosses. Катакомбы Картуса: /locate structure souls_like_bosses:catacombs_of_carthus. Цель настройки: первая подготовленная экспедиция с оружием, защитой и расходниками. Награды планируем связать с кузницей трофеев и ранней магией.'),
+ ('2 · Corrupted Champion', 'The Graveyard. Найдите части посоха в руинах и Lich Prison, проведите ритуал. Бой включает заклинания, охоту в темноте и деформацию. План подготовки: мобильность, лечение, контроль прислужников. Сущность graveyard:lich; голый summon не заменяет ритуал.'),
+ ('3 · Lothric', 'Souls like Bosses. /locate structure souls_like_bosses:lothric_castle. План: усиленная RPG-экипировка и развитие выбранной магической специализации. Точные сопротивления и тактику предстоит проверить. Встроенный режим последовательности связывает доступ с Abyss Watchers.'),
+ ('4 · Curse-rotted Sunflower', 'Souls like Bosses. /locate structure souls_like_bosses:curse_rotten_sunflower. Предварительное место до промышленного перехода; сложность и условия боя ещё проверяются. Планируем отдельную специализацию наград вместо обязательной замены всей брони.'),
+ ('5 · Relic Annihilator', 'EEEAB’s Mobs. Сущность eeeabsmobs:relic_annihilator. Ядро открывается во время ракетных/лазерных атак — возможность оглушения. План: трофей открывает обработку переходных материалов Create → GregTech и равноценные магические рецепты.'),
+ ('6 · Soul of Cinder', 'Полный Souls like Bosses, отдельный Standalone не требуется. /locate structure souls_like_bosses:kiln_of_the_first_flame. План: проверка развитой RPG-экипировки после начала промышленности. NanoMuscle не обещается на первом LV; магический путь остаётся самостоятельным.'),
+ ('7 · Nightlord', 'Souls like Bosses. /locate structure souls_like_bosses:tree_of_light. Встроенная последовательность использует transposed_all_souls; не выдавайте себе эту метку ради обычного прохождения. План: поздние комплекты, стабильное снабжение и командная подготовка.'),
+ ('8 · Melkor', 'Souls like Bosses. /locate structure souls_like_bosses:melkors_keep. План: поздняя экспедиция в Нижний мир и проверка устойчивости команды. Снаряжение из самого босса не требуется для его первого убийства.'),
+ ('9 · Realmwarden', 'EEEAB’s Mobs. Сущность eeeabsmobs:realm_warden. Кандидат на завершение основной линии. Это новая версия стража, не старый Nameless Guardian. План: открыть подготовку к двум финальным испытаниям. Место относительно Melkor и Nightlord уточним после боёв.'),
+ ('Отложенный финал · Chaos Guardian', 'Draconic Evolution пока НЕ установлен. Планируется боевой финал после основной линии. Сильное снаряжение, полёт и щиты не должны заранее обесценить предыдущие бои.'),
+ ('Отложенный финал · Wither Storm', 'Cracker’s Wither Storm пока НЕ установлен. Планируется отдельная заключительная операция. Порядок относительно Chaos Guardian проверим; обычное удаление от базы не гарантирует сохранность мира. Первый тест — только на отдельной копии.')
+]
+atlas = []
+for i, (title, description) in enumerate(cards):
+    atlas.append({'id': f'110000000000{i:04X}', 'title': title,
+                  'description': [description], 'x': float(i % 4 * 4), 'y': float(i // 4 * 3),
+                  'tasks': [{'id': f'210000000000{i:04X}', 'type': 'checkmark', 'title': 'Прочитано (не победа)'}]})
+(ROOT/'chapters/boss_atlas.snbt').write_text(json.dumps({
+    'id': '3000000000000002', 'filename': 'boss_atlas', 'title': 'Атлас боссов · план и тестирование',
+    'order_index': 1, 'quests': atlas}, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')

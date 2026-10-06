@@ -11,7 +11,8 @@ ROOTS = ['create', 'gregtechceu-modern', 'better-combat', 'combat-roll',
  'simply-swords', 'hex-casting', 'botania', 'l_enders-cataclysm',
  'yungs-better-dungeons', 'chipped', 'framedblocks', 'kubejs', 'lootjs',
  'jei', 'modernfix', 'ferrite-core', 'embeddium', 'geckolib', 'curios',
- 'caelus', 'patchouli', 'architectury-api', 'melody']
+ 'caelus', 'patchouli', 'architectury-api', 'melody',
+ 'the-graveyard-forge', 'attributefix', 'huge-structure-blocks']
 CLIENT_ONLY = {'embeddium', 'jei'}
 resolved = {}
 query = urllib.parse.urlencode({'game_versions': '["1.20.1"]', 'loaders': '["forge"]'})
@@ -74,20 +75,24 @@ if __name__ == '__main__':
     # FTB distributes these releases through CurseForge, not Modrinth.
     for slug, pid in [('ftb-library-forge',404465), ('ftb-teams-forge',404468),
                       ('ftb-quests-forge',289412), ('ftb-xmod-compat',889915),
-                      ('mana-and-artifice',406360)]:
+                      ('mana-and-artifice',406360), ('eeeabs-mobs',921600),
+                      ('souls-like-bosses',1167801)]:
         local_meta = ROOT/'metadata'/(slug+'-cf.json')
         if not local_meta.exists():
             subprocess.run(['curl','-fsSL','https://api.cfwidget.com/'+str(pid),'-o',str(local_meta)],check=True)
         meta = json.loads(local_meta.read_text())
         (ROOT/'metadata'/ (slug+'-cf.json')).write_text(json.dumps(meta,ensure_ascii=False,indent=2))
-        f = next(f for f in meta['files'] if '1.20.1' in f['versions'] and 'forge' in f['name'].lower())
+        # Boss mods have deliberately selected files; do not switch to alternate editions.
+        pinned = {'eeeabs-mobs': 8073814, 'souls-like-bosses': 7955163}
+        f = next(f for f in meta['files'] if f['id'] == pinned[slug]) if slug in pinned else next(
+            f for f in meta['files'] if '1.20.1' in f['versions'] and 'forge' in f['name'].lower())
         fid = f['id']; filename = f['name']
         resolved[slug] = {'name': slug, 'slug': slug, 'version':filename, 'filename':filename,
           'url':f'https://mediafilez.forgecdn.net/files/{fid//1000}/{fid%1000}/{urllib.parse.quote(filename)}',
           'hashes':{}, 'side':'both', 'source': f['url'], 'curseforge_project_id':pid, 'curseforge_file_id':fid}
     with ThreadPoolExecutor(max_workers=5) as pool:
         entries = list(pool.map(fetch_file, resolved.values()))
-    lock={'name':'Expedition Demo Beta', 'version':'0.2.0-dev', 'save_schema':2, 'minecraft':'1.20.1',
+    lock={'name':'Expedition Demo Beta', 'version':'0.3.0-dev', 'save_schema':2, 'minecraft':'1.20.1',
           'forge':'47.4.10','java':17,'mods':sorted(entries,key=lambda x:x['slug'])}
     (ROOT/'mods.lock.json').write_text(json.dumps(lock,ensure_ascii=False,indent=2)+'\n')
     print('LOCKED', len(entries), 'mods')

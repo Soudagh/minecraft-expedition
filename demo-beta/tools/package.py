@@ -8,7 +8,8 @@ dest=ROOT/('dist/expedition-'+version+'-bootstrap.zip')
 dest.parent.mkdir(exist_ok=True)
 files=[ROOT/'README.md',ROOT/'mods.lock.json']
 files+=list((ROOT/'overrides').rglob('*'))
-files += [ROOT/'tools'/name for name in ['install.py','test_install.py','build_quests.py']]
+files+=list((ROOT/'docs').glob('*.md'))
+files += [ROOT/'tools'/name for name in ['install.py','compat.py','test_install.py','build_quests.py']]
 with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED) as archive:
     for f in sorted(files):
         if f.is_file(): archive.write(f,Path('expedition-demo')/f.relative_to(ROOT))

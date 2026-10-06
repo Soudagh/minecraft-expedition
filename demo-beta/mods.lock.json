@@ -1,6 +1,6 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.2.0-dev",
+  "version": "0.3.0-dev",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,
@@ -40,6 +40,24 @@
       "source": "https://modrinth.com/mod/athena-ctm",
       "dependencies": [],
       "size": 91808
+    },
+    {
+      "name": "AttributeFix",
+      "slug": "attributefix",
+      "project_id": "lOOpEntO",
+      "version_id": "ihWybkI9",
+      "version": "21.0.5",
+      "filename": "AttributeFix-Forge-1.20.1-21.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/lOOpEntO/versions/ihWybkI9/AttributeFix-Forge-1.20.1-21.0.5.jar",
+      "hashes": {
+        "sha1": "76d6b2d0f2a3c9842587ad20666ba419cd8c1efa",
+        "sha512": "0d631c06820257e70a9a0dafbd74fc6412c337deb0631af0e084dfdcce4405d7980e6b4d4c3cf8840cff51d32ad9fc8d9a2a69bf0a6cd9b492cdc6efc23cf9ee",
+        "sha256": "43ccfd91c1a24d1b3c9d3ccf2dd6a86e9f0c2ba442b111a2238fbff3cf88af11"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/attributefix",
+      "dependencies": [],
+      "size": 19499
     },
     {
       "name": "Better Combat",
@@ -236,6 +254,23 @@
       "source": "https://modrinth.com/mod/curios",
       "dependencies": [],
       "size": 398066
+    },
+    {
+      "name": "EEEAB's Mobs",
+      "slug": "eeeabs-mobs",
+      "version": "eeeabsmobs-1.20.1-0.98.1.jar",
+      "filename": "eeeabsmobs-1.20.1-0.98.1.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8073/814/eeeabsmobs-1.20.1-0.98.1.jar",
+      "hashes": {
+        "sha1": "3cb84f3056d2adf5ddc3e8feb5f5e2aa108bb5e9",
+        "sha512": "6f3335b4c1f2442ae7233f4c6dc128ac3502b1997b859fce191fe887b4ff71371689b404e5a3e278eea47ab5ffe08d263c80d1e4c2e690cd30d6b1e6175187e1",
+        "sha256": "a569163ee5a7c77c8dc537a1c11c87e5b0f58ddaddbe1ddf59e123c7101b7b1c"
+      },
+      "side": "both",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/eeeabs-mobs/files/8073814",
+      "curseforge_project_id": 921600,
+      "curseforge_file_id": 8073814,
+      "size": 29425926
     },
     {
       "name": "Embeddium",
@@ -512,6 +547,24 @@
         }
       ],
       "size": 4131835
+    },
+    {
+      "name": "Huge Structure Blocks",
+      "slug": "huge-structure-blocks",
+      "project_id": "AMLtKGdJ",
+      "version_id": "VJkeBgK8",
+      "version": "1.20.1-1.1.10",
+      "filename": "huge-structure-blocks-forge-1.1.10.jar",
+      "url": "https://cdn.modrinth.com/data/AMLtKGdJ/versions/VJkeBgK8/huge-structure-blocks-forge-1.1.10.jar",
+      "hashes": {
+        "sha1": "a79c4645c1bfda2a18c8a019db1137f4353604af",
+        "sha512": "6de595a756bc0e4dcc4b40c312a7235d4aaf81750fc7b6c47a8b9618fbbba777ef18ea2b4e2bdeab47804c9958a7b17e9d6b947edad310ededb873324f37f064",
+        "sha256": "e1ee5265fe4ed605e7613a455ee71e5c0bd1bb70ac40fba60040423458e38763"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/huge-structure-blocks",
+      "dependencies": [],
+      "size": 102150
     },
     {
       "name": "Inline",
@@ -908,6 +961,48 @@
         }
       ],
       "size": 5418741
+    },
+    {
+      "name": "Souls like Bosses",
+      "slug": "souls-like-bosses",
+      "version": "Souls_Like_Bosses_3_4_Forge+Fabric+Quilt_1_20_1.jar",
+      "filename": "Souls_Like_Bosses_3_4_Forge+Fabric+Quilt_1_20_1.jar",
+      "url": "https://mediafilez.forgecdn.net/files/7955/163/Souls_Like_Bosses_3_4_Forge%2BFabric%2BQuilt_1_20_1.jar",
+      "hashes": {
+        "sha1": "768328ce352c50e24a0b52a3bf2a45776fe1e4f8",
+        "sha512": "85894c2d21f464ce564e583a293b545a9db39ab5b0b8e130efc6e1639666ef24eebbc82a04bcbfe27071be6ab9fb6ba31d6500391c16cc4ff8f165d4a41c8262",
+        "sha256": "28da2196641703a03db170d4575cba357158c8854e94b441be5033d16904cf73"
+      },
+      "side": "both",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/souls-like-bosses/files/7955163",
+      "curseforge_project_id": 1167801,
+      "curseforge_file_id": 7955163,
+      "size": 246608849
+    },
+    {
+      "name": "The Graveyard (FORGE/NEOFORGE)",
+      "slug": "the-graveyard-forge",
+      "project_id": "U1jdQuSf",
+      "version_id": "Q66WyQ3F",
+      "version": "3.1",
+      "filename": "The_Graveyard_3.1_(FORGE)_for_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/U1jdQuSf/versions/Q66WyQ3F/The_Graveyard_3.1_%28FORGE%29_for_1.20.1.jar",
+      "hashes": {
+        "sha1": "3eace53024d663f159725c8d972d330631f9b974",
+        "sha512": "3d44f32ddef0167e62e9842d622ba3d3367bf9a14401756143e843ef8ed8158d3c056c443586ea024f2985f412b4ff3041fbef349feb477e25c2cad7a2de88b4",
+        "sha256": "9a53d019eef20bbb70fef89ff7d41f1d175e1c29faf9c6380b8ed0b18832f27c"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/the-graveyard-forge",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "8BmcQJ2H",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 10298057
     },
     {
       "name": "YUNG's API",

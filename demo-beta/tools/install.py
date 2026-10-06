@@ -8,6 +8,7 @@ import json
 import shutil
 import urllib.request
 from pathlib import Path
+from compat import boss_overrides
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -72,6 +73,7 @@ def install(destination, side, source=None, stopped=False, cache=None):
                 raise ValueError('Download hash mismatch: ' + str(name))
             part.replace(target)
         print('Verified:', name, flush=True)
+    generated = boss_overrides(entries, cache)
     if source:
         shutil.copytree(source, destination)
         for name in old['files']:
@@ -93,6 +95,13 @@ def install(destination, side, source=None, stopped=False, cache=None):
     for src in sorted((ROOT / 'overrides').rglob('*')):
         if src.is_file():
             put(src, src.relative_to(ROOT / 'overrides'))
+    for name, data in generated.items():
+        target = destination / safe_relative(name)
+        if target.exists():
+            raise ValueError('Generated compatibility file collision: ' + name)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(data)
+        managed[name] = digest(target)
     state = {'version': lock['version'], 'save_schema': lock.get('save_schema', 1), 'minecraft': lock['minecraft'],
              'forge': lock['forge'], 'side': side, 'files': managed}
     (destination / 'expedition-installed.json').write_text(json.dumps(state, indent=2), encoding='utf-8')
