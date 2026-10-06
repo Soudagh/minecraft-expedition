@@ -1,0 +1,8 @@
+{
+  "version": 13,
+  "title": "Экспедиция • демо 0.1",
+  "default_consume_items": false,
+  "default_reward_team": true,
+  "default_autoclaim_rewards": "disabled",
+  "progression_mode": "linear"
+}

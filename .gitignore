@@ -1,0 +1,12 @@
+e9e-audit/
+**/.cache/
+**/.test-server/
+**/__pycache__/
+demo-beta/metadata/
+demo-beta/dist/
+*.log
+.DS_Store
+instances/
+*.jar
+**/saves/
+**/world/

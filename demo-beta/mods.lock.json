@@ -1,0 +1,896 @@
+{
+  "name": "Expedition Demo Beta",
+  "version": "0.1.0-dev",
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "java": 17,
+  "mods": [
+    {
+      "name": "Architectury API",
+      "slug": "architectury-api",
+      "project_id": "lhGA9TYQ",
+      "version_id": "1MKTLiiG",
+      "version": "9.2.14+forge",
+      "filename": "architectury-9.2.14-forge.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+      "hashes": {
+        "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+        "sha512": "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7",
+        "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/architectury-api",
+      "dependencies": [],
+      "size": 580602
+    },
+    {
+      "name": "Athena",
+      "slug": "athena-ctm",
+      "project_id": "b1ZV3DIJ",
+      "version_id": "DULOQFj7",
+      "version": "3.1.2",
+      "filename": "athena-forge-1.20.1-3.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/DULOQFj7/athena-forge-1.20.1-3.1.2.jar",
+      "hashes": {
+        "sha1": "2acee24454af859988a691f0506271a465f68f7b",
+        "sha512": "5a71a1c220eafbfbdb570fa204454352b48d55f238db1a5b398a8c40f6b0fbd8c09a2f6c10def330abdf3daadaa24dfa52471f8de931a93fd99dc7d85b60960b",
+        "sha256": "64eec9cffb8847a459536096ac396b135ffb07c7d9d13c6a47d9cd7b251276ab"
+      },
+      "side": "client",
+      "source": "https://modrinth.com/mod/athena-ctm",
+      "dependencies": [],
+      "size": 91808
+    },
+    {
+      "name": "Better Combat",
+      "slug": "better-combat",
+      "project_id": "5sy6g3kz",
+      "version_id": "rnhiaw3t",
+      "version": "1.9.0+1.20.1-forge",
+      "filename": "bettercombat-forge-1.9.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/5sy6g3kz/versions/rnhiaw3t/bettercombat-forge-1.9.0%2B1.20.1.jar",
+      "hashes": {
+        "sha1": "ea7e7247132cb3acacadd96b2b6b635c4cc63a74",
+        "sha512": "0778902ce693ae56afd9a928e0629470095dff0324c6856fc45ee51a8efcfa622cc22edaa07ed40814d3b13851d62b27d144e9858e5209a6cf70fd3651f081e8",
+        "sha256": "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/better-combat",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "9s6osm5g",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "gedNE4y2",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 1054339
+    },
+    {
+      "name": "Botania",
+      "slug": "botania",
+      "project_id": "pfjLUfGv",
+      "version_id": "npY4sRWF",
+      "version": "1.20.1-456-forge",
+      "filename": "Botania-1.20.1-456-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/pfjLUfGv/versions/npY4sRWF/Botania-1.20.1-456-FORGE.jar",
+      "hashes": {
+        "sha1": "17e0cab4160e86f434cd137a60faeb2594ae4e15",
+        "sha512": "43b82e3e101bcd2f1441be5e1cf16c4631e497c7cd50abd8bdc87701281e512673a420cec16e0529a6ed6936aa2d545398e9fe39ed9a8f3d0d26601f940327fa",
+        "sha256": "3cf540357c9cb5e460266b17a02617656df6cc7090a565fca2a462b1c3aba4ae"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/botania",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "vvuO3ImH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "nU0bVIaL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 12226445
+    },
+    {
+      "name": "Caelus API",
+      "slug": "caelus",
+      "project_id": "40FYwb4z",
+      "version_id": "mRry0DgY",
+      "version": "3.2.0+1.20.1",
+      "filename": "caelus-forge-3.2.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/40FYwb4z/versions/mRry0DgY/caelus-forge-3.2.0%2B1.20.1.jar",
+      "hashes": {
+        "sha1": "d14e8ee892d4d8764f523ad0e89bdcfc061fb007",
+        "sha512": "906baad404c33288d8daf8937bc6a85d3bcc03db67a4a68395b8f01eea57f773420ff97919aadb08a7618b62b0c6c3db72270f9c3af836b822385464f509cf78",
+        "sha256": "43cabe35f0618c0bd01af02e7568ca6f15fd32bb6a90d04c9898bb01e8dc1e81"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/caelus",
+      "dependencies": [],
+      "size": 40125
+    },
+    {
+      "name": "Chipped",
+      "slug": "chipped",
+      "project_id": "BAscRYKm",
+      "version_id": "pi3f4er3",
+      "version": "3.0.7",
+      "filename": "chipped-forge-1.20.1-3.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/BAscRYKm/versions/pi3f4er3/chipped-forge-1.20.1-3.0.7.jar",
+      "hashes": {
+        "sha1": "25ee2a0846059d8f21d28b94b7e0229b60cb5499",
+        "sha512": "be1871655e213cf488d5049058200e03655f63b5922b6031af142d79d8958dca6653e7fa501f1aa2fda5544ad44a4f593521a7927a516e99579406a23a187045",
+        "sha256": "300e02535342b710fb34409821de9d097b0d8b17f56a57a17d75d05c4c1c5b63"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/chipped",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "G1hIVOrD",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "b1ZV3DIJ",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 15060263
+    },
+    {
+      "name": "Cloth Config API",
+      "slug": "cloth-config",
+      "project_id": "9s6osm5g",
+      "version_id": "t8TXrZvZ",
+      "version": "11.1.136+forge",
+      "filename": "cloth-config-11.1.136-forge.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+      "hashes": {
+        "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+        "sha512": "137c4af99c53d77317cbfb1cc8c49fc2761708b49d1992f51fd846960df41dde3a83519c987e081508d4ed90c603566f3d5a6cb620ad9d85b8f4de59aa9115ef",
+        "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/cloth-config",
+      "dependencies": [],
+      "size": 1181413
+    },
+    {
+      "name": "Combat Roll",
+      "slug": "combat-roll",
+      "project_id": "wGKYL7st",
+      "version_id": "532t65Zz",
+      "version": "1.3.3+1.20.1-forge",
+      "filename": "combatroll-forge-1.3.3+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/wGKYL7st/versions/532t65Zz/combatroll-forge-1.3.3%2B1.20.1.jar",
+      "hashes": {
+        "sha1": "4ff92ecd8df9b5a280330f68ef9c7a8a2300b23f",
+        "sha512": "0839e7b1a83dcc7a5eb42824d46ca4544a3f4ac376bd12a85509da00ae2737d836aaebf6fed6d2aa05ebcd816cff26dc3febe3b32f531b3ca3814ba2ade9c782",
+        "sha256": "e20a4693ff734e5c61dc3fcc32e77c6b850722f2e208728e8643e279d6085b30"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/combat-roll",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "9s6osm5g",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "gedNE4y2",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 217962
+    },
+    {
+      "name": "Create",
+      "slug": "create",
+      "project_id": "LNytGWDc",
+      "version_id": "8amzvn9x",
+      "version": "mc1.20.1-6.0.8",
+      "filename": "create-1.20.1-6.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar",
+      "hashes": {
+        "sha1": "b13d912b9247a38d66d11598c121442585a1c1e9",
+        "sha512": "5b51f5d31437d9bfbf221b67459abd87260d284874e1e23b7ed1d522b23a48059a3b1d2c1c541428da35dc6be15561b4f3c7f36aac6df3a0e8db6a278f6b0316",
+        "sha256": "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/create",
+      "dependencies": [],
+      "size": 19170905
+    },
+    {
+      "name": "Curios API",
+      "slug": "curios",
+      "project_id": "vvuO3ImH",
+      "version_id": "IPQlZkz1",
+      "version": "5.14.1+1.20.1",
+      "filename": "curios-forge-5.14.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "hashes": {
+        "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+        "sha512": "1373f95fd111c977db2f6adcef8e4eb486a2d926a3e17374692dee4ac3d65857de6446c16922b531aa5ace2c23c666a7fcc28c720b2917c1e04808d15648ba87",
+        "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/curios",
+      "dependencies": [],
+      "size": 398066
+    },
+    {
+      "name": "Embeddium",
+      "slug": "embeddium",
+      "project_id": "sk9rgfiA",
+      "version_id": "UTbfe5d1",
+      "version": "0.3.31+mc1.20.1",
+      "filename": "embeddium-0.3.31+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar",
+      "hashes": {
+        "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+        "sha512": "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648c854a93939129da0d23a15a91ec628560d601e76074b08e275f6e132e9",
+        "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
+      },
+      "side": "client",
+      "source": "https://modrinth.com/mod/embeddium",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "S1tndFDa",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "version_id": null,
+          "project_id": "4ZqxOvjD",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        }
+      ],
+      "size": 1320675
+    },
+    {
+      "name": "FerriteCore",
+      "slug": "ferrite-core",
+      "project_id": "uXXizFIs",
+      "version_id": "DG5Fn9Sz",
+      "version": "6.0.1",
+      "filename": "ferritecore-6.0.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.1-forge.jar",
+      "hashes": {
+        "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+        "sha512": "a1960a7c03dc32d4ccaccaf28afdd9b078758bbd62d15a91d4039a83fa9397a098e89b69591f6bd5190254d9ee97e502504154b9aec764adb8c65f000b75ba2c",
+        "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/ferrite-core",
+      "dependencies": [],
+      "size": 123034
+    },
+    {
+      "name": "FramedBlocks",
+      "slug": "framedblocks",
+      "project_id": "wbgfS34j",
+      "version_id": "lSiHA1qU",
+      "version": "9.4.3",
+      "filename": "FramedBlocks-9.4.3.jar",
+      "url": "https://cdn.modrinth.com/data/wbgfS34j/versions/lSiHA1qU/FramedBlocks-9.4.3.jar",
+      "hashes": {
+        "sha1": "740c0feaab75455f32df7e137389f77c83fb490c",
+        "sha512": "19a098bbf9ee7ee39f6b785bbce5f87b9dca58a491fa16eba2f38cfa106f37ee90c1ce56686a50adef8f5d3086e3c22a6127ed02bdf3f80d57297c8f7c1b49fc",
+        "sha256": "58f4a8d8fb759a9db8754d83461df1b7b2e94426888259286d3acc316e6c6589"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/framedblocks",
+      "dependencies": [],
+      "size": 4251314
+    },
+    {
+      "name": "ftb-library-forge",
+      "slug": "ftb-library-forge",
+      "version": "ftb-library-forge-2001.2.13.jar",
+      "filename": "ftb-library-forge-2001.2.13.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8226/927/ftb-library-forge-2001.2.13.jar",
+      "hashes": {
+        "sha1": "a5427d5ff07eb044144ed0b54308370d88bce17e",
+        "sha512": "433c890fc64b31f140cdb92c6f03f78400bcc105229d1026dbbecb027ff75a8e2f94af5b1eef083d7cf3d37a9afa176731bc59cfeb771d01738353f9f1c113bf",
+        "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7"
+      },
+      "side": "both",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/files/8226927",
+      "curseforge_project_id": 404465,
+      "curseforge_file_id": 8226927,
+      "size": 780558
+    },
+    {
+      "name": "ftb-quests-forge",
+      "slug": "ftb-quests-forge",
+      "version": "ftb-quests-forge-2001.4.22.jar",
+      "filename": "ftb-quests-forge-2001.4.22.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8078/538/ftb-quests-forge-2001.4.22.jar",
+      "hashes": {
+        "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa",
+        "sha512": "7ffec667d4bb73e33e1815655361c93a7564d9040af937b26035bfa3cc26f6125962f173c623eb71cf949b0b0a49181a0459648007b3054e97150bd72fcc0bf8",
+        "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68"
+      },
+      "side": "both",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge/files/8078538",
+      "curseforge_project_id": 289412,
+      "curseforge_file_id": 8078538,
+      "size": 1255469
+    },
+    {
+      "name": "ftb-teams-forge",
+      "slug": "ftb-teams-forge",
+      "version": "ftb-teams-forge-2001.3.2.jar",
+      "filename": "ftb-teams-forge-2001.3.2.jar",
+      "url": "https://mediafilez.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar",
+      "hashes": {
+        "sha1": "c49023f5d471aa1ba7fc624d2565fe9e82b7117e",
+        "sha512": "45f8980fa1cfcb7cd772f6a03abb0ac680f7c502dc569839e325553dcaa9105148a2c27a214cd1f1131f6b06bca957f8dd01dfb4a1ccb8e13d49502513480cae",
+        "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07"
+      },
+      "side": "both",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/files/7499810",
+      "curseforge_project_id": 404468,
+      "curseforge_file_id": 7499810,
+      "size": 252579
+    },
+    {
+      "name": "ftb-xmod-compat",
+      "slug": "ftb-xmod-compat",
+      "version": "ftb-xmod-compat-forge-2.1.3.jar",
+      "filename": "ftb-xmod-compat-forge-2.1.3.jar",
+      "url": "https://mediafilez.forgecdn.net/files/6402/486/ftb-xmod-compat-forge-2.1.3.jar",
+      "hashes": {
+        "sha1": "0584f628d2bc6a612d79dee368324357ebae1423",
+        "sha512": "4eb5aba1aff66721d19e54ceb40863684d0caab0735a9dcc04df86804ffcc19454f88ff89eb000db166aae2c1ef53ddbdadf61a62814db227638a8e86d37f2b9",
+        "sha256": "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72"
+      },
+      "side": "both",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat/files/6402486",
+      "curseforge_project_id": 889915,
+      "curseforge_file_id": 6402486,
+      "size": 129725
+    },
+    {
+      "name": "Fzzy Config",
+      "slug": "fzzy-config",
+      "project_id": "hYykXjDp",
+      "version_id": "53kg5uoF",
+      "version": "0.7.7+1.20.1+forge",
+      "filename": "fzzy_config-0.7.7+1.20.1+forge.jar",
+      "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
+      "hashes": {
+        "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
+        "sha512": "d082b2fcdd2411312f0ce096c35e6167c453f85c979c4273cc92cf246cd0855d825865d79d47933a1bf3f1caaaf17b5a9415d4cb58ace26582434843380e3c1d",
+        "sha256": "c4acf6fd3ce66ff28050dd9fdbff25c407f98a4911311ff3f59d651acccc9575"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/fzzy-config",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "ordsPcFz",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 2397175
+    },
+    {
+      "name": "Geckolib",
+      "slug": "geckolib",
+      "project_id": "8BmcQJ2H",
+      "version_id": "aC5KMoNg",
+      "version": "4.8.4",
+      "filename": "geckolib-forge-1.20.1-4.8.4.jar",
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/aC5KMoNg/geckolib-forge-1.20.1-4.8.4.jar",
+      "hashes": {
+        "sha1": "50e1407869ef0e909e3bdda9328b8bd7db03fdc0",
+        "sha512": "443a321a293e3cb92fbbc3c97a38b179a45d1db703cd7bdb123270a9e04e7b7d67d5b06cd8e77a6d4d9139e033e901b9660cccf53ad5f9beaae6d06eae68febf",
+        "sha256": "4518779a31b6c2abb92c98b5ad17ef3d60177df68626bfc86c44de2764913c2b"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/geckolib",
+      "dependencies": [],
+      "size": 1038209
+    },
+    {
+      "name": "GregTech CEu Modern",
+      "slug": "gregtechceu-modern",
+      "project_id": "7tG215v7",
+      "version_id": "yLwvjuvy",
+      "version": "mc1.20.1-7.5.3",
+      "filename": "gtceu-1.20.1-7.5.3.jar",
+      "url": "https://cdn.modrinth.com/data/7tG215v7/versions/yLwvjuvy/gtceu-1.20.1-7.5.3.jar",
+      "hashes": {
+        "sha1": "2e9de016b74826d43f0d4e619a755e8ec0253784",
+        "sha512": "0b4643f3cd1b68d2afb043a461be646b5c6c1cc04f4a3fddde3baae7e4ce2b81265453cc4794736141d65287a2b109995dd202c3d6de618f229d1f8d32e34ce8",
+        "sha256": "d6560d8b695828a763389d3f45e0210ef70c1892c7b1633ac458544905df1a0d"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/gregtechceu-modern",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "B1CBVXHX",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "version_id": null,
+          "project_id": "nvQzSEkH",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "u6dRKJwZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "fRiHVvU7",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "3WjjSM5O",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "version_id": null,
+          "project_id": "umyGl7zF",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "size": 18209988
+    },
+    {
+      "name": "Iron's Lib",
+      "slug": "irons-lib",
+      "project_id": "9nfaJPtX",
+      "version_id": "6HqXQkgC",
+      "version": "1.20.1-2.2.0",
+      "filename": "irons_lib-1.20.1-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/6HqXQkgC/irons_lib-1.20.1-2.2.0.jar",
+      "hashes": {
+        "sha1": "8cad65f57a4bdcbbf3ea8a5eda9240810e3a55aa",
+        "sha512": "5d3ce588f692233672f5059e527fa093a3a3d40f2121a90101aa5c815c1677dc9d5eeca0528a010c0ad6d417b244943fc935bc093e66af72c9a6e1b0b674eeab",
+        "sha256": "48f1c1d80fa85b0ddea59465bef9ac86fc1e46c58caaea839c8e8f89f29b9ebb"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/irons-lib",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "8BmcQJ2H",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 490088
+    },
+    {
+      "name": "Iron's Spells 'n Spellbooks",
+      "slug": "irons-spells-n-spellbooks",
+      "project_id": "s4OWxYQQ",
+      "version_id": "hZaEegS9",
+      "version": "1.20.1-3.16.3",
+      "filename": "irons_spellbooks-1.20.1-3.16.3.jar",
+      "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/hZaEegS9/irons_spellbooks-1.20.1-3.16.3.jar",
+      "hashes": {
+        "sha1": "726345aa215756bd30b7cf8c338c9ae6bbc59799",
+        "sha512": "a699631fa56568d39a30773b8fe96d7a49f1cd7f8e243340ce7ad91b09ccf49c9a6802a944f4bd04b2d88d9fc796a70add1d18d8f326bb2be238b02a8c8076da",
+        "sha256": "54b5aaa52887c38f570fbd820288171234d8541c17a5e953f9271189fdd480fb"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/irons-spells-n-spellbooks",
+      "dependencies": [],
+      "size": 15570397
+    },
+    {
+      "name": "Just Enough Items (JEI)",
+      "slug": "jei",
+      "project_id": "u6dRKJwZ",
+      "version_id": "9jqubC9n",
+      "version": "15.56.0.205",
+      "filename": "jei-1.20.1-forge-15.56.0.205.jar",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/9jqubC9n/jei-1.20.1-forge-15.56.0.205.jar",
+      "hashes": {
+        "sha1": "7f64b7f8fde7f001ef054dabe3618a8780ba2650",
+        "sha512": "1306fe15c81d54aa9ff8f3d9f04812c0d61ffaaae433c29621f926db8f8e2c898669ccdd99e025849859d38b7a2eac170c466390b467f4dfa77542b5dbdd1678",
+        "sha256": "6b251e60a4719c874da89d750af97aa6498f6f4475e3ae79cb1288c7bf0cb65c"
+      },
+      "side": "client",
+      "source": "https://modrinth.com/mod/jei",
+      "dependencies": [],
+      "size": 1778129
+    },
+    {
+      "name": "Kotlin for Forge",
+      "slug": "kotlin-for-forge",
+      "project_id": "ordsPcFz",
+      "version_id": "Zsh14XeQ",
+      "version": "4.12.0",
+      "filename": "kotlinforforge-4.12.0-all.jar",
+      "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
+      "hashes": {
+        "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+        "sha512": "767f40030ed4b370a3838fa65ae1b79974f31979342fff7cc834a0d5f39eb28612642519352ff2a1dd5226ce1f745f8b3156ee3625ffde01219137d064c1ee40",
+        "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/kotlin-for-forge",
+      "dependencies": [],
+      "size": 7442998
+    },
+    {
+      "name": "KubeJS",
+      "slug": "kubejs",
+      "project_id": "umyGl7zF",
+      "version_id": "hVR2xUSr",
+      "version": "2001.6.5-build.26+forge",
+      "filename": "kubejs-forge-2001.6.5-build.26.jar",
+      "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/hVR2xUSr/kubejs-forge-2001.6.5-build.26.jar",
+      "hashes": {
+        "sha1": "8b0cc9797d4ed00fd2d1002d58960af8b32012ae",
+        "sha512": "71ef9e5eb5f3bead86b635b42ad305d075c6487e631217b281d938193dcdc5fe0ff6bae8c86dd4e069726223a66e8690c0610f736c5a62910f60fd80edd575c1",
+        "sha256": "1769312192fbf9d72f45054ba61130523bfb471b5f480a4bff8c210ec09400bb"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/kubejs",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "lhGA9TYQ",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "sk9knFPE",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 1658792
+    },
+    {
+      "name": "L_Ender's Cataclysm",
+      "slug": "l_enders-cataclysm",
+      "project_id": "46KJle7n",
+      "version_id": "C3H0azzB",
+      "version": "3.31",
+      "filename": "L_Enders_Cataclysm-3.31.jar",
+      "url": "https://cdn.modrinth.com/data/46KJle7n/versions/C3H0azzB/L_Enders_Cataclysm-3.31.jar",
+      "hashes": {
+        "sha1": "4f1165cb39521292e826b471b4808bb89f0f4f3f",
+        "sha512": "0dccedd79e3e555f5a38075612d91aec23e1f6ca674e7637ea88c669095b44554385abb75826dfa5a0170585c6b3c3b6d9465bed049c0186d80f75d88f45c5e8",
+        "sha256": "c29dcf940168208517b72f2d9965828b106a6b94cbea55d5001558c69a27b362"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/l_enders-cataclysm",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "FoVacERa",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "vvuO3ImH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 73916104
+    },
+    {
+      "name": "Lionfish-API",
+      "slug": "lionfish-api",
+      "project_id": "FoVacERa",
+      "version_id": "CPftDBcY",
+      "version": "3.0",
+      "filename": "lionfishapi-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+      "hashes": {
+        "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+        "sha512": "a7cf6c9bf27a77b45efe434a166f9c99efdb6db14e5d88ce8417c6364aea9d250a9f43627e9e0ac162e106517fccf51cebb5035852c8449fb7fb299a083770c4",
+        "sha256": "d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/lionfish-api",
+      "dependencies": [],
+      "size": 101931
+    },
+    {
+      "name": "LootJS: KubeJS Addon",
+      "slug": "lootjs",
+      "project_id": "fJFETWDN",
+      "version_id": "wltVDhRB",
+      "version": "1.20.1-2.13.1+forge",
+      "filename": "lootjs-forge-1.20.1-2.13.1.jar",
+      "url": "https://cdn.modrinth.com/data/fJFETWDN/versions/wltVDhRB/lootjs-forge-1.20.1-2.13.1.jar",
+      "hashes": {
+        "sha1": "804deb0bd34d69cad873170642b9d7e47fa0d6ad",
+        "sha512": "c03a07caf451a272f8027a47bb951db73f19bb24d603b61f0328a1769568a98f3912ec6b7bf39218062add102cb8fa7b29ae4ca73731cfa2db09eaac8fcf1033",
+        "sha256": "c1672330605a691b8a91b3a4d252f2d3a280f252874f1fc5fdd7cad07d13b719"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/lootjs",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "u6dRKJwZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "nfn13YXA",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "size": 242267
+    },
+    {
+      "name": "Melody",
+      "slug": "melody",
+      "project_id": "CVT4pFB2",
+      "version_id": "lJlW5r8R",
+      "version": "1.0.3-1.20.1-1.20.4-forge",
+      "filename": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "hashes": {
+        "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
+        "sha512": "43c60d0cb98b1642d663e3cea68d50c01e9be82361851bf40c5c869e6593499aaf4b410d891d07a083f3c4b2df7fc06b2f8fbaa3c661a5061d46e250c017d30f",
+        "sha256": "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/melody",
+      "dependencies": [],
+      "size": 37178
+    },
+    {
+      "name": "ModernFix",
+      "slug": "modernfix",
+      "project_id": "nmDcB62a",
+      "version_id": "hHwYTQwa",
+      "version": "5.27.85+mc1.20.1",
+      "filename": "modernfix-forge-5.27.85+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/hHwYTQwa/modernfix-forge-5.27.85%2Bmc1.20.1.jar",
+      "hashes": {
+        "sha1": "ba76615cdaff6de931c2e33c71f0b05deb1dad41",
+        "sha512": "b4e1ff4cb01c38f6f4a0093fabe56b36d9fcdebccda708379deca0dea33af3e250dc8fddbb98bb6fb0b30ee6fec40ae1679ab91e2bdfcf6971fe16504ce03ad2",
+        "sha256": "12b76f627e34ddf9211766ad7a1d5f2bb3de8d0807935d2d20f357b907f481b8"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/modernfix",
+      "dependencies": [],
+      "size": 1003271
+    },
+    {
+      "name": "Patchouli",
+      "slug": "patchouli",
+      "project_id": "nU0bVIaL",
+      "version_id": "94dtOLgZ",
+      "version": "1.20.1-85-forge",
+      "filename": "Patchouli-1.20.1-85-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/94dtOLgZ/Patchouli-1.20.1-85-FORGE.jar",
+      "hashes": {
+        "sha1": "d4614507d6e4c7cb464bba5eca891978272062ef",
+        "sha512": "15aedda4efcc553d5e3c83aa867b62554bc2fab298b43f55ed324e10507a3605f0ec2c59c01476e6d80b2a49275ef080142e43a6e663f9463b62f520960fc203",
+        "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/patchouli",
+      "dependencies": [],
+      "size": 642732
+    },
+    {
+      "name": "playerAnimator",
+      "slug": "playeranimator",
+      "project_id": "gedNE4y2",
+      "version_id": "xe2EVE6q",
+      "version": "1.0.2-rc1+1.20-forge",
+      "filename": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
+      "hashes": {
+        "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
+        "sha512": "cb9f6a3aaa943823a85fdd716ddb3c7623af2b3520926c3a98d170c52d31908894808fb61c52bea39bae622dbab59d50b4bad56f7ca0533a9c3350d412c33729",
+        "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/playeranimator",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "aRnIEV0F",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "size": 181437
+    },
+    {
+      "name": "Resourceful Lib",
+      "slug": "resourceful-lib",
+      "project_id": "G1hIVOrD",
+      "version_id": "OhsHaCcW",
+      "version": "2.1.29",
+      "filename": "resourcefullib-forge-1.20.1-2.1.29.jar",
+      "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/OhsHaCcW/resourcefullib-forge-1.20.1-2.1.29.jar",
+      "hashes": {
+        "sha1": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa",
+        "sha512": "8dbe951d431545a7d18081a8b11a52a248e6d8ff9862ae6462b0f5a6f57ff523af12704c3adb071ae99a7c5c1dd895bd7875dea59f9c4956c1597a668b6e8820",
+        "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/resourceful-lib",
+      "dependencies": [],
+      "size": 432753
+    },
+    {
+      "name": "Rhino",
+      "slug": "rhino",
+      "project_id": "sk9knFPE",
+      "version_id": "uNALdylI",
+      "version": "2001.2.3-build.10+forge",
+      "filename": "rhino-forge-2001.2.3-build.10.jar",
+      "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar",
+      "hashes": {
+        "sha1": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1",
+        "sha512": "4eb6a635f3eff3baa158539bd55344421cf69b15e28f7da8bf55f370a11c071f3525063a6f81b67fbfca550ad8aaab7e6208df87f65ca6ed2851edd46f032b58",
+        "sha256": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/rhino",
+      "dependencies": [],
+      "size": 1798244
+    },
+    {
+      "name": "Simply Swords",
+      "slug": "simply-swords",
+      "project_id": "bK3Ubu9p",
+      "version_id": "Na6e94J1",
+      "version": "1.70.2-1.20.1",
+      "filename": "simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/bK3Ubu9p/versions/Na6e94J1/simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
+      "hashes": {
+        "sha1": "7e8b9cc255f57df9ed00b507435308d600aebc24",
+        "sha512": "f4ba377dc5a3cfa99859933c45746f2c730e5fa2b7a0af40fc3b93a396fa3f671799231af0286e9766e5629a334105f1ede63668a3aa9fff72fbf5f97a76ac61",
+        "sha256": "642e385ffda914f1b9411f0a457fe5fb5e05aa160dc44392dec9a549c2bcec21"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/simply-swords",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "5sy6g3kz",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "6avVoBVB",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "lhGA9TYQ",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "hYykXjDp",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 15765792
+    },
+    {
+      "name": "Simply Tooltips",
+      "slug": "simply-tooltips",
+      "project_id": "6avVoBVB",
+      "version_id": "s87jNabF",
+      "version": "0.1.5-1.20.1",
+      "filename": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "hashes": {
+        "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+        "sha512": "802790a630344de51c74f30e02ac1a2454b6dbc8450e7ea0101495a9196a7d320ad746b4a4628fa43f6e615b6bf15acd9574791c69c4ce5caea756e71dfc5895",
+        "sha256": "a50357b4982132522f48afc6fa625c453359390f8180e4c72f6288ecd46dee3c"
+      },
+      "side": "client",
+      "source": "https://modrinth.com/mod/simply-tooltips",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "hYykXjDp",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "lhGA9TYQ",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 5418741
+    },
+    {
+      "name": "YUNG's API",
+      "slug": "yungs-api",
+      "project_id": "Ua7DFN59",
+      "version_id": "PJOYAmAs",
+      "version": "1.20-Forge-4.0.6",
+      "filename": "YungsApi-1.20-Forge-4.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/PJOYAmAs/YungsApi-1.20-Forge-4.0.6.jar",
+      "hashes": {
+        "sha1": "af584b690f5646c6032002b58abc4591beed3833",
+        "sha512": "7d83d94a90e55a712f6508485c044ff202916e9b9b9166b75177cb8f2eb919543bbbe1547d11c41cfd4763820f934235f47c0b26dd9e89bc1030954afa9fb889",
+        "sha256": "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/yungs-api",
+      "dependencies": [],
+      "size": 370524
+    },
+    {
+      "name": "YUNG's Better Dungeons",
+      "slug": "yungs-better-dungeons",
+      "project_id": "o1C1Dkj5",
+      "version_id": "kPiQ6v4q",
+      "version": "1.20-Forge-4.0.4",
+      "filename": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/o1C1Dkj5/versions/kPiQ6v4q/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+      "hashes": {
+        "sha1": "67a9e1c2ff126ab54cea8e0709d178915243039e",
+        "sha512": "56bd11a7aca3bacb908381a668af8f5b574c5557c21370ace783d637c949802187110a4f5dc26afae4d9af74cdf64cee81d59fac3513a9bec3f921193fc938b8",
+        "sha256": "93c24e4075c51da0866f3fc92322bdb60e590ac2cd78dce275460839c54c36f5"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/yungs-better-dungeons",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "Ua7DFN59",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 792381
+    }
+  ]
+}
