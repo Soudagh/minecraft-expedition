@@ -1,6 +1,6 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.4.1-dev",
+  "version": "0.5.0-dev",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,
@@ -302,6 +302,24 @@
         }
       ],
       "size": 1320675
+    },
+    {
+      "name": "Explorify",
+      "slug": "explorify",
+      "project_id": "HSfsxuTo",
+      "version_id": "CuBdAr31",
+      "version": "v1.6.5",
+      "filename": "Explorify v1.6.5.mod.jar",
+      "url": "https://cdn.modrinth.com/data/HSfsxuTo/versions/CuBdAr31/Explorify%20v1.6.5.mod.jar",
+      "hashes": {
+        "sha1": "5fb28be29200a41b034e423d87823eb19ad651cd",
+        "sha512": "9b22adeb1952ec25856e160b93aaa41934fd41e8d1aef985317cb2c9d64aae1012e134e23f52ba39fac3a98b3309b60f0b55b98a4db4de1731960b998117c83e",
+        "sha256": "2dc76398b48b2aae9b4024642da098b0880125572de160cb5ecf91d102890cad"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/datapack/explorify",
+      "dependencies": [],
+      "size": 767884
     },
     {
       "name": "FerriteCore",

@@ -1,6 +1,6 @@
 {
   "version": 13,
-  "title": "Экспедиция • демо 0.4",
+  "title": "Экспедиция • демо 0.5",
   "default_consume_items": false,
   "default_reward_team": true,
   "default_autoclaim_rewards": "disabled",

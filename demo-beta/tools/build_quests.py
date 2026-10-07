@@ -34,7 +34,7 @@ for n,title,item,deps,x,y,description in rows:
 ROOT.mkdir(parents=True,exist_ok=True)
 (ROOT/'chapters').mkdir(exist_ok=True)
 for name,data in {
- 'data.snbt':{'version':13,'title':'Экспедиция • демо 0.4','default_consume_items':False,
+ 'data.snbt':{'version':13,'title':'Экспедиция • демо 0.5','default_consume_items':False,
               'default_reward_team':True,'default_autoclaim_rewards':'disabled','progression_mode':'linear'},
  'chapter_groups.snbt':{'chapter_groups':[]},
  'chapters/demo.snbt':{'id':'3000000000000001','filename':'demo','title':'Пролог · основы и архив демо',

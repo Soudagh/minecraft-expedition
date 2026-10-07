@@ -67,10 +67,50 @@ BRANCHES = [
  ]),
 ]
 
+def items(*pairs):
+    return [{'type': 'item', 'item': item, 'count': count, 'consume_items': False}
+            for item, count in pairs]
+
+# New IDs for concrete replacements: a completed old checkmark is not evidence
+# of collecting these materials or visiting a structure. Keep old tasks in archive.
+CONCRETE = {
+ 'expedition': {
+  5: ('Найти таверну Explorify', [{'type':'structure','structure':'explorify:tavern'}], 'Войдите на территорию таверны Explorify. Проверяется нахождение внутри структуры, а не компас и не отметка на карте. Ищите в новых чанках.'),
+  6: ('Припасы для четырёх', items(('minecraft:bread',64),('minecraft:torch',64)), 'Подготовьте 64 хлеба и 64 факела на общий поход. Предметы проверяются в инвентаре и остаются у вас; раздайте их команде после зачёта.'),
+  8: ('Разведать Катакомбы Картуса', [{'type':'structure','structure':'souls_like_bosses:catacombs_of_carthus'}], 'Найдите и войдите в Катакомбы Картуса. Это проверка разведки территории, не победы над Стражами Бездны.'),
+  9: ('Исследовать мавзолей', [{'type':'structure','structure':'explorify:mausoleum'}], 'Войдите в мавзолей Explorify. Зачёт не означает зачистку; оцените опасность перед спуском. Это дополнительная экспедиция, не замена бою с боссом.'),
+ },
+ 'create_workshop': {
+  10: ('Первая партия: 16 точных механизмов', items(('create:precision_mechanism',16)), 'Получите 16 точных механизмов. Используйте последовательную сборку с автоматической подачей компонентов. Проверяется партия в инвентаре, не устройство линии; вещи не изымаются.'),
+ },
+ 'mana_artifice': {
+  7: ('Реагенты мага: бумага и чернила', items(('mna:vellum',16),('mna:arcanist_ink',4)), 'Подготовьте 16 листов веллума и 4 магических чернил. Это конкретный запас ремесленных материалов; заклинания выбирайте по своей роли.'),
+  8: ('Руническая пара инструментов', items(('mna:runesmith_hammer',1),('mna:runesmith_chisel',1)), 'Соберите молот и резец рунописца. Оба нужны в инвентаре для зачёта. Рецепты открывайте в JEI; квест не выдаёт ступень Occulus.'),
+  9: ('Запас очищенного винтеума', items(('mna:purified_vinteum_dust',8)), 'Получите 8 единиц очищенной винтеумной пыли по рецепту своего мода. Цель — перейти от разового крафта к снабжению магического ремесла; освоение Hex не требуется.'),
+ },
+ 'hex_practice': {
+  2: ('Счёты для чисел', items(('hexcasting:abacus',1)), 'Создайте счёты: доски, палки и аметистовые осколки, точная раскладка в JEI. Используйте их при работе с числами.'),
+  4: ('Два носителя данных', items(('hexcasting:focus',2)), 'Подготовьте два фокуса, чтобы хранить разные данные. Проверяется наличие, не содержимое записанных иот; потренируйтесь переносить данные между ними.'),
+  5: ('Запас среды', items(('hexcasting:amethyst_dust',16)), 'Соберите 16 аметистовой пыли для походного запаса. Следите за расходом среды при выполнении эффектов.'),
+  6: ('Инструменты исследователя Hex', items(('hexcasting:lens',1),('hexcasting:scroll_small',4)), 'Создайте линзу и 4 малых свитка. Рецепты доступны в JEI; книга с плодом хоруса для этой цели не нужна.'),
+ },
+ 'botania_supply': {
+  9: ('Комплект четырёх стихий', items(*[('botania:rune_'+element,2) for element in ['water','fire','earth','air']]), 'Получите по 2 руны воды, огня, земли и воздуха. Проверяются все четыре вида. Это запас компонентов для настроенного ядра и дальнейшего ремесла.'),
+ },
+ 'industrial_prep': {
+  1: ('Запас бронзы для парового этапа', items(('gtceu:bronze_ingot',32)), 'Получите 32 бронзовых слитка GregTech. Целевой переход к электричеству — после Relic Annihilator, но серверный замок ещё не реализован. Это материальная подготовка, не доказательство победы.'),
+  2: ('Компоненты перехода', items(('create:precision_mechanism',8),('botania:manasteel_ingot',16)), 'Подготовьте 8 точных механизмов и 16 слитков манастали. Они подтверждают освоение обоих производств; не все эти предметы напрямую входят в рецепт корпуса LV.'),
+  8: ('Материалы следующей линии', items(('gtceu:steel_plate',16),('gtceu:copper_single_wire',16)), 'Получите 16 стальных пластин и 16 одиночных медных проводов GregTech. Проверяется запас материалов, не включённый станок. Не подключайте медный провод к произвольному напряжению: проверьте его характеристики.'),
+ },
+}
+
 def write_branches(root, json):
+    archived = []
     for chapter, (slug, title, entries) in enumerate(BRANCHES, start=3):
         prefix = f'{chapter:02X}'
-        qid = lambda n: f'12{prefix}00000000{n:04X}'
+        old_qid = lambda n: f'12{prefix}00000000{n:04X}'
+        replacements = CONCRETE.get(slug, {})
+        qid = lambda n: old_qid(n + 256 if n in replacements else n)
         quests = []
         for index, (n, name, item, deps, description) in enumerate(entries):
             task = {'id': f'22{prefix}00000000{n:04X}'}
@@ -78,9 +118,22 @@ def write_branches(root, json):
                 task.update(type='item', item=item, count=1, consume_items=False)
             else:
                 task.update(type='checkmark', title='Практика выполнена · вручную')
+            if n in replacements:
+                archived.append({'id': old_qid(n), 'title': 'Архив 0.4 · '+name,
+                                 'description':['Старая ручная практика. Не требуется для новых заданий. Прежняя отметка сохранена.'],
+                                 'x': float(len(archived) % 4 * 4), 'y': float(len(archived) // 4 * 4),
+                                 'tasks':[task]})
+                name, concrete_tasks, description = replacements[n]
+                tasks = [dict(t, id=f'23{prefix}{n:04X}0000{i:04X}') for i,t in enumerate(concrete_tasks)]
+            else:
+                tasks = [task]
             quests.append({'id': qid(n), 'title': name, 'description': [description],
                            'x': float(index % 4 * 4), 'y': float(index // 4 * 4),
-                           'dependencies': [qid(d) for d in deps], 'tasks': [task]})
+                           'dependencies': [qid(d) for d in deps], 'tasks': tasks})
         (root/'chapters'/f'{slug}.snbt').write_text(json.dumps({
             'id': f'300000000000{chapter:04X}', 'filename': slug, 'title': title,
             'order_index': chapter - 2, 'quests': quests}, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    (root/'chapters/practice_archive.snbt').write_text(json.dumps({
+        'id':'3000000000000009', 'filename':'practice_archive',
+        'title':'Архив ручной практики 0.4 · необязательно', 'order_index':99,
+        'quests':archived}, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
