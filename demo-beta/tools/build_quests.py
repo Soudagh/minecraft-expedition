@@ -18,9 +18,9 @@ rows = [
  (11, 'Рунический алтарь', 'botania:runic_altar', [10], 6, 2, 'Освойте руны четырёх стихий.'),
  (12, 'Настроенное ядро', 'kubejs:attuned_core', [8,11], 14, 1, 'Соедините руны, ману и механическое ядро.'),
  (13, 'Подготовка к бою', 'minecraft:shield', [1], 4, -2, 'Подготовьте броню, еду, оружие и заклинания. Better Combat и Combat Roll требуют выбора дистанции и момента уклонения.'),
- (14, 'Испытание команды', 'cataclysm:netherite_monstrosity', [13], 16, -1, 'Найдите и победите Незеритового монстра Cataclysm. Это предварительное испытание для четверых: настройка сложности ещё впереди. Производственный квест не требуется для начала исследования.'),
+ (14, 'Архив · испытание Cataclysm', 'cataclysm:netherite_monstrosity', [13], 16, -1, 'Необязательное испытание старого прототипа. Сохранено вместе с прогрессом прежних версий. В новый основной маршрут входит девять других боссов — см. атлас. Эта победа не засчитывается за них.'),
  (15, 'Первое электричество', 'gtceu:lv_steam_turbine', [12], 16, 2, 'Пройдите паровую подготовку GregTech. Соберите турбину LV и обеспечьте устойчивую подачу пара.'),
- (16, 'Финал демо', 'gtceu:lv_macerator', [14,15], 18, 1, 'Соберите электрический измельчитель LV. Финал откроется после боевого испытания и турбины. Магические специализации выбирайте свободно; освоение обеих не обязательно. Мир не сбрасывается; дальнейшие главы появятся в обновлениях.'),
+ (16, 'Архив · рубеж старого демо', 'gtceu:lv_macerator', [14,15], 18, 1, 'Сохранён технический финал ранних версий: Cataclysm и турбина LV. Он не завершает новый маршрут сборки. Старый прогресс и однократное уведомление сохранены; новые направления находятся в отдельных главах.'),
  (17, 'Путь мага: Mana and Artifice', 'mna:occulus', [1], 2, 4, 'Создайте Occulus и следуйте его ступеням развития. Изучайте заклинания, ритуалы и фракции. Ветка независима от заводов; ограничения сильных способностей пока настраиваются.'),
  (18, 'Книга заклинаний', 'mna:spell_book', [17], 5, 4, 'Создайте книгу заклинаний Mana and Artifice. Практикуйте магию в экспедициях; этот квест проверяет предмет, а не боевое мастерство.'),
  (19, 'Путь исследователя: Hex Casting', 'hexcasting:staff/oak', [1], 2, 6, 'Создайте дубовый посох и откройте справочник Hex Casting. Изучайте паттерны, начиная с простых действий. Это отдельная специализация, не обязательное продолжение Mana and Artifice.'),
@@ -34,10 +34,10 @@ for n,title,item,deps,x,y,description in rows:
 ROOT.mkdir(parents=True,exist_ok=True)
 (ROOT/'chapters').mkdir(exist_ok=True)
 for name,data in {
- 'data.snbt':{'version':13,'title':'Экспедиция • демо 0.3','default_consume_items':False,
+ 'data.snbt':{'version':13,'title':'Экспедиция • демо 0.4','default_consume_items':False,
               'default_reward_team':True,'default_autoclaim_rewards':'disabled','progression_mode':'linear'},
  'chapter_groups.snbt':{'chapter_groups':[]},
- 'chapters/demo.snbt':{'id':'3000000000000001','filename':'demo','title':'От мастерской к электричеству',
+ 'chapters/demo.snbt':{'id':'3000000000000001','filename':'demo','title':'Пролог · основы и архив демо',
                       'order_index':0,'quests':quests}
 }.items():
  (ROOT/name).write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
@@ -65,4 +65,7 @@ for i, (title, description) in enumerate(cards):
                   'tasks': [{'id': f'210000000000{i:04X}', 'type': 'checkmark', 'title': 'Прочитано (не победа)'}]})
 (ROOT/'chapters/boss_atlas.snbt').write_text(json.dumps({
     'id': '3000000000000002', 'filename': 'boss_atlas', 'title': 'Атлас боссов · план и тестирование',
-    'order_index': 1, 'quests': atlas}, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    'order_index': 20, 'quests': atlas}, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+
+from quest_branches import write_branches
+write_branches(ROOT, json)

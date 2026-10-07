@@ -1,0 +1,53 @@
+{
+  "minecraft": "1.20.1",
+  "files": [
+    {
+      "slug": "first-person-model",
+      "profile": "first-person",
+      "directory": "mods",
+      "version": "2.7.3",
+      "version_id": "kxFDUOmS",
+      "filename": "firstperson-forge-2.7.3-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/H5XMjpHi/versions/kxFDUOmS/firstperson-forge-2.7.3-mc1.20.1.jar",
+      "hashes": {
+        "sha1": "229a85332b026a027e960919a263742f1eafbbc2",
+        "sha512": "ffa51fac726c907ff70f77ce3abdeee3cd5b5e6110a89013ec0d4c4749fa73183c06f5828f159ae4dfa6252bb0d52ab2d6c6ad0941e996823b2795de4229e4ad",
+        "sha256": "94441e7d294a51dc48754b7cd0f8780df38bb5c326feb46c2b88d2052fde42da"
+      },
+      "source": "https://modrinth.com/mod/first-person-model",
+      "size": 1726107
+    },
+    {
+      "slug": "oculus",
+      "profile": "shaders",
+      "directory": "mods",
+      "version": "1.20.1-1.8.0",
+      "version_id": "iQ1SwGc3",
+      "filename": "oculus-mc1.20.1-1.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar",
+      "hashes": {
+        "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
+        "sha512": "1bb4ac77400d6684347988ed298a692c2cb15cf7923693607eb8739b171a20fef7412259e9e157111d9ce21779badab386029956f7d2283a9e611722a373e9d5",
+        "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef"
+      },
+      "source": "https://modrinth.com/mod/oculus",
+      "size": 2851119
+    },
+    {
+      "slug": "complementary-reimagined",
+      "profile": "shaders",
+      "directory": "shaderpacks",
+      "version": "r5.9.3",
+      "version_id": "Bqen1mJX",
+      "filename": "ComplementaryReimagined_r5.9.3.zip",
+      "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/Bqen1mJX/ComplementaryReimagined_r5.9.3.zip",
+      "hashes": {
+        "sha1": "838139b54cddb56b2e83cd260d8efd960ac536d6",
+        "sha512": "45304b1d7862afdb2177b7e6226fc9c6737911d17a4ad46cc9c519ca4deb935f05072cd337cd8b19a15bb8062b57b54eceec7bdee4cd572d94858e2946d37d85",
+        "sha256": "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38"
+      },
+      "source": "https://modrinth.com/shader/complementary-reimagined",
+      "size": 553397
+    }
+  ]
+}

@@ -28,7 +28,7 @@ def safe_relative(name):
     return path
 
 
-def install(destination, side, source=None, stopped=False, cache=None):
+def install(destination, side, source=None, stopped=False, cache=None, visuals=None):
     destination = Path(destination).resolve()
     if destination.exists():
         raise ValueError('Destination must not exist. Use a NEW directory.')
@@ -55,10 +55,19 @@ def install(destination, side, source=None, stopped=False, cache=None):
     if old and old.get('save_schema', 1) != lock.get('save_schema', 1):
         raise ValueError('This release changes the world format/mod set. Automatic migration is blocked. Keep the old instance and install a NEW test world; see release notes.')
     entries = [m for m in lock['mods'] if side == 'client' or m['side'] != 'client']
+    visuals = sorted(set(visuals if visuals is not None else (old or {}).get('visuals', [])))
+    if any(v not in ('first-person', 'shaders') for v in visuals):
+        raise ValueError('Unknown visual profile')
+    if visuals and side != 'client':
+        raise ValueError('Visual profiles are client-only')
+    extras = []
+    if visuals:
+        visual_lock = json.loads((ROOT / 'visuals.lock.json').read_text(encoding='utf-8'))
+        extras = [m for m in visual_lock['files'] if m['profile'] in visuals]
     cache = Path(cache) if cache else ROOT / '.cache' / 'mods'
     cache.mkdir(parents=True, exist_ok=True)
     # Download everything before copying or creating the instance.
-    for entry in entries:
+    for entry in entries + extras:
         name = safe_relative(entry['filename'])
         if len(name.parts) != 1:
             raise ValueError('Invalid mod filename')
@@ -92,6 +101,10 @@ def install(destination, side, source=None, stopped=False, cache=None):
         managed[str(relative).replace('\\', '/')] = digest(target)
     for entry in entries:
         put(cache / entry['filename'], Path('mods') / entry['filename'])
+    for entry in extras:
+        if entry['directory'] not in ('mods', 'shaderpacks'):
+            raise ValueError('Invalid visual asset directory')
+        put(cache / entry['filename'], Path(entry['directory']) / entry['filename'])
     for src in sorted((ROOT / 'overrides').rglob('*')):
         if src.is_file():
             put(src, src.relative_to(ROOT / 'overrides'))
@@ -103,7 +116,7 @@ def install(destination, side, source=None, stopped=False, cache=None):
         target.write_bytes(data)
         managed[name] = digest(target)
     state = {'version': lock['version'], 'save_schema': lock.get('save_schema', 1), 'minecraft': lock['minecraft'],
-             'forge': lock['forge'], 'side': side, 'files': managed}
+             'forge': lock['forge'], 'side': side, 'visuals': visuals, 'files': managed}
     (destination / 'expedition-installed.json').write_text(json.dumps(state, indent=2), encoding='utf-8')
     print('Prepared:', destination)
     print('Use Java 17 and Forge ' + lock['forge'] + '. See README for launch instructions.')
@@ -116,5 +129,7 @@ if __name__ == '__main__':
     parser.add_argument('--side', choices=['client', 'server'], default='client')
     parser.add_argument('--from-instance', type=Path)
     parser.add_argument('--stopped', action='store_true')
+    parser.add_argument('--visuals', nargs='*', choices=['first-person', 'shaders'], default=None,
+                        help='Optional client profiles. Omit to preserve; pass empty to remove.')
     args = parser.parse_args()
-    install(args.destination, args.side, args.from_instance, args.stopped)
+    install(args.destination, args.side, args.from_instance, args.stopped, visuals=args.visuals)

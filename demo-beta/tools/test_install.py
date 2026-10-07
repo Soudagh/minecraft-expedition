@@ -10,6 +10,39 @@ import install
 
 
 class PreservationTests(unittest.TestCase):
+    def test_optional_visuals_survive_upgrade_and_can_be_removed(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            pack = root/'pack'; pack.mkdir()
+            (pack/'overrides').mkdir()
+            cache = root/'cache'; cache.mkdir()
+            (cache/'visual.jar').write_bytes(b'visual')
+            (cache/'shader.zip').write_bytes(b'shader')
+            lock = {'version':'test','minecraft':'1.20.1','forge':'47.4.10','mods':[]}
+            (pack/'mods.lock.json').write_text(json.dumps(lock))
+            files = [{'profile':'shaders','directory':directory,'filename':filename,
+                      'hashes':{'sha256':hashlib.sha256((cache/filename).read_bytes()).hexdigest()}}
+                     for directory,filename in [('mods','visual.jar'),('shaderpacks','shader.zip')]]
+            (pack/'visuals.lock.json').write_text(json.dumps({'files':files}))
+            previous = install.ROOT; install.ROOT = pack
+            try:
+                with contextlib.redirect_stdout(io.StringIO()):
+                    first = install.install(root/'first','client',cache=cache,visuals=['shaders'])
+                    (first/'options.txt').write_text('user settings')
+                    second = install.install(root/'second','client',first,True,cache)
+                    self.assertTrue((second/'mods/visual.jar').exists())
+                    self.assertTrue((second/'shaderpacks/shader.zip').exists())
+                    third = install.install(root/'third','client',second,True,cache,visuals=[])
+                    self.assertFalse((third/'mods/visual.jar').exists())
+                    self.assertFalse((third/'shaderpacks/shader.zip').exists())
+                    self.assertEqual((third/'options.txt').read_text(),'user settings')
+                    self.assertTrue((first/'shaderpacks/shader.zip').exists())
+                    with self.assertRaises(ValueError):
+                        install.install(root/'server','server',cache=cache,visuals=['shaders'])
+                    self.assertFalse((root/'server').exists())
+            finally:
+                install.ROOT = previous
+
     def test_copy_upgrade_keeps_world_and_refuses_overwrite(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
