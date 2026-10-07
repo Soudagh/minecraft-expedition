@@ -7,7 +7,7 @@ from discover import get
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.cache' / 'mods'
 CACHE.mkdir(parents=True, exist_ok=True)
-ROOTS = ['explorify', 'create', 'gregtechceu-modern', 'better-combat', 'combat-roll',
+ROOTS = ['explorify', 'create', 'gregtechceu-modern', 'epic-fight', 'epic-fight-sword-soaring', 'combat-roll',
  'simply-swords', 'hex-casting', 'botania', 'l_enders-cataclysm',
  'yungs-better-dungeons', 'chipped', 'framedblocks', 'kubejs', 'lootjs',
  'jei', 'modernfix', 'ferrite-core', 'embeddium', 'geckolib', 'curios',
@@ -22,7 +22,7 @@ def resolve(project_id, version_id=None):
     project = get('project/' + project_id)
     # Hex metadata pins older files, but its mods.toml accepts these versions.
     # Botania requires Patchouli >=83; retain the tested shared dependencies.
-    version_id = {'explorify': 'CuBdAr31', 'patchouli': '94dtOLgZ', 'caelus': 'mRry0DgY',
+    version_id = {'epic-fight-invincible-lib': 'dDWp05UU', 'epic-fight': 'KEBfkBat', 'epic-fight-sword-soaring': '9qFBIdEx', 'explorify': 'CuBdAr31', 'patchouli': '94dtOLgZ', 'caelus': 'mRry0DgY',
                   'xaeros-minimap': 'dB6E0CY9', 'xaeros-world-map': 'KtEupJvB',
                   'not-enough-animations': 'kGjMleOz'}.get(project['slug'], version_id)
     pid = project['id']
@@ -95,7 +95,7 @@ if __name__ == '__main__':
           'hashes':{}, 'side':'both', 'source': f['url'], 'curseforge_project_id':pid, 'curseforge_file_id':fid}
     with ThreadPoolExecutor(max_workers=5) as pool:
         entries = list(pool.map(fetch_file, resolved.values()))
-    lock={'name':'Expedition Demo Beta', 'version':'0.5.0-dev', 'save_schema':2, 'minecraft':'1.20.1',
+    lock={'name':'Expedition Demo Beta', 'version':'0.6.0-combat-preview', 'save_schema':2, 'minecraft':'1.20.1',
           'forge':'47.4.10','java':17,'mods':sorted(entries,key=lambda x:x['slug'])}
     (ROOT/'mods.lock.json').write_text(json.dumps(lock,ensure_ascii=False,indent=2)+'\n')
     print('LOCKED', len(entries), 'mods')

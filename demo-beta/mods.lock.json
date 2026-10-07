@@ -1,6 +1,6 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.5.0-dev",
+  "version": "0.6.0-combat-preview",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,
@@ -58,37 +58,6 @@
       "source": "https://modrinth.com/mod/attributefix",
       "dependencies": [],
       "size": 19499
-    },
-    {
-      "name": "Better Combat",
-      "slug": "better-combat",
-      "project_id": "5sy6g3kz",
-      "version_id": "rnhiaw3t",
-      "version": "1.9.0+1.20.1-forge",
-      "filename": "bettercombat-forge-1.9.0+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/5sy6g3kz/versions/rnhiaw3t/bettercombat-forge-1.9.0%2B1.20.1.jar",
-      "hashes": {
-        "sha1": "ea7e7247132cb3acacadd96b2b6b635c4cc63a74",
-        "sha512": "0778902ce693ae56afd9a928e0629470095dff0324c6856fc45ee51a8efcfa622cc22edaa07ed40814d3b13851d62b27d144e9858e5209a6cf70fd3651f081e8",
-        "sha256": "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1"
-      },
-      "side": "both",
-      "source": "https://modrinth.com/mod/better-combat",
-      "dependencies": [
-        {
-          "version_id": null,
-          "project_id": "9s6osm5g",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "version_id": null,
-          "project_id": "gedNE4y2",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ],
-      "size": 1054339
     },
     {
       "name": "Botania",
@@ -302,6 +271,80 @@
         }
       ],
       "size": 1320675
+    },
+    {
+      "name": "Epic Fight",
+      "slug": "epic-fight",
+      "project_id": "vu3NZ5Ma",
+      "version_id": "KEBfkBat",
+      "version": "20.14.17-mc1.20.1-forge",
+      "filename": "epic-fight-20.14.17-mc1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/KEBfkBat/epic-fight-20.14.17-mc1.20.1-forge.jar",
+      "hashes": {
+        "sha1": "faa8eddad9d80adb9c4ba81fd0a8a21c81989d3d",
+        "sha512": "cfb8ab5c6f2014ce10dae59947f9f4e35e7bbe88c2ffbb66da9bfe78876d7a0a65de843a62e324971d5a923ec6e96d9b7e5c72248a262a6e220a071c6d05a8cf",
+        "sha256": "69566cf70ae2d91d3f2564c608f014c87e290cef6215c2a27719851165485f73"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/epic-fight",
+      "dependencies": [],
+      "size": 8071119
+    },
+    {
+      "name": "Epic Fight - Invincible Lib",
+      "slug": "epic-fight-invincible-lib",
+      "project_id": "cdaWrTra",
+      "version_id": "dDWp05UU",
+      "version": "20.14.8.2-mc1.20.1-forge",
+      "filename": "epic-fight-invincible-lib-20.14.8.2-mc1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/cdaWrTra/versions/dDWp05UU/epic-fight-invincible-lib-20.14.8.2-mc1.20.1-forge.jar",
+      "hashes": {
+        "sha1": "1a8ba86606705c2c2ea4ca6bfd9f9add177cd7cd",
+        "sha512": "ebb999382e8ed783830127f7c8bdc75b008c9cae504035fe2f86de35cd40789121dbb546c57bad822439d52a1cb98f3e098a0cf53d5f640c6d97106fc8dd3fc2",
+        "sha256": "0017db1a54bca5ac90ac7e4010e3a59a93ab287ad2a6b68b6781dd5beabf31ed"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/epic-fight-invincible-lib",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "vu3NZ5Ma",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 268536
+    },
+    {
+      "name": "Epic Fight - Sword Soaring",
+      "slug": "epic-fight-sword-soaring",
+      "project_id": "oP1of4Wn",
+      "version_id": "9qFBIdEx",
+      "version": "20.14.2.8-mc1.20.1-forge",
+      "filename": "sword_soaring-20.14.2.8-mc1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/oP1of4Wn/versions/9qFBIdEx/sword_soaring-20.14.2.8-mc1.20.1-forge.jar",
+      "hashes": {
+        "sha1": "be63117cb2357daaeffb4add53383998a051208b",
+        "sha512": "443fc14421d779471c09ef1807bb2cfadd7a742f98a8707a9213fdc9600f4f7a71d922bcec669f220ecd7a45d33fc489f68443fbb9d234ead7aca4b515e2c3cc",
+        "sha256": "05117e1e4247af963621930d69d6f5bd90c1fe8c7c738835ad5af31e19e987d3"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/epic-fight-sword-soaring",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "vu3NZ5Ma",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "cdaWrTra",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 17017920
     },
     {
       "name": "Explorify",

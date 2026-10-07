@@ -1,3 +1,18 @@
+# 0.6.0-combat-preview — Sword Soaring выбран пользователем
+
+Пользователь выбрал Sword Soaring и затем попросил продолжить после лимита approval review. Повторный запуск разрешения прошёл; препятствие снято.
+
+- Добавлены Epic Fight20.14.17 (KEBfkBat), Sword Soaring20.14.2.8 (9qFBIdEx), Invincible Lib20.14.8.2 (см.lock). Better Combat удалён. Combat Roll ОСТАВЛЕН: первая проверка без него выявила исчезающие enchantments acrobat/longfooted/multi_roll; окончательная копия сделана заново из0.5. playerAnimator оставлен. База51JAR, shaders=52JAR+ZIP.
+- install.py исключает профиль first-person при наличии epic-fight, сообщает об этом. Старый управляемый First-person Model исчезает только в новой копии, shaders/config сохраняются. Новый тест миграции: удалён только старый renderer, сохранён world/roll/original.
+- 75capabilities для ordinary/runic SimplySwords добавлены под kubejs/data/simplyswords/capabilities/weapons. Базовые типы EF по типу оружия, не персональные анимации; уникальные оружия не объявлять готовыми. Нет новых рецептов Vatansever или бесплатной выдачи навыков/полёта. Это COMBAT PREVIEW, не сбалансированное выживание.
+- SWORD-SOARING.md: отдельный creative мир, Battle/Mining Mode через controls, F5, /give @s sword_soaring:vatansever, Shift-подсказка, Weapon Innate Skill/Sword Skill. Нужны проверки M&A/Hex/броня, 2уклонения, shaders и боссы. Нельзя говорить, что все эффекты применяются к обычному мечу или навыки автоматически изучены.
+- Проверка:5 unittest прошли. instances/combat-0.6-preserve скопирован из quests-0.5-check; успешный Forge47.4.10/Java17 запуск 9глав99quests,4/4scripts0errors,recipes0failed. Ожидаемые неизвестные звуки BetterCombat, нет неизвестных enchantment mappings. $demo=1 сохранён. save-all flush/stop. Первый combat-0.6-check (безRoll) отброшен как источник миграции, тоже остановлен.
+- instances/client-0.6-combat-check перенесён из client-0.4-visual-check, profile=['shaders'],52JAR, нет bettercombat/firstperson, есть combatroll/EF/SS/Lib. Графический запуск НЕ проверен.
+- save_schema2, исходные папки нетронуты. Рекомендуем E:\Minecraft\Expedition-0.5 → E:\Minecraft\Expedition-0.6-combat. Отдельный сервер тоже обновлять. Откат — исходная папка.
+- Текст боевой подготовки квеста13 обновлён, ID/условия прежние. README и release docs объясняют preview. Не трогать пользовательские untracked E9E-баланс-аудит.md и tools/probe_sources.py.
+
+---
+
 # 0.5.0-dev — Explorify и конкретные задания
 
 Пользователь попросил дополнительные мировые постройки и конкретные цели квестов. Уточнил желаемые анимации: атаки оружием с красочными следами. Найдены кандидаты Epic Fight + Weapons of Miracles, Sword Soaring, Sword Light Modifications. НЕ добавлялись, точный мод не опознан. Требуется отдельная оценка смены Better Combat и боевого баланса; не подменять косметическим First-person Model.

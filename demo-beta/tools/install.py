@@ -56,6 +56,9 @@ def install(destination, side, source=None, stopped=False, cache=None, visuals=N
         raise ValueError('This release changes the world format/mod set. Automatic migration is blocked. Keep the old instance and install a NEW test world; see release notes.')
     entries = [m for m in lock['mods'] if side == 'client' or m['side'] != 'client']
     visuals = sorted(set(visuals if visuals is not None else (old or {}).get('visuals', [])))
+    if 'first-person' in visuals and any(e.get('slug') == 'epic-fight' for e in entries):
+        visuals.remove('first-person')
+        print('Epic Fight provides the combat renderer; First-person Model profile is omitted.')
     if any(v not in ('first-person', 'shaders') for v in visuals):
         raise ValueError('Unknown visual profile')
     if visuals and side != 'client':

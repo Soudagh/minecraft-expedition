@@ -10,6 +10,39 @@ import install
 
 
 class PreservationTests(unittest.TestCase):
+    def test_epic_fight_upgrade_removes_only_old_renderer(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp); pack = root/'pack'; pack.mkdir()
+            (pack/'overrides').mkdir(); cache = root/'cache'; cache.mkdir()
+            def entry(name, slug):
+                data = name.encode(); (cache/name).write_bytes(data)
+                return {'filename':name,'slug':slug,'side':'both',
+                        'hashes':{'sha256':hashlib.sha256(data).hexdigest()}}
+            first_person = entry('first.jar','first-person-model')
+            first_person.update(profile='first-person', directory='mods')
+            (pack/'visuals.lock.json').write_text(json.dumps({'files':[first_person]}))
+            roll = entry('roll.jar','combat-roll')
+            lock = {'version':'old','minecraft':'1.20.1','forge':'47.4.10',
+                    'mods':[entry('better.jar','better-combat'),roll]}
+            (pack/'mods.lock.json').write_text(json.dumps(lock))
+            previous = install.ROOT; install.ROOT = pack
+            try:
+                with contextlib.redirect_stdout(io.StringIO()):
+                    old = install.install(root/'old','client',cache=cache,visuals=['first-person'])
+                    (old/'saves').mkdir(); (old/'saves/world.dat').write_bytes(b'unchanged world')
+                    lock['mods'] = [entry('epic.jar','epic-fight'),roll]
+                    (pack/'mods.lock.json').write_text(json.dumps(lock))
+                    new = install.install(root/'new','client',old,True,cache)
+                self.assertFalse((new/'mods/better.jar').exists())
+                self.assertFalse((new/'mods/first.jar').exists())
+                self.assertTrue((new/'mods/epic.jar').exists())
+                self.assertTrue((new/'mods/roll.jar').exists())
+                self.assertEqual((new/'saves/world.dat').read_bytes(), b'unchanged world')
+                self.assertTrue((old/'mods/better.jar').exists())
+                self.assertTrue((old/'mods/first.jar').exists())
+            finally:
+                install.ROOT = previous
+
     def test_optional_visuals_survive_upgrade_and_can_be_removed(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
