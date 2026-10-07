@@ -115,6 +115,13 @@ def install(destination, side, source=None, stopped=False, cache=None, visuals=N
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(data)
         managed[name] = digest(target)
+    # Seed user preferences once, never track them as immutable pack files.
+    # Oculus rewrites this file when the player changes shader settings.
+    shader = next((e for e in extras if e['directory'] == 'shaderpacks'), None)
+    shader_config = destination / 'config' / 'oculus.properties'
+    if shader and not shader_config.exists():
+        shader_config.parent.mkdir(parents=True, exist_ok=True)
+        shader_config.write_text('enableShaders=true\nshaderPack=' + shader['filename'] + '\n', encoding='utf-8')
     state = {'version': lock['version'], 'save_schema': lock.get('save_schema', 1), 'minecraft': lock['minecraft'],
              'forge': lock['forge'], 'side': side, 'visuals': visuals, 'files': managed}
     (destination / 'expedition-installed.json').write_text(json.dumps(state, indent=2), encoding='utf-8')

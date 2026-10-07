@@ -28,10 +28,16 @@ class PreservationTests(unittest.TestCase):
             try:
                 with contextlib.redirect_stdout(io.StringIO()):
                     first = install.install(root/'first','client',cache=cache,visuals=['shaders'])
+                    shader_config = first/'config/oculus.properties'
+                    self.assertEqual(shader_config.read_text(), 'enableShaders=true\nshaderPack=shader.zip\n')
+                    state = json.loads((first/'expedition-installed.json').read_text())
+                    self.assertNotIn('config/oculus.properties', state['files'])
+                    shader_config.write_text('enableShaders=false\nshaderPack=personal.zip\n')
                     (first/'options.txt').write_text('user settings')
                     second = install.install(root/'second','client',first,True,cache)
                     self.assertTrue((second/'mods/visual.jar').exists())
                     self.assertTrue((second/'shaderpacks/shader.zip').exists())
+                    self.assertEqual((second/'config/oculus.properties').read_text(), shader_config.read_text())
                     third = install.install(root/'third','client',second,True,cache,visuals=[])
                     self.assertFalse((third/'mods/visual.jar').exists())
                     self.assertFalse((third/'shaderpacks/shader.zip').exists())
@@ -40,6 +46,8 @@ class PreservationTests(unittest.TestCase):
                     with self.assertRaises(ValueError):
                         install.install(root/'server','server',cache=cache,visuals=['shaders'])
                     self.assertFalse((root/'server').exists())
+                    plain = install.install(root/'plain','client',cache=cache)
+                    self.assertFalse((plain/'config/oculus.properties').exists())
             finally:
                 install.ROOT = previous
 
