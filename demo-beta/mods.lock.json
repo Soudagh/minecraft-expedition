@@ -1,6 +1,6 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.7.0-industry-preview",
+  "version": "0.8.0-world-food-preview",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,
@@ -150,6 +150,43 @@
         }
       ],
       "size": 12226445
+    },
+    {
+      "name": "Brewin' And Chewin'",
+      "slug": "brewin-and-chewin",
+      "project_id": "hIu9KJTT",
+      "version_id": "9myDFPCD",
+      "version": "1.20.1-3.2.1",
+      "filename": "BrewinAndChewin-1.20.1-3.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/hIu9KJTT/versions/9myDFPCD/BrewinAndChewin-1.20.1-3.2.1.jar",
+      "hashes": {
+        "sha1": "b11a91386ef9da2569b69fd4c229b1c31dcc2eb9",
+        "sha512": "f784c2530f34e56e70a58ee7345e95abc79b312c39fbbef6339ab19dfd20e2842cd7414c5ef2395db2bfa0a9bb1036affc6a3be685b2b731ee3195b2d0d4eb5d",
+        "sha256": "d06edc7a145e8808903b7bd06e0639458a817fbc4ee589be239c0af77a6367db"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/brewin-and-chewin",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "R2OftAxM",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "u6dRKJwZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "fRiHVvU7",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "size": 1206255
     },
     {
       "name": "Caelus API",
@@ -604,6 +641,24 @@
       "source": "https://modrinth.com/datapack/explorify",
       "dependencies": [],
       "size": 767884
+    },
+    {
+      "name": "Farmer's Delight",
+      "slug": "farmers-delight",
+      "project_id": "R2OftAxM",
+      "version_id": "SiIpcZzM",
+      "version": "1.20.1-1.3.4",
+      "filename": "FarmersDelight-1.20.1-1.3.4.jar",
+      "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/SiIpcZzM/FarmersDelight-1.20.1-1.3.4.jar",
+      "hashes": {
+        "sha1": "26f615fd35f652021f5b0f1cba68afa7d578fe15",
+        "sha512": "932ae0ab95fa0755bb5a79fbf1d1e31d0e86f3c0f5186796ed06973a3019a618ee8c66a4eae5b901909aed6232abb2bd3b1ff0e1905f74fc70644fada94a80b5",
+        "sha256": "34f03eb671ea1ca579b00c98e4541404cb96d1a292014aed9cc5eb45ad8afbce"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/farmers-delight",
+      "dependencies": [],
+      "size": 3311051
     },
     {
       "name": "FerriteCore",
@@ -1111,6 +1166,24 @@
       "size": 101931
     },
     {
+      "name": "Lithostitched",
+      "slug": "lithostitched",
+      "project_id": "XaDC71GB",
+      "version_id": "srPoHKt8",
+      "version": "1.4.11-forge-1.20",
+      "filename": "lithostitched-forge-1.20.1-1.4.11.jar",
+      "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/srPoHKt8/lithostitched-forge-1.20.1-1.4.11.jar",
+      "hashes": {
+        "sha1": "d1a755de84ee5d8910ff1e65e815473056e93ece",
+        "sha512": "4e50a0fb4f054b429803cb20fc0820011b12098ebca1f17b1b0634cab832369e08446901d5e97fd35b01e99cf6066d20a16cc673c5b7bc8196568b3db67128c2",
+        "sha256": "c19a5a36c0e6cb3782cf7ca5b9648fb1bce5fc41fd737bed423a1f4971bccf75"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/lithostitched",
+      "dependencies": [],
+      "size": 476347
+    },
+    {
       "name": "LootJS: KubeJS Addon",
       "slug": "lootjs",
       "project_id": "fJFETWDN",
@@ -1401,6 +1474,42 @@
       "size": 246608849
     },
     {
+      "name": "Tectonic",
+      "slug": "tectonic",
+      "project_id": "lWDHr9jE",
+      "version_id": "KLmvRxwh",
+      "version": "3.0.17",
+      "filename": "tectonic-3.0.17-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/lWDHr9jE/versions/KLmvRxwh/tectonic-3.0.17-forge-1.20.1.jar",
+      "hashes": {
+        "sha1": "07bfe13bc1bd75a6277f3d62bf92a549b33067a9",
+        "sha512": "96840393db8e50645d80ee1a04fdecf11b8e9ce5aa807fc1be626429d874fd5b7cb57a6ed8d7d7e2448a3e3f43ef3826f33abeafd430c6d852cb1b1af6c793b2",
+        "sha256": "c6de479b27cf090510de3f029918afc9fe17226981bd703e0002f7a25f4d8969"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/tectonic",
+      "dependencies": [],
+      "size": 322575
+    },
+    {
+      "name": "Terralith",
+      "slug": "terralith",
+      "project_id": "8oi3bsk5",
+      "version_id": "WeYhEb5d",
+      "version": "2.5.4",
+      "filename": "Terralith_1.20.x_v2.5.4.jar",
+      "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/WeYhEb5d/Terralith_1.20.x_v2.5.4.jar",
+      "hashes": {
+        "sha1": "79e1409b8db4ce86df9d6d6730f09c4bd8860a30",
+        "sha512": "885e171d8b34aae7e142f082d0364285ec5a8e8342f11c60d341f7a94083d5a42c4e30612fe4f9f64d57b484396a3dff3a224e2a2497d4ced8d22f2ad6cd561d",
+        "sha256": "8f65f309d8f2723754bf4b60c7b5763d3ab6ed04b01c172109ba6564e981b95f"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/terralith",
+      "dependencies": [],
+      "size": 3156901
+    },
+    {
       "name": "The Graveyard (FORGE/NEOFORGE)",
       "slug": "the-graveyard-forge",
       "project_id": "U1jdQuSf",
@@ -1519,5 +1628,5 @@
       "size": 792381
     }
   ],
-  "save_schema": 2
+  "save_schema": 3
 }

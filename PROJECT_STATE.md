@@ -1,3 +1,17 @@
+# 0.8.0-world-food-preview — мир и кухня
+
+Legacy: друг пользователя использует Legacy Launcher. Добавлена docs/INSTALL-LEGACY-WINDOWS.md, ссылка в README/release; package.py включает её копию UTF-8 BOM как START-HERE.txt. Bootstrap пересобран и проверен. Инструкция сверена с docs.llaun.ch (директория, отключение подпапок, ручной Forge47.4.10, Java17), полный Windows UI-путь НЕ проходили. Пользователь запросил публикацию инструкции прямо в GitHub Release0.8 с архивом. Подготовлено полное описание для Legacy и прямые ссылки на asset; адрес релиза: https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.8.0-world-food-preview . Статус публикации проверять через gh release view.
+
+Пользователь выбрал Terralith + Tectonic, затем подтвердил Farmer’s Delight + Brewin’ and Chewin’. Добавлены Terralith2.5.4 (WeYhEb5d), Tectonic3.0.17 (KLmvRxwh), Lithostitched1.4.11 (srPoHKt8), FD1.3.4 (SiIpcZzM), B&C3.2.1 (9myDFPCD). 68 внешних JAR; shaders69+ZIP. Предыдущие63 lock entries побайтно по данным сохранены. Новые SHA256 и версии заморожены. Lithostitched требуется в mods.toml Tectonic, хотя API deps пустые; явно в ROOTS.
+
+- save_schema=3, новый мир. Старые экземпляры НЕ переносились/не изменялись. Реальный client0.7 upgrade отвергнут до создания destination. Установщик прежний,5тестов проходят.
+- instances/world-food-0.8-check — чистая установка; libraries и ранее принятое пользователем eula скопированы из industry0.7, мир не копировали. localhost25578, новый world-food-test. Успешный startup:4/4 server scripts0errors,recipes0failed,9глав99quests. Включён terratonic overlay; locate lavender_forest[3664,100,2304], explorify:tavern[-1600,~,784]. Старые клиентские/M&A/LDLib warnings остаются; после locate biome lag8s. Полный аудит ресурсов/генерации не выполнен.
+- instances/client-0.8-world-food-check установлен свежим с shaders, графический клиент НЕ запускался.
+- Кухня штатная: gates еды, квесты/лимиты баффов, взаимодействие EpicFight/магия ещё не настроены. HBM/Jade/Chipped-фильтрация/ускорениеGT остаются в одобренном плане, не в этом релизе.
+- Release doc RELEASE-0.8.0-world-food-preview.md, README обновлены. Не трогать пользовательские E9E-баланс-аудит.md и tools/probe_sources.py.
+
+---
+
 # 0.7.0-industry-preview — технические аддоны
 
 Пользователь разрешил все 8 предложенных аддонов и попросил посмотреть физику Clockwork. Добавлены Connected1.2.3, Copycats3.0.10, CreateAddition1.3.3, CEI2.5.4 + DragonsPlus1.11.9, DieselGenerators1.3.12, GT--1.3.10, GTMThings1.6.0, SolarExpansion0.2.3. Зависимости: LDLib1.0.52.a, AE2 15.4.11 +GuideME20.1.15. 63 внешних JAR, shaders64+ZIP. Все новые версии/хеши заморожены в lock и resolve.py. Схема2, исходные папки не изменены.

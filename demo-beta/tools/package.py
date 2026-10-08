@@ -11,6 +11,7 @@ files+=list((ROOT/'overrides').rglob('*'))
 files+=list((ROOT/'docs').glob('*.md'))
 files += [ROOT/'tools'/name for name in ['install.py','compat.py','test_install.py','build_quests.py','quest_branches.py']]
 with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED) as archive:
+    archive.writestr('expedition-demo/START-HERE.txt', (ROOT/'docs/INSTALL-LEGACY-WINDOWS.md').read_text(encoding='utf-8').encode('utf-8-sig'))
     for f in sorted(files):
         if f.is_file(): archive.write(f,Path('expedition-demo')/f.relative_to(ROOT))
 print(dest)

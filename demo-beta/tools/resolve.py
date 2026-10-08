@@ -7,7 +7,8 @@ from discover import get
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.cache' / 'mods'
 CACHE.mkdir(parents=True, exist_ok=True)
-ROOTS = ['create-connected', 'copycats', 'createaddition', 'create-enchantment-industry', 'create-dragons-plus', 'create-diesel-generators', 'gtnn', 'ldlib', 'ae2', 'guideme'] + ['explorify', 'create', 'gregtechceu-modern', 'epic-fight', 'epic-fight-sword-soaring', 'combat-roll',
+# Tectonic's Modrinth metadata omits its mandatory Lithostitched dependency.
+ROOTS = ['terralith', 'tectonic', 'lithostitched', 'farmers-delight', 'brewin-and-chewin'] + ['create-connected', 'copycats', 'createaddition', 'create-enchantment-industry', 'create-dragons-plus', 'create-diesel-generators', 'gtnn', 'ldlib', 'ae2', 'guideme'] + ['explorify', 'create', 'gregtechceu-modern', 'epic-fight', 'epic-fight-sword-soaring', 'combat-roll',
  'simply-swords', 'hex-casting', 'botania', 'l_enders-cataclysm',
  'yungs-better-dungeons', 'chipped', 'framedblocks', 'kubejs', 'lootjs',
  'jei', 'modernfix', 'ferrite-core', 'embeddium', 'geckolib', 'curios',
@@ -22,7 +23,7 @@ def resolve(project_id, version_id=None):
     project = get('project/' + project_id)
     # Hex metadata pins older files, but its mods.toml accepts these versions.
     # Botania requires Patchouli >=83; retain the tested shared dependencies.
-    version_id = {'ae2': 'jYgSnxye', 'copycats': 'LlMxIysb', 'create-connected': '6gnvaVkN', 'create-diesel-generators': 'DTQVvA5H', 'create-dragons-plus': 'eMalpJtP', 'create-enchantment-industry': 'HM5htsU7', 'createaddition': '9LgyB6Yb', 'gtnn': 'DypJcHuM', 'guideme': 'i7Tp1AHw', 'ldlib': 'YSOP0G6O', 'epic-fight-invincible-lib': 'dDWp05UU', 'epic-fight': 'KEBfkBat', 'epic-fight-sword-soaring': '9qFBIdEx', 'explorify': 'CuBdAr31', 'patchouli': '94dtOLgZ', 'caelus': 'mRry0DgY',
+    version_id = {'terralith': 'WeYhEb5d', 'tectonic': 'KLmvRxwh', 'farmers-delight': 'SiIpcZzM', 'brewin-and-chewin': '9myDFPCD', 'lithostitched': 'srPoHKt8', 'ae2': 'jYgSnxye', 'copycats': 'LlMxIysb', 'create-connected': '6gnvaVkN', 'create-diesel-generators': 'DTQVvA5H', 'create-dragons-plus': 'eMalpJtP', 'create-enchantment-industry': 'HM5htsU7', 'createaddition': '9LgyB6Yb', 'gtnn': 'DypJcHuM', 'guideme': 'i7Tp1AHw', 'ldlib': 'YSOP0G6O', 'epic-fight-invincible-lib': 'dDWp05UU', 'epic-fight': 'KEBfkBat', 'epic-fight-sword-soaring': '9qFBIdEx', 'explorify': 'CuBdAr31', 'patchouli': '94dtOLgZ', 'caelus': 'mRry0DgY',
                   'xaeros-minimap': 'dB6E0CY9', 'xaeros-world-map': 'KtEupJvB',
                   'not-enough-animations': 'kGjMleOz'}.get(project['slug'], version_id)
     pid = project['id']
@@ -95,7 +96,7 @@ if __name__ == '__main__':
           'hashes':{}, 'side':'both', 'source': f['url'], 'curseforge_project_id':pid, 'curseforge_file_id':fid}
     with ThreadPoolExecutor(max_workers=5) as pool:
         entries = list(pool.map(fetch_file, resolved.values()))
-    lock={'name':'Expedition Demo Beta', 'version':'0.7.0-industry-preview', 'save_schema':2, 'minecraft':'1.20.1',
+    lock={'name':'Expedition Demo Beta', 'version':'0.8.0-world-food-preview', 'save_schema':3, 'minecraft':'1.20.1',
           'forge':'47.4.10','java':17,'mods':sorted(entries,key=lambda x:x['slug'])}
     (ROOT/'mods.lock.json').write_text(json.dumps(lock,ensure_ascii=False,indent=2)+'\n')
     print('LOCKED', len(entries), 'mods')
