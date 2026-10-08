@@ -2,14 +2,53 @@ import contextlib
 import hashlib
 import io
 import json
+import ssl
+import urllib.error
 import tempfile
 import unittest
+from unittest.mock import patch
 import zipfile
 from pathlib import Path
 import install
 
 
 class PreservationTests(unittest.TestCase):
+    def test_download_verifies_hash_before_replacing_cache(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / 'mod.jar'
+            target.write_bytes(b'previous cache')
+            entry = {'url': 'https://example.org/mod.jar',
+                     'hashes': {'sha256': hashlib.sha256(b'expected').hexdigest()}}
+            for payload, valid in [(b'tampered', False), (b'expected', True)]:
+                with patch.object(install.urllib.request, 'urlopen', return_value=io.BytesIO(payload)):
+                    if valid:
+                        install.download_verified(entry, target)
+                        self.assertEqual(target.read_bytes(), b'expected')
+                    else:
+                        with self.assertRaisesRegex(ValueError, 'hash mismatch'):
+                            install.download_verified(entry, target)
+                        self.assertEqual(target.read_bytes(), b'previous cache')
+                self.assertFalse(target.with_suffix('.part').exists())
+
+    def test_certificate_failure_explains_recovery_without_insecure_retry(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / 'mod.jar'
+            entry = {'url': 'https://example.org/mod.jar', 'hashes': {'sha256': 'unused'}}
+            failure = urllib.error.URLError(ssl.SSLCertVerificationError(1, 'missing issuer'))
+            with patch.object(install.urllib.request, 'urlopen', side_effect=failure) as opening:
+                with self.assertRaisesRegex(ValueError, 'pip install --upgrade truststore') as raised:
+                    install.download_verified(entry, target)
+                self.assertIn(entry['url'], str(raised.exception))
+                self.assertEqual(opening.call_count, 1)
+            self.assertFalse(target.exists())
+            self.assertFalse(target.with_suffix('.part').exists())
+
+    def test_standard_context_still_verifies_certificates(self):
+        with patch.dict('sys.modules', {'truststore': None}):
+            ctx = install.download_context()
+        self.assertEqual(ctx.verify_mode, ssl.CERT_REQUIRED)
+        self.assertTrue(ctx.check_hostname)
+
     def test_epic_fight_upgrade_removes_only_old_renderer(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp); pack = root/'pack'; pack.mkdir()

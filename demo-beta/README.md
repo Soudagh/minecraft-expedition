@@ -1,10 +1,14 @@
-# Экспедиция: демо 0.8.0-world-food-preview
+# Экспедиция: демо 0.8.1-world-food-preview
 
 **Первый запуск через Legacy Launcher на Windows:** [пошаговая инструкция](docs/INSTALL-LEGACY-WINDOWS.md). В архиве она также лежит в `START-HERE.txt`.
 
+## Исправление установщика 0.8.1
+
+При SSL-ошибке выполните `py -m pip install --upgrade truststore` и повторите установку. Теперь поддерживается системная проверка HTTPS через truststore, показывается адрес загрузки и понятная ошибка. Моды и схема сохранений прежние. [Подробности](docs/RELEASE-0.8.1-world-food-preview.md).
+
 ## Новое в 0.8: мир и кухня
 
-Добавлены Terralith 2.5.4 + Tectonic 3.0.17 (с Lithostitched 1.4.11), Farmer’s Delight 1.3.4 и Brewin’ and Chewin’ 3.2.1. [Состав и проверка](docs/RELEASE-0.8.0-world-food-preview.md).
+Добавлены Terralith 2.5.4 + Tectonic 3.0.17 (с Lithostitched 1.4.11), Farmer’s Delight 1.3.4 и Brewin’ and Chewin’ 3.2.1. [Состав и проверка](docs/RELEASE-0.8.1-world-food-preview.md).
 
 **Для этой версии нужен новый мир.** Схема сохранений 3: автоматический перенос из 0.7 и более ранних версий заблокирован из-за новой генерации. Сохраните прежний экземпляр отдельно и устанавливайте 0.8 в новую папку без `--from-instance`. Старые инструкции миграции ниже относятся к прежним релизам.
 

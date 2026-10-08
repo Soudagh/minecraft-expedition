@@ -12,7 +12,7 @@
 
 ## 2. Распакуй и установи сборку
 
-1. Скачай [архив сборки 0.8](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.8.0-world-food-preview/expedition-0.8.0-world-food-preview-bootstrap.zip). На [странице релиза](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.8.0-world-food-preview) он также находится в Assets под именем `expedition-0.8.0-world-food-preview-bootstrap.zip`. Автоматический Source code для этой инструкции не нужен.
+1. Скачай [архив сборки 0.8](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.8.1-world-food-preview/expedition-0.8.1-world-food-preview-bootstrap.zip). На [странице релиза](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.8.1-world-food-preview) он также находится в Assets под именем `expedition-0.8.1-world-food-preview-bootstrap.zip`. Автоматический Source code для этой инструкции не нужен.
 2. Нажми на ZIP правой кнопкой → «Извлечь всё». Нельзя запускать установку прямо из ZIP.
 3. Открой распакованную папку `expedition-demo`. В ней должны быть `README.md`, `mods.lock.json` и папка `tools`.
 4. Щёлкни по адресной строке Проводника, введи `powershell` и нажми Enter.
@@ -76,6 +76,31 @@ py tools/install.py --side client --visuals shaders --destination "$env:USERPROF
 - Для одиночной проверки создай **новый** мир. Мир из 0.7 сюда не переносим.
 - Для общей игры: «Сетевая игра» → «Добавить сервер» → адрес, который даст организатор. На сервере и у игроков должна быть одна версия сборки. Параметры аккаунта и доступ к серверу уточни у организатора.
 - Шейдер Complementary установлен и включён по умолчанию. Если тормозит, отключи его через настройки графики → меню шейдеров. OptiFine дополнительно ставить не нужно.
+
+## Ошибка SSL / CERTIFICATE_VERIFY_FAILED
+
+Если Python сообщает `unable to get local issuer certificate`, он не смог проверить цепочку сертификатов HTTPS. Это происходит при скачивании, ещё до запуска игры; причина может быть в цепочке сервера, сертификатах Windows или проверке HTTPS вашей сетью/антивирусом.
+
+Для установщика 0.8.1 выполните в том же PowerShell:
+
+```powershell
+py -m pip install --upgrade truststore
+py tools/install.py --side client --visuals shaders --destination "$env:USERPROFILE\Games\Expedition-0.8"
+```
+
+Установщик автоматически использует установленный truststore для системной проверки сертификатов. Проверки HTTPS и SHA-256 остаются включены.
+
+Если у вас ещё старый архив 0.8.0, после установки truststore можно запустить его так:
+
+```powershell
+py -c "import truststore, runpy; truststore.inject_into_ssl(); runpy.run_path('tools/install.py', run_name='__main__')" --side client --visuals shaders --destination "$env:USERPROFILE\Games\Expedition-0.8"
+```
+
+При SSL-ошибке загрузки папка назначения ещё не создаётся: повторите команду с прежним путём. Если она уже существует по другой причине, выберите новое имя. Уже успешно скачанные и проверенные файлы повторно не загружаются.
+
+Если сама команда pip не устанавливает truststore или ошибка остаётся, пришлите полный вывод и строку `Downloading:` (в 0.8.1). Не отключайте проверку сертификатов. Без доступа к Windows этого компьютера гарантировать устранение причины нельзя.
+
+Источник: [документация truststore](https://truststore.readthedocs.io/en/stable/).
 
 ## Если не получилось
 

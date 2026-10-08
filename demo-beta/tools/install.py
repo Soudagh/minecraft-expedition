@@ -6,11 +6,49 @@ import argparse
 import hashlib
 import json
 import shutil
+import ssl
+import urllib.error
 import urllib.request
 from pathlib import Path
 from compat import boss_overrides
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def download_context():
+    # Native verification can retrieve missing intermediate certificates on Windows.
+    # Optional: the bootstrap still works with standard Python alone.
+    try:
+        import truststore
+    except ImportError:
+        return ssl.create_default_context()
+    return truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+
+
+def download_verified(entry, target):
+    request = urllib.request.Request(entry['url'], headers={'User-Agent': 'ExpeditionDemo/0.8.1'})
+    part = target.with_suffix('.part')
+    print('Downloading:', entry['url'], flush=True)
+    try:
+        with urllib.request.urlopen(request, timeout=180, context=download_context()) as response, part.open('wb') as output:
+            shutil.copyfileobj(response, output)
+        if digest(part) != entry['hashes']['sha256']:
+            raise ValueError('Download hash mismatch: ' + target.name)
+        part.replace(target)
+    except (urllib.error.URLError, ssl.SSLCertVerificationError) as exc:
+        reason = getattr(exc, 'reason', exc)
+        if isinstance(reason, ssl.SSLCertVerificationError):
+            raise ValueError(
+                'HTTPS certificate verification failed for ' + entry['url'] + '\n'
+                'Try: py -m pip install --upgrade truststore\n'
+                'Then rerun the same install command. HTTPS verification stays enabled.\n'
+                'If it still fails, send this URL and error; check Windows updates, '
+                'system clock and HTTPS inspection by your network/security software.\n'
+                'Original error: ' + str(reason)) from exc
+        raise
+    finally:
+        if part.exists():
+            part.unlink()
 
 
 def digest(path):
@@ -76,14 +114,7 @@ def install(destination, side, source=None, stopped=False, cache=None, visuals=N
             raise ValueError('Invalid mod filename')
         target = cache / name
         if not target.exists() or digest(target) != entry['hashes']['sha256']:
-            request = urllib.request.Request(entry['url'], headers={'User-Agent': 'ExpeditionDemo/0.1'})
-            part = target.with_suffix('.part')
-            with urllib.request.urlopen(request, timeout=180) as response, part.open('wb') as output:
-                shutil.copyfileobj(response, output)
-            if digest(part) != entry['hashes']['sha256']:
-                part.unlink()
-                raise ValueError('Download hash mismatch: ' + str(name))
-            part.replace(target)
+            download_verified(entry, target)
         print('Verified:', name, flush=True)
     generated = boss_overrides(entries, cache)
     if source:
@@ -142,4 +173,7 @@ if __name__ == '__main__':
     parser.add_argument('--visuals', nargs='*', choices=['first-person', 'shaders'], default=None,
                         help='Optional client profiles. Omit to preserve; pass empty to remove.')
     args = parser.parse_args()
-    install(args.destination, args.side, args.from_instance, args.stopped, visuals=args.visuals)
+    try:
+        install(args.destination, args.side, args.from_instance, args.stopped, visuals=args.visuals)
+    except (ValueError, urllib.error.URLError) as exc:
+        parser.exit(1, 'Installation stopped: ' + str(exc) + '\n')

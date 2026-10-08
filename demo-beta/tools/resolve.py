@@ -96,7 +96,7 @@ if __name__ == '__main__':
           'hashes':{}, 'side':'both', 'source': f['url'], 'curseforge_project_id':pid, 'curseforge_file_id':fid}
     with ThreadPoolExecutor(max_workers=5) as pool:
         entries = list(pool.map(fetch_file, resolved.values()))
-    lock={'name':'Expedition Demo Beta', 'version':'0.8.0-world-food-preview', 'save_schema':3, 'minecraft':'1.20.1',
+    lock={'name':'Expedition Demo Beta', 'version':'0.8.1-world-food-preview', 'save_schema':3, 'minecraft':'1.20.1',
           'forge':'47.4.10','java':17,'mods':sorted(entries,key=lambda x:x['slug'])}
     (ROOT/'mods.lock.json').write_text(json.dumps(lock,ensure_ascii=False,indent=2)+'\n')
     print('LOCKED', len(entries), 'mods')

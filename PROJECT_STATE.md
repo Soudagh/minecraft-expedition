@@ -1,3 +1,11 @@
+# 0.8.1 — SSL-загрузка
+
+Пользователь прислал Windows/Python3.12 CERTIFICATE_VERIFY_FAILED unable to get local issuer certificate из urllib при install.py. Точная причина на Windows не установлена. Даны команды pip install truststore и запуск старого0.8 через inject_into_ssl+runpy. Новый install.py использует необязательный truststore.SSLContext(PROTOCOL_TLS_CLIENT), иначе ssl.create_default_context; URL в прогрессе, понятная ошибка, очистка .part, сохранён SHA256. Небезопасного обхода TLS нет.
+
+8тестов проходят; реальная загрузка AE2 через truststore0.10.4 на macOS с SHA256 прошла (это НЕ Windows-верификация). Все68mod entries и save_schema3 неизменны. Версия0.8.1 только исправляет загрузчик, установленную0.8.0 переустанавливать не нужно. Legacy guide содержит восстановление для обоих архивов; bootstrap0.8.1 проверен. Готовится публикация исправления по ранее разрешённому релизному процессу; проверять статус через gh release view.
+
+---
+
 # 0.8.0-world-food-preview — мир и кухня
 
 Legacy: друг пользователя использует Legacy Launcher. Добавлена docs/INSTALL-LEGACY-WINDOWS.md, ссылка в README/release; package.py включает её копию UTF-8 BOM как START-HERE.txt. Bootstrap пересобран и проверен. Инструкция сверена с docs.llaun.ch (директория, отключение подпапок, ручной Forge47.4.10, Java17), полный Windows UI-путь НЕ проходили. Пользователь запросил публикацию инструкции прямо в GitHub Release0.8 с архивом. Подготовлено полное описание для Legacy и прямые ссылки на asset; адрес релиза: https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.8.0-world-food-preview . Статус публикации проверять через gh release view.
