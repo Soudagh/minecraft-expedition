@@ -1,3 +1,16 @@
+# 0.7.0-industry-preview — технические аддоны
+
+Пользователь разрешил все 8 предложенных аддонов и попросил посмотреть физику Clockwork. Добавлены Connected1.2.3, Copycats3.0.10, CreateAddition1.3.3, CEI2.5.4 + DragonsPlus1.11.9, DieselGenerators1.3.12, GT--1.3.10, GTMThings1.6.0, SolarExpansion0.2.3. Зависимости: LDLib1.0.52.a, AE2 15.4.11 +GuideME20.1.15. 63 внешних JAR, shaders64+ZIP. Все новые версии/хеши заморожены в lock и resolve.py. Схема2, исходные папки не изменены.
+
+- У DieselGenerators удалены рецепты chemical_sprayer, chemical_sprayer_lighter, chemical_turret и сундуковый/мобовый лут; творческий доступ остаётся.
+- CEI defaultconfigs: оба MaxLevelExtension=0, ignoreEnchantmentCompatibility=false. На тестовом старом мире с отсутствующим конфигом CEI проверено применение defaultconfigs. Существующий сторонний конфиг CEI не переписывается автоматически.
+- GT-- harderPlatinum/Naquadah выключены из-за конфликтов рецептов. Отсутствующий centrifuged neutronium ore рецепт убран KubeJS. Остаётся предупреждение duplicate bend_lanthanum_plate_to_dense_plate. Не заявлять полную проходимость/баланс. Беспроводная энергия, AE2, FE/EU, солнечные панели ещё без боссовых gates.
+- QA: 5 тестов установщика, клиентская миграция client-0.6-combat-check -> client-0.7-industry-check (shaders,64JAR); графический клиент НЕ запускался. Сервер industry-0.7-check из combat-0.6-preserve: final log startup-07-final.log,5/5 server scripts0errors (один QA item checker),2added9removed2modified0failed recipes,9глав99quests,$demo=1, save-all/stop. Начальные прогоны обнаружили и позволили устранить ошибку пустого ингредиента и 6конфликтов платиновой линии. Известные старые M&A/clientclass warnings остаются.
+- Clockwork/VS/Interactive только исследованы, в lock/архив не входят. Их JAR скачаны в cache, проверены mods.toml: CW0.5.6 needsCreate>=6.0.7,VS>=2.4.6,Kelvin>=0.4(0.5embedded);VS2.4.11;Interactive1.2.1 Create>=6.0.7 VS[2.4,2.5). См.CLOCKWORK.md. Не обещать графический/игровой тест физики.
+- Новых квестов нет. Релиз docs/RELEASE-0.7.0-industry-preview.md содержит команду и ограничения. Не трогать E9E-баланс-аудит.md и tools/probe_sources.py.
+
+---
+
 # 0.6.0-combat-preview — Sword Soaring выбран пользователем
 
 Пользователь выбрал Sword Soaring и затем попросил продолжить после лимита approval review. Повторный запуск разрешения прошёл; препятствие снято.

@@ -1,0 +1,5 @@
+# Expedition: preserve normal enchantment caps and incompatibilities.
+[kinetics.enchantments]
+blazeEnchanterMaxLevelExtension = 0
+blazeForgerMaxLevelExtension = 0
+ignoreEnchantmentCompatibility = false

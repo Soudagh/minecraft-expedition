@@ -1,10 +1,71 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.6.0-combat-preview",
+  "version": "0.7.0-industry-preview",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,
   "mods": [
+    {
+      "name": "Applied Energistics 2",
+      "slug": "ae2",
+      "project_id": "XxWD5pD3",
+      "version_id": "jYgSnxye",
+      "version": "15.4.11",
+      "filename": "appliedenergistics2-forge-15.4.11.jar",
+      "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/jYgSnxye/appliedenergistics2-forge-15.4.11.jar",
+      "hashes": {
+        "sha1": "e0d777a400fe3c3082681d28de4e7f6a0b3e7b50",
+        "sha512": "3a121b09c69c585bf1240f3526fc882f36d5e8c8242a9629e216de0c80e9ed212369db57026ec53856ba058635586edb103407855031bf4dcf1b2dfd4d60f78d",
+        "sha256": "f2ff9ee5122b037d4e93537425ab9fbe49860fc9c3977db13b20a50ca7d30f9e"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/ae2",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "tq47Uqpn",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "version_id": null,
+          "project_id": "Eyw0UxEx",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "6AQIaxuO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ck4E7v7R",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "nfn13YXA",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "u6dRKJwZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "nvQzSEkH",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "size": 8501309
+    },
     {
       "name": "Architectury API",
       "slug": "architectury-api",
@@ -189,6 +250,37 @@
       "size": 217962
     },
     {
+      "name": "Create: Copycats+",
+      "slug": "copycats",
+      "project_id": "UT2M39wf",
+      "version_id": "LlMxIysb",
+      "version": "3.0.10+mc.1.20.1-forge",
+      "filename": "copycats-3.0.10+mc.1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/UT2M39wf/versions/LlMxIysb/copycats-3.0.10%2Bmc.1.20.1-forge.jar",
+      "hashes": {
+        "sha1": "939d4ca4ac42b93c05a5fb92e629fb8cff060dc9",
+        "sha512": "b92d506eb21b46e1ad00b53e329e7870b4b5c0b3cbff9a75b560de71c0d950912500384b2ea396f6b0a3a69388a7cd1beaff711cf7501c4cc5512673339d46ff",
+        "sha256": "684a7a65a576d84bee4250b3cc10ddcaa66958cee05b541b1cd99df8bdc0185e"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/copycats",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "u6dRKJwZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 2003713
+    },
+    {
       "name": "Create",
       "slug": "create",
       "project_id": "LNytGWDc",
@@ -205,6 +297,155 @@
       "source": "https://modrinth.com/mod/create",
       "dependencies": [],
       "size": 19170905
+    },
+    {
+      "name": "Create: Connected",
+      "slug": "create-connected",
+      "project_id": "Vg5TIO6d",
+      "version_id": "6gnvaVkN",
+      "version": "1.2.3-mc1.20.1",
+      "filename": "create_connected-1.2.3-mc1.20.1-all.jar",
+      "url": "https://cdn.modrinth.com/data/Vg5TIO6d/versions/6gnvaVkN/create_connected-1.2.3-mc1.20.1-all.jar",
+      "hashes": {
+        "sha1": "98b4a41c452476496713df16ce4d52fc9f476508",
+        "sha512": "eed01b0d7c96b023bf838208819f52d57606089ce6c1f0e824b212bb53b4e00e35d7d3c7066f125e541799b64c0766b526045ced59bb0dbdce9a7075ab3bdfce",
+        "sha256": "5f584f118f2bda3dfeed8b8fc9198ea143c6988e2f6f04eb63f42c0da8b50e63"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/create-connected",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "u6dRKJwZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 6791072
+    },
+    {
+      "name": "Create: Diesel Generators",
+      "slug": "create-diesel-generators",
+      "project_id": "ZM3tt6p1",
+      "version_id": "DTQVvA5H",
+      "version": "1.20.1-1.3.12",
+      "filename": "createdieselgenerators-1.20.1-1.3.12.jar",
+      "url": "https://cdn.modrinth.com/data/ZM3tt6p1/versions/DTQVvA5H/createdieselgenerators-1.20.1-1.3.12.jar",
+      "hashes": {
+        "sha1": "416ea3d5c1190246369bbcfa32e5e86597402264",
+        "sha512": "fc9aebaa5b654078be4736e1c35cc34edda0986db75fc3ce1391a86a499df6dcb3958d9854d402f5479eeb38d0f9388223b0359a34d594589e75ed3a58dd45a1",
+        "sha256": "808e87b98ea9d42a43096a113a7fa1a89c65bee95608855c6cfe2914d6f1f642"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/create-diesel-generators",
+      "dependencies": [
+        {
+          "version_id": "8amzvn9x",
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 3128610
+    },
+    {
+      "name": "Create: Dragons Plus",
+      "slug": "create-dragons-plus",
+      "project_id": "dzb1a5WV",
+      "version_id": "eMalpJtP",
+      "version": "1.11.9",
+      "filename": "CreateDragonsPlus-1.11.9.jar",
+      "url": "https://cdn.modrinth.com/data/dzb1a5WV/versions/eMalpJtP/CreateDragonsPlus-1.11.9.jar",
+      "hashes": {
+        "sha1": "cb249347ad15914619a81371b4cfa35f74f575ed",
+        "sha512": "6c9fe7b2cd0a3431cfb1b5c717fa2b03153c750f53e4cc394a2290447bc52848891627b0131f6e6dbc947e6f0c618e416d34942f9dd963a025f9ad18c015716a",
+        "sha256": "9f22fef1c96558d54f497efcdfc525d06918fe619c5494a951b936b3b0e2a2ec"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/create-dragons-plus",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 988334
+    },
+    {
+      "name": "Create: Enchantment Industry",
+      "slug": "create-enchantment-industry",
+      "project_id": "JWGBpFUP",
+      "version_id": "HM5htsU7",
+      "version": "2.5.4",
+      "filename": "create-enchantment-industry-2.5.4.jar",
+      "url": "https://cdn.modrinth.com/data/JWGBpFUP/versions/HM5htsU7/create-enchantment-industry-2.5.4.jar",
+      "hashes": {
+        "sha1": "6b6129812bbcffc12f1a7d253f0413664576e1b6",
+        "sha512": "2411c1a257881e648dde73e759b5287f77ca69101c579be899b6c45e955f6f6a7b6b8934d58c903bafda84e4e50ebee2c612c442a4fd32bbc53456ac4fdba2ab",
+        "sha256": "4a01792ae569370990431cfdf5c649cb4979095ac41ff3606090830cb3bdd24b"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/create-enchantment-industry",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "dzb1a5WV",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 1653475
+    },
+    {
+      "name": "Create Crafts & Additions",
+      "slug": "createaddition",
+      "project_id": "kU1G12Nn",
+      "version_id": "9LgyB6Yb",
+      "version": "forge-1.20.1-1.3.3",
+      "filename": "createaddition-1.20.1-1.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/kU1G12Nn/versions/9LgyB6Yb/createaddition-1.20.1-1.3.3.jar",
+      "hashes": {
+        "sha1": "c7d464c451fdc2979bc29a67d7eec2a30858af12",
+        "sha512": "a34f5c3b0226069d2882a3e23ba0e364a78bc5d26983b0cecea8d998718f454d3238ab7c5b4b3ef1749b6f2b26a4e427839c7c32468558fa7a8edb0edc727d10",
+        "sha256": "9bf3ae15d86ec95d128542caf10e4b5498e49ca02f725b9302d6daecd5eae1db"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/createaddition",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "u6dRKJwZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "gu7yAYhd",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 1577313
     },
     {
       "name": "Curios API",
@@ -512,6 +753,23 @@
       "size": 1038209
     },
     {
+      "name": "GregTech Solar Expansion",
+      "slug": "gregtech-solar-expansion",
+      "version": "gt_solar-1.20.1-0.2.3.jar",
+      "filename": "gt_solar-1.20.1-0.2.3.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8686/313/gt_solar-1.20.1-0.2.3.jar",
+      "hashes": {
+        "sha1": "c6d1b0fad1b152f521860398309cbd72e4a8adff",
+        "sha512": "b262547aebd3929441697701c7d52de15f5d9de91e030d5616e9c25baf1c4cb92b3b53b86afe6575aa5ac5281c676be1275be1b85aff9aa7527008c9ad5ff687",
+        "sha256": "6f69c0bd3b704ea333957bf8a94fad0f6687c281f59ed07f88a1f9724eaa7acf"
+      },
+      "side": "both",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/gregtech-solar-expansion/files/8686313",
+      "curseforge_project_id": 1473018,
+      "curseforge_file_id": 8686313,
+      "size": 259782
+    },
+    {
       "name": "GregTech CEu Modern",
       "slug": "gregtechceu-modern",
       "project_id": "7tG215v7",
@@ -565,6 +823,72 @@
         }
       ],
       "size": 18209988
+    },
+    {
+      "name": "GTMThings",
+      "slug": "gtmthings",
+      "version": "gtmthings-1.6.0.jar",
+      "filename": "gtmthings-1.6.0.jar",
+      "url": "https://mediafilez.forgecdn.net/files/7712/957/gtmthings-1.6.0.jar",
+      "hashes": {
+        "sha1": "0403380dfa1110e69d7545bafaf89e512010ccc9",
+        "sha512": "a84369b7ca9d560b39042ea99085279b3afc6f176b73849e78e0bb041874cdc55eb12be18f873efa9bea2deae6a62010692048cef06fe35d9e4e49786693ab46",
+        "sha256": "72fdc64e0af5093c7c7b4b4697ecf3186ed487d6368b68543eefb65b8fe2852f"
+      },
+      "side": "both",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/gtmthings/files/7712957",
+      "curseforge_project_id": 1104310,
+      "curseforge_file_id": 7712957,
+      "size": 960006
+    },
+    {
+      "name": "GT--",
+      "slug": "gtnn",
+      "project_id": "onpJaUJ0",
+      "version_id": "DypJcHuM",
+      "version": "1.3.10",
+      "filename": "gtnn-1.20.1-1.3.10.jar",
+      "url": "https://cdn.modrinth.com/data/onpJaUJ0/versions/DypJcHuM/gtnn-1.20.1-1.3.10.jar",
+      "hashes": {
+        "sha1": "d8a37bf7abcca2c3665510318e94b03e28e9f4f4",
+        "sha512": "b663752f64aabb23d19ba1e0969dfa9b35fb15c9b4f39bef251082487de293ac9357adb44e008e636d76ed283d8d5ccd69909a60ce509c9be31d5b8676277c1b",
+        "sha256": "ae22ebfc7cca807592eede57639b7113fc7900604a18525ed162d27d5637578c"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/gtnn",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "7tG215v7",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "B1CBVXHX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 8747969
+    },
+    {
+      "name": "GuideME",
+      "slug": "guideme",
+      "project_id": "Ck4E7v7R",
+      "version_id": "i7Tp1AHw",
+      "version": "20.1.15",
+      "filename": "guideme-20.1.15.jar",
+      "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/i7Tp1AHw/guideme-20.1.15.jar",
+      "hashes": {
+        "sha1": "3d432fc99cefcfd17a12635d2d220f09a069f1c7",
+        "sha512": "c08f2ab76b4442a5fcdd19c7ddc6e2a4c74469fd96844d2f868f2fb18517aced97bf40032c3036f7ca4b094de1ded9e3dab57924a49f3a3d499b61a0ecc2a9cc",
+        "sha256": "cf8052ab3da121012efc59a20e731c24bfe7488dfa556c9b88809f42dea3b24a"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/guideme",
+      "dependencies": [],
+      "size": 9414827
     },
     {
       "name": "Hex Casting",
@@ -749,6 +1073,24 @@
         }
       ],
       "size": 73916104
+    },
+    {
+      "name": "LDLib",
+      "slug": "ldlib",
+      "project_id": "B1CBVXHX",
+      "version_id": "YSOP0G6O",
+      "version": "mc1.20.1-1.0.52.a-forge",
+      "filename": "ldlib-forge-1.20.1-1.0.52.a.jar",
+      "url": "https://cdn.modrinth.com/data/B1CBVXHX/versions/YSOP0G6O/ldlib-forge-1.20.1-1.0.52.a.jar",
+      "hashes": {
+        "sha1": "b341bc49b53a1e1e2566e369339ab66bb53167c6",
+        "sha512": "9aebc17d4406aeccc37b93b22affc7baa67ab695a3e58874860aba12db039b79f399b589ece07ad99b250a814f6a078f482e5c3b1045219c347c73e5bd7eba47",
+        "sha256": "a9b0827d264e0d15f90482de0d4783a28fc2dad9dfb477f344dc5e959168838d"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/ldlib",
+      "dependencies": [],
+      "size": 3125867
     },
     {
       "name": "Lionfish-API",

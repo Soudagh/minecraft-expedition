@@ -7,7 +7,7 @@ from discover import get
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.cache' / 'mods'
 CACHE.mkdir(parents=True, exist_ok=True)
-ROOTS = ['explorify', 'create', 'gregtechceu-modern', 'epic-fight', 'epic-fight-sword-soaring', 'combat-roll',
+ROOTS = ['create-connected', 'copycats', 'createaddition', 'create-enchantment-industry', 'create-dragons-plus', 'create-diesel-generators', 'gtnn', 'ldlib', 'ae2', 'guideme'] + ['explorify', 'create', 'gregtechceu-modern', 'epic-fight', 'epic-fight-sword-soaring', 'combat-roll',
  'simply-swords', 'hex-casting', 'botania', 'l_enders-cataclysm',
  'yungs-better-dungeons', 'chipped', 'framedblocks', 'kubejs', 'lootjs',
  'jei', 'modernfix', 'ferrite-core', 'embeddium', 'geckolib', 'curios',
@@ -22,7 +22,7 @@ def resolve(project_id, version_id=None):
     project = get('project/' + project_id)
     # Hex metadata pins older files, but its mods.toml accepts these versions.
     # Botania requires Patchouli >=83; retain the tested shared dependencies.
-    version_id = {'epic-fight-invincible-lib': 'dDWp05UU', 'epic-fight': 'KEBfkBat', 'epic-fight-sword-soaring': '9qFBIdEx', 'explorify': 'CuBdAr31', 'patchouli': '94dtOLgZ', 'caelus': 'mRry0DgY',
+    version_id = {'ae2': 'jYgSnxye', 'copycats': 'LlMxIysb', 'create-connected': '6gnvaVkN', 'create-diesel-generators': 'DTQVvA5H', 'create-dragons-plus': 'eMalpJtP', 'create-enchantment-industry': 'HM5htsU7', 'createaddition': '9LgyB6Yb', 'gtnn': 'DypJcHuM', 'guideme': 'i7Tp1AHw', 'ldlib': 'YSOP0G6O', 'epic-fight-invincible-lib': 'dDWp05UU', 'epic-fight': 'KEBfkBat', 'epic-fight-sword-soaring': '9qFBIdEx', 'explorify': 'CuBdAr31', 'patchouli': '94dtOLgZ', 'caelus': 'mRry0DgY',
                   'xaeros-minimap': 'dB6E0CY9', 'xaeros-world-map': 'KtEupJvB',
                   'not-enough-animations': 'kGjMleOz'}.get(project['slug'], version_id)
     pid = project['id']
@@ -79,14 +79,14 @@ if __name__ == '__main__':
     for slug, pid in [('ftb-library-forge',404465), ('ftb-teams-forge',404468),
                       ('ftb-quests-forge',289412), ('ftb-xmod-compat',889915),
                       ('mana-and-artifice',406360), ('eeeabs-mobs',921600),
-                      ('souls-like-bosses',1167801)]:
+                      ('souls-like-bosses',1167801), ('gtmthings',1104310), ('gregtech-solar-expansion',1473018)]:
         local_meta = ROOT/'metadata'/(slug+'-cf.json')
         if not local_meta.exists():
             subprocess.run(['curl','-fsSL','https://api.cfwidget.com/'+str(pid),'-o',str(local_meta)],check=True)
         meta = json.loads(local_meta.read_text())
         (ROOT/'metadata'/ (slug+'-cf.json')).write_text(json.dumps(meta,ensure_ascii=False,indent=2))
         # Boss mods have deliberately selected files; do not switch to alternate editions.
-        pinned = {'eeeabs-mobs': 8073814, 'souls-like-bosses': 7955163}
+        pinned = {'eeeabs-mobs': 8073814, 'souls-like-bosses': 7955163, 'gtmthings': 7712957, 'gregtech-solar-expansion': 8686313}
         f = next(f for f in meta['files'] if f['id'] == pinned[slug]) if slug in pinned else next(
             f for f in meta['files'] if '1.20.1' in f['versions'] and 'forge' in f['name'].lower())
         fid = f['id']; filename = f['name']
@@ -95,7 +95,7 @@ if __name__ == '__main__':
           'hashes':{}, 'side':'both', 'source': f['url'], 'curseforge_project_id':pid, 'curseforge_file_id':fid}
     with ThreadPoolExecutor(max_workers=5) as pool:
         entries = list(pool.map(fetch_file, resolved.values()))
-    lock={'name':'Expedition Demo Beta', 'version':'0.6.0-combat-preview', 'save_schema':2, 'minecraft':'1.20.1',
+    lock={'name':'Expedition Demo Beta', 'version':'0.7.0-industry-preview', 'save_schema':2, 'minecraft':'1.20.1',
           'forge':'47.4.10','java':17,'mods':sorted(entries,key=lambda x:x['slug'])}
     (ROOT/'mods.lock.json').write_text(json.dumps(lock,ensure_ascii=False,indent=2)+'\n')
     print('LOCKED', len(entries), 'mods')

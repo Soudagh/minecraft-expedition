@@ -8,6 +8,9 @@ LootJS.modifiers(event => {
     .removeLoot('cataclysm:void_assault_shoulder_weapon')
     .removeLoot('eeeabsmobs:buster_gauntlet')
     .removeLoot('eeeabsmobs:guardian_core')
+    .removeLoot('createdieselgenerators:chemical_sprayer')
+    .removeLoot('createdieselgenerators:chemical_sprayer_lighter')
+    .removeLoot('createdieselgenerators:chemical_turret')
 })
 ServerEvents.recipes(event => {
   [
@@ -15,6 +18,9 @@ ServerEvents.recipes(event => {
     'cataclysm:wither_assault_shoulder_weapon',
     'cataclysm:void_assault_shoulder_weapon',
     'eeeabsmobs:buster_gauntlet',
-    'eeeabsmobs:guardian_core'
+    'eeeabsmobs:guardian_core',
+    'createdieselgenerators:chemical_sprayer',
+    'createdieselgenerators:chemical_sprayer_lighter',
+    'createdieselgenerators:chemical_turret'
   ].forEach(id => event.remove({output: id}))
 })
