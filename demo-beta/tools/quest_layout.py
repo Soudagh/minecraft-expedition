@@ -20,7 +20,13 @@ def layout_book(root):
             path.write_text(json.dumps(chapter,ensure_ascii=False,indent=2)+'\n')
             reports.append({'chapter':path.stem,'before':before,'after':{'width':max(q['x'] for q in quests),'height':max(q['y'] for q in quests)},'quests':len(quests)})
             continue
-        overview=[q for q in quests if not q['id'].startswith(('16','18','19'))]
+        if path.stem.startswith('hbm_'):
+            graph=layout_production_graph([q for q in quests if q is not welcome],0.0)
+            if welcome:welcome.update(x=-1.8,y=0.0)
+            path.write_text(json.dumps(chapter,ensure_ascii=False,indent=2)+'\n')
+            reports.append({'chapter':path.stem,'quests':len(quests),'productionGraph':graph})
+            continue
+        overview=[q for q in quests if not q['id'].startswith(('16','18','19','1B'))]
         overview_ids={q['id'] for q in overview}
         levels={}
         def level(qid):
@@ -155,5 +161,14 @@ def layout_production_graph(nodes,top):
                     changed=True
         if not changed:break
     # Slightly wider fork spacing keeps diagonals clear of adjacent icons.
-    for q in nodes:q.update(x=q['x']*1.125,y=q['y']*1.125+top)
+    clearance=1.0
+    for a,b in edges:
+        dx=b['x']-a['x'];dy=b['y']-a['y'];length=dx*dx+dy*dy
+        for n in nodes:
+            if n is a or n is b:continue
+            t=((n['x']-a['x'])*dx+(n['y']-a['y'])*dy)/length
+            if 0<t<1:clearance=min(clearance,((n['x']-a['x']-t*dx)**2+(n['y']-a['y']-t*dy)**2)**.5)
+    if clearance<1e-8:raise ValueError('Production edge passes through an icon')
+    spacing=max(1.125,.62/clearance)
+    for q in nodes:q.update(x=q['x']*spacing,y=q['y']*spacing+top)
     return {'nodes':len(nodes),'visibleEdges':len(edges),'columns':len(columns)}

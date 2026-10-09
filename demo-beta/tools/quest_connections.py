@@ -68,5 +68,5 @@ def connect_book(root):
     for slug,c in chapters.items():
         (root/'chapters'/f'{slug}.snbt').write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n')
     report={'connections':changes,'redundantEdgesRemoved':removed}
-    (root.parents[3]/'docs/QUEST-CONNECTIONS-0.19.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    (root.parents[3]/'docs/QUEST-CONNECTIONS-0.20.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     return report

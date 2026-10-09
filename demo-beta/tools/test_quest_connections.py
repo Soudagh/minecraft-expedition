@@ -32,12 +32,12 @@ class ProductionConnections(unittest.TestCase):
         for key in [26,31,32]:self.assertIn(self.deep(key),self.ancestors(self.deep(35)))
         for key in [34,35,37,29]:self.assertIn(self.deep(key),self.ancestors(self.deep(42)))
     def test_hbm_gates_and_visible_convergence(self):
-        hbm=[q for q in self.chapters['hbm_industry']['quests'] if q['id'].startswith('19')]
+        hbm=[q for q in self.quests.values() if q['id'].startswith('1911')]
         for q in hbm:self.assertIn('1400000000000005',self.ancestors(q['id']))
-        self.assertFalse(self.quests[self.deep(33)]['hide_dependency_lines'])
+        self.assertTrue(self.quests[self.deep(33)]['dependencies'])
         self.assertGreaterEqual(len(self.quests[self.deep(33)]['dependencies']),3)
     def test_removed_edges_remain_required_through_other_steps(self):
-        report=json.loads((ROOT.parents[3]/'docs/QUEST-CONNECTIONS-0.19.json').read_text())
+        report=json.loads((ROOT.parents[3]/'docs/QUEST-CONNECTIONS-0.20.json').read_text())
         for edge in report['redundantEdgesRemoved']:
             self.assertIn(edge['dependency'],self.ancestors(edge['quest']),edge)
 

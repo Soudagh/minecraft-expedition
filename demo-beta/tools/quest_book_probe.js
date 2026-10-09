@@ -17,6 +17,16 @@ ServerEvents.loaded(event=>event.server.scheduleInTicks(60,task=>{
  ref.items.forEach(id=>check(Registry.ITEMS.containsKey(new RL(id)),'registered item '+id))
  if(ref.layout)ref.layout.forEach(row=>{
   var quest=file.getQuest(Long.parseUnsignedLong(row.id,16))
+  if(row.taskTypes){
+   var nativeTypes={},nativeTasks=quest.getTasks().iterator()
+   while(nativeTasks.hasNext())nativeTypes[String(nativeTasks.next().getType().getTypeForNBT())]=true
+   check(Object.keys(nativeTypes).sort().join(',')===row.taskTypes.join(','),'task types '+row.id)
+  }
+  if(row.icon){
+   var iconField=quest.getClass().getSuperclass().getSuperclass().getDeclaredField('rawIcon');iconField.setAccessible(true)
+   var iconStack=iconField.get(quest)
+   check(String(Registry.ITEMS.getKey(iconStack.getItem()))===row.icon,'fixed item icon '+row.id)
+  }
   if(row.dependencies){
    dependencyCount+=row.dependencies.length
    var dependencyField=quest.getClass().getDeclaredField('dependencies');dependencyField.setAccessible(true)

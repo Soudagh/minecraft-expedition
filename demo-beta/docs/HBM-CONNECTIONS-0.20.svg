@@ -1,0 +1,637 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4352 6206" width="4352" height="6206">
+<rect width="100%" height="100%" fill="#101724"/>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#788aa6"/></marker></defs>
+<text x="50" y="35" fill="#eef3fb" font-family="sans-serif" font-size="25">HBM · пять глав · предметы и практика отдельно</text>
+<text x="50" y="65" fill="#b0bfd4" font-family="sans-serif" font-size="16">Межглавная подготовка указана в описаниях; стрелки внутри каждой главы следуют реальным зависимостям.</text>
+<text x="50" y="130" fill="#82d7b0" font-family="sans-serif" font-size="25">HBM I · площадка и металлургия</text>
+<line x1="492.0" y1="395.0" x2="554.0" y2="395.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="712.0" y1="440.0" x2="838.0" y2="530.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="744.0" y1="395.0" x2="806.0" y2="395.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="996.0" y1="395.0" x2="1058.0" y2="395.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="492.0" y1="215.0" x2="554.0" y2="215.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="744.0" y1="215.0" x2="806.0" y2="215.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="996.0" y1="215.0" x2="1058.0" y2="215.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1248.0" y1="215.0" x2="1310.0" y2="215.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1752.0" y1="215.0" x2="1814.0000000000002" y2="215.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2004.0000000000002" y1="215.0" x2="2066.0" y2="215.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2256.0" y1="215.0" x2="2318.0" y2="215.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2508.0" y1="215.0" x2="2570.0" y2="215.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2760.0" y1="215.0" x2="2822.0" y2="215.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="3012.0" y1="215.0" x2="3074.0" y2="215.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="3264.0" y1="215.0" x2="3326.0000000000005" y2="215.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2476.0" y1="260.0" x2="2602.0" y2="350.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2728.0" y1="440.0" x2="2854.0" y2="530.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="3452.5000000000005" y1="260.0" x2="3641.5000000000005" y2="530.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="3012.0" y1="575.0" x2="3578.0000000000005" y2="575.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1972.0000000000002" y1="260.0" x2="2098.0" y2="350.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2224.0" y1="440.0" x2="2350.0" y2="530.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="3484.0000000000005" y1="260.0" x2="3610.0000000000005" y2="350.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2508.0" y1="561.4285714285714" x2="3578.0000000000005" y2="408.57142857142856" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="3768.0000000000005" y1="395.0" x2="3830.0000000000005" y2="395.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="3768.0000000000005" y1="541.0714285714286" x2="4082.0" y2="428.92857142857144" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="4020.0000000000005" y1="395.0" x2="4082.0" y2="395.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<g><title>Промышленная наковальня</title><rect x="302.0" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="312.0" y="189.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="312.0" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Промышленная наковальня</text>
+</g>
+<g><title>Свинцовая мастерская</title><rect x="302.0" y="530.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="312.0" y="549.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="312.0" y="570.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Свинцовая мастерская</text>
+</g>
+<g><title>Начните здесь · HBM: материалы, прессование и электроника</title><rect x="50.0" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="60.0" y="189.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="60.0" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">HBM: материалы,</text>
+<text x="60.0" y="227.0" fill="#eef3fb" font-family="sans-serif" font-size="13">прессование и</text>
+<text x="60.0" y="244.0" fill="#eef3fb" font-family="sans-serif" font-size="13">электроника</text>
+</g>
+<g><title>Материалы · Свинец HBM</title><rect x="302.0" y="350.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="312.0" y="369.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="312.0" y="390.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Свинец HBM</text>
+</g>
+<g><title>Материалы · Сталь для HBM</title><rect x="554.0" y="350.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="564.0" y="369.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="564.0" y="390.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Сталь для HBM</text>
+</g>
+<g><title>Материалы · Продвинутый сплав</title><rect x="806.0" y="530.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="816.0" y="549.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="816.0" y="570.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Продвинутый сплав</text>
+</g>
+<g><title>Металлы и оснастка · Карта материалов HBM</title><rect x="806.0" y="350.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="816.0" y="369.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="816.0" y="390.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Карта материалов HBM</text>
+</g>
+<g><title>Металлы и оснастка · Карта материалов HBM · Практика</title><rect x="1058.0" y="350.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1068.0" y="369.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1068.0" y="390.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Карта материалов HBM</text>
+</g>
+<g><title>HBM: запуск · Своя металлургическая площадка</title><rect x="554.0" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="564.0" y="189.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="564.0" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Своя металлургическая</text>
+<text x="564.0" y="227.0" fill="#eef3fb" font-family="sans-serif" font-size="13">площадка</text>
+</g>
+<g><title>HBM: запуск · Своя металлургическая площадка · Практика</title><rect x="806.0" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="816.0" y="189.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="816.0" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Своя металлургическая</text>
+<text x="816.0" y="227.0" fill="#eef3fb" font-family="sans-serif" font-size="13">площадка</text>
+</g>
+<g><title>HBM: запуск · Огнеупорная подготовка</title><rect x="1058.0" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1068.0" y="189.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1068.0" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Огнеупорная подготовка</text>
+</g>
+<g><title>HBM: запуск · Огнеупорная подготовка · Практика</title><rect x="1310.0" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1320.0" y="189.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1320.0" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Огнеупорная подготовка</text>
+</g>
+<g><title>HBM: запуск · Доменная печь HBM</title><rect x="1562.0" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1572.0" y="189.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1572.0" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Доменная печь HBM</text>
+</g>
+<g><title>HBM: запуск · Доменная печь HBM · Практика</title><rect x="1814.0000000000002" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1824.0000000000002" y="189.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1824.0000000000002" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Доменная печь HBM</text>
+</g>
+<g><title>HBM: запуск · Восемь слитков стали</title><rect x="2066.0" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="2076.0" y="189.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="2076.0" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Восемь слитков стали</text>
+</g>
+<g><title>HBM: запуск · Восемь слитков стали · Практика</title><rect x="2318.0" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2328.0" y="189.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2328.0" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Восемь слитков стали</text>
+</g>
+<g><title>HBM: запуск · Красная медь по два</title><rect x="2570.0" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="2580.0" y="189.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="2580.0" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Красная медь по два</text>
+</g>
+<g><title>HBM: запуск · Красная медь по два · Практика</title><rect x="2822.0" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2832.0" y="189.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2832.0" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Красная медь по два</text>
+</g>
+<g><title>HBM: запуск · Продвинутый сплав без перерасхода</title><rect x="3074.0" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="3084.0" y="189.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="3084.0" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Продвинутый сплав без</text>
+<text x="3084.0" y="227.0" fill="#eef3fb" font-family="sans-serif" font-size="13">перерасхода</text>
+</g>
+<g><title>HBM: запуск · Продвинутый сплав без перерасхода · Практика</title><rect x="3326.0000000000005" y="170.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="3336.0000000000005" y="189.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="3336.0000000000005" y="210.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Продвинутый сплав без</text>
+<text x="3336.0000000000005" y="227.0" fill="#eef3fb" font-family="sans-serif" font-size="13">перерасхода</text>
+</g>
+<g><title>HBM: запуск · Наковальня следующего уровня</title><rect x="2570.0" y="350.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="2580.0" y="369.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="2580.0" y="390.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Наковальня следующего</text>
+<text x="2580.0" y="407.0" fill="#eef3fb" font-family="sans-serif" font-size="13">уровня</text>
+</g>
+<g><title>HBM: запуск · Наковальня следующего уровня · Практика</title><rect x="2822.0" y="530.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2832.0" y="549.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2832.0" y="570.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Наковальня следующего</text>
+<text x="2832.0" y="587.0" fill="#eef3fb" font-family="sans-serif" font-size="13">уровня</text>
+</g>
+<g><title>HBM: запуск · Повторить металлургический цикл</title><rect x="3578.0000000000005" y="530.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="3588.0000000000005" y="549.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="3588.0000000000005" y="570.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Повторить</text>
+<text x="3588.0000000000005" y="587.0" fill="#eef3fb" font-family="sans-serif" font-size="13">металлургический цикл</text>
+</g>
+<g><title>HBM: запуск · Слиток и руда: разные выходы</title><rect x="2066.0" y="350.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2076.0" y="369.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2076.0" y="390.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Слиток и руда: разные</text>
+<text x="2076.0" y="407.0" fill="#eef3fb" font-family="sans-serif" font-size="13">выходы</text>
+</g>
+<g><title>HBM: запуск · Угольный блок и порошок</title><rect x="2318.0" y="530.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2328.0" y="549.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2328.0" y="570.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Угольный блок и порошок</text>
+</g>
+<g><title>HBM: запуск · Сводный заказ сплава</title><rect x="3578.0000000000005" y="350.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="3588.0000000000005" y="369.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="3588.0000000000005" y="390.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Сводный заказ сплава</text>
+</g>
+<g><title>HBM: запуск · Сводный заказ сплава · Практика</title><rect x="3830.0000000000005" y="350.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="3840.0000000000005" y="369.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="3840.0000000000005" y="390.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Сводный заказ сплава</text>
+</g>
+<g><title>HBM: запуск · Снабжение плавильной зоны</title><rect x="4082.0" y="350.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="4092.0" y="369.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="4092.0" y="390.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Снабжение плавильной</text>
+<text x="4092.0" y="407.0" fill="#eef3fb" font-family="sans-serif" font-size="13">зоны</text>
+</g>
+<text x="50" y="720" fill="#82d7b0" font-family="sans-serif" font-size="25">HBM II · пресс и оснастка</text>
+<line x1="208.0" y1="1030.0" x2="334.0" y2="1120.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="240.0" y1="1165.0" x2="302.0" y2="1165.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="492.0" y1="1165.0" x2="554.0" y2="1165.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1248.0" y1="2065.0" x2="1310.0" y2="2065.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="492.0" y1="2245.0" x2="1310.0" y2="2245.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1216.0" y1="2110.0" x2="1342.0" y2="2200.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="492.0" y1="985.0" x2="554.0" y2="985.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="712.0" y1="940.0" x2="838.0" y2="850.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="996.0" y1="805.0" x2="1058.0" y2="805.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1248.0" y1="805.0" x2="1310.0" y2="805.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1500.0" y1="805.0" x2="1562.0" y2="805.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="240.0" y1="1705.0" x2="302.0" y2="1705.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="712.0" y1="1030.0" x2="838.0" y2="1120.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="964.0" y1="1210.0" x2="1090.0" y2="1300.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1184.5" y1="1300.0" x2="1373.5" y2="1030.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1500.0" y1="985.0" x2="1562.0" y2="985.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1468.0" y1="1210.0" x2="1594.0" y2="1300.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1216.0" y1="1390.0" x2="1342.0" y2="1480.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1468.0" y1="1570.0" x2="1594.0" y2="1660.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1248.0" y1="1345.0" x2="1310.0" y2="1345.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1468.0" y1="1390.0" x2="1594.0" y2="1480.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="492.0" y1="1716.3095238095239" x2="1814.0000000000002" y2="1873.6904761904761" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1669.6" y1="1030.0" x2="1896.4000000000003" y2="1840.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1688.5" y1="1570.0" x2="1877.5000000000002" y2="1840.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="240.0" y1="1525.0" x2="302.0" y2="1525.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1184.5" y1="1390.0" x2="1373.5" y2="1660.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1436.5" y1="1750.0" x2="1625.5" y2="2020.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1972.0" y1="1930.0" x2="2098.0" y2="2020.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="492.0" y1="1554.0816326530612" x2="2066.0" y2="2035.9183673469388" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1752.0" y1="2065.0" x2="2066.0" y2="2065.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<g><title>Пресс HBM</title><rect x="50.0" y="1120.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="1139.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="1160.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Пресс HBM</text>
+</g>
+<g><title>Прессование · Штамп для пластин</title><rect x="50.0" y="940.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="959.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="980.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Штамп для пластин</text>
+</g>
+<g><title>Прессование · Первая партия пластин</title><rect x="302.0" y="1120.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="312.0" y="1139.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="312.0" y="1160.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Первая партия пластин</text>
+</g>
+<g><title>Прессование · Медная партия</title><rect x="554.0" y="1120.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="564.0" y="1139.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="564.0" y="1160.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Медная партия</text>
+</g>
+<g><title>Прессование · Свинцовые пластины</title><rect x="806.0" y="940.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="816.0" y="959.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="816.0" y="980.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Свинцовые пластины</text>
+</g>
+<g><title>Прессование · Стальные пластины</title><rect x="1058.0" y="2020.0000000000002" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1068.0" y="2039.0000000000002" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1068.0" y="2060.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Стальные пластины</text>
+</g>
+<g><title>Прессование · Тонкие компоненты электроники</title><rect x="1310.0" y="2020.0000000000002" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1320.0" y="2039.0000000000002" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1320.0" y="2060.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Тонкие компоненты</text>
+<text x="1320.0" y="2077.0" fill="#eef3fb" font-family="sans-serif" font-size="13">электроники</text>
+</g>
+<g><title>Металлы и оснастка · Оснастка перед металлом</title><rect x="302.0" y="2200.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="312.0" y="2219.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="312.0" y="2240.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Оснастка перед металлом</text>
+</g>
+<g><title>Металлы и оснастка · Заказ пластин трёх металлов</title><rect x="1310.0" y="2200.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1320.0" y="2219.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1320.0" y="2240.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Заказ пластин трёх</text>
+<text x="1320.0" y="2257.0" fill="#eef3fb" font-family="sans-serif" font-size="13">металлов</text>
+</g>
+<g><title>HBM: оснастка · Пресс после MV</title><rect x="302.0" y="940.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="312.0" y="959.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="312.0" y="980.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Пресс после MV</text>
+</g>
+<g><title>HBM: оснастка · Пресс после MV · Практика</title><rect x="554.0" y="940.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="564.0" y="959.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="564.0" y="980.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Пресс после MV</text>
+</g>
+<g><title>HBM: оснастка · Штамп пластин</title><rect x="806.0" y="760.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="816.0" y="779.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="816.0" y="800.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Штамп пластин</text>
+</g>
+<g><title>HBM: оснастка · Штамп пластин · Практика</title><rect x="1058.0" y="760.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1068.0" y="779.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1068.0" y="800.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Штамп пластин</text>
+</g>
+<g><title>HBM: оснастка · Медные пластины для двух цехов</title><rect x="1310.0" y="760.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1320.0" y="779.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1320.0" y="800.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Медные пластины для двух</text>
+<text x="1320.0" y="817.0" fill="#eef3fb" font-family="sans-serif" font-size="13">цехов</text>
+</g>
+<g><title>HBM: оснастка · Медные пластины для двух цехов · Практика</title><rect x="1562.0" y="760.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1572.0" y="779.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1572.0" y="800.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Медные пластины для двух</text>
+<text x="1572.0" y="817.0" fill="#eef3fb" font-family="sans-serif" font-size="13">цехов</text>
+</g>
+<g><title>HBM: оснастка · Стальная партия с резервом</title><rect x="50.0" y="1660.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="1679.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="1700.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Стальная партия с</text>
+<text x="60.0" y="1717.0" fill="#eef3fb" font-family="sans-serif" font-size="13">резервом</text>
+</g>
+<g><title>HBM: оснастка · Стальная партия с резервом · Практика</title><rect x="302.0" y="1660.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="312.0" y="1679.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="312.0" y="1700.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Стальная партия с</text>
+<text x="312.0" y="1717.0" fill="#eef3fb" font-family="sans-serif" font-size="13">резервом</text>
+</g>
+<g><title>HBM: оснастка · Отдельный штамп проводов</title><rect x="806.0" y="1120.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="816.0" y="1139.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="816.0" y="1160.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Отдельный штамп проводов</text>
+</g>
+<g><title>HBM: оснастка · Отдельный штамп проводов · Практика</title><rect x="1058.0" y="1300.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1068.0" y="1319.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1068.0" y="1340.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Отдельный штамп проводов</text>
+</g>
+<g><title>HBM: оснастка · Четыре слитка — 32 провода</title><rect x="1310.0" y="940.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1320.0" y="959.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1320.0" y="980.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Четыре слитка — 32</text>
+<text x="1320.0" y="997.0" fill="#eef3fb" font-family="sans-serif" font-size="13">провода</text>
+</g>
+<g><title>HBM: оснастка · Четыре слитка — 32 провода · Практика</title><rect x="1562.0" y="940.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1572.0" y="959.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1572.0" y="980.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Четыре слитка — 32</text>
+<text x="1572.0" y="997.0" fill="#eef3fb" font-family="sans-serif" font-size="13">провода</text>
+</g>
+<g><title>HBM: оснастка · Красная медь для обмоток</title><rect x="1310.0" y="1120.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1320.0" y="1139.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1320.0" y="1160.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Красная медь для обмоток</text>
+</g>
+<g><title>HBM: оснастка · Красная медь для обмоток · Практика</title><rect x="1562.0" y="1300.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1572.0" y="1319.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1572.0" y="1340.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Красная медь для обмоток</text>
+</g>
+<g><title>HBM: оснастка · Вольфрам для ламп</title><rect x="1310.0" y="1480.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1320.0" y="1499.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1320.0" y="1520.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Вольфрам для ламп</text>
+</g>
+<g><title>HBM: оснастка · Вольфрам для ламп · Практика</title><rect x="1562.0" y="1660.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1572.0" y="1679.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1572.0" y="1700.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Вольфрам для ламп</text>
+</g>
+<g><title>HBM: оснастка · Неочевидный вход wire_carbon</title><rect x="1310.0" y="1300.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1320.0" y="1319.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1320.0" y="1340.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Неочевидный вход</text>
+<text x="1320.0" y="1357.0" fill="#eef3fb" font-family="sans-serif" font-size="13">wire_carbon</text>
+</g>
+<g><title>HBM: оснастка · Неочевидный вход wire_carbon · Практика</title><rect x="1562.0" y="1480.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1572.0" y="1499.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1572.0" y="1520.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Неочевидный вход</text>
+<text x="1572.0" y="1537.0" fill="#eef3fb" font-family="sans-serif" font-size="13">wire_carbon</text>
+</g>
+<g><title>HBM: оснастка · Четыре смены одной машины</title><rect x="1814.0000000000002" y="1840.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1824.0000000000002" y="1859.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1824.0000000000002" y="1880.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Четыре смены одной</text>
+<text x="1824.0000000000002" y="1897.0" fill="#eef3fb" font-family="sans-serif" font-size="13">машины</text>
+</g>
+<g><title>HBM: оснастка · Пластины продвинутого сплава</title><rect x="50.0" y="1480.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="1499.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="1520.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Пластины продвинутого</text>
+<text x="60.0" y="1537.0" fill="#eef3fb" font-family="sans-serif" font-size="13">сплава</text>
+</g>
+<g><title>HBM: оснастка · Пластины продвинутого сплава · Практика</title><rect x="302.0" y="1480.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="312.0" y="1499.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="312.0" y="1520.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Пластины продвинутого</text>
+<text x="312.0" y="1537.0" fill="#eef3fb" font-family="sans-serif" font-size="13">сплава</text>
+</g>
+<g><title>HBM: оснастка · Золотой провод для приборов</title><rect x="1310.0" y="1660.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1320.0" y="1679.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1320.0" y="1700.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Золотой провод для</text>
+<text x="1320.0" y="1717.0" fill="#eef3fb" font-family="sans-serif" font-size="13">приборов</text>
+</g>
+<g><title>HBM: оснастка · Золотой провод для приборов · Практика</title><rect x="1562.0" y="2020.0000000000002" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1572.0" y="2039.0000000000002" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1572.0" y="2060.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Золотой провод для</text>
+<text x="1572.0" y="2077.0" fill="#eef3fb" font-family="sans-serif" font-size="13">приборов</text>
+</g>
+<g><title>HBM: оснастка · Заказ трёх типов оснастки</title><rect x="2066.0" y="2020.0000000000002" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2076.0" y="2039.0000000000002" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2076.0" y="2060.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Заказ трёх типов</text>
+<text x="2076.0" y="2077.0" fill="#eef3fb" font-family="sans-serif" font-size="13">оснастки</text>
+</g>
+<g><title>HBM: оснастка · Резерв оснастки</title><rect x="2318.0" y="760.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2328.0" y="779.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2328.0" y="800.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Резерв оснастки</text>
+</g>
+<text x="50" y="2390" fill="#82d7b0" font-family="sans-serif" font-size="25">HBM III · компоненты и обмотки</text>
+<line x1="240.0" y1="4055.696049213763" x2="492.5948937798537" y2="4055.696049213763" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1125.1897875597074" y1="3107.2784196855055" x2="1377.7846813395615" y2="3107.2784196855055" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1125.1897875597074" y1="3423.417629528258" x2="1377.7846813395615" y2="3423.417629528258" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1125.1897875597074" y1="2475.0" x2="1377.7846813395615" y2="2475.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="240.0" y1="2791.1392098427527" x2="492.5948937798537" y2="2791.1392098427527" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1125.1897875597074" y1="2791.1392098427527" x2="1377.7846813395615" y2="2791.1392098427527" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1535.7846813395615" y1="2746.1392098427527" x2="1852.379575119415" y2="2520.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2010.379575119415" y1="2475.0" x2="2262.9744688992687" y2="2475.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2895.569362679123" y1="3423.417629528258" x2="3148.1642564589765" y2="3423.417629528258" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="240.0" y1="3107.2784196855055" x2="492.5948937798537" y2="3107.2784196855055" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="619.0948937798537" y1="3152.2784196855055" x2="998.6897875597074" y2="3694.556839371011" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1125.1897875597074" y1="3739.556839371011" x2="1377.7846813395615" y2="3739.556839371011" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2010.379575119415" y1="2791.1392098427527" x2="2262.9744688992687" y2="2791.1392098427527" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1567.7846813395615" y1="3093.706991114077" x2="3590.75915023883" y2="2804.710638414181" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1567.7846813395615" y1="3396.274772385401" x2="3590.75915023883" y2="2818.28206698561" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1567.7846813395615" y1="2488.5714285714284" x2="3590.75915023883" y2="2777.5677812713243" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="3274.6642564589765" y1="3378.417629528258" x2="3654.25915023883" y2="2836.1392098427527" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2452.9744688992687" y1="2791.1392098427527" x2="3590.75915023883" y2="2791.1392098427527" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="682.5948937798537" y1="4055.696049213763" x2="935.1897875597074" y2="4055.696049213763" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1125.1897875597074" y1="4055.696049213763" x2="1377.7846813395615" y2="4055.696049213763" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1535.7846813395615" y1="3152.2784196855055" x2="1852.379575119415" y2="3378.417629528258" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1504.2846813395615" y1="4010.696049213763" x2="1883.879575119415" y2="3468.417629528258" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2010.379575119415" y1="3423.417629528258" x2="2262.9744688992687" y2="3423.417629528258" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1535.7846813395615" y1="3468.417629528258" x2="1852.379575119415" y2="3694.556839371011" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1535.7846813395615" y1="4010.696049213763" x2="1852.379575119415" y2="3784.556839371011" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2010.379575119415" y1="3739.556839371011" x2="2262.9744688992687" y2="3739.556839371011" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="3306.1642564589765" y1="3468.417629528258" x2="3622.75915023883" y2="3694.556839371011" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1567.7846813395615" y1="4042.124620642335" x2="3590.75915023883" y2="3753.1282679424394" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="3780.75915023883" y1="3739.556839371011" x2="4033.3540440186844" y2="3739.556839371011" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="240.0" y1="3423.417629528258" x2="492.5948937798537" y2="3423.417629528258" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1125.1897875597074" y1="4371.835259056516" x2="1377.7846813395615" y2="4371.835259056516" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2420.9744688992687" y1="2746.1392098427527" x2="2737.569362679123" y2="2520.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<g><title>Электроника · Мотор HBM</title><rect x="50.0" y="3694.556839371011" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="3713.556839371011" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="3734.556839371011" fill="#eef3fb" font-family="sans-serif" font-size="13">Мотор HBM</text>
+</g>
+<g><title>Электроника сериями · Два независимых заказа</title><rect x="50.0" y="2430.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="60.0" y="2449.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="60.0" y="2470.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Два независимых заказа</text>
+</g>
+<g><title>HBM: компоненты · Изоляторы до электроники</title><rect x="50.0" y="4010.696049213763" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="4029.696049213763" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="4050.696049213763" fill="#eef3fb" font-family="sans-serif" font-size="13">Изоляторы до электроники</text>
+</g>
+<g><title>HBM: компоненты · Изоляторы до электроники · Практика</title><rect x="492.59489377985375" y="4010.696049213763" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="502.59489377985375" y="4029.696049213763" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="502.59489377985375" y="4050.696049213763" fill="#eef3fb" font-family="sans-serif" font-size="13">Изоляторы до электроники</text>
+</g>
+<g><title>HBM: компоненты · Четыре операции PCB</title><rect x="935.1897875597075" y="3062.2784196855055" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="945.1897875597075" y="3081.2784196855055" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="945.1897875597075" y="3102.2784196855055" fill="#eef3fb" font-family="sans-serif" font-size="13">Четыре операции PCB</text>
+</g>
+<g><title>HBM: компоненты · Четыре операции PCB · Практика</title><rect x="1377.7846813395615" y="3062.2784196855055" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1387.7846813395615" y="3081.2784196855055" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1387.7846813395615" y="3102.2784196855055" fill="#eef3fb" font-family="sans-serif" font-size="13">Четыре операции PCB</text>
+</g>
+<g><title>HBM: компоненты · Конденсаторы с порошком алюминия</title><rect x="935.1897875597075" y="3378.417629528258" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="945.1897875597075" y="3397.417629528258" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="945.1897875597075" y="3418.417629528258" fill="#eef3fb" font-family="sans-serif" font-size="13">Конденсаторы с порошком</text>
+<text x="945.1897875597075" y="3435.417629528258" fill="#eef3fb" font-family="sans-serif" font-size="13">алюминия</text>
+</g>
+<g><title>HBM: компоненты · Конденсаторы с порошком алюминия · Практика</title><rect x="1377.7846813395615" y="3378.417629528258" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1387.7846813395615" y="3397.417629528258" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1387.7846813395615" y="3418.417629528258" fill="#eef3fb" font-family="sans-serif" font-size="13">Конденсаторы с порошком</text>
+<text x="1387.7846813395615" y="3435.417629528258" fill="#eef3fb" font-family="sans-serif" font-size="13">алюминия</text>
+</g>
+<g><title>HBM: компоненты · Лампы аналоговой линии</title><rect x="935.1897875597075" y="2430.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="945.1897875597075" y="2449.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="945.1897875597075" y="2470.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Лампы аналоговой линии</text>
+</g>
+<g><title>HBM: компоненты · Лампы аналоговой линии · Практика</title><rect x="1377.7846813395615" y="2430.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1387.7846813395615" y="2449.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1387.7846813395615" y="2470.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Лампы аналоговой линии</text>
+</g>
+<g><title>HBM: компоненты · Кремниевая заготовка на наковальне</title><rect x="50.0" y="2746.1392098427527" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="2765.1392098427527" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="2786.1392098427527" fill="#eef3fb" font-family="sans-serif" font-size="13">Кремниевая заготовка на</text>
+<text x="60.0" y="2803.1392098427527" fill="#eef3fb" font-family="sans-serif" font-size="13">наковальне</text>
+</g>
+<g><title>HBM: компоненты · Кремниевая заготовка на наковальне · Практика</title><rect x="492.59489377985375" y="2746.1392098427527" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="502.59489377985375" y="2765.1392098427527" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="502.59489377985375" y="2786.1392098427527" fill="#eef3fb" font-family="sans-serif" font-size="13">Кремниевая заготовка на</text>
+<text x="502.59489377985375" y="2803.1392098427527" fill="#eef3fb" font-family="sans-serif" font-size="13">наковальне</text>
+</g>
+<g><title>HBM: компоненты · Третий тип штампа</title><rect x="935.1897875597075" y="2746.1392098427527" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="945.1897875597075" y="2765.1392098427527" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="945.1897875597075" y="2786.1392098427527" fill="#eef3fb" font-family="sans-serif" font-size="13">Третий тип штампа</text>
+</g>
+<g><title>HBM: компоненты · Третий тип штампа · Практика</title><rect x="1377.7846813395615" y="2746.1392098427527" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1387.7846813395615" y="2765.1392098427527" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1387.7846813395615" y="2786.1392098427527" fill="#eef3fb" font-family="sans-serif" font-size="13">Третий тип штампа</text>
+</g>
+<g><title>HBM: компоненты · Кремниевые основы</title><rect x="1820.379575119415" y="2430.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1830.379575119415" y="2449.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1830.379575119415" y="2470.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Кремниевые основы</text>
+</g>
+<g><title>HBM: компоненты · Кремниевые основы · Практика</title><rect x="2262.9744688992687" y="2430.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2272.9744688992687" y="2449.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2272.9744688992687" y="2470.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Кремниевые основы</text>
+</g>
+<g><title>HBM: компоненты · Восемь микросхем</title><rect x="2705.569362679123" y="3378.417629528258" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="2715.569362679123" y="3397.417629528258" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="2715.569362679123" y="3418.417629528258" fill="#eef3fb" font-family="sans-serif" font-size="13">Восемь микросхем</text>
+</g>
+<g><title>HBM: компоненты · Восемь микросхем · Практика</title><rect x="3148.1642564589765" y="3378.417629528258" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="3158.1642564589765" y="3397.417629528258" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="3158.1642564589765" y="3418.417629528258" fill="#eef3fb" font-family="sans-serif" font-size="13">Восемь микросхем</text>
+</g>
+<g><title>HBM: компоненты · Восемь катушек</title><rect x="50.0" y="3062.2784196855055" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="3081.2784196855055" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="3102.2784196855055" fill="#eef3fb" font-family="sans-serif" font-size="13">Восемь катушек</text>
+</g>
+<g><title>HBM: компоненты · Восемь катушек · Практика</title><rect x="492.59489377985375" y="3062.2784196855055" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="502.59489377985375" y="3081.2784196855055" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="502.59489377985375" y="3102.2784196855055" fill="#eef3fb" font-family="sans-serif" font-size="13">Восемь катушек</text>
+</g>
+<g><title>HBM: компоненты · Тороидальные катушки</title><rect x="935.1897875597075" y="3694.556839371011" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="945.1897875597075" y="3713.556839371011" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="945.1897875597075" y="3734.556839371011" fill="#eef3fb" font-family="sans-serif" font-size="13">Тороидальные катушки</text>
+</g>
+<g><title>HBM: компоненты · Тороидальные катушки · Практика</title><rect x="1377.7846813395615" y="3694.556839371011" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1387.7846813395615" y="3713.556839371011" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1387.7846813395615" y="3734.556839371011" fill="#eef3fb" font-family="sans-serif" font-size="13">Тороидальные катушки</text>
+</g>
+<g><title>HBM: компоненты · Моторы парой</title><rect x="1820.379575119415" y="2746.1392098427527" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1830.379575119415" y="2765.1392098427527" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1830.379575119415" y="2786.1392098427527" fill="#eef3fb" font-family="sans-serif" font-size="13">Моторы парой</text>
+</g>
+<g><title>HBM: компоненты · Моторы парой · Практика</title><rect x="2262.9744688992687" y="2746.1392098427527" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2272.9744688992687" y="2765.1392098427527" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2272.9744688992687" y="2786.1392098427527" fill="#eef3fb" font-family="sans-serif" font-size="13">Моторы парой</text>
+</g>
+<g><title>HBM: компоненты · Полуфабрикаты без дефицита</title><rect x="3590.75915023883" y="2746.1392098427527" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="3600.75915023883" y="2765.1392098427527" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="3600.75915023883" y="2786.1392098427527" fill="#eef3fb" font-family="sans-serif" font-size="13">Полуфабрикаты без</text>
+<text x="3600.75915023883" y="2803.1392098427527" fill="#eef3fb" font-family="sans-serif" font-size="13">дефицита</text>
+</g>
+<g><title>HBM: компоненты · Два источника изоляторов</title><rect x="935.1897875597075" y="4010.696049213763" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="945.1897875597075" y="4029.696049213763" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="945.1897875597075" y="4050.696049213763" fill="#eef3fb" font-family="sans-serif" font-size="13">Два источника изоляторов</text>
+</g>
+<g><title>HBM: компоненты · Два источника изоляторов · Практика</title><rect x="1377.7846813395615" y="4010.696049213763" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1387.7846813395615" y="4029.696049213763" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1387.7846813395615" y="4050.696049213763" fill="#eef3fb" font-family="sans-serif" font-size="13">Два источника изоляторов</text>
+</g>
+<g><title>HBM: компоненты · Платы двумя партиями</title><rect x="1820.379575119415" y="3378.417629528258" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1830.379575119415" y="3397.417629528258" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1830.379575119415" y="3418.417629528258" fill="#eef3fb" font-family="sans-serif" font-size="13">Платы двумя партиями</text>
+</g>
+<g><title>HBM: компоненты · Платы двумя партиями · Практика</title><rect x="2262.9744688992687" y="3378.417629528258" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2272.9744688992687" y="3397.417629528258" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2272.9744688992687" y="3418.417629528258" fill="#eef3fb" font-family="sans-serif" font-size="13">Платы двумя партиями</text>
+</g>
+<g><title>HBM: компоненты · Конденсаторы для большой серии</title><rect x="1820.379575119415" y="3694.556839371011" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1830.379575119415" y="3713.556839371011" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1830.379575119415" y="3734.556839371011" fill="#eef3fb" font-family="sans-serif" font-size="13">Конденсаторы для большой</text>
+<text x="1830.379575119415" y="3751.556839371011" fill="#eef3fb" font-family="sans-serif" font-size="13">серии</text>
+</g>
+<g><title>HBM: компоненты · Конденсаторы для большой серии · Практика</title><rect x="2262.9744688992687" y="3694.556839371011" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2272.9744688992687" y="3713.556839371011" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2272.9744688992687" y="3734.556839371011" fill="#eef3fb" font-family="sans-serif" font-size="13">Конденсаторы для большой</text>
+<text x="2272.9744688992687" y="3751.556839371011" fill="#eef3fb" font-family="sans-serif" font-size="13">серии</text>
+</g>
+<g><title>HBM: компоненты · Кремний серийно</title><rect x="3590.75915023883" y="3694.556839371011" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="3600.75915023883" y="3713.556839371011" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="3600.75915023883" y="3734.556839371011" fill="#eef3fb" font-family="sans-serif" font-size="13">Кремний серийно</text>
+</g>
+<g><title>HBM: компоненты · Кремний серийно · Практика</title><rect x="4033.354044018684" y="3694.556839371011" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="4043.354044018684" y="3713.556839371011" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="4043.354044018684" y="3734.556839371011" fill="#eef3fb" font-family="sans-serif" font-size="13">Кремний серийно</text>
+</g>
+<g><title>HBM: компоненты · Золотые катушки</title><rect x="50.0" y="3378.417629528258" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="3397.417629528258" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="3418.417629528258" fill="#eef3fb" font-family="sans-serif" font-size="13">Золотые катушки</text>
+</g>
+<g><title>HBM: компоненты · Золотые катушки · Практика</title><rect x="492.59489377985375" y="3378.417629528258" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="502.59489377985375" y="3397.417629528258" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="502.59489377985375" y="3418.417629528258" fill="#eef3fb" font-family="sans-serif" font-size="13">Золотые катушки</text>
+</g>
+<g><title>HBM: компоненты · Два пути тороидальной катушки</title><rect x="935.1897875597075" y="4326.835259056516" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="945.1897875597075" y="4345.835259056516" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="945.1897875597075" y="4366.835259056516" fill="#eef3fb" font-family="sans-serif" font-size="13">Два пути тороидальной</text>
+<text x="945.1897875597075" y="4383.835259056516" fill="#eef3fb" font-family="sans-serif" font-size="13">катушки</text>
+</g>
+<g><title>HBM: компоненты · Два пути тороидальной катушки · Практика</title><rect x="1377.7846813395615" y="4326.835259056516" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1387.7846813395615" y="4345.835259056516" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1387.7846813395615" y="4366.835259056516" fill="#eef3fb" font-family="sans-serif" font-size="13">Два пути тороидальной</text>
+<text x="1387.7846813395615" y="4383.835259056516" fill="#eef3fb" font-family="sans-serif" font-size="13">катушки</text>
+</g>
+<g><title>HBM: компоненты · Мотор: железный или стальной путь</title><rect x="2705.569362679123" y="2430.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2715.569362679123" y="2449.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2715.569362679123" y="2470.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Мотор: железный или</text>
+<text x="2715.569362679123" y="2487.0" fill="#eef3fb" font-family="sans-serif" font-size="13">стальной путь</text>
+</g>
+<text x="50" y="4516" fill="#82d7b0" font-family="sans-serif" font-size="25">HBM IV · сборщик и электроника</text>
+<line x1="240.0" y1="4781.0" x2="302.0" y2="4781.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="492.0" y1="4781.0" x2="554.0" y2="4781.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="208.0" y1="4826.0" x2="334.0" y2="4916.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="492.0" y1="4961.0" x2="554.0" y2="4961.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="744.0" y1="4961.0" x2="806.0" y2="4961.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="492.0" y1="4814.928571428572" x2="806.0" y2="4927.071428571428" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="996.0" y1="4961.0" x2="1058.0" y2="4961.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="744.0" y1="4814.928571428572" x2="1058.0" y2="4927.071428571428" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="240.0" y1="4601.0" x2="302.0" y2="4601.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="492.0" y1="4601.0" x2="554.0" y2="4601.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="996.0" y1="4601.0" x2="1058.0" y2="4601.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1248.0" y1="4601.0" x2="1310.0" y2="4601.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1468.0" y1="4646.0" x2="1594.0" y2="4736.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="996.0" y1="4781.0" x2="1058.0" y2="4781.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1248.0" y1="4781.0" x2="1310.0" y2="4781.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1468.0" y1="4736.0" x2="1594.0" y2="4646.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1752.0" y1="4601.0" x2="1814.0000000000002" y2="4601.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2004.0000000000002" y1="4601.0" x2="2066.0" y2="4601.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1752.0" y1="4781.0" x2="2318.0" y2="4781.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2224.0" y1="4646.0" x2="2350.0" y2="4736.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2004.0000000000002" y1="5141.0" x2="2066.0" y2="5141.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1500.0" y1="5321.0" x2="1562.0" y2="5321.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2476.0" y1="4646.0" x2="2602.0" y2="4736.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2476.0" y1="4826.0" x2="2854.0" y2="5096.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2256.0" y1="5141.0" x2="2822.0" y2="5141.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1752.0" y1="5307.428571428572" x2="2822.0" y2="5154.571428571428" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="2696.5" y1="4826.0" x2="2885.5" y2="5096.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<g><title>Электроника · Аналоговые схемы</title><rect x="50.0" y="4736.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="4755.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="4776.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Аналоговые схемы</text>
+</g>
+<g><title>Электроника · Интегральные схемы</title><rect x="302.0" y="4736.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="312.0" y="4755.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="312.0" y="4776.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Интегральные схемы</text>
+</g>
+<g><title>Электроника · Развитая электроника</title><rect x="554.0" y="4736.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="564.0" y="4755.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="564.0" y="4776.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Развитая электроника</text>
+</g>
+<g><title>Электроника сериями · Спецификация аналоговой схемы</title><rect x="302.0" y="4916.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="312.0" y="4935.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="312.0" y="4956.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Спецификация аналоговой</text>
+<text x="312.0" y="4973.0" fill="#eef3fb" font-family="sans-serif" font-size="13">схемы</text>
+</g>
+<g><title>Электроника сериями · Спецификация аналоговой схемы · Практика</title><rect x="554.0" y="4916.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="564.0" y="4935.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="564.0" y="4956.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Спецификация аналоговой</text>
+<text x="564.0" y="4973.0" fill="#eef3fb" font-family="sans-serif" font-size="13">схемы</text>
+</g>
+<g><title>Электроника сериями · Промежуточные детали отдельно</title><rect x="806.0" y="4916.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="816.0" y="4935.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="816.0" y="4956.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Промежуточные детали</text>
+<text x="816.0" y="4973.0" fill="#eef3fb" font-family="sans-serif" font-size="13">отдельно</text>
+</g>
+<g><title>Электроника сериями · Цена развитой схемы</title><rect x="1058.0" y="4916.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1068.0" y="4935.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1068.0" y="4956.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Цена развитой схемы</text>
+</g>
+<g><title>HBM: сборщик · Сборщик со стальной наковальни</title><rect x="50.0" y="4556.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="4575.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="4596.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Сборщик со стальной</text>
+<text x="60.0" y="4613.0" fill="#eef3fb" font-family="sans-serif" font-size="13">наковальни</text>
+</g>
+<g><title>HBM: сборщик · Сборщик со стальной наковальни · Практика</title><rect x="302.0" y="4556.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="312.0" y="4575.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="312.0" y="4596.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Сборщик со стальной</text>
+<text x="312.0" y="4613.0" fill="#eef3fb" font-family="sans-serif" font-size="13">наковальни</text>
+</g>
+<g><title>HBM: сборщик · Паспорт питания HBM</title><rect x="554.0" y="4556.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="564.0" y="4575.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="564.0" y="4596.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Паспорт питания HBM</text>
+</g>
+<g><title>HBM: сборщик · Первая аналоговая схема</title><rect x="806.0" y="4556.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="816.0" y="4575.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="816.0" y="4596.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Первая аналоговая схема</text>
+</g>
+<g><title>HBM: сборщик · Первая аналоговая схема · Практика</title><rect x="1058.0" y="4556.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1068.0" y="4575.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1068.0" y="4596.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Первая аналоговая схема</text>
+</g>
+<g><title>HBM: сборщик · Заказ четырёх аналоговых схем</title><rect x="1310.0" y="4556.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1320.0" y="4575.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1320.0" y="4596.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Заказ четырёх аналоговых</text>
+<text x="1320.0" y="4613.0" fill="#eef3fb" font-family="sans-serif" font-size="13">схем</text>
+</g>
+<g><title>HBM: сборщик · Заказ четырёх аналоговых схем · Практика</title><rect x="1562.0" y="4736.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1572.0" y="4755.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1572.0" y="4776.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Заказ четырёх аналоговых</text>
+<text x="1572.0" y="4793.0" fill="#eef3fb" font-family="sans-serif" font-size="13">схем</text>
+</g>
+<g><title>HBM: сборщик · Интегральная партия</title><rect x="806.0" y="4736.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="816.0" y="4755.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="816.0" y="4776.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Интегральная партия</text>
+</g>
+<g><title>HBM: сборщик · Интегральная партия · Практика</title><rect x="1058.0" y="4736.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1068.0" y="4755.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1068.0" y="4776.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Интегральная партия</text>
+</g>
+<g><title>HBM: сборщик · Комплект развитой электроники</title><rect x="1310.0" y="4736.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1320.0" y="4755.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1320.0" y="4776.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Комплект развитой</text>
+<text x="1320.0" y="4793.0" fill="#eef3fb" font-family="sans-serif" font-size="13">электроники</text>
+</g>
+<g><title>HBM: сборщик · Комплект развитой электроники · Практика</title><rect x="1562.0" y="4556.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1572.0" y="4575.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1572.0" y="4596.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Комплект развитой</text>
+<text x="1572.0" y="4613.0" fill="#eef3fb" font-family="sans-serif" font-size="13">электроники</text>
+</g>
+<g><title>HBM: сборщик · Одна развитая схема</title><rect x="1814.0000000000002" y="4556.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1824.0000000000002" y="4575.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1824.0000000000002" y="4596.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Одна развитая схема</text>
+</g>
+<g><title>HBM: сборщик · Одна развитая схема · Практика</title><rect x="2066.0" y="4556.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2076.0" y="4575.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2076.0" y="4596.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Одна развитая схема</text>
+</g>
+<g><title>HBM: сборщик · Смена трёх рецептов</title><rect x="2318.0" y="4736.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2328.0" y="4755.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2328.0" y="4776.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Смена трёх рецептов</text>
+</g>
+<g><title>HBM: сборщик · Восемь аналоговых схем</title><rect x="1814.0000000000002" y="5096.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1824.0000000000002" y="5115.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1824.0000000000002" y="5136.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Восемь аналоговых схем</text>
+</g>
+<g><title>HBM: сборщик · Восемь аналоговых схем · Практика</title><rect x="2066.0" y="5096.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2076.0" y="5115.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2076.0" y="5136.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Восемь аналоговых схем</text>
+</g>
+<g><title>HBM: сборщик · Четыре интегральные схемы</title><rect x="1310.0" y="5276.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="1320.0" y="5295.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="1320.0" y="5316.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Четыре интегральные</text>
+<text x="1320.0" y="5333.0" fill="#eef3fb" font-family="sans-serif" font-size="13">схемы</text>
+</g>
+<g><title>HBM: сборщик · Четыре интегральные схемы · Практика</title><rect x="1562.0" y="5276.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1572.0" y="5295.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1572.0" y="5316.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Четыре интегральные</text>
+<text x="1572.0" y="5333.0" fill="#eef3fb" font-family="sans-serif" font-size="13">схемы</text>
+</g>
+<g><title>HBM: сборщик · Две развитые схемы</title><rect x="2318.0" y="4556.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="2328.0" y="4575.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="2328.0" y="4596.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Две развитые схемы</text>
+</g>
+<g><title>HBM: сборщик · Две развитые схемы · Практика</title><rect x="2570.0" y="4736.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2580.0" y="4755.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2580.0" y="4776.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Две развитые схемы</text>
+</g>
+<g><title>HBM: сборщик · Новая очередь заказов</title><rect x="2822.0" y="5096.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="2832.0" y="5115.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="2832.0" y="5136.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Новая очередь заказов</text>
+</g>
+<text x="50" y="5466" fill="#82d7b0" font-family="sans-serif" font-size="25">HBM V · эксплуатация и контроль</text>
+<line x1="240.0" y1="6091.0" x2="302.0" y2="6091.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="460.0" y1="6046.0" x2="586.0" y2="5956.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="744.0" y1="5911.0" x2="806.0" y2="5911.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="240.0" y1="5551.0" x2="302.0" y2="5551.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="492.0" y1="5551.0" x2="554.0" y2="5551.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="996.0" y1="5731.0" x2="1058.0" y2="5731.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1248.0" y1="5731.0" x2="1310.0" y2="5731.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="240.0" y1="5731.0" x2="302.0" y2="5731.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="492.0" y1="5731.0" x2="554.0" y2="5731.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="712.0" y1="5686.0" x2="838.0" y2="5596.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="996.0" y1="5551.0" x2="1058.0" y2="5551.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1500.0" y1="5551.0" x2="1562.0" y2="5551.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1468.0" y1="5686.0" x2="1594.0" y2="5596.0" stroke="#788aa6" stroke-width="2" marker-end="url(#arrow)"/>
+<g><title>Хозяйство · Промышленный запас</title><rect x="50.0" y="6046.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="6065.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="6086.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Промышленный запас</text>
+</g>
+<g><title>Хозяйство · Окна промышленной зоны</title><rect x="302.0" y="6046.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="312.0" y="6065.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="312.0" y="6086.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Окна промышленной зоны</text>
+</g>
+<g><title>Хозяйство · Разметить рабочие проходы</title><rect x="554.0" y="5866.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="564.0" y="5885.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="564.0" y="5906.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Разметить рабочие</text>
+<text x="564.0" y="5923.0" fill="#eef3fb" font-family="sans-serif" font-size="13">проходы</text>
+</g>
+<g><title>Хозяйство · Сервисная площадка</title><rect x="806.0" y="5866.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="816.0" y="5885.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="816.0" y="5906.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Сервисная площадка</text>
+</g>
+<g><title>Проект · Серия HBM без путаницы</title><rect x="50.0" y="5866.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="60.0" y="5885.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="60.0" y="5906.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Серия HBM без путаницы</text>
+</g>
+<g><title>Металлы и оснастка · Паспорт рабочей зоны</title><rect x="302.0" y="5866.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="312.0" y="5885.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="312.0" y="5906.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Паспорт рабочей зоны</text>
+</g>
+<g><title>HBM: эксплуатация · Полный выход как причина простоя</title><rect x="50.0" y="5506.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="60.0" y="5525.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="60.0" y="5546.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Полный выход как причина</text>
+<text x="60.0" y="5563.0" fill="#eef3fb" font-family="sans-serif" font-size="13">простоя</text>
+</g>
+<g><title>HBM: эксплуатация · Измерить выпуск</title><rect x="302.0" y="5506.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="312.0" y="5525.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="312.0" y="5546.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Измерить выпуск</text>
+</g>
+<g><title>HBM: эксплуатация · Исправить одно узкое место</title><rect x="554.0" y="5506.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="564.0" y="5525.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="564.0" y="5546.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Исправить одно узкое</text>
+<text x="564.0" y="5563.0" fill="#eef3fb" font-family="sans-serif" font-size="13">место</text>
+</g>
+<g><title>HBM: эксплуатация · Итоговый заказ мастерской</title><rect x="806.0" y="5686.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="816.0" y="5705.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="816.0" y="5726.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Итоговый заказ</text>
+<text x="816.0" y="5743.0" fill="#eef3fb" font-family="sans-serif" font-size="13">мастерской</text>
+</g>
+<g><title>HBM: эксплуатация · Итоговый заказ мастерской · Практика</title><rect x="1058.0" y="5686.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1068.0" y="5705.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1068.0" y="5726.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Итоговый заказ</text>
+<text x="1068.0" y="5743.0" fill="#eef3fb" font-family="sans-serif" font-size="13">мастерской</text>
+</g>
+<g><title>HBM: эксплуатация · Передать цех другому игроку</title><rect x="1310.0" y="5686.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1320.0" y="5705.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1320.0" y="5726.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Передать цех другому</text>
+<text x="1320.0" y="5743.0" fill="#eef3fb" font-family="sans-serif" font-size="13">игроку</text>
+</g>
+<g><title>HBM: эксплуатация · Счётчик Гейгера</title><rect x="50.0" y="5686.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="60.0" y="5705.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="60.0" y="5726.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Счётчик Гейгера</text>
+</g>
+<g><title>HBM: эксплуатация · Счётчик Гейгера · Практика</title><rect x="302.0" y="5686.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="312.0" y="5705.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="312.0" y="5726.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Счётчик Гейгера</text>
+</g>
+<g><title>HBM: эксплуатация · Переносной и стационарный прибор</title><rect x="554.0" y="5686.0" width="190" height="90" rx="8" fill="#182437" stroke="#f4bd73"/><text x="564.0" y="5705.0" fill="#f4bd73" font-family="sans-serif" font-size="11">Предметы</text>
+<text x="564.0" y="5726.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Переносной и</text>
+<text x="564.0" y="5743.0" fill="#eef3fb" font-family="sans-serif" font-size="13">стационарный прибор</text>
+</g>
+<g><title>HBM: эксплуатация · Переносной и стационарный прибор · Практика</title><rect x="806.0" y="5506.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="816.0" y="5525.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="816.0" y="5546.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Переносной и</text>
+<text x="816.0" y="5563.0" fill="#eef3fb" font-family="sans-serif" font-size="13">стационарный прибор</text>
+</g>
+<g><title>HBM: эксплуатация · Фоновое измерение</title><rect x="1058.0" y="5506.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1068.0" y="5525.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1068.0" y="5546.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Фоновое измерение</text>
+</g>
+<g><title>HBM: эксплуатация · Приёмка расширенного цеха</title><rect x="1310.0" y="5506.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1320.0" y="5525.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1320.0" y="5546.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Приёмка расширенного</text>
+<text x="1320.0" y="5563.0" fill="#eef3fb" font-family="sans-serif" font-size="13">цеха</text>
+</g>
+<g><title>HBM: эксплуатация · Резерв следующей смены</title><rect x="1562.0" y="5506.0" width="190" height="90" rx="8" fill="#182437" stroke="#82d7b0"/><text x="1572.0" y="5525.0" fill="#82d7b0" font-family="sans-serif" font-size="11">Практика</text>
+<text x="1572.0" y="5546.0" fill="#eef3fb" font-family="sans-serif" font-size="13">Резерв следующей смены</text>
+</g>
+</svg>

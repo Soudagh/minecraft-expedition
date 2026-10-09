@@ -1,0 +1,753 @@
+{
+  "scope": "Bundled recipe JSON; not a gameplay test",
+  "jar": "hbm_m-0.2.1-alpha+1.20.1-forge.jar",
+  "sha256": "14acbd4fd0de45f2b2b9116094fefb9de5055439e36033c0b2802a7dc8bf4828",
+  "recipes": {
+    "anvil/iron/craft_7blast_furnace": {
+      "type": "hbm_m:anvil",
+      "outputs": [
+        {
+          "item": "hbm_m:blast_furnace"
+        }
+      ],
+      "overlay": "construction",
+      "required_items": [
+        {
+          "count": 4,
+          "item": "hbm_m:plate_copper"
+        },
+        {
+          "count": 4,
+          "item": "minecraft:stone_bricks"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:firebrick"
+        }
+      ],
+      "tier": "iron"
+    },
+    "anvil/iron/combine_anvil_steel": {
+      "type": "hbm_m:anvil",
+      "input_a": {
+        "item": "hbm_m:anvil_iron"
+      },
+      "input_b": {
+        "count": 10,
+        "item": "hbm_m:steel_ingot"
+      },
+      "outputs": [
+        {
+          "item": "hbm_m:anvil_steel"
+        }
+      ],
+      "overlay": "smithing",
+      "tier": "iron"
+    },
+    "anvil/iron/combine_silicon": {
+      "type": "hbm_m:anvil",
+      "input_a": {
+        "item": "hbm_m:cinnabar"
+      },
+      "input_b": {
+        "item": "hbm_m:borax"
+      },
+      "outputs": [
+        {
+          "count": 3,
+          "item": "hbm_m:billet_silicon"
+        }
+      ],
+      "overlay": "smithing",
+      "tier": "iron"
+    },
+    "anvil/steel/craft_8advanced_assemble_machine": {
+      "type": "hbm_m:anvil",
+      "outputs": [
+        {
+          "item": "hbm_m:advanced_assembly_machine"
+        }
+      ],
+      "overlay": "construction",
+      "required_items": [
+        {
+          "count": 4,
+          "item": "hbm_m:plate_copper"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:steel_ingot"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:motor"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:vacuum_tube"
+        }
+      ],
+      "tier": "steel"
+    },
+    "blast_furnace/steel_from_ingot": {
+      "type": "hbm_m:blast_furnace",
+      "ingredients": [
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "tag": "minecraft:coals"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:steel_ingot"
+      }
+    },
+    "blast_furnace/red_copper": {
+      "type": "hbm_m:blast_furnace",
+      "ingredients": [
+        {
+          "item": "minecraft:copper_ingot"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "output": {
+        "count": 2,
+        "item": "hbm_m:red_copper_ingot"
+      }
+    },
+    "blast_furnace/advanced_alloy": {
+      "type": "hbm_m:blast_furnace",
+      "ingredients": [
+        {
+          "item": "hbm_m:steel_ingot"
+        },
+        {
+          "item": "hbm_m:red_copper_ingot"
+        }
+      ],
+      "output": {
+        "count": 2,
+        "item": "hbm_m:advanced_alloy_ingot"
+      }
+    },
+    "wire_copper": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/wire"
+        },
+        {
+          "item": "minecraft:copper_ingot"
+        }
+      ],
+      "output": {
+        "count": 8,
+        "item": "hbm_m:wire_copper"
+      }
+    },
+    "wire_carbon": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/wire"
+        },
+        {
+          "item": "hbm_m:lead_ingot"
+        }
+      ],
+      "output": {
+        "count": 8,
+        "item": "hbm_m:wire_carbon"
+      }
+    },
+    "wire_tungsten": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/wire"
+        },
+        {
+          "item": "hbm_m:tungsten_ingot"
+        }
+      ],
+      "output": {
+        "count": 8,
+        "item": "hbm_m:wire_tungsten"
+      }
+    },
+    "wire_red_copper": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/wire"
+        },
+        {
+          "item": "hbm_m:red_copper_ingot"
+        }
+      ],
+      "output": {
+        "count": 8,
+        "item": "hbm_m:wire_red_copper"
+      }
+    },
+    "silicon_circuit": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/circuit"
+        },
+        {
+          "item": "hbm_m:billet_silicon"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:silicon_circuit"
+      }
+    },
+    "crafting/insulator": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "minecraft:white_wool"
+        },
+        "$": {
+          "item": "minecraft:string"
+        }
+      },
+      "pattern": [
+        "$#$",
+        "   ",
+        "   "
+      ],
+      "result": {
+        "count": 4,
+        "item": "hbm_m:insulator"
+      },
+      "show_notification": true
+    },
+    "crafting/insulator2": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "$": {
+          "item": "minecraft:brick"
+        }
+      },
+      "pattern": [
+        "$  ",
+        "$  ",
+        "   "
+      ],
+      "result": {
+        "count": 4,
+        "item": "hbm_m:insulator"
+      },
+      "show_notification": true
+    },
+    "crafting/pcb": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:insulator"
+        },
+        "@": [
+          {
+            "item": "hbm_m:plate_copper"
+          },
+          {
+            "item": "hbm_m:plate_gold"
+          }
+        ]
+      },
+      "pattern": [
+        "#  ",
+        "@  ",
+        "   "
+      ],
+      "result": {
+        "count": 4,
+        "item": "hbm_m:pcb"
+      },
+      "show_notification": true
+    },
+    "crafting/capacitor": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:aluminum_powder"
+        },
+        "$": {
+          "item": "hbm_m:insulator"
+        },
+        "%": [
+          {
+            "item": "hbm_m:wire_copper"
+          },
+          {
+            "item": "hbm_m:wire_aluminium"
+          }
+        ]
+      },
+      "pattern": [
+        "$#$",
+        "% %"
+      ],
+      "result": {
+        "count": 2,
+        "item": "hbm_m:capacitor"
+      },
+      "show_notification": true
+    },
+    "crafting/vacuum_tube": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:wire_tungsten"
+        },
+        "$": {
+          "tag": "forge:glass_panes"
+        },
+        "@": {
+          "item": "hbm_m:insulator"
+        }
+      },
+      "pattern": [
+        "$",
+        "#",
+        "@"
+      ],
+      "result": {
+        "item": "hbm_m:vacuum_tube"
+      },
+      "show_notification": true
+    },
+    "crafting/microchip": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:insulator"
+        },
+        "%": [
+          {
+            "item": "hbm_m:wire_copper"
+          },
+          {
+            "item": "hbm_m:wire_gold"
+          }
+        ],
+        "@": {
+          "item": "hbm_m:silicon_circuit"
+        }
+      },
+      "pattern": [
+        "#  ",
+        "@  ",
+        "%  "
+      ],
+      "result": {
+        "item": "hbm_m:microchip"
+      },
+      "show_notification": true
+    },
+    "crafting/coil_copper": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:wire_red_copper"
+        },
+        "$": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "pattern": [
+        "###",
+        "#$#",
+        "###"
+      ],
+      "result": {
+        "item": "hbm_m:coil_copper"
+      },
+      "show_notification": true
+    },
+    "crafting/coil_copper_torus": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:coil_copper"
+        },
+        "$": {
+          "item": "hbm_m:plate_iron"
+        }
+      },
+      "pattern": [
+        " # ",
+        "#$#",
+        " # "
+      ],
+      "result": {
+        "count": 2,
+        "item": "hbm_m:coil_copper_torus"
+      },
+      "show_notification": true
+    },
+    "crafting/motor1": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:coil_copper"
+        },
+        "$": {
+          "item": "hbm_m:wire_red_copper"
+        },
+        "%": {
+          "item": "hbm_m:plate_iron"
+        },
+        "@": {
+          "item": "hbm_m:coil_copper_torus"
+        }
+      },
+      "pattern": [
+        " $ ",
+        "%#%",
+        "%@%"
+      ],
+      "result": {
+        "count": 2,
+        "item": "hbm_m:motor"
+      },
+      "show_notification": true
+    },
+    "crafting/motor2": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:coil_copper"
+        },
+        "$": {
+          "item": "hbm_m:wire_red_copper"
+        },
+        "%": {
+          "item": "hbm_m:plate_steel"
+        },
+        "@": {
+          "item": "hbm_m:coil_copper_torus"
+        }
+      },
+      "pattern": [
+        " $ ",
+        "%#%",
+        " @ "
+      ],
+      "result": {
+        "count": 2,
+        "item": "hbm_m:motor"
+      },
+      "show_notification": true
+    },
+    "analog_circuit": {
+      "type": "hbm_m:assembler",
+      "duration": 80,
+      "ingredients": [
+        {
+          "count": 2,
+          "item": "hbm_m:capacitor"
+        },
+        {
+          "count": 3,
+          "item": "hbm_m:vacuum_tube"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:wire_carbon"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:pcb"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:analog_circuit"
+      },
+      "power": 150
+    },
+    "integrated_circuit": {
+      "type": "hbm_m:assembler",
+      "duration": 80,
+      "ingredients": [
+        {
+          "count": 4,
+          "item": "hbm_m:wire_carbon"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:capacitor"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:microchip"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:pcb"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:integrated_circuit"
+      },
+      "power": 150
+    },
+    "advanced_circuit": {
+      "type": "hbm_m:assembler",
+      "duration": 120,
+      "ingredients": [
+        {
+          "count": 8,
+          "item": "hbm_m:wire_carbon"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:capacitor"
+        },
+        {
+          "count": 32,
+          "item": "hbm_m:microchip"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:pcb"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:advanced_circuit"
+      },
+      "power": 250
+    },
+    "blast_furnace/steel_from_ore": {
+      "type": "hbm_m:blast_furnace",
+      "ingredients": [
+        {
+          "tag": "forge:ores/iron"
+        },
+        {
+          "tag": "minecraft:coals"
+        }
+      ],
+      "output": {
+        "count": 2,
+        "item": "hbm_m:steel_ingot"
+      }
+    },
+    "blast_furnace/steel_from_ore_coal_block": {
+      "type": "hbm_m:blast_furnace",
+      "ingredients": [
+        {
+          "tag": "forge:ores/iron"
+        },
+        {
+          "item": "minecraft:coal_block"
+        }
+      ],
+      "output": {
+        "count": 3,
+        "item": "hbm_m:steel_ingot"
+      }
+    },
+    "blast_furnace/steel_from_ore_powder": {
+      "type": "hbm_m:blast_furnace",
+      "ingredients": [
+        {
+          "tag": "forge:ores/iron"
+        },
+        {
+          "item": "hbm_m:coal_powder"
+        }
+      ],
+      "output": {
+        "count": 3,
+        "item": "hbm_m:steel_ingot"
+      }
+    },
+    "plate_advanced_alloy": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/plate"
+        },
+        {
+          "item": "hbm_m:advanced_alloy_ingot"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:plate_advanced_alloy"
+      }
+    },
+    "plate_advanced_alloy_from_ingots": {
+      "type": "hbm_m:assembler",
+      "blueprint_pool": "plates",
+      "duration": 60,
+      "ingredients": [
+        {
+          "count": 3,
+          "item": "hbm_m:advanced_alloy_ingot"
+        }
+      ],
+      "output": {
+        "count": 2,
+        "item": "hbm_m:plate_advanced_alloy"
+      },
+      "power": 100
+    },
+    "wire_gold": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/wire"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        }
+      ],
+      "output": {
+        "count": 8,
+        "item": "hbm_m:wire_gold"
+      }
+    },
+    "crafting/coil_gold": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:wire_gold"
+        },
+        "$": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "pattern": [
+        "###",
+        "#$#",
+        "###"
+      ],
+      "result": {
+        "item": "hbm_m:coil_gold"
+      },
+      "show_notification": true
+    },
+    "crafting/coil_gold_torus": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:coil_gold"
+        },
+        "$": {
+          "item": "hbm_m:plate_iron"
+        }
+      },
+      "pattern": [
+        " # ",
+        "#$#",
+        " # "
+      ],
+      "result": {
+        "count": 2,
+        "item": "hbm_m:coil_gold_torus"
+      },
+      "show_notification": true
+    },
+    "anvil/steel/craft_2coil_gold_torus": {
+      "type": "hbm_m:anvil",
+      "outputs": [
+        {
+          "item": "hbm_m:coil_gold_torus"
+        }
+      ],
+      "overlay": "construction",
+      "required_items": [
+        {
+          "count": 2,
+          "item": "hbm_m:coil_gold"
+        }
+      ],
+      "tier": "steel"
+    },
+    "crafting/geiger1": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:geiger_counter"
+        }
+      },
+      "pattern": [
+        "#  ",
+        "   ",
+        "   "
+      ],
+      "result": {
+        "item": "hbm_m:geiger_counter_block"
+      },
+      "show_notification": true
+    },
+    "crafting/geiger2": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:geiger_counter_block"
+        }
+      },
+      "pattern": [
+        "#  ",
+        "   ",
+        "   "
+      ],
+      "result": {
+        "item": "hbm_m:geiger_counter"
+      },
+      "show_notification": true
+    },
+    "crafting/geiger3": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "minecraft:gold_ingot"
+        },
+        "$": {
+          "item": "hbm_m:integrated_circuit"
+        },
+        "%": {
+          "item": "hbm_m:wire_gold"
+        },
+        "&": {
+          "item": "hbm_m:beryllium_ingot"
+        },
+        "@": {
+          "item": "hbm_m:plate_steel"
+        }
+      },
+      "pattern": [
+        "###",
+        "%$@",
+        "%&&"
+      ],
+      "result": {
+        "item": "hbm_m:geiger_counter"
+      },
+      "show_notification": true
+    }
+  }
+}

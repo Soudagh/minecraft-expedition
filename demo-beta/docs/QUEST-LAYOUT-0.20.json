@@ -1,0 +1,331 @@
+[
+  {
+    "chapter": "boss_atlas",
+    "before": {
+      "width": 12.0,
+      "height": 6.0
+    },
+    "after": {
+      "width": 6.4,
+      "height": 3.2
+    },
+    "quests": 12
+  },
+  {
+    "chapter": "botania_supply",
+    "before": {
+      "width": 20.0,
+      "height": 37.0
+    },
+    "after": {
+      "width": 12.8,
+      "height": 24.000000000000004
+    },
+    "quests": 52,
+    "productionGraph": null
+  },
+  {
+    "chapter": "building",
+    "before": {
+      "width": 28.0,
+      "height": 20.0
+    },
+    "after": {
+      "width": 12.8,
+      "height": 6.4
+    },
+    "quests": 22,
+    "productionGraph": null
+  },
+  {
+    "chapter": "campaign",
+    "before": {
+      "width": 12.0,
+      "height": 35.0
+    },
+    "after": {
+      "width": 16.0,
+      "height": 4.800000000000001
+    },
+    "quests": 28,
+    "productionGraph": null
+  },
+  {
+    "chapter": "combat_roles",
+    "before": {
+      "width": 16.0,
+      "height": 30.0
+    },
+    "after": {
+      "width": 8.0,
+      "height": 19.200000000000003
+    },
+    "quests": 24,
+    "productionGraph": null
+  },
+  {
+    "chapter": "create_workshop",
+    "before": {
+      "width": 16.0,
+      "height": 41.0
+    },
+    "after": {
+      "width": 9.6,
+      "height": 32.000000000000014
+    },
+    "quests": 57,
+    "productionGraph": null
+  },
+  {
+    "chapter": "demo",
+    "before": {
+      "width": 12.0,
+      "height": 23.0
+    },
+    "after": {
+      "width": 14.4,
+      "height": 12.8
+    },
+    "quests": 22,
+    "productionGraph": null
+  },
+  {
+    "chapter": "expedition",
+    "before": {
+      "width": 24.0,
+      "height": 29.0
+    },
+    "after": {
+      "width": 11.200000000000001,
+      "height": 9.6
+    },
+    "quests": 26,
+    "productionGraph": null
+  },
+  {
+    "chapter": "gt_hv_ev",
+    "before": {
+      "width": 40.0,
+      "height": 22.0
+    },
+    "after": {
+      "width": 17.6,
+      "height": 11.2
+    },
+    "quests": 33,
+    "productionGraph": null
+  },
+  {
+    "chapter": "gt_iv_luv",
+    "before": {
+      "width": 40.0,
+      "height": 22.0
+    },
+    "after": {
+      "width": 17.6,
+      "height": 11.2
+    },
+    "quests": 31,
+    "productionGraph": null
+  },
+  {
+    "chapter": "gt_lv",
+    "before": {
+      "width": 40.0,
+      "height": 22.0
+    },
+    "after": {
+      "width": 17.6,
+      "height": 9.6
+    },
+    "quests": 32,
+    "productionGraph": null
+  },
+  {
+    "chapter": "gt_mv",
+    "before": {
+      "width": 32.0,
+      "height": 22.0
+    },
+    "after": {
+      "width": 14.4,
+      "height": 9.6
+    },
+    "quests": 29,
+    "productionGraph": null
+  },
+  {
+    "chapter": "gt_zpm_uv",
+    "before": {
+      "width": 40.0,
+      "height": 22.0
+    },
+    "after": {
+      "width": 17.6,
+      "height": 9.6
+    },
+    "quests": 30,
+    "productionGraph": null
+  },
+  {
+    "chapter": "hbm_assembly",
+    "quests": 28,
+    "productionGraph": {
+      "nodes": 28,
+      "visibleEdges": 27,
+      "columns": 12
+    }
+  },
+  {
+    "chapter": "hbm_components",
+    "quests": 38,
+    "productionGraph": {
+      "nodes": 38,
+      "visibleEdges": 32,
+      "columns": 10
+    }
+  },
+  {
+    "chapter": "hbm_industry",
+    "quests": 28,
+    "productionGraph": {
+      "nodes": 27,
+      "visibleEdges": 26,
+      "columns": 16
+    }
+  },
+  {
+    "chapter": "hbm_operations",
+    "quests": 19,
+    "productionGraph": {
+      "nodes": 19,
+      "visibleEdges": 13,
+      "columns": 7
+    }
+  },
+  {
+    "chapter": "hbm_press",
+    "quests": 34,
+    "productionGraph": {
+      "nodes": 34,
+      "visibleEdges": 30,
+      "columns": 10
+    }
+  },
+  {
+    "chapter": "hex_practice",
+    "before": {
+      "width": 16.0,
+      "height": 38.0
+    },
+    "after": {
+      "width": 8.0,
+      "height": 25.600000000000005
+    },
+    "quests": 43,
+    "productionGraph": null
+  },
+  {
+    "chapter": "industrial_prep",
+    "before": {
+      "width": 28.0,
+      "height": 22.0
+    },
+    "after": {
+      "width": 12.8,
+      "height": 15.999999999999998
+    },
+    "quests": 36,
+    "productionGraph": null
+  },
+  {
+    "chapter": "kitchen",
+    "before": {
+      "width": 20.0,
+      "height": 38.0
+    },
+    "after": {
+      "width": 9.6,
+      "height": 12.799999999999999
+    },
+    "quests": 33,
+    "productionGraph": null
+  },
+  {
+    "chapter": "magic_advanced",
+    "before": {
+      "width": 12.0,
+      "height": 42.0
+    },
+    "after": {
+      "width": 9.6,
+      "height": 12.799999999999999
+    },
+    "quests": 22,
+    "productionGraph": null
+  },
+  {
+    "chapter": "mana_artifice",
+    "before": {
+      "width": 16.0,
+      "height": 45.0
+    },
+    "after": {
+      "width": 9.6,
+      "height": 25.600000000000005
+    },
+    "quests": 48,
+    "productionGraph": null
+  },
+  {
+    "chapter": "power_logistics",
+    "before": {
+      "width": 32.0,
+      "height": 23.0
+    },
+    "after": {
+      "width": 14.4,
+      "height": 8.0
+    },
+    "quests": 24,
+    "productionGraph": null
+  },
+  {
+    "chapter": "practice_archive",
+    "before": {
+      "width": 18.0,
+      "height": 13.0
+    },
+    "after": {
+      "width": 6.4,
+      "height": 4.800000000000001
+    },
+    "quests": 18
+  },
+  {
+    "chapter": "spell_supply",
+    "before": {
+      "width": 16.0,
+      "height": 42.0
+    },
+    "after": {
+      "width": 8.0,
+      "height": 24.000000000000004
+    },
+    "quests": 47,
+    "productionGraph": null
+  },
+  {
+    "chapter": "storage",
+    "before": {
+      "width": 32.0,
+      "height": 30.0
+    },
+    "after": {
+      "width": 14.4,
+      "height": 17.599999999999998
+    },
+    "quests": 44,
+    "productionGraph": null
+  }
+]

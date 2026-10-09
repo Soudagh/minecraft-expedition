@@ -2,9 +2,9 @@
 
 Полная экспертная сборка для четырёх игроков: требовательные бои, строительство, магия и производство от Create до поздних цепочек GregTech. Формат демо отменён; LV — начало электрической эпохи.
 
-[Промежуточный релиз **0.19.0-hbm-quests-dev**](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.19.0-hbm-quests-dev): 23 главы / 759 квестов / 869 задач. Добавлены 67 заданий, включая 43 для HBM; его глава теперь содержит 73 квеста. Производственные ветви HBM соединены 68 видимыми связями. Уточнены зависимости рабочих мест и материалов, ветви процессоров RS разделены, повторные требования убраны с сохранением прогрессии. Все 692 прежних квеста и 764 определения задач сохранены.
+[Промежуточный релиз **0.20.0-hbm-structure-dev**](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.20.0-hbm-structure-dev): 27 глав / 860 квестов / 907 задач. HBM структурирован в пять глав с 147 карточками и 24 новыми упражнениями. Получение предметов и практика разделены в 77 квестах: постоянный предметный значок или галочка. Связи сохраняют требование завершить практику перед следующим шагом. Все 759 прежних квестов и 869 определений задач сохранены.
 
-[Bootstrap 0.19](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.19.0-hbm-quests-dev/expedition-0.19.0-hbm-quests-dev-bootstrap.zip) · [Изменения и проверки](demo-beta/docs/RELEASE-0.19.0-hbm-quests-dev.md) · [Схема HBM](demo-beta/docs/HBM-CONNECTIONS-0.19.svg).
+[Bootstrap 0.20](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.20.0-hbm-structure-dev/expedition-0.20.0-hbm-structure-dev-bootstrap.zip) · [Изменения и проверки](demo-beta/docs/RELEASE-0.20.0-hbm-structure-dev.md) · [Схема HBM](demo-beta/docs/HBM-CONNECTIONS-0.20.svg).
 
 [Что изменено: примеры рецептов и баланса](demo-beta/docs/BALANCE-EXAMPLES.md)
 
