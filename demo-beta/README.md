@@ -2,6 +2,8 @@
 
 **0.17.0-quest-overhaul-dev** — промежуточная рабочая версия баланса и квестов всей сборки. Формат демо отменён. Minecraft **1.20.1**, Forge **47.4.10**, **Java 17**. Состав 0.9 сохранён: 71 клиентский / 64 серверных внешних JAR с фиксированными хешами; необязательный профиль shaders добавляет Oculus и Complementary.
 
+[Конкретные примеры изменённых рецептов и настроек баланса](docs/BALANCE-EXAMPLES.md).
+
 [Навыки Sword Soaring и Epic Fight](docs/SWORD-SKILLS-BALANCE.md) · [Урон и сочетания оружия с магией](docs/OFFENSIVE-BALANCE.md) · [Лечение, щиты и контроль](docs/COMBAT-SUSTAIN.md) · [Ограничения школ и экипировки](docs/SCHOOL-EQUIPMENT-GATES.md) · [Магия и боевые роли](docs/MAGIC-EQUIPMENT.md) · [Производственные связи](docs/PRODUCTION-SYNERGY.md) · [Общие боссовые открытия](docs/BOSS-PROGRESSION.md) · [Полная схема баланса](docs/FULL-BALANCE.md) · [Квесты всей сборки](docs/QUESTS-FULL.md) · [Изменения 0.17 и проверки](docs/RELEASE-0.17.0-quest-overhaul-dev.md) · [Установка в Legacy Launcher на Windows](docs/INSTALL-LEGACY-WINDOWS.md).
 
 ## Что изменилось
