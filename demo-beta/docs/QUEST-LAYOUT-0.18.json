@@ -1,0 +1,278 @@
+[
+  {
+    "chapter": "boss_atlas",
+    "before": {
+      "width": 12.0,
+      "height": 6.0
+    },
+    "after": {
+      "width": 6.4,
+      "height": 3.2
+    },
+    "quests": 12
+  },
+  {
+    "chapter": "botania_supply",
+    "before": {
+      "width": 20.0,
+      "height": 37.0
+    },
+    "after": {
+      "width": 12.8,
+      "height": 17.599999999999998
+    },
+    "quests": 44
+  },
+  {
+    "chapter": "building",
+    "before": {
+      "width": 28.0,
+      "height": 20.0
+    },
+    "after": {
+      "width": 12.8,
+      "height": 6.4
+    },
+    "quests": 22
+  },
+  {
+    "chapter": "campaign",
+    "before": {
+      "width": 12.0,
+      "height": 35.0
+    },
+    "after": {
+      "width": 16.0,
+      "height": 4.800000000000001
+    },
+    "quests": 28
+  },
+  {
+    "chapter": "combat_roles",
+    "before": {
+      "width": 16.0,
+      "height": 30.0
+    },
+    "after": {
+      "width": 8.0,
+      "height": 19.200000000000003
+    },
+    "quests": 24
+  },
+  {
+    "chapter": "create_workshop",
+    "before": {
+      "width": 16.0,
+      "height": 41.0
+    },
+    "after": {
+      "width": 9.6,
+      "height": 24.000000000000007
+    },
+    "quests": 49
+  },
+  {
+    "chapter": "demo",
+    "before": {
+      "width": 12.0,
+      "height": 23.0
+    },
+    "after": {
+      "width": 14.4,
+      "height": 12.8
+    },
+    "quests": 22
+  },
+  {
+    "chapter": "expedition",
+    "before": {
+      "width": 24.0,
+      "height": 29.0
+    },
+    "after": {
+      "width": 11.200000000000001,
+      "height": 9.6
+    },
+    "quests": 26
+  },
+  {
+    "chapter": "gt_hv_ev",
+    "before": {
+      "width": 40.0,
+      "height": 22.0
+    },
+    "after": {
+      "width": 17.6,
+      "height": 9.6
+    },
+    "quests": 32
+  },
+  {
+    "chapter": "gt_iv_luv",
+    "before": {
+      "width": 40.0,
+      "height": 22.0
+    },
+    "after": {
+      "width": 17.6,
+      "height": 9.6
+    },
+    "quests": 30
+  },
+  {
+    "chapter": "gt_lv",
+    "before": {
+      "width": 40.0,
+      "height": 22.0
+    },
+    "after": {
+      "width": 17.6,
+      "height": 8.0
+    },
+    "quests": 31
+  },
+  {
+    "chapter": "gt_mv",
+    "before": {
+      "width": 32.0,
+      "height": 22.0
+    },
+    "after": {
+      "width": 14.4,
+      "height": 8.0
+    },
+    "quests": 28
+  },
+  {
+    "chapter": "gt_zpm_uv",
+    "before": {
+      "width": 40.0,
+      "height": 22.0
+    },
+    "after": {
+      "width": 17.6,
+      "height": 8.0
+    },
+    "quests": 29
+  },
+  {
+    "chapter": "hbm_industry",
+    "before": {
+      "width": 20.0,
+      "height": 27.0
+    },
+    "after": {
+      "width": 9.6,
+      "height": 12.799999999999999
+    },
+    "quests": 30
+  },
+  {
+    "chapter": "hex_practice",
+    "before": {
+      "width": 16.0,
+      "height": 38.0
+    },
+    "after": {
+      "width": 8.0,
+      "height": 19.2
+    },
+    "quests": 36
+  },
+  {
+    "chapter": "industrial_prep",
+    "before": {
+      "width": 28.0,
+      "height": 22.0
+    },
+    "after": {
+      "width": 12.8,
+      "height": 11.2
+    },
+    "quests": 33
+  },
+  {
+    "chapter": "kitchen",
+    "before": {
+      "width": 20.0,
+      "height": 38.0
+    },
+    "after": {
+      "width": 9.6,
+      "height": 12.799999999999999
+    },
+    "quests": 33
+  },
+  {
+    "chapter": "magic_advanced",
+    "before": {
+      "width": 12.0,
+      "height": 42.0
+    },
+    "after": {
+      "width": 9.6,
+      "height": 12.799999999999999
+    },
+    "quests": 22
+  },
+  {
+    "chapter": "mana_artifice",
+    "before": {
+      "width": 16.0,
+      "height": 45.0
+    },
+    "after": {
+      "width": 9.6,
+      "height": 19.2
+    },
+    "quests": 41
+  },
+  {
+    "chapter": "power_logistics",
+    "before": {
+      "width": 32.0,
+      "height": 23.0
+    },
+    "after": {
+      "width": 14.4,
+      "height": 8.0
+    },
+    "quests": 24
+  },
+  {
+    "chapter": "practice_archive",
+    "before": {
+      "width": 18.0,
+      "height": 13.0
+    },
+    "after": {
+      "width": 6.4,
+      "height": 4.800000000000001
+    },
+    "quests": 18
+  },
+  {
+    "chapter": "spell_supply",
+    "before": {
+      "width": 16.0,
+      "height": 42.0
+    },
+    "after": {
+      "width": 8.0,
+      "height": 17.599999999999998
+    },
+    "quests": 40
+  },
+  {
+    "chapter": "storage",
+    "before": {
+      "width": 32.0,
+      "height": 30.0
+    },
+    "after": {
+      "width": 14.4,
+      "height": 12.799999999999999
+    },
+    "quests": 38
+  }
+]

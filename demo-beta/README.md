@@ -1,14 +1,14 @@
 # Экспедиция · полная сборка
 
-**0.17.0-quest-overhaul-dev** — промежуточная рабочая версия баланса и квестов всей сборки. Формат демо отменён. Minecraft **1.20.1**, Forge **47.4.10**, **Java 17**. Состав 0.9 сохранён: 71 клиентский / 64 серверных внешних JAR с фиксированными хешами; необязательный профиль shaders добавляет Oculus и Complementary.
+**0.18.0-core-quests-dev** — промежуточная рабочая версия баланса и квестов всей сборки. Формат демо отменён. Minecraft **1.20.1**, Forge **47.4.10**, **Java 17**. Состав 0.9 сохранён: 71 клиентский / 64 серверных внешних JAR с фиксированными хешами; необязательный профиль shaders добавляет Oculus и Complementary.
 
 [Конкретные примеры изменённых рецептов и настроек баланса](docs/BALANCE-EXAMPLES.md).
 
-[Навыки Sword Soaring и Epic Fight](docs/SWORD-SKILLS-BALANCE.md) · [Урон и сочетания оружия с магией](docs/OFFENSIVE-BALANCE.md) · [Лечение, щиты и контроль](docs/COMBAT-SUSTAIN.md) · [Ограничения школ и экипировки](docs/SCHOOL-EQUIPMENT-GATES.md) · [Магия и боевые роли](docs/MAGIC-EQUIPMENT.md) · [Производственные связи](docs/PRODUCTION-SYNERGY.md) · [Общие боссовые открытия](docs/BOSS-PROGRESSION.md) · [Полная схема баланса](docs/FULL-BALANCE.md) · [Квесты всей сборки](docs/QUESTS-FULL.md) · [Изменения 0.17 и проверки](docs/RELEASE-0.17.0-quest-overhaul-dev.md) · [Установка в Legacy Launcher на Windows](docs/INSTALL-LEGACY-WINDOWS.md).
+[Навыки Sword Soaring и Epic Fight](docs/SWORD-SKILLS-BALANCE.md) · [Урон и сочетания оружия с магией](docs/OFFENSIVE-BALANCE.md) · [Лечение, щиты и контроль](docs/COMBAT-SUSTAIN.md) · [Ограничения школ и экипировки](docs/SCHOOL-EQUIPMENT-GATES.md) · [Магия и боевые роли](docs/MAGIC-EQUIPMENT.md) · [Производственные связи](docs/PRODUCTION-SYNERGY.md) · [Общие боссовые открытия](docs/BOSS-PROGRESSION.md) · [Полная схема баланса](docs/FULL-BALANCE.md) · [Квесты всей сборки](docs/QUESTS-FULL.md) · [Изменения 0.18 и проверки](docs/RELEASE-0.18.0-core-quests-dev.md) · [Установка в Legacy Launcher на Windows](docs/INSTALL-LEGACY-WINDOWS.md).
 
 ## Что изменилось
 
-- Учебные главы содержат 21–39 квестов: зачем нужен результат, как выполнить шаг и как засчитывается задача. Архив вынесен в конец; предметные задачи сохраняют вещи, практику отмечают вручную.
+- Учебные главы содержат 22–49 квестов: зачем нужен результат, как выполнить шаг и как засчитывается задача. Архив вынесен в конец; предметные задачи сохраняют вещи, практику отмечают вручную.
 
 - Настроены пять заклинаний Iron’s: лечение по области, полное лечение, щит, корни и замедление. Базовый Heal сохранён; нативные эффекты и остальные заклинания сверяются с исходными замерами.
 
@@ -18,7 +18,7 @@
 
 - Заготовки RS собираются смесителем Create или сборщиком GT; полимеры дают альтернативу слизневой связке. Энергетические компоненты CreateAddition связаны с Create/GT. Подсказки квестов обновлены.
 
-- Книга охватывает кухню, склад и автокрафт, энергетику, HBM, магические специализации и производство GregTech до UV. Всего 23 главы / 583 квеста / 627 задач: 553 рабочих квеста и 30 архивных. В 0.17 добавлены 398 заданий: материалы, настройка устройств, упражнения и проекты; отдельная глава строительства. Все прежние 185 квестов и 220 определений задач сохранены.
+- Книга охватывает кухню, склад и автокрафт, энергетику, HBM, магические специализации и производство GregTech до UV. Всего 23 главы / 692 квеста / 764 задачи: 662 рабочих квеста и 30 архивных. В 0.17 добавлены 398 заданий: материалы, настройка устройств, упражнения и проекты; отдельная глава строительства. В 0.18 добавлены ещё 109 углублённых заданий; все 583 прежних квеста и 627 определений задач сохранены. Раскладка уплотнена до шага 1,6; основные рубежи размещены по зависимостям, лишние длинные линии скрыты.
 - Тиара Botania требует корпус EV, wireless grid RS — корпус HV. Базовый контроллер RS остаётся на LV; наковальни iron/lead и пресс HBM — на MV.
 - Квест начала электричества больше не запускает финал демо. Старые уведомления при входе отключены. ID предметов, квестов, задач и старые данные прогресса сохранены.
 - Девять основных боссов остаются маршрутом RPG. Chaos Guardian, Wither Storm и Clockwork не установлены. NanoMuscle/QuarkTech — варианты специализации, не обязательная броня всех игроков.
@@ -27,10 +27,10 @@
 
 ## Установка
 
-Версия 0.17 содержит расширенную книгу, правки Imbued и паузы Kill Aura II, отчёты попаданий и типов оружия Epic Fight. Скачайте [bootstrap 0.17](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.17.0-quest-overhaul-dev/expedition-0.17.0-quest-overhaul-dev-bootstrap.zip) из [промежуточного релиза GitHub](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.17.0-quest-overhaul-dev) или исходники именно этой версии. Папка `demo-beta` в исходниках и `expedition-demo` в старом формате архива сохранены как технические имена. В Windows нужны Python 3.10+ и Java 17. Из папки сборки:
+Версия 0.18 содержит углублённую книгу и компактную раскладку. Скачайте [bootstrap 0.18](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.18.0-core-quests-dev/expedition-0.18.0-core-quests-dev-bootstrap.zip) из [промежуточного релиза GitHub](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.18.0-core-quests-dev) или используйте исходники именно этой версии. Папка `demo-beta` в исходниках и `expedition-demo` в старом формате архива сохранены как технические имена. В Windows нужны Python 3.10+ и Java 17. Из папки сборки:
 
 ```powershell
-py tools/install.py --side client --destination "D:\Minecraft\Expedition-0.17" --visuals shaders
+py tools/install.py --side client --destination "D:\Minecraft\Expedition-0.18" --visuals shaders
 ```
 
 Для клиента без шейдеров уберите `--visuals shaders`. First-person Model исключается при Epic Fight. В macOS/Linux используйте `python3` вместо `py` и собственный путь. Папка назначения не должна существовать. Установщик загружает JAR с проверкой SHA-256 и создаёт исправления функций Souls like Bosses; одного ручного копирования JAR недостаточно.
@@ -42,7 +42,7 @@ py tools/install.py --side client --destination "D:\Minecraft\Expedition-0.17" -
 ## Сервер и общий прогресс
 
 ```powershell
-py tools/install.py --side server --destination "D:\Minecraft\Expedition-server-0.17"
+py tools/install.py --side server --destination "D:\Minecraft\Expedition-server-0.18"
 ```
 
 Скачайте [Forge Installer 1.20.1-47.4.10](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar). В папке сервера выполните `java -jar ПУТЬ-К-INSTALLER.jar --installServer`, затем используйте созданный `run.bat`/`run.sh`. В `user_jvm_args.txt` можно начать с `-Xms2G` и `-Xmx8G`.
@@ -53,10 +53,10 @@ py tools/install.py --side server --destination "D:\Minecraft\Expedition-server-
 
 ## Обновление и сохранения
 
-Схема сохранений **4**, как у 0.9. Для тестового обновления 0.9 → 0.17 остановите клиент/сервер, дождитесь выхода Java, сделайте отдельную резервную копию экземпляра. Затем из новых исходников:
+Схема сохранений **4**, как у 0.9. Для тестового обновления 0.9 → 0.18 остановите клиент/сервер, дождитесь выхода Java, сделайте отдельную резервную копию экземпляра. Затем из новых исходников:
 
 ```powershell
-py tools/install.py --side server --from-instance "D:\Minecraft\Expedition-server-0.9" --stopped --destination "D:\Minecraft\Expedition-server-0.17"
+py tools/install.py --side server --from-instance "D:\Minecraft\Expedition-server-0.9" --stopped --destination "D:\Minecraft\Expedition-server-0.18"
 ```
 
 Для клиента используйте `--side client`. Установщик копирует весь экземпляр в новую папку, исходная папка остаётся для отката. Изменённые вручную управляемые файлы требуют ручного объединения. `--stopped` подтверждает остановку; установщик не останавливает Java и не проверяет процессы.

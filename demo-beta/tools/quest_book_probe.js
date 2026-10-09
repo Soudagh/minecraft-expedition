@@ -15,6 +15,13 @@ ServerEvents.loaded(event=>event.server.scheduleInTicks(60,task=>{
  ref.questIDs.forEach(id=>check(file.getQuest(Long.parseUnsignedLong(id,16))!==null,'quest '+id))
  ref.taskIDs.forEach(id=>check(file.getTask(Long.parseUnsignedLong(id,16))!==null,'task '+id))
  ref.items.forEach(id=>check(Registry.ITEMS.containsKey(new RL(id)),'registered item '+id))
+ if(ref.layout)ref.layout.forEach(row=>{
+  var quest=file.getQuest(Long.parseUnsignedLong(row.id,16))
+  check(Math.abs(Number(quest.getX())-Number(row.x))<0.000001,'x '+row.id)
+  check(Math.abs(Number(quest.getY())-Number(row.y))<0.000001,'y '+row.id)
+  check(String(quest.shouldHideDependencyLines())===String(row.hideDependencyLines),'dependency visibility '+row.id)
+  check(String(quest.shouldHideDependentLines())===String(row.hideDependentLines),'dependent visibility '+row.id)
+ })
  var result={version:ref.version,checks:checks,chapters:ref.chapters.length,quests:quests,tasks:ref.taskCount,registeredItems:ref.items.length}
  JsonIO.write('kubejs/export/quest-book-results.json',result);console.info('QUEST_BOOK_SUCCESS '+JSON.stringify(result))
 }))

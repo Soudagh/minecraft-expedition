@@ -82,5 +82,11 @@ write_equipment(ROOT, json)
 from expanded_quests import write_expanded
 curriculum_summary=write_expanded(ROOT)
 print('Expanded curriculum:',sum(row['added'] for row in curriculum_summary),'new quests')
+from core_quests import write_core
+core_summary=write_core(ROOT)
+print('Core projects:',sum(row['added'] for row in core_summary),'new quests')
+from quest_layout import layout_book
+layout_summary=layout_book(ROOT)
+(ROOT.parents[3]/'docs/QUEST-LAYOUT-0.18.json').write_text(json.dumps(layout_summary,ensure_ascii=False,indent=2)+'\n')
 from expanded_quests import write_report
 write_report(ROOT)

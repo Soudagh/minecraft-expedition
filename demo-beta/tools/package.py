@@ -13,8 +13,8 @@ files+=[ROOT/'docs/COMBAT-SOURCES.json']
 files+=list((ROOT/'docs').glob('SPELL-STATS-*.json'))
 files+=list((ROOT/'docs').glob('OFFENSIVE-STATS-*.json'))
 files+=list((ROOT/'docs').glob('SWORD-SKILL-STATS-*.json'))
-files+=[ROOT/'docs/SWORD-SOARING-PARAMETERS.json',ROOT/'docs/QUEST-CURRICULUM-0.17.json',ROOT/'docs/QUEST-BOOK-RESULTS-0.17.json']
-files += [ROOT/'tools'/name for name in ['install.py','compat.py','test_install.py','build_quests.py','quest_branches.py','full_quests.py','validate_quests.py','progression.py','build_progression.py','test_progression.py','audit_combat_sources.py','equipment_quests.py','spell_balance_probe.js','offensive_balance_probe.js','sword_skill_probe.js','quest_book_probe.js','expanded_quests.py','quest_curriculum.tsv']]
+files+=[ROOT/'docs/SWORD-SOARING-PARAMETERS.json',ROOT/'docs/QUEST-CURRICULUM-0.17.json',ROOT/'docs/QUEST-BOOK-RESULTS-0.17.json',ROOT/'docs/QUEST-CURRICULUM-0.18.json',ROOT/'docs/QUEST-LAYOUT-0.18.json',ROOT/'docs/QUEST-BOOK-RESULTS-0.18.json']
+files += [ROOT/'tools'/name for name in ['install.py','compat.py','test_install.py','build_quests.py','quest_branches.py','full_quests.py','validate_quests.py','progression.py','build_progression.py','test_progression.py','audit_combat_sources.py','equipment_quests.py','spell_balance_probe.js','offensive_balance_probe.js','sword_skill_probe.js','quest_book_probe.js','expanded_quests.py','quest_curriculum.tsv','core_quests.py','core_curriculum.tsv','quest_layout.py','test_quest_layout.py']]
 with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED) as archive:
     archive.writestr('expedition-demo/START-HERE.txt', (ROOT/'docs/INSTALL-LEGACY-WINDOWS.md').read_text(encoding='utf-8').encode('utf-8-sig'))
     for f in sorted(files):

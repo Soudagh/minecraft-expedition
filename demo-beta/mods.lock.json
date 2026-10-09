@@ -1,6 +1,6 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.17.0-quest-overhaul-dev",
+  "version": "0.18.0-core-quests-dev",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,

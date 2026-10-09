@@ -124,16 +124,17 @@ def write_expanded(root):
 def write_report(root):
     """Expected native object inventory, derived from the generated book."""
     pack=root.parents[3]
-    chapters=[];items=set();quest_ids=[];task_ids=[]
+    chapters=[];items=set();quest_ids=[];task_ids=[];layout=[]
     for path in sorted((root/'chapters').glob('*.snbt')):
         chapter=json.loads(path.read_text())
         chapters.append({'id':chapter['id'],'slug':path.stem,'count':len(chapter['quests']),'title':chapter['title'],'order':chapter.get('order_index',0)})
         for quest in chapter['quests']:
             quest_ids.append(quest['id'])
+            layout.append({'id':quest['id'],'x':quest['x'],'y':quest['y'],'hideDependencyLines':quest.get('hide_dependency_lines',False),'hideDependentLines':quest.get('hide_dependent_lines',False)})
             for task in quest['tasks']:
                 task_ids.append(task['id'])
                 item=task.get('item')
                 if isinstance(item,dict):item=item.get('id')
                 if item:items.add(item)
-    report={'version':json.loads((pack/'mods.lock.json').read_text())['version'],'chapters':sorted(chapters,key=lambda c:c['order']),'questCount':len(quest_ids),'taskCount':len(task_ids),'questIDs':quest_ids,'taskIDs':task_ids,'items':sorted(items)}
-    (pack/'docs/QUEST-CURRICULUM-0.17.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    report={'version':json.loads((pack/'mods.lock.json').read_text())['version'],'chapters':sorted(chapters,key=lambda c:c['order']),'questCount':len(quest_ids),'taskCount':len(task_ids),'questIDs':quest_ids,'taskIDs':task_ids,'items':sorted(items),'layout':layout}
+    (pack/'docs/QUEST-CURRICULUM-0.18.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
