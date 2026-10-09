@@ -1,0 +1,182 @@
+{
+  "id": "3000000000000010",
+  "filename": "kitchen",
+  "title": "Кухня · снабжение экспедиции",
+  "order_index": 26,
+  "quests": [
+    {
+      "id": "1310000000000001",
+      "title": "Рабочее место повара",
+      "description": [
+        "Разделочная доска и кастрюля — начало кухни. Обычная еда доступна с первого дня.",
+        "Общий зачёт команды FTB Teams. Предметы остаются у вас; награда — следующий раздел книги."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000001"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "farmersdelight:cutting_board",
+          "count": 1,
+          "consume_items": false,
+          "id": "2410000100000000"
+        },
+        {
+          "type": "item",
+          "item": "farmersdelight:cooking_pot",
+          "count": 1,
+          "consume_items": false,
+          "id": "2410000100000001"
+        }
+      ]
+    },
+    {
+      "id": "1310000000000002",
+      "title": "Огород на четыре порции",
+      "description": [
+        "Сохраните посадочный материал. Автоматизация фермы полезна, но квест проверяет только урожай.",
+        "Общий зачёт команды FTB Teams. Предметы остаются у вас; награда — следующий раздел книги."
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "dependencies": [
+        "1310000000000001"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "farmersdelight:tomato",
+          "count": 16,
+          "consume_items": false,
+          "id": "2410000200000000"
+        },
+        {
+          "type": "item",
+          "item": "farmersdelight:cabbage",
+          "count": 16,
+          "consume_items": false,
+          "id": "2410000200000001"
+        },
+        {
+          "type": "item",
+          "item": "farmersdelight:onion",
+          "count": 16,
+          "consume_items": false,
+          "id": "2410000200000002"
+        },
+        {
+          "type": "item",
+          "item": "minecraft:carrot",
+          "count": 16,
+          "consume_items": false,
+          "id": "2410000200000003"
+        }
+      ]
+    },
+    {
+      "id": "1310000000000003",
+      "title": "Обед перед походом",
+      "description": [
+        "По две порции на игрока: на поход и резерв. Nourishment не заменяет защиту и изучение атак.",
+        "Общий зачёт команды FTB Teams. Предметы остаются у вас; награда — следующий раздел книги."
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "dependencies": [
+        "1310000000000002"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "farmersdelight:vegetable_soup",
+          "count": 8,
+          "consume_items": false,
+          "id": "2410000300000000"
+        }
+      ]
+    },
+    {
+      "id": "1310000000000004",
+      "title": "Ферментация",
+      "description": [
+        "Подготовьте бочонок и кружки. Температура и рецепт влияют на ферментацию; используйте JEI.",
+        "Общий зачёт команды FTB Teams. Предметы остаются у вас; награда — следующий раздел книги."
+      ],
+      "x": 12.0,
+      "y": 0.0,
+      "dependencies": [
+        "1310000000000003"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "brewinandchewin:keg",
+          "count": 1,
+          "consume_items": false,
+          "id": "2410000400000000"
+        },
+        {
+          "type": "item",
+          "item": "brewinandchewin:tankard",
+          "count": 4,
+          "consume_items": false,
+          "id": "2410000400000001"
+        }
+      ]
+    },
+    {
+      "id": "1310000000000005",
+      "title": "Запас длительного хранения",
+      "description": [
+        "Восстановите запас после похода. Еда не изымается и не требуется повторный зачёт квеста.",
+        "Общий зачёт команды FTB Teams. Предметы остаются у вас; награда — следующий раздел книги."
+      ],
+      "x": 0.0,
+      "y": 4.0,
+      "dependencies": [
+        "1310000000000004"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "brewinandchewin:jerky",
+          "count": 16,
+          "consume_items": false,
+          "id": "2410000500000000"
+        }
+      ]
+    },
+    {
+      "id": "1310000000000006",
+      "title": "Командный ужин",
+      "description": [
+        "Сравните еду и напиток в своей экипировке. Ограничение одновременных баффов пока проект; книга его не применяет.",
+        "Общий зачёт команды FTB Teams. Предметы остаются у вас; награда — следующий раздел книги."
+      ],
+      "x": 4.0,
+      "y": 4.0,
+      "dependencies": [
+        "1310000000000005"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "farmersdelight:beef_stew",
+          "count": 8,
+          "consume_items": false,
+          "id": "2410000600000000"
+        },
+        {
+          "type": "item",
+          "item": "brewinandchewin:beer",
+          "count": 4,
+          "consume_items": false,
+          "id": "2410000600000001"
+        }
+      ]
+    }
+  ]
+}

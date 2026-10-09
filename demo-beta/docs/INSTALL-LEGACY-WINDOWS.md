@@ -1,6 +1,6 @@
-# Установка «Экспедиции 0.9» в Legacy Launcher — Windows
+# Установка «Экспедиции 0.15» в Legacy Launcher — Windows
 
-Для друга, который устанавливает сборку впервые. Нужны интернет, Windows 64-bit и Legacy Launcher. Сборка: Minecraft 1.20.1 + Forge 47.4.10 + Java 17. Для 0.9 создаём новый мир; старую сборку и её сохранения оставляем отдельно.
+Для друга, который устанавливает сборку впервые. Нужны интернет, Windows 64-bit и Legacy Launcher. Сборка: Minecraft 1.20.1 + Forge 47.4.10 + Java 17. Для первой установки создаём временный мир. Перенос 0.9 → 0.15 проверяем на копии; из 0.8 и более ранних версий нужен новый мир.
 
 Инструкция сверена с документацией Legacy. Весь путь на Windows вручную пока не проходили; запуск сервера и установка файлов сборки проверены.
 
@@ -12,19 +12,19 @@
 
 ## 2. Распакуй и установи сборку
 
-1. Скачай [архив сборки 0.9](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.9.0-hbm-qol-preview/expedition-0.9.0-hbm-qol-preview-bootstrap.zip). На [странице релиза](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.9.0-hbm-qol-preview) он также находится в Assets под именем `expedition-0.9.0-hbm-qol-preview-bootstrap.zip`. Автоматический Source code для этой инструкции не нужен.
+1. Скачай [bootstrap-архив 0.15](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.15.0-combat-sustain-dev/expedition-0.15.0-combat-sustain-dev-bootstrap.zip) из [промежуточного релиза](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.15.0-combat-sustain-dev). Архив старой 0.9 не содержит новые квесты. Если используешь исходники 0.15, папка сборки называется `demo-beta`.
 2. Нажми на ZIP правой кнопкой → «Извлечь всё». Нельзя запускать установку прямо из ZIP.
 3. Открой распакованную папку `expedition-demo`. В ней должны быть `README.md`, `mods.lock.json` и папка `tools`.
 4. Щёлкни по адресной строке Проводника, введи `powershell` и нажми Enter.
 5. Проверь Python командой `py --version`: нужна версия не ниже 3.10. Затем вставь:
 
 ```powershell
-py tools/install.py --side client --visuals shaders --destination "$env:USERPROFILE\Games\Expedition-0.9"
+py tools/install.py --side client --visuals shaders --destination "$env:USERPROFILE\Games\Expedition-0.15"
 ```
 
-Дождись строки `Prepared:`. Загрузчик скачает моды и проверит файлы. Скопируй полный путь после `Prepared:` — он понадобится дальше. Обычно это `C:\Users\ИМЯ\Games\Expedition-0.9`.
+Дождись строки `Prepared:`. Загрузчик скачает моды и проверит файлы. Скопируй полный путь после `Prepared:` — он понадобится дальше. Обычно это `C:\Users\ИМЯ\Games\Expedition-0.15`.
 
-Папку `Expedition-0.9` заранее создавать не нужно. Если она уже существует, выбери другое имя, например `Expedition-0.9-new`, и дальше используй именно его. Не удаляй папку, если в ней есть нужные данные.
+Папку `Expedition-0.15` заранее создавать не нужно. Если она уже существует, выбери другое имя, например `Expedition-0.15-new`, и дальше используй именно его. Не удаляй папку, если в ней есть нужные данные.
 
 Если команда `py` не найдена, попробуй `python --version`. Если это Python 3.10+, замени только `py` в команде установки на `python`.
 
@@ -34,7 +34,7 @@ py tools/install.py --side client --visuals shaders --destination "$env:USERPROF
 2. Сохрани прежнее значение «Директория», если пользуешься другой сборкой.
 3. В «Директория» вставь полный путь из строки `Prepared:`.
 4. Для этой отдельной папки выбери **«Не использовать отдельные папки»**. Иначе Legacy может искать моды в дополнительной папке `home`, а не там, куда мы их установили.
-5. Сохрани настройки. Через значок папки на главном экране проверь: открывается именно `Expedition-0.9`, в ней видны `mods`, `config`, `kubejs`.
+5. Сохрани настройки. Через значок папки на главном экране проверь: открывается именно `Expedition-0.15`, в ней видны `mods`, `config`, `kubejs`.
 
 Источник: https://docs.llaun.ch/launcher/subfolders
 
@@ -46,7 +46,7 @@ py tools/install.py --side client --visuals shaders --destination "$env:USERPROF
 2. Скачай официальный Forge Installer:
    https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar
 3. Закрой Legacy. Открой скачанный JAR двойным щелчком.
-4. В установщике выбери **Install client** и укажи ту же папку `Expedition-0.9` из шага 2. Дождись завершения.
+4. В установщике выбери **Install client** и укажи ту же папку `Expedition-0.15` из шага 2. Дождись завершения.
 5. Открой Legacy снова. В списке версий выбери `1.20.1-forge-47.4.10`. Если версия скрыта, включи показ «Модификации» в настройках списка версий.
 
 Если JAR не открывается, в PowerShell набери `& `, перетащи из Проводника файл `java.exe` из установленной Java 17, допиши ` -jar `, затем перетащи скачанный Forge Installer и нажми Enter. Пути с пробелами заключи в двойные кавычки. Пример формы команды (пути замени своими):
@@ -85,7 +85,7 @@ py tools/install.py --side client --visuals shaders --destination "$env:USERPROF
 
 ```powershell
 py -m pip install --upgrade truststore
-py tools/install.py --side client --visuals shaders --destination "$env:USERPROFILE\Games\Expedition-0.9"
+py tools/install.py --side client --visuals shaders --destination "$env:USERPROFILE\Games\Expedition-0.15"
 ```
 
 Установщик автоматически использует установленный truststore для системной проверки сертификатов. Проверки HTTPS и SHA-256 остаются включены.

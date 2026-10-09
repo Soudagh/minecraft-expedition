@@ -1,0 +1,7727 @@
+{
+	"schema": 1,
+	"kind": "native stats and isolated effects; spell power is not DPS",
+	"spells": [
+		{
+			"id": "irons_spellbooks:abyssal_shroud",
+			"school": "irons_spellbooks:eldritch",
+			"maxLevel": 3,
+			"minRarity": "4",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 4000,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 300,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 2,
+					"mana": 320,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 3,
+					"mana": 340,
+					"power": 18.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:acid_orb",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 8,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 1.0,
+					"castTicks": 15,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 50,
+					"power": 1.0,
+					"castTicks": 15,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 1.0,
+					"castTicks": 15,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 70,
+					"power": 1.0,
+					"castTicks": 15,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 80,
+					"power": 1.0,
+					"castTicks": 15,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 90,
+					"power": 1.0,
+					"castTicks": 15,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 100,
+					"power": 1.0,
+					"castTicks": 15,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 110,
+					"power": 1.0,
+					"castTicks": 15,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:acupuncture",
+			"school": "irons_spellbooks:blood",
+			"maxLevel": 10,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 400,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 25,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 30,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 35,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 40,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 45,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 50,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 55,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 60,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 9,
+					"mana": 65,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 70,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:angel_wing",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 5,
+			"minRarity": "4",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 2400,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 80,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 2,
+					"mana": 100,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 3,
+					"mana": 120,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 4,
+					"mana": 140,
+					"power": 40.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 160,
+					"power": 50.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:arcane_shackle",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 8,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 900,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 6.0,
+					"castTicks": 10,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 48,
+					"power": 8.0,
+					"castTicks": 10,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 56,
+					"power": 10.0,
+					"castTicks": 10,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 64,
+					"power": 12.0,
+					"castTicks": 10,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 72,
+					"power": 14.0,
+					"castTicks": 10,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 80,
+					"power": 16.0,
+					"castTicks": 10,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 88,
+					"power": 18.0,
+					"castTicks": 10,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 8,
+					"mana": 96,
+					"power": 20.0,
+					"castTicks": 10,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:arrow_volley",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 6,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 8.0,
+					"castTicks": 30,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 50,
+					"power": 8.0,
+					"castTicks": 30,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 8.0,
+					"castTicks": 30,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 70,
+					"power": 8.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 80,
+					"power": 8.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 90,
+					"power": 8.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:ascension",
+			"school": "irons_spellbooks:lightning",
+			"maxLevel": 10,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 5.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 51,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 52,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 53,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 54,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 55,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 56,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 57,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 9,
+					"mana": 58,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 59,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:ball_lightning",
+			"school": "irons_spellbooks:lightning",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 20,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 20,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 24,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 28,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 32,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 36,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 40,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 44,
+					"power": 16.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 48,
+					"power": 17.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 52,
+					"power": 18.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 56,
+					"power": 19.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:black_hole",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 6,
+			"minRarity": "4",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 2400,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 300,
+					"power": 1.0,
+					"castTicks": 100,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 2,
+					"mana": 400,
+					"power": 1.0,
+					"castTicks": 100,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 3,
+					"mana": 500,
+					"power": 1.0,
+					"castTicks": 100,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 4,
+					"mana": 600,
+					"power": 1.0,
+					"castTicks": 100,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 700,
+					"power": 1.0,
+					"castTicks": 100,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 6,
+					"mana": 800,
+					"power": 1.0,
+					"castTicks": 100,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:blaze_storm",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 400,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 5,
+					"power": 5.0,
+					"castTicks": 60,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 6,
+					"power": 6.0,
+					"castTicks": 65,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 7,
+					"power": 7.0,
+					"castTicks": 70,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 8,
+					"power": 8.0,
+					"castTicks": 75,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 9,
+					"power": 9.0,
+					"castTicks": 80,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 10,
+					"power": 10.0,
+					"castTicks": 85,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 11,
+					"power": 11.0,
+					"castTicks": 90,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 12,
+					"power": 12.0,
+					"castTicks": 95,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 13,
+					"power": 13.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 14,
+					"power": 14.0,
+					"castTicks": 105,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:blessing_of_life",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 200,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 10,
+					"power": 6.0,
+					"castTicks": 30,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 15,
+					"power": 7.0,
+					"castTicks": 30,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 20,
+					"power": 8.0,
+					"castTicks": 30,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 25,
+					"power": 9.0,
+					"castTicks": 30,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 30,
+					"power": 10.0,
+					"castTicks": 30,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 35,
+					"power": 11.0,
+					"castTicks": 30,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 40,
+					"power": 12.0,
+					"castTicks": 30,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 45,
+					"power": 13.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 50,
+					"power": 14.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 55,
+					"power": 15.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:blight",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 8,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 1800,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 60,
+					"power": 1.0,
+					"castTicks": 50,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 80,
+					"power": 1.0,
+					"castTicks": 50,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 100,
+					"power": 1.0,
+					"castTicks": 50,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 120,
+					"power": 1.0,
+					"castTicks": 50,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 140,
+					"power": 1.0,
+					"castTicks": 50,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 160,
+					"power": 1.0,
+					"castTicks": 50,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 180,
+					"power": 1.0,
+					"castTicks": 50,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 8,
+					"mana": 200,
+					"power": 1.0,
+					"castTicks": 50,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:blizzard",
+			"school": "irons_spellbooks:ice",
+			"maxLevel": 8,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 440,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 12.0,
+					"castTicks": 25,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 50,
+					"power": 15.0,
+					"castTicks": 25,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 18.0,
+					"castTicks": 25,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 70,
+					"power": 21.0,
+					"castTicks": 25,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 80,
+					"power": 24.0,
+					"castTicks": 25,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 90,
+					"power": 27.0,
+					"castTicks": 25,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 100,
+					"power": 30.0,
+					"castTicks": 25,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 8,
+					"mana": 110,
+					"power": 33.0,
+					"castTicks": 25,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:blood_needles",
+			"school": "irons_spellbooks:blood",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 200,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 25,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 30,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 35,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 40,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 45,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 50,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 55,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 60,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 65,
+					"power": 16.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 70,
+					"power": 17.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:blood_slash",
+			"school": "irons_spellbooks:blood",
+			"maxLevel": 5,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 200,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 25,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 30,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 35,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 40,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 45,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:blood_step",
+			"school": "irons_spellbooks:blood",
+			"maxLevel": 5,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 240,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 40,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 50,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 60,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 70,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:burning_dash",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 200,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 20,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 22,
+					"power": 2.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 24,
+					"power": 3.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 26,
+					"power": 4.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 28,
+					"power": 5.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 30,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 32,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 34,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 36,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 38,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:chain_creeper",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 6,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 5.0,
+					"castTicks": 30,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 50,
+					"power": 5.0,
+					"castTicks": 30,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 5.0,
+					"castTicks": 30,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 70,
+					"power": 5.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 80,
+					"power": 5.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 90,
+					"power": 5.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:chain_lightning",
+			"school": "irons_spellbooks:lightning",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 400,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 25,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 32,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 39,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 46,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 53,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 60,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 67,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 74,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 81,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 88,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:charge",
+			"school": "irons_spellbooks:lightning",
+			"maxLevel": 3,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 800,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 75,
+					"power": 38.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 3,
+					"mana": 100,
+					"power": 46.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:cleanse",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 1,
+			"minRarity": "3",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 1200,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 100,
+					"power": 0.0,
+					"castTicks": 60,
+					"rarity": "EPIC",
+					"stage": 6
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:cloud_of_regeneration",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 5,
+			"minRarity": "0",
+			"enabled": false,
+			"allowCrafting": true,
+			"cooldownTicks": 700,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 10,
+					"power": 2.0,
+					"castTicks": 200,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 13,
+					"power": 3.0,
+					"castTicks": 200,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 16,
+					"power": 4.0,
+					"castTicks": 200,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 19,
+					"power": 5.0,
+					"castTicks": 200,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 22,
+					"power": 6.0,
+					"castTicks": 200,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:cone_of_cold",
+			"school": "irons_spellbooks:ice",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 240,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 5,
+					"power": 0.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 6,
+					"power": 1.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 7,
+					"power": 2.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 8,
+					"power": 3.0,
+					"castTicks": 100,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 9,
+					"power": 4.0,
+					"castTicks": 100,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 10,
+					"power": 5.0,
+					"castTicks": 100,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 11,
+					"power": 6.0,
+					"castTicks": 100,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 12,
+					"power": 7.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 13,
+					"power": 8.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 14,
+					"power": 9.0,
+					"castTicks": 100,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:counterspell",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 1,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 200,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:devour",
+			"school": "irons_spellbooks:blood",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 400,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 25,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 29,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 33,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 37,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 41,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 45,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 49,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 53,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 57,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 61,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:divine_smite",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 5,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 8.0,
+					"castTicks": 16,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 45,
+					"power": 11.0,
+					"castTicks": 16,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 14.0,
+					"castTicks": 16,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 75,
+					"power": 17.0,
+					"castTicks": 16,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 20.0,
+					"castTicks": 16,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:dragon_breath",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 240,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 5,
+					"power": 0.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 6,
+					"power": 1.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 7,
+					"power": 2.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 8,
+					"power": 3.0,
+					"castTicks": 100,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 9,
+					"power": 4.0,
+					"castTicks": 100,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 10,
+					"power": 5.0,
+					"castTicks": 100,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 11,
+					"power": 6.0,
+					"castTicks": 100,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 12,
+					"power": 7.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 13,
+					"power": 8.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 14,
+					"power": 9.0,
+					"castTicks": 100,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:earthquake",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 320,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 8.0,
+					"castTicks": 40,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 60,
+					"power": 9.0,
+					"castTicks": 40,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 70,
+					"power": 10.0,
+					"castTicks": 40,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 80,
+					"power": 11.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 12.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 100,
+					"power": 13.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 110,
+					"power": 14.0,
+					"castTicks": 40,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 120,
+					"power": 15.0,
+					"castTicks": 40,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 130,
+					"power": 16.0,
+					"castTicks": 40,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 140,
+					"power": 17.0,
+					"castTicks": 40,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:echoing_strikes",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 5,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 1200,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 60,
+					"power": 25.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 70,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 80,
+					"power": 35.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 40.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:eldritch_blast",
+			"school": "irons_spellbooks:eldritch",
+			"maxLevel": 5,
+			"minRarity": "4",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 90,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 2,
+					"mana": 105,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 3,
+					"mana": 120,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 4,
+					"mana": 135,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 150,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:electrocute",
+			"school": "irons_spellbooks:lightning",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 240,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 3,
+					"power": 1.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 4,
+					"power": 2.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 5,
+					"power": 3.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 6,
+					"power": 4.0,
+					"castTicks": 100,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 7,
+					"power": 5.0,
+					"castTicks": 100,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 8,
+					"power": 6.0,
+					"castTicks": 100,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 9,
+					"power": 7.0,
+					"castTicks": 100,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 10,
+					"power": 8.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 11,
+					"power": 9.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 12,
+					"power": 10.0,
+					"castTicks": 100,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:evasion",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 5,
+			"minRarity": "3",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 3600,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 0.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 2,
+					"mana": 60,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 3,
+					"mana": 80,
+					"power": 2.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 100,
+					"power": 3.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 120,
+					"power": 4.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:fang_strike",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 100,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 6.0,
+					"castTicks": 15,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 33,
+					"power": 7.0,
+					"castTicks": 15,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 36,
+					"power": 8.0,
+					"castTicks": 15,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 39,
+					"power": 9.0,
+					"castTicks": 15,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 42,
+					"power": 10.0,
+					"castTicks": 15,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 45,
+					"power": 11.0,
+					"castTicks": 15,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 48,
+					"power": 12.0,
+					"castTicks": 15,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 51,
+					"power": 13.0,
+					"castTicks": 15,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 54,
+					"power": 14.0,
+					"castTicks": 15,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 57,
+					"power": 15.0,
+					"castTicks": 15,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:fang_swirl",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 8,
+			"minRarity": "3",
+			"enabled": true,
+			"allowCrafting": false,
+			"cooldownTicks": 560,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 55,
+					"power": 6.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 2,
+					"mana": 63,
+					"power": 7.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 3,
+					"mana": 71,
+					"power": 8.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 79,
+					"power": 9.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 87,
+					"power": 10.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 6,
+					"mana": 95,
+					"power": 11.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 7,
+					"mana": 103,
+					"power": 12.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 8,
+					"mana": 111,
+					"power": 13.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:fang_ward",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 8,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 45,
+					"power": 8.0,
+					"castTicks": 15,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 50,
+					"power": 9.0,
+					"castTicks": 15,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 55,
+					"power": 10.0,
+					"castTicks": 15,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 60,
+					"power": 11.0,
+					"castTicks": 15,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 65,
+					"power": 12.0,
+					"castTicks": 15,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 70,
+					"power": 13.0,
+					"castTicks": 15,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 75,
+					"power": 14.0,
+					"castTicks": 15,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 80,
+					"power": 15.0,
+					"castTicks": 15,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:fire_arrow",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 10,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 160,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 11.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 45,
+					"power": 12.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 50,
+					"power": 13.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 55,
+					"power": 14.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 60,
+					"power": 15.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 65,
+					"power": 16.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 70,
+					"power": 17.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 75,
+					"power": 18.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 9,
+					"mana": 80,
+					"power": 19.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 85,
+					"power": 20.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:fire_breath",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 240,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 5,
+					"power": 0.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 6,
+					"power": 1.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 7,
+					"power": 2.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 8,
+					"power": 3.0,
+					"castTicks": 100,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 9,
+					"power": 4.0,
+					"castTicks": 100,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 10,
+					"power": 5.0,
+					"castTicks": 100,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 11,
+					"power": 6.0,
+					"castTicks": 100,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 12,
+					"power": 7.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 13,
+					"power": 8.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 14,
+					"power": 9.0,
+					"castTicks": 100,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:fireball",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 5,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 500,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 60,
+					"power": 1.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 75,
+					"power": 2.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 90,
+					"power": 3.0,
+					"castTicks": 40,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 105,
+					"power": 4.0,
+					"castTicks": 40,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 120,
+					"power": 5.0,
+					"castTicks": 40,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:firebolt",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 20,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 10,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 12,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 14,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 16,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 18,
+					"power": 16.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 20,
+					"power": 17.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 22,
+					"power": 18.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 24,
+					"power": 19.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 26,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 28,
+					"power": 21.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:firecracker",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 30,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 20,
+					"power": 4.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 22,
+					"power": 5.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 24,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 26,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 28,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 30,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 32,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 34,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 36,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 38,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:firefly_swarm",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 400,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 6.0,
+					"castTicks": 30,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 50,
+					"power": 7.0,
+					"castTicks": 30,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 8.0,
+					"castTicks": 30,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 70,
+					"power": 9.0,
+					"castTicks": 30,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 80,
+					"power": 10.0,
+					"castTicks": 30,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 90,
+					"power": 11.0,
+					"castTicks": 30,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 100,
+					"power": 12.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 110,
+					"power": 13.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 120,
+					"power": 14.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 130,
+					"power": 15.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:flaming_barrage",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 5,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 80,
+					"power": 3.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 85,
+					"power": 5.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 90,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 95,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 100,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:flaming_strike",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 5,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 5.0,
+					"castTicks": 10,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 45,
+					"power": 7.0,
+					"castTicks": 10,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 9.0,
+					"castTicks": 10,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 75,
+					"power": 11.0,
+					"castTicks": 10,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 13.0,
+					"castTicks": 10,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:fortify",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 3600,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 80,
+					"power": 6.0,
+					"castTicks": 60,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 90,
+					"power": 7.0,
+					"castTicks": 60,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 100,
+					"power": 8.0,
+					"castTicks": 60,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 110,
+					"power": 9.0,
+					"castTicks": 60,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 120,
+					"power": 10.0,
+					"castTicks": 60,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 130,
+					"power": 11.0,
+					"castTicks": 60,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 140,
+					"power": 12.0,
+					"castTicks": 60,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 150,
+					"power": 13.0,
+					"castTicks": 60,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 160,
+					"power": 14.0,
+					"castTicks": 60,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 170,
+					"power": 15.0,
+					"castTicks": 60,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:frost_step",
+			"school": "irons_spellbooks:ice",
+			"maxLevel": 8,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 240,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 15,
+					"power": 4.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 20,
+					"power": 5.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 25,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 30,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 35,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 40,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 45,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 8,
+					"mana": 50,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:frostbite",
+			"school": "irons_spellbooks:ice",
+			"maxLevel": 5,
+			"minRarity": "3",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 1200,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 80,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 2,
+					"mana": 90,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 3,
+					"mana": 100,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 110,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 120,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:frostwave",
+			"school": "irons_spellbooks:ice",
+			"maxLevel": 8,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 900,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 10.0,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 55,
+					"power": 13.0,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 16.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 65,
+					"power": 19.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 70,
+					"power": 22.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 75,
+					"power": 25.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 80,
+					"power": 28.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 85,
+					"power": 31.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:gluttony",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 5,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 1800,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 35,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 35,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 35,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 35,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 35,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:gravity_fissure",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 5,
+			"minRarity": "3",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 900,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 150,
+					"power": 3.0,
+					"castTicks": 15,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 2,
+					"mana": 175,
+					"power": 4.0,
+					"castTicks": 15,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 3,
+					"mana": 200,
+					"power": 5.0,
+					"castTicks": 15,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 225,
+					"power": 6.0,
+					"castTicks": 15,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 250,
+					"power": 7.0,
+					"castTicks": 15,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:greater_heal",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 1,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 1200,
+			"manaMultiplier": 1.5,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 150,
+					"power": 0.0,
+					"castTicks": 120,
+					"rarity": "RARE",
+					"stage": 3
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:guiding_bolt",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 160,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 20,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 25,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 30,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 35,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 40,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 45,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 50,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 55,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 60,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 65,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:gust",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 240,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 10.0,
+					"castTicks": 15,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 35,
+					"power": 11.0,
+					"castTicks": 15,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 40,
+					"power": 12.0,
+					"castTicks": 15,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 45,
+					"power": 13.0,
+					"castTicks": 15,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 50,
+					"power": 14.0,
+					"castTicks": 15,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 55,
+					"power": 15.0,
+					"castTicks": 15,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 60,
+					"power": 16.0,
+					"castTicks": 15,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 65,
+					"power": 17.0,
+					"castTicks": 15,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 70,
+					"power": 18.0,
+					"castTicks": 15,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 75,
+					"power": 19.0,
+					"castTicks": 15,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:haste",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 4,
+			"minRarity": "3",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 1600,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 30.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 2,
+					"mana": 60,
+					"power": 35.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 3,
+					"mana": 70,
+					"power": 40.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 4,
+					"mana": 80,
+					"power": 45.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:heal",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 8,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 600,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 5.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 45,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 75,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 105,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 120,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 8,
+					"mana": 135,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:healing_circle",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 800,
+			"manaMultiplier": 1.5,
+			"powerMultiplier": 0.65,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 60,
+					"power": 1.3,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 75,
+					"power": 1.9499999,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 90,
+					"power": 2.6,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 105,
+					"power": 3.25,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 120,
+					"power": 3.8999999,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 135,
+					"power": 4.5499997,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 150,
+					"power": 5.2,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 165,
+					"power": 5.85,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 180,
+					"power": 6.5,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 195,
+					"power": 7.1499996,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:heartstop",
+			"school": "irons_spellbooks:blood",
+			"maxLevel": 5,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 2400,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 100,
+					"power": 200.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 110,
+					"power": 230.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 120,
+					"power": 260.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 130,
+					"power": 290.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 140,
+					"power": 320.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:heat_surge",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 6,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 900,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 10.0,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 60,
+					"power": 12.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 70,
+					"power": 14.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 80,
+					"power": 16.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 18.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 100,
+					"power": 20.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:ice_block",
+			"school": "irons_spellbooks:ice",
+			"maxLevel": 6,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 14.0,
+					"castTicks": 25,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 50,
+					"power": 16.0,
+					"castTicks": 25,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 18.0,
+					"castTicks": 25,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 70,
+					"power": 20.0,
+					"castTicks": 25,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 80,
+					"power": 22.0,
+					"castTicks": 25,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 6,
+					"mana": 90,
+					"power": 24.0,
+					"castTicks": 25,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:ice_spikes",
+			"school": "irons_spellbooks:ice",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 40,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 50,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 60,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 70,
+					"power": 16.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 80,
+					"power": 17.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 90,
+					"power": 18.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 100,
+					"power": 19.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 110,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 120,
+					"power": 21.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:ice_tomb",
+			"school": "irons_spellbooks:ice",
+			"maxLevel": 8,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 600,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 5.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 45,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 75,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 105,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 120,
+					"power": 11.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 8,
+					"mana": 135,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:icicle",
+			"school": "irons_spellbooks:ice",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 20,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 10,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 12,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 14,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 16,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 18,
+					"power": 16.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 20,
+					"power": 17.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 22,
+					"power": 18.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 24,
+					"power": 19.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 26,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 28,
+					"power": 21.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:invisibility",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 6,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 900,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 35,
+					"power": 10.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 43,
+					"power": 15.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 51,
+					"power": 20.0,
+					"castTicks": 40,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 59,
+					"power": 25.0,
+					"castTicks": 40,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 67,
+					"power": 30.0,
+					"castTicks": 40,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 6,
+					"mana": 75,
+					"power": 35.0,
+					"castTicks": 40,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:lightning_bolt",
+			"school": "irons_spellbooks:lightning",
+			"maxLevel": 10,
+			"minRarity": "3",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 500,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 75,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 2,
+					"mana": 90,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 3,
+					"mana": 105,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 120,
+					"power": 16.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 135,
+					"power": 18.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 150,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 165,
+					"power": 22.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 8,
+					"mana": 180,
+					"power": 24.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 9,
+					"mana": 195,
+					"power": 26.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 210,
+					"power": 28.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:lightning_lance",
+			"school": "irons_spellbooks:lightning",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 160,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 14.0,
+					"castTicks": 40,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 60,
+					"power": 16.0,
+					"castTicks": 40,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 70,
+					"power": 18.0,
+					"castTicks": 40,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 80,
+					"power": 20.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 22.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 100,
+					"power": 24.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 110,
+					"power": 26.0,
+					"castTicks": 40,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 120,
+					"power": 28.0,
+					"castTicks": 40,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 130,
+					"power": 30.0,
+					"castTicks": 40,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 140,
+					"power": 32.0,
+					"castTicks": 40,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:lob_creeper",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 40,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 20,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 22,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 24,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 26,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 28,
+					"power": 16.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 30,
+					"power": 17.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 32,
+					"power": 18.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 34,
+					"power": 19.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 36,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 38,
+					"power": 21.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:magic_arrow",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 10,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 160,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 10.0,
+					"castTicks": 30,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 45,
+					"power": 12.0,
+					"castTicks": 30,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 50,
+					"power": 14.0,
+					"castTicks": 30,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 55,
+					"power": 16.0,
+					"castTicks": 30,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 60,
+					"power": 18.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 65,
+					"power": 20.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 70,
+					"power": 22.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 75,
+					"power": 24.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 9,
+					"mana": 80,
+					"power": 26.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 85,
+					"power": 28.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:magic_missile",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 20,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 10,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 12,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 14,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 16,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 18,
+					"power": 16.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 20,
+					"power": 17.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 22,
+					"power": 18.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 24,
+					"power": 19.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 26,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 28,
+					"power": 21.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:magma_bomb",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 8,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 240,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 8.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 35,
+					"power": 11.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 40,
+					"power": 14.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 45,
+					"power": 17.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 50,
+					"power": 20.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 55,
+					"power": 23.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 60,
+					"power": 26.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 8,
+					"mana": 65,
+					"power": 29.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:oakskin",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 8,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 1800,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 25,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 35,
+					"power": 23.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 45,
+					"power": 26.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 55,
+					"power": 29.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 65,
+					"power": 32.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 75,
+					"power": 35.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 85,
+					"power": 38.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 95,
+					"power": 41.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:planar_sight",
+			"school": "irons_spellbooks:eldritch",
+			"maxLevel": 3,
+			"minRarity": "4",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 4000,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 150,
+					"power": 40.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 2,
+					"mana": 200,
+					"power": 60.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 3,
+					"mana": 250,
+					"power": 80.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:pocket_dimension",
+			"school": "irons_spellbooks:eldritch",
+			"maxLevel": 1,
+			"minRarity": "4",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 1200,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 300,
+					"power": 0.0,
+					"castTicks": 40,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:poison_arrow",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 5.0,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 45,
+					"power": 6.0,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 50,
+					"power": 7.0,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 55,
+					"power": 8.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 60,
+					"power": 9.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 65,
+					"power": 10.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 70,
+					"power": 11.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 75,
+					"power": 12.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 80,
+					"power": 13.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 85,
+					"power": 14.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:poison_breath",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 240,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 5,
+					"power": 0.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 6,
+					"power": 1.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 7,
+					"power": 2.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 8,
+					"power": 3.0,
+					"castTicks": 100,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 9,
+					"power": 4.0,
+					"castTicks": 100,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 10,
+					"power": 5.0,
+					"castTicks": 100,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 11,
+					"power": 6.0,
+					"castTicks": 100,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 12,
+					"power": 7.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 13,
+					"power": 8.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 14,
+					"power": 9.0,
+					"castTicks": 100,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:poison_splash",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 400,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 8.0,
+					"castTicks": 15,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 50,
+					"power": 9.0,
+					"castTicks": 15,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 10.0,
+					"castTicks": 15,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 70,
+					"power": 11.0,
+					"castTicks": 15,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 80,
+					"power": 12.0,
+					"castTicks": 15,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 90,
+					"power": 13.0,
+					"castTicks": 15,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 100,
+					"power": 14.0,
+					"castTicks": 15,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 110,
+					"power": 15.0,
+					"castTicks": 15,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 120,
+					"power": 16.0,
+					"castTicks": 15,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 130,
+					"power": 17.0,
+					"castTicks": 15,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:portal",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 3,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 3600,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 200,
+					"power": 300.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 210,
+					"power": 420.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 3,
+					"mana": 220,
+					"power": 540.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:raise_dead",
+			"school": "irons_spellbooks:blood",
+			"maxLevel": 6,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 3000,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 10.0,
+					"castTicks": 30,
+					"rarity": "UNCOMMON",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 60,
+					"power": 13.0,
+					"castTicks": 30,
+					"rarity": "UNCOMMON",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 70,
+					"power": 16.0,
+					"castTicks": 30,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 80,
+					"power": 19.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 22.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 100,
+					"power": 25.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:raise_hell",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 5,
+			"minRarity": "4",
+			"enabled": true,
+			"allowCrafting": false,
+			"cooldownTicks": 500,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 90,
+					"power": 15.0,
+					"castTicks": 16,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 2,
+					"mana": 135,
+					"power": 15.0,
+					"castTicks": 16,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 3,
+					"mana": 180,
+					"power": 15.0,
+					"castTicks": 16,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 4,
+					"mana": 225,
+					"power": 15.0,
+					"castTicks": 16,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 270,
+					"power": 15.0,
+					"castTicks": 16,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:ray_of_frost",
+			"school": "irons_spellbooks:ice",
+			"maxLevel": 5,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 25,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 40,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 55,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 70,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 85,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:ray_of_siphoning",
+			"school": "irons_spellbooks:blood",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 8,
+					"power": 4.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 9,
+					"power": 5.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 10,
+					"power": 6.0,
+					"castTicks": 100,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 11,
+					"power": 7.0,
+					"castTicks": 100,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 12,
+					"power": 8.0,
+					"castTicks": 100,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 13,
+					"power": 9.0,
+					"castTicks": 100,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 14,
+					"power": 10.0,
+					"castTicks": 100,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 15,
+					"power": 11.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 16,
+					"power": 12.0,
+					"castTicks": 100,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 17,
+					"power": 13.0,
+					"castTicks": 100,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:recall",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 1,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 6000,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 100,
+					"power": 1.0,
+					"castTicks": 80,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:root",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 900,
+			"manaMultiplier": 1.25,
+			"powerMultiplier": 0.5,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 56,
+					"power": 2.5,
+					"castTicks": 50,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 60,
+					"power": 3.0,
+					"castTicks": 50,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 63,
+					"power": 3.5,
+					"castTicks": 50,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 67,
+					"power": 4.0,
+					"castTicks": 50,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 71,
+					"power": 4.5,
+					"castTicks": 50,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 75,
+					"power": 5.0,
+					"castTicks": 50,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 78,
+					"power": 5.5,
+					"castTicks": 50,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 82,
+					"power": 6.0,
+					"castTicks": 50,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 86,
+					"power": 6.5,
+					"castTicks": 50,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 90,
+					"power": 7.0,
+					"castTicks": 50,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:sacrifice",
+			"school": "irons_spellbooks:blood",
+			"maxLevel": 5,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 20,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 25,
+					"power": 2.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 30,
+					"power": 3.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 35,
+					"power": 4.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 40,
+					"power": 5.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 45,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:scapegoat",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 3,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 900,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 45,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 40.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:scorch",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 240,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 8.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 55,
+					"power": 9.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 10.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 65,
+					"power": 11.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 70,
+					"power": 12.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 75,
+					"power": 13.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 80,
+					"power": 14.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 85,
+					"power": 15.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 90,
+					"power": 16.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 95,
+					"power": 17.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:sculk_tentacles",
+			"school": "irons_spellbooks:eldritch",
+			"maxLevel": 4,
+			"minRarity": "4",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 600,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 150,
+					"power": 8.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 2,
+					"mana": 200,
+					"power": 11.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 3,
+					"mana": 250,
+					"power": 14.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 4,
+					"mana": 300,
+					"power": 17.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:shadow_slash",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 5,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 300,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 5.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 45,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 75,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:shield",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 320,
+			"manaMultiplier": 1.25,
+			"powerMultiplier": 0.8,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 43,
+					"power": 4.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 50,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 56,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 62,
+					"power": 28.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 68,
+					"power": 36.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 75,
+					"power": 44.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 81,
+					"power": 52.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 87,
+					"power": 60.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 93,
+					"power": 68.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 100,
+					"power": 76.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:shockwave",
+			"school": "irons_spellbooks:lightning",
+			"maxLevel": 8,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 600,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 70,
+					"power": 8.0,
+					"castTicks": 16,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 75,
+					"power": 9.0,
+					"castTicks": 16,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 80,
+					"power": 10.0,
+					"castTicks": 16,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 85,
+					"power": 11.0,
+					"castTicks": 16,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 12.0,
+					"castTicks": 16,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 95,
+					"power": 13.0,
+					"castTicks": 16,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 100,
+					"power": 14.0,
+					"castTicks": 16,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 105,
+					"power": 15.0,
+					"castTicks": 16,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:slow",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 4,
+			"minRarity": "3",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 1600,
+			"manaMultiplier": 1.25,
+			"powerMultiplier": 0.5,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 62,
+					"power": 10.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 2,
+					"mana": 75,
+					"power": 12.0,
+					"castTicks": 30,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 3,
+					"mana": 87,
+					"power": 14.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 4,
+					"mana": 100,
+					"power": 16.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:snowball",
+			"school": "irons_spellbooks:ice",
+			"maxLevel": 5,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 240,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 8.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 42,
+					"power": 11.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 44,
+					"power": 14.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 46,
+					"power": 17.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 48,
+					"power": 20.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:sonic_boom",
+			"school": "irons_spellbooks:eldritch",
+			"maxLevel": 3,
+			"minRarity": "4",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 500,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 110,
+					"power": 20.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 2,
+					"mana": 160,
+					"power": 28.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 3,
+					"mana": 210,
+					"power": 36.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:spectral_hammer",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 5,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 40,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 15,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 20,
+					"power": 2.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 25,
+					"power": 3.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 30,
+					"power": 4.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 35,
+					"power": 5.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:spider_aspect",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 8,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 1800,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 35,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 40,
+					"power": 25.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 45,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 50,
+					"power": 35.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 55,
+					"power": 40.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 60,
+					"power": 45.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 65,
+					"power": 50.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 8,
+					"mana": 70,
+					"power": 55.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:starfall",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 320,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 5,
+					"power": 8.0,
+					"castTicks": 160,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 6,
+					"power": 9.0,
+					"castTicks": 160,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 7,
+					"power": 10.0,
+					"castTicks": 160,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 8,
+					"power": 11.0,
+					"castTicks": 160,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 9,
+					"power": 12.0,
+					"castTicks": 160,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 10,
+					"power": 13.0,
+					"castTicks": 160,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 11,
+					"power": 14.0,
+					"castTicks": 160,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 12,
+					"power": 15.0,
+					"castTicks": 160,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 13,
+					"power": 16.0,
+					"castTicks": 160,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 14,
+					"power": 17.0,
+					"castTicks": 160,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:stomp",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 5,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 320,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 8.0,
+					"castTicks": 10,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 60,
+					"power": 10.0,
+					"castTicks": 10,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 70,
+					"power": 12.0,
+					"castTicks": 10,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 80,
+					"power": 14.0,
+					"castTicks": 10,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 16.0,
+					"castTicks": 10,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:summon_ender_chest",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 1,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 100,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 25,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:summon_horse",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 5,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 400,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 85.0,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 52,
+					"power": 100.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 54,
+					"power": 115.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 56,
+					"power": 130.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 58,
+					"power": 145.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:summon_polar_bear",
+			"school": "irons_spellbooks:ice",
+			"maxLevel": 10,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 3600,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 4.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 60,
+					"power": 5.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 70,
+					"power": 6.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 80,
+					"power": 7.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 8.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 100,
+					"power": 9.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 110,
+					"power": 10.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 120,
+					"power": 11.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 9,
+					"mana": 130,
+					"power": 12.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 140,
+					"power": 13.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:summon_swords",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 5,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 3000,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 80,
+					"power": 1.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 95,
+					"power": 3.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 110,
+					"power": 5.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 125,
+					"power": 7.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 140,
+					"power": 9.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:summon_vex",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 5,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 3000,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 50,
+					"power": 1.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 6
+				},
+				{
+					"level": 2,
+					"mana": 60,
+					"power": 1.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 6
+				},
+				{
+					"level": 3,
+					"mana": 70,
+					"power": 1.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 4,
+					"mana": 80,
+					"power": 1.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 90,
+					"power": 1.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:sunbeam",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 400,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 40,
+					"power": 24.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 50,
+					"power": 27.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 60,
+					"power": 30.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 70,
+					"power": 33.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 80,
+					"power": 36.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 90,
+					"power": 39.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 100,
+					"power": 42.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 110,
+					"power": 45.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 120,
+					"power": 48.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 130,
+					"power": 51.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:telekinesis",
+			"school": "irons_spellbooks:eldritch",
+			"maxLevel": 5,
+			"minRarity": "4",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 700,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 25,
+					"power": 8.0,
+					"castTicks": 140,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 2,
+					"mana": 25,
+					"power": 12.0,
+					"castTicks": 160,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 3,
+					"mana": 25,
+					"power": 16.0,
+					"castTicks": 180,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 4,
+					"mana": 25,
+					"power": 20.0,
+					"castTicks": 200,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 25,
+					"power": 24.0,
+					"castTicks": 220,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:teleport",
+			"school": "irons_spellbooks:ender",
+			"maxLevel": 5,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 120,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 20,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 7
+				},
+				{
+					"level": 2,
+					"mana": 25,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 7
+				},
+				{
+					"level": 3,
+					"mana": 30,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 7
+				},
+				{
+					"level": 4,
+					"mana": 35,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 7
+				},
+				{
+					"level": 5,
+					"mana": 40,
+					"power": 16.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:throw",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 5,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 160,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 10,
+					"power": 1.0,
+					"castTicks": 5,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 15,
+					"power": 2.0,
+					"castTicks": 5,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 20,
+					"power": 3.0,
+					"castTicks": 5,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 25,
+					"power": 4.0,
+					"castTicks": 5,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 30,
+					"power": 5.0,
+					"castTicks": 5,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:thunderstorm",
+			"school": "irons_spellbooks:lightning",
+			"maxLevel": 8,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 2400,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 70,
+					"power": 8.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 80,
+					"power": 9.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 3,
+					"mana": 90,
+					"power": 10.0,
+					"castTicks": 40,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 100,
+					"power": 11.0,
+					"castTicks": 40,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 110,
+					"power": 12.0,
+					"castTicks": 40,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 6,
+					"mana": 120,
+					"power": 13.0,
+					"castTicks": 40,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 7,
+					"mana": 130,
+					"power": 14.0,
+					"castTicks": 40,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 8,
+					"mana": 140,
+					"power": 15.0,
+					"castTicks": 40,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:touch_dig",
+			"school": "irons_spellbooks:nature",
+			"maxLevel": 3,
+			"minRarity": "2",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 10,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 15,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 2,
+					"mana": 15,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 3,
+					"mana": 15,
+					"power": 16.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:volt_strike",
+			"school": "irons_spellbooks:lightning",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 200,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 1.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 35,
+					"power": 2.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 40,
+					"power": 3.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 45,
+					"power": 4.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 50,
+					"power": 5.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 55,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 60,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 65,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 70,
+					"power": 9.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 75,
+					"power": 10.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:wall_of_fire",
+			"school": "irons_spellbooks:fire",
+			"maxLevel": 5,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 600,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 30,
+					"power": 4.0,
+					"castTicks": 0,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 35,
+					"power": 5.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 40,
+					"power": 6.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 4,
+					"mana": 45,
+					"power": 7.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 5,
+					"mana": 50,
+					"power": 8.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:wisp",
+			"school": "irons_spellbooks:holy",
+			"maxLevel": 10,
+			"minRarity": "0",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 60,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 15,
+					"power": 5.0,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 17,
+					"power": 6.0,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 19,
+					"power": 7.0,
+					"castTicks": 20,
+					"rarity": "COMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 21,
+					"power": 8.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 5,
+					"mana": 23,
+					"power": 9.0,
+					"castTicks": 20,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 6,
+					"mana": 25,
+					"power": 10.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 27,
+					"power": 11.0,
+					"castTicks": 20,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 8,
+					"mana": 29,
+					"power": 12.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 31,
+					"power": 13.0,
+					"castTicks": 20,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 10,
+					"mana": 33,
+					"power": 14.0,
+					"castTicks": 20,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:wither_skull",
+			"school": "irons_spellbooks:blood",
+			"maxLevel": 10,
+			"minRarity": "1",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 20,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 20,
+					"power": 12.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 2,
+					"mana": 22,
+					"power": 13.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 3,
+					"mana": 24,
+					"power": 14.0,
+					"castTicks": 0,
+					"rarity": "UNCOMMON",
+					"stage": 0
+				},
+				{
+					"level": 4,
+					"mana": 26,
+					"power": 15.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 5,
+					"mana": 28,
+					"power": 16.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 6,
+					"mana": 30,
+					"power": 17.0,
+					"castTicks": 0,
+					"rarity": "RARE",
+					"stage": 3
+				},
+				{
+					"level": 7,
+					"mana": 32,
+					"power": 18.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 8,
+					"mana": 34,
+					"power": 19.0,
+					"castTicks": 0,
+					"rarity": "EPIC",
+					"stage": 6
+				},
+				{
+					"level": 9,
+					"mana": 36,
+					"power": 20.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				},
+				{
+					"level": 10,
+					"mana": 38,
+					"power": 21.0,
+					"castTicks": 0,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		},
+		{
+			"id": "irons_spellbooks:wololo",
+			"school": "irons_spellbooks:evocation",
+			"maxLevel": 1,
+			"minRarity": "4",
+			"enabled": true,
+			"allowCrafting": true,
+			"cooldownTicks": 200,
+			"manaMultiplier": 1,
+			"powerMultiplier": 1,
+			"levels": [
+				{
+					"level": 1,
+					"mana": 10,
+					"power": 4.0,
+					"castTicks": 30,
+					"rarity": "LEGENDARY",
+					"stage": 7
+				}
+			]
+		}
+	],
+	"cases": [
+		{
+			"case": "heal",
+			"healthBefore": 1,
+			"healthAfter": 6.0,
+			"maxHealth": 10.0,
+			"healed": 5
+		},
+		{
+			"case": "greater_heal",
+			"healthBefore": 1,
+			"healthAfter": 10.0,
+			"maxHealth": 10.0,
+			"healed": 9
+		},
+		{
+			"case": "healing_circle",
+			"level": 1,
+			"healedPerApplication": 0.3250000476837158,
+			"healedFullLifetime": 6.499998569488525,
+			"aoeDamage": 0.325,
+			"durationTicks": 200,
+			"reapplicationTicks": 10
+		},
+		{
+			"case": "healing_circle",
+			"level": 10,
+			"healedPerApplication": 1.7874999046325684,
+			"healedFullLifetime": 35.75,
+			"aoeDamage": 1.7874999,
+			"durationTicks": 200,
+			"reapplicationTicks": 10
+		},
+		{
+			"case": "shield",
+			"level": 10,
+			"power": 76.0,
+			"healthBefore": 86.0,
+			"healthAfterHit": 76.0,
+			"hitDamage": 10
+		},
+		{
+			"case": "root",
+			"level": 1,
+			"durationTicks": 50
+		},
+		{
+			"case": "root",
+			"level": 10,
+			"durationTicks": 140
+		},
+		{
+			"case": "slow",
+			"level": 1,
+			"durationTicks": 200
+		},
+		{
+			"case": "slow",
+			"level": 4,
+			"durationTicks": 320
+		}
+	]
+}

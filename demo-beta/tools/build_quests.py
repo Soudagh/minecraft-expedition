@@ -5,7 +5,7 @@ ROOT = Path(__file__).resolve().parents[1] / 'overrides/config/ftbquests/quests'
 def qid(n): return f'100000000000{n:04X}'
 def tid(n): return f'200000000000{n:04X}'
 rows = [
- (1, 'Экспедиция начинается', 'minecraft:crafting_table', [], 0, 0, 'Создайте одну команду FTB Teams и пригласите всех четверых до начала квестов. Демо имеет общий финал для сервера.'),
+ (1, 'Экспедиция начинается', 'minecraft:crafting_table', [], 0, 0, 'Создайте одну команду FTB Teams и пригласите всех четверых до начала квестов. Книга охватывает всю сборку: экспедиции, магию и индустрию до UV. Девять общих боссовых открытий находятся в главе основного маршрута.'),
  (2, 'Дом для команды', 'minecraft:stonecutter', [1], 2, -2, 'Chipped и FramedBlocks доступны с начала. Украшайте общую базу; мощное снаряжение за квесты не выдаётся.'),
  (3, 'Первые механизмы', 'create:andesite_alloy', [1], 2, 0, 'Соберите андезитовый сплав и организуйте рабочую площадку Create.'),
  (4, 'Сила воды', 'create:water_wheel', [3], 4, 0, 'Подключите колесо к валам. Квест проверяет предмет; работоспособность линии проверяйте сами.'),
@@ -21,10 +21,10 @@ rows = [
  (14, 'Архив · испытание Cataclysm', 'cataclysm:netherite_monstrosity', [13], 16, -1, 'Необязательное испытание старого прототипа. Сохранено вместе с прогрессом прежних версий. В новый основной маршрут входит девять других боссов — см. атлас. Эта победа не засчитывается за них.'),
  (15, 'Первое электричество', 'gtceu:lv_steam_turbine', [12], 16, 2, 'Пройдите паровую подготовку GregTech. Соберите турбину LV и обеспечьте устойчивую подачу пара.'),
  (16, 'Архив · рубеж старого демо', 'gtceu:lv_macerator', [14,15], 18, 1, 'Сохранён технический финал ранних версий: Cataclysm и турбина LV. Он не завершает новый маршрут сборки. Старый прогресс и однократное уведомление сохранены; новые направления находятся в отдельных главах.'),
- (17, 'Путь мага: Mana and Artifice', 'mna:occulus', [1], 2, 4, 'Создайте Occulus и следуйте его ступеням развития. Изучайте заклинания, ритуалы и фракции. Ветка независима от заводов; ограничения сильных способностей пока настраиваются.'),
+ (17, 'Путь мага: Mana and Artifice', 'mna:occulus', [1], 2, 4, 'Создайте Occulus и следуйте его ступеням развития. Изучайте заклинания, ритуалы и фракции. Собственное развитие школы сохраняется. Общие этапы дополнительно ограничивают tier 3 / 4 / 5 на III / VI / VII; Soar, Eldrin Flight и Blink — VII, Icarian Flight — не ранее IV.'),
  (18, 'Книга заклинаний', 'mna:spell_book', [17], 5, 4, 'Создайте книгу заклинаний Mana and Artifice. Практикуйте магию в экспедициях; этот квест проверяет предмет, а не боевое мастерство.'),
  (19, 'Путь исследователя: Hex Casting', 'hexcasting:staff/oak', [1], 2, 6, 'Создайте дубовый посох и откройте справочник Hex Casting. Изучайте паттерны, начиная с простых действий. Это отдельная специализация, не обязательное продолжение Mana and Artifice.'),
- (20, 'Записи паттернов', 'hexcasting:spellbook', [19], 5, 6, 'Поздняя необязательная цель: создайте книгу Hex Casting для хранения записей. В обычном рецепте нужен плод хоруса; для первых заклинаний книга не требуется. Стоимость, перемещение и масштабные эффекты будут проверяться отдельно при балансировке.')
+ (20, 'Записи паттернов', 'hexcasting:spellbook', [19], 5, 6, 'Поздняя необязательная цель: создайте книгу Hex Casting для хранения записей. В обычном рецепте нужен плод хоруса; для первых заклинаний книга не требуется. Полёт, Blink, Greater Teleport, Greater Sentinel и Flay Mind требуют VII; взрывы и молния — VI. Ручная добыча доступна с начала, добыча в кругах — с VI. Штатные расходы среды сохраняются.')
 ]
 quests=[]
 for n,title,item,deps,x,y,description in rows:
@@ -34,10 +34,10 @@ for n,title,item,deps,x,y,description in rows:
 ROOT.mkdir(parents=True,exist_ok=True)
 (ROOT/'chapters').mkdir(exist_ok=True)
 for name,data in {
- 'data.snbt':{'version':13,'title':'Экспедиция • боевой тест 0.6','default_consume_items':False,
+ 'data.snbt':{'version':13,'title':'Экспедиция • полная прогрессия','default_consume_items':False,
               'default_reward_team':True,'default_autoclaim_rewards':'disabled','progression_mode':'linear'},
  'chapter_groups.snbt':{'chapter_groups':[]},
- 'chapters/demo.snbt':{'id':'3000000000000001','filename':'demo','title':'Пролог · основы и архив демо',
+ 'chapters/demo.snbt':{'id':'3000000000000001','filename':'demo','title':'Пролог · основы экспедиции',
                       'order_index':0,'quests':quests}
 }.items():
  (ROOT/name).write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
@@ -69,3 +69,12 @@ for i, (title, description) in enumerate(cards):
 
 from quest_branches import write_branches
 write_branches(ROOT, json)
+
+from full_quests import write_full_book
+write_full_book(ROOT, json)
+
+from build_progression import build as build_progression
+build_progression()
+
+from equipment_quests import write_equipment
+write_equipment(ROOT, json)

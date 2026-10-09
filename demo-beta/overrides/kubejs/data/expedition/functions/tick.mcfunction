@@ -1,1 +1,2 @@
-execute if score $demo exp_progress matches 1 as @a[tag=!exp_demo_seen_v1] run function expedition:notify
+# The old demo notification remains disabled.
+function expedition:progression/tick

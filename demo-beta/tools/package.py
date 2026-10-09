@@ -9,7 +9,9 @@ dest.parent.mkdir(exist_ok=True)
 files=[ROOT/'README.md',ROOT/'mods.lock.json',ROOT/'visuals.lock.json']
 files+=list((ROOT/'overrides').rglob('*'))
 files+=list((ROOT/'docs').glob('*.md'))
-files += [ROOT/'tools'/name for name in ['install.py','compat.py','test_install.py','build_quests.py','quest_branches.py']]
+files+=[ROOT/'docs/COMBAT-SOURCES.json']
+files+=list((ROOT/'docs').glob('SPELL-STATS-*.json'))
+files += [ROOT/'tools'/name for name in ['install.py','compat.py','test_install.py','build_quests.py','quest_branches.py','full_quests.py','validate_quests.py','progression.py','build_progression.py','test_progression.py','audit_combat_sources.py','equipment_quests.py','spell_balance_probe.js']]
 with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED) as archive:
     archive.writestr('expedition-demo/START-HERE.txt', (ROOT/'docs/INSTALL-LEGACY-WINDOWS.md').read_text(encoding='utf-8').encode('utf-8-sig'))
     for f in sorted(files):

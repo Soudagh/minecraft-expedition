@@ -1,6 +1,6 @@
 {
   "version": 13,
-  "title": "Экспедиция • боевой тест 0.6",
+  "title": "Экспедиция • полная прогрессия",
   "default_consume_items": false,
   "default_reward_team": true,
   "default_autoclaim_rewards": "disabled",

@@ -6,6 +6,7 @@ files are instance-owned and hashed by install.py, like regular overrides.
 import json
 import re
 import zipfile
+from progression import SLB_HOOKS
 
 
 def boss_overrides(entries, cache):
@@ -39,6 +40,16 @@ def boss_overrides(entries, cache):
                                          'Sneak + Right-Click in Offhand: Release Soul Stream')]
                     line = line[:start] + ','.join(lore) + line[end:]
                 lines.append(line)
+            for boss, (slug, root_tag) in SLB_HOOKS.items():
+                if name == f'data/souls_like_bosses/functions/bosses/{boss}/boss_died.mcfunction':
+                    # Run before upstream clears phase/participant scores. No nested
+                    # NL/TE phantom callback, first phase, despawn or ordinary mob.
+                    phase = ',scores={boss_phase=2}' if boss == 'aw' else ''
+                    hook = (f'execute if entity @s[type=minecraft:item_display,tag={root_tag},'
+                            f'tag=exp_player_engaged_v1,tag=!mob_battle{phase}] '
+                            + ('if score .s_l_b_aw_boss boss_phase matches 2 ' if boss == 'aw' else '')
+                            + f'run function expedition:progression/win/{slug}')
+                    lines.insert(0, hook)
             modified = '\n'.join(lines) + '\n'
             if name.endswith('/bosses/lothran/epicfight_stamina.mcfunction'):
                 modified = '# Expedition: optional Epic Fight is not installed.\n'
