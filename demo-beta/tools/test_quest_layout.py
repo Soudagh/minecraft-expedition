@@ -38,7 +38,7 @@ class QuestLayoutContracts(unittest.TestCase):
 
     def test_rebuild_is_deterministic(self):
         pack=ROOT.parents[3]
-        paths=list((ROOT/'chapters').glob('*.snbt'))+[pack/'docs/QUEST-CURRICULUM-0.18.json',pack/'docs/QUEST-LAYOUT-0.18.json']
+        paths=list((ROOT/'chapters').glob('*.snbt'))+[pack/'docs/QUEST-CURRICULUM-0.19.json',pack/'docs/QUEST-LAYOUT-0.19.json',pack/'docs/QUEST-CONNECTIONS-0.19.json',pack/'docs/HBM-CONNECTIONS-0.19.svg']
         before={p:p.read_bytes() for p in paths}
         subprocess.run(['python3',str(pack/'tools/build_quests.py')],check=True,capture_output=True)
         self.assertEqual(before,{p:p.read_bytes() for p in paths})

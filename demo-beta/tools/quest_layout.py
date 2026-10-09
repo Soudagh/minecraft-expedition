@@ -20,7 +20,7 @@ def layout_book(root):
             path.write_text(json.dumps(chapter,ensure_ascii=False,indent=2)+'\n')
             reports.append({'chapter':path.stem,'before':before,'after':{'width':max(q['x'] for q in quests),'height':max(q['y'] for q in quests)},'quests':len(quests)})
             continue
-        overview=[q for q in quests if not q['id'].startswith(('16','18'))]
+        overview=[q for q in quests if not q['id'].startswith(('16','18','19'))]
         overview_ids={q['id'] for q in overview}
         levels={}
         def level(qid):
@@ -79,8 +79,9 @@ def layout_book(root):
             if not changed:break
         y=max((q['y'] for q in overview),default=-Y_STEP)+2*Y_STEP
         groups={}
+        production=[q for q in quests if path.stem=='hbm_industry' and q['id'].startswith('19')]
         for q in quests:
-            if q is welcome or q in overview:continue
+            if q is welcome or q in overview or q in production:continue
             # Introductory lessons and advanced projects have separate rows;
             # every section is a simple left-to-right chain.
             group=(q['id'][:2],q['title'].split(' · ',1)[0])
@@ -94,8 +95,65 @@ def layout_book(root):
         for group,members in groups.items():
             for i,q in enumerate(members):q.update(x=i*X_STEP,y=y)
             y+=Y_STEP
+        graph=layout_production_graph(production,y+Y_STEP) if production else None
         chapter['quests']=quests
         path.write_text(json.dumps(chapter,ensure_ascii=False,indent=2)+'\n')
         after={'width':max(q['x'] for q in quests)-min(q['x'] for q in quests),'height':max(q['y'] for q in quests)-min(q['y'] for q in quests)}
-        reports.append({'chapter':path.stem,'before':before,'after':after,'quests':len(quests)})
+        reports.append({'chapter':path.stem,'before':before,'after':after,'quests':len(quests),'productionGraph':graph})
     return reports
+
+
+def layout_production_graph(nodes,top):
+    """Place converging production paths by dependency depth, with visible edges."""
+    by={q['id']:q for q in nodes};depths={}
+    def depth(qid):
+        if qid not in depths:depths[qid]=max((depth(d)+1 for d in by[qid].get('dependencies',[]) if d in by),default=0)
+        return depths[qid]
+    columns=defaultdict(list)
+    for q in nodes:columns[depth(q['id'])].append(q)
+    for d,members in sorted(columns.items()):
+        members.sort(key=lambda q:(q['title'].split(' · ')[0],q['id']))
+        for row,q in enumerate(members):q.update(x=d*X_STEP,y=row*Y_STEP)
+        for q in members:
+            # Entry references point to older lessons outside this graph.
+            q['hide_dependency_lines']=any(dep not in by and not dep.startswith('14') for dep in q.get('dependencies',[]))
+    edges=[(by[d],q) for q in nodes if not q.get('hide_dependency_lines') for d in q.get('dependencies',[]) if d in by]
+    def orient(a,b,c):return (b['x']-a['x'])*(c['y']-a['y'])-(b['y']-a['y'])*(c['x']-a['x'])
+    def score():
+        value=0
+        for a,b in edges:
+            dx=b['x']-a['x'];dy=b['y']-a['y'];length=dx*dx+dy*dy
+            value+=length*.03
+            for n in nodes:
+                if n is a or n is b:continue
+                t=((n['x']-a['x'])*dx+(n['y']-a['y'])*dy)/length
+                if 0<t<1:
+                    distance=(n['x']-a['x']-t*dx)**2+(n['y']-a['y']-t*dy)**2
+                    if distance<.36:value+=100000+(0.36-distance)*1000
+        for i,(a,b) in enumerate(edges):
+            for c,d in edges[i+1:]:
+                if any(v is w for v in (a,b) for w in (c,d)):continue
+                if orient(a,b,c)*orient(a,b,d)<0 and orient(c,d,a)*orient(c,d,b)<0:value+=50
+        return value
+    slots=max(len(c) for c in columns.values())+5
+    for _ in range(12):
+        changed=False
+        for column in columns.values():
+            for q in column:
+                old=q['y'];best=score();best_y=old;best_swap=None
+                for row in range(slots):
+                    candidate=row*Y_STEP;other=next((n for n in column if n is not q and n['y']==candidate),None)
+                    q['y']=candidate
+                    if other:other['y']=old
+                    trial=score()
+                    if trial<best-1e-8:best,best_y,best_swap=trial,candidate,other
+                    q['y']=old
+                    if other:other['y']=candidate
+                if best_y!=old:
+                    q['y']=best_y
+                    if best_swap:best_swap['y']=old
+                    changed=True
+        if not changed:break
+    # Slightly wider fork spacing keeps diagonals clear of adjacent icons.
+    for q in nodes:q.update(x=q['x']*1.125,y=q['y']*1.125+top)
+    return {'nodes':len(nodes),'visibleEdges':len(edges),'columns':len(columns)}

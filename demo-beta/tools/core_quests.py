@@ -51,7 +51,7 @@ def write_core(root):
             if not candidates:raise ValueError(f'Missing curriculum anchor {slug}: {anchor}')
             # Prefer the detailed item lesson over an older overview milestone.
             prerequisite=candidates[-1]
-            deps=[last.get(section,prerequisite['id'])]
+            deps=list(dict.fromkeys([last.get(section,prerequisite['id']),prerequisite['id']]))
             if stage:deps.append(f'140000000000{int(stage):04X}')
             qid=f'18{chapter_index:02X}00000000{index:04X}'
             description=[
@@ -69,7 +69,7 @@ def write_core(root):
             first=section not in last
             if first:tasks.append({'id':f'29{chapter_index:02X}{index:04X}00000001','type':'item','item':anchor,'count':1,'consume_items':False})
             tasks.append({'id':f'29{chapter_index:02X}{index:04X}00000002','type':'checkmark','title':'Результат проверен · отметить вручную'})
-            chapter['quests'].append({'id':qid,'title':label+' · '+title,'description':description,'dependencies':deps,'tasks':tasks,'x':0.0,'y':0.0,'hide_dependency_lines':True if first else False})
+            chapter['quests'].append({'id':qid,'title':label+' · '+title,'description':description,'dependencies':deps,'tasks':tasks,'x':0.0,'y':0.0,'hide_dependency_lines':first or len([d for d in deps if not d.startswith('14')])>1})
             last[section]=qid
         path.write_text(json.dumps(chapter,ensure_ascii=False,indent=2)+'\n')
         summary.append({'chapter':slug,'added':len(selected)})

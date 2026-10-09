@@ -85,8 +85,15 @@ print('Expanded curriculum:',sum(row['added'] for row in curriculum_summary),'ne
 from core_quests import write_core
 core_summary=write_core(ROOT)
 print('Core projects:',sum(row['added'] for row in core_summary),'new quests')
+from deep_quests import write_deep
+deep_summary=write_deep(ROOT)
+print('Deep production chains:',sum(row['added'] for row in deep_summary),'new quests')
+from quest_connections import connect_book
+connect_book(ROOT)
 from quest_layout import layout_book
 layout_summary=layout_book(ROOT)
-(ROOT.parents[3]/'docs/QUEST-LAYOUT-0.18.json').write_text(json.dumps(layout_summary,ensure_ascii=False,indent=2)+'\n')
+(ROOT.parents[3]/'docs/QUEST-LAYOUT-0.19.json').write_text(json.dumps(layout_summary,ensure_ascii=False,indent=2)+'\n')
+from quest_graph_preview import export_graph
+export_graph(ROOT)
 from expanded_quests import write_report
 write_report(ROOT)

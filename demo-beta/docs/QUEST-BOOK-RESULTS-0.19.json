@@ -1,0 +1,9 @@
+{
+	"version": "0.19.0-hbm-quests-dev",
+	"checks": 6919,
+	"chapters": 23,
+	"quests": 759,
+	"tasks": 869,
+	"registeredItems": 487,
+	"dependenciesChecked": 959
+}
