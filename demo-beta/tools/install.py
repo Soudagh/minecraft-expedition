@@ -26,7 +26,7 @@ def download_context():
 
 
 def download_verified(entry, target):
-    request = urllib.request.Request(entry['url'], headers={'User-Agent': 'ExpeditionDemo/0.8.1'})
+    request = urllib.request.Request(entry['url'], headers={'User-Agent': 'ExpeditionDemo/0.9.0'})
     part = target.with_suffix('.part')
     print('Downloading:', entry['url'], flush=True)
     try:
@@ -156,6 +156,14 @@ def install(destination, side, source=None, stopped=False, cache=None, visuals=N
     if shader and not shader_config.exists():
         shader_config.parent.mkdir(parents=True, exist_ok=True)
         shader_config.write_text('enableShaders=true\nshaderPack=' + shader['filename'] + '\n', encoding='utf-8')
+    # Jade rewrites preferences; seed once and preserve a player's later choices.
+    jade_config = destination / 'config' / 'jade' / 'plugins.json'
+    if side == 'client' and any(e.get('slug') == 'jade' for e in entries) and not jade_config.exists():
+        jade_config.parent.mkdir(parents=True, exist_ok=True)
+        jade_config.write_text(json.dumps({
+            'jade': {'object_name': True, 'mod_name': True},
+            'minecraft': {'entity_health': True, 'entity_health.max_for_render': 0}
+        }, indent=2), encoding='utf-8')
     state = {'version': lock['version'], 'save_schema': lock.get('save_schema', 1), 'minecraft': lock['minecraft'],
              'forge': lock['forge'], 'side': side, 'visuals': visuals, 'files': managed}
     (destination / 'expedition-installed.json').write_text(json.dumps(state, indent=2), encoding='utf-8')

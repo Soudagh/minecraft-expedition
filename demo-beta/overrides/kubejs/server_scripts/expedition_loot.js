@@ -1,5 +1,7 @@
 // Initial conservative demo policy. Keep powerful loot out of early chests.
 LootJS.modifiers(event => {
+  event.addLootTypeModifier(LootType.CHEST, LootType.ENTITY)
+    .removeLoot(/^hbm_m:(grenade.*|missile_.*|machine_missile_assembly)$/)
   event.addLootTypeModifier(LootType.CHEST)
     .removeLoot('#simplyswords:uniques')
   event.addLootTypeModifier(LootType.CHEST, LootType.ENTITY)
@@ -13,6 +15,7 @@ LootJS.modifiers(event => {
     .removeLoot('createdieselgenerators:chemical_turret')
 })
 ServerEvents.recipes(event => {
+  event.remove({output: /^hbm_m:(grenade.*|missile_.*|machine_missile_assembly)$/});
   [
     'cataclysm:laser_gatling',
     'cataclysm:wither_assault_shoulder_weapon',

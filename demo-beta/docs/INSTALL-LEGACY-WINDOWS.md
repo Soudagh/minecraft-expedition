@@ -1,6 +1,6 @@
-# Установка «Экспедиции 0.8» в Legacy Launcher — Windows
+# Установка «Экспедиции 0.9» в Legacy Launcher — Windows
 
-Для друга, который устанавливает сборку впервые. Нужны интернет, Windows 64-bit и Legacy Launcher. Сборка: Minecraft 1.20.1 + Forge 47.4.10 + Java 17. Для 0.8 создаём новый мир; старую сборку и её сохранения оставляем отдельно.
+Для друга, который устанавливает сборку впервые. Нужны интернет, Windows 64-bit и Legacy Launcher. Сборка: Minecraft 1.20.1 + Forge 47.4.10 + Java 17. Для 0.9 создаём новый мир; старую сборку и её сохранения оставляем отдельно.
 
 Инструкция сверена с документацией Legacy. Весь путь на Windows вручную пока не проходили; запуск сервера и установка файлов сборки проверены.
 
@@ -12,19 +12,19 @@
 
 ## 2. Распакуй и установи сборку
 
-1. Скачай [архив сборки 0.8](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.8.1-world-food-preview/expedition-0.8.1-world-food-preview-bootstrap.zip). На [странице релиза](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.8.1-world-food-preview) он также находится в Assets под именем `expedition-0.8.1-world-food-preview-bootstrap.zip`. Автоматический Source code для этой инструкции не нужен.
+1. Скачай [архив сборки 0.9](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.9.0-hbm-qol-preview/expedition-0.9.0-hbm-qol-preview-bootstrap.zip). На [странице релиза](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.9.0-hbm-qol-preview) он также находится в Assets под именем `expedition-0.9.0-hbm-qol-preview-bootstrap.zip`. Автоматический Source code для этой инструкции не нужен.
 2. Нажми на ZIP правой кнопкой → «Извлечь всё». Нельзя запускать установку прямо из ZIP.
 3. Открой распакованную папку `expedition-demo`. В ней должны быть `README.md`, `mods.lock.json` и папка `tools`.
 4. Щёлкни по адресной строке Проводника, введи `powershell` и нажми Enter.
 5. Проверь Python командой `py --version`: нужна версия не ниже 3.10. Затем вставь:
 
 ```powershell
-py tools/install.py --side client --visuals shaders --destination "$env:USERPROFILE\Games\Expedition-0.8"
+py tools/install.py --side client --visuals shaders --destination "$env:USERPROFILE\Games\Expedition-0.9"
 ```
 
-Дождись строки `Prepared:`. Загрузчик скачает моды и проверит файлы. Скопируй полный путь после `Prepared:` — он понадобится дальше. Обычно это `C:\Users\ИМЯ\Games\Expedition-0.8`.
+Дождись строки `Prepared:`. Загрузчик скачает моды и проверит файлы. Скопируй полный путь после `Prepared:` — он понадобится дальше. Обычно это `C:\Users\ИМЯ\Games\Expedition-0.9`.
 
-Папку `Expedition-0.8` заранее создавать не нужно. Если она уже существует, выбери другое имя, например `Expedition-0.8-new`, и дальше используй именно его. Не удаляй папку, если в ней есть нужные данные.
+Папку `Expedition-0.9` заранее создавать не нужно. Если она уже существует, выбери другое имя, например `Expedition-0.9-new`, и дальше используй именно его. Не удаляй папку, если в ней есть нужные данные.
 
 Если команда `py` не найдена, попробуй `python --version`. Если это Python 3.10+, замени только `py` в команде установки на `python`.
 
@@ -34,7 +34,7 @@ py tools/install.py --side client --visuals shaders --destination "$env:USERPROF
 2. Сохрани прежнее значение «Директория», если пользуешься другой сборкой.
 3. В «Директория» вставь полный путь из строки `Prepared:`.
 4. Для этой отдельной папки выбери **«Не использовать отдельные папки»**. Иначе Legacy может искать моды в дополнительной папке `home`, а не там, куда мы их установили.
-5. Сохрани настройки. Через значок папки на главном экране проверь: открывается именно `Expedition-0.8`, в ней видны `mods`, `config`, `kubejs`.
+5. Сохрани настройки. Через значок папки на главном экране проверь: открывается именно `Expedition-0.9`, в ней видны `mods`, `config`, `kubejs`.
 
 Источник: https://docs.llaun.ch/launcher/subfolders
 
@@ -46,7 +46,7 @@ py tools/install.py --side client --visuals shaders --destination "$env:USERPROF
 2. Скачай официальный Forge Installer:
    https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar
 3. Закрой Legacy. Открой скачанный JAR двойным щелчком.
-4. В установщике выбери **Install client** и укажи ту же папку `Expedition-0.8` из шага 2. Дождись завершения.
+4. В установщике выбери **Install client** и укажи ту же папку `Expedition-0.9` из шага 2. Дождись завершения.
 5. Открой Legacy снова. В списке версий выбери `1.20.1-forge-47.4.10`. Если версия скрыта, включи показ «Модификации» в настройках списка версий.
 
 Если JAR не открывается, в PowerShell набери `& `, перетащи из Проводника файл `java.exe` из установленной Java 17, допиши ` -jar `, затем перетащи скачанный Forge Installer и нажми Enter. Пути с пробелами заключи в двойные кавычки. Пример формы команды (пути замени своими):
@@ -71,9 +71,9 @@ py tools/install.py --side client --visuals shaders --destination "$env:USERPROF
 
 Нажми кнопку запуска с выбранной версией `1.20.1-forge-47.4.10`. Первый запуск и создание мира могут занять несколько минут.
 
-Проверь список Mods: там должны быть Farmer's Delight, Brewin' and Chewin', Terralith и Tectonic. Число в списке может быть больше количества JAR: некоторые содержат встроенные зависимости.
+Проверь список Mods: там должны быть HBM's Nuclear Tech Modernized, Jade, Hazen 'n Stuff, Iron's Spells, Refined Storage, Farmer's Delight, Brewin' and Chewin', Terralith и Tectonic. Число в списке может быть больше количества JAR: некоторые содержат встроенные зависимости.
 
-- Для одиночной проверки создай **новый** мир. Мир из 0.7 сюда не переносим.
+- Для одиночной проверки создай **новый** мир. Миры из 0.8 и более ранних версий сюда не переносим: удалены AE2, GTMThings и GT--.
 - Для общей игры: «Сетевая игра» → «Добавить сервер» → адрес, который даст организатор. На сервере и у игроков должна быть одна версия сборки. Параметры аккаунта и доступ к серверу уточни у организатора.
 - Шейдер Complementary установлен и включён по умолчанию. Если тормозит, отключи его через настройки графики → меню шейдеров. OptiFine дополнительно ставить не нужно.
 
@@ -81,11 +81,11 @@ py tools/install.py --side client --visuals shaders --destination "$env:USERPROF
 
 Если Python сообщает `unable to get local issuer certificate`, он не смог проверить цепочку сертификатов HTTPS. Это происходит при скачивании, ещё до запуска игры; причина может быть в цепочке сервера, сертификатах Windows или проверке HTTPS вашей сетью/антивирусом.
 
-Для установщика 0.8.1 выполните в том же PowerShell:
+Для установщика 0.9 выполните в том же PowerShell:
 
 ```powershell
 py -m pip install --upgrade truststore
-py tools/install.py --side client --visuals shaders --destination "$env:USERPROFILE\Games\Expedition-0.8"
+py tools/install.py --side client --visuals shaders --destination "$env:USERPROFILE\Games\Expedition-0.9"
 ```
 
 Установщик автоматически использует установленный truststore для системной проверки сертификатов. Проверки HTTPS и SHA-256 остаются включены.
@@ -93,12 +93,12 @@ py tools/install.py --side client --visuals shaders --destination "$env:USERPROF
 Если у вас ещё старый архив 0.8.0, после установки truststore можно запустить его так:
 
 ```powershell
-py -c "import truststore, runpy; truststore.inject_into_ssl(); runpy.run_path('tools/install.py', run_name='__main__')" --side client --visuals shaders --destination "$env:USERPROFILE\Games\Expedition-0.8"
+py -c "import sys, truststore, runpy; sys.path.insert(0, 'tools'); truststore.inject_into_ssl(); runpy.run_path('tools/install.py', run_name='__main__')" --side client --visuals shaders --destination "$env:USERPROFILE\Games\Expedition-0.8"
 ```
 
 При SSL-ошибке загрузки папка назначения ещё не создаётся: повторите команду с прежним путём. Если она уже существует по другой причине, выберите новое имя. Уже успешно скачанные и проверенные файлы повторно не загружаются.
 
-Если сама команда pip не устанавливает truststore или ошибка остаётся, пришлите полный вывод и строку `Downloading:` (в 0.8.1). Не отключайте проверку сертификатов. Без доступа к Windows этого компьютера гарантировать устранение причины нельзя.
+Если сама команда pip не устанавливает truststore или ошибка остаётся, пришлите полный вывод и строку `Downloading:` (в 0.9). Не отключайте проверку сертификатов. Без доступа к Windows этого компьютера гарантировать устранение причины нельзя.
 
 Источник: [документация truststore](https://truststore.readthedocs.io/en/stable/).
 

@@ -1,71 +1,10 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.8.1-world-food-preview",
+  "version": "0.9.0-hbm-qol-preview",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,
   "mods": [
-    {
-      "name": "Applied Energistics 2",
-      "slug": "ae2",
-      "project_id": "XxWD5pD3",
-      "version_id": "jYgSnxye",
-      "version": "15.4.11",
-      "filename": "appliedenergistics2-forge-15.4.11.jar",
-      "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/jYgSnxye/appliedenergistics2-forge-15.4.11.jar",
-      "hashes": {
-        "sha1": "e0d777a400fe3c3082681d28de4e7f6a0b3e7b50",
-        "sha512": "3a121b09c69c585bf1240f3526fc882f36d5e8c8242a9629e216de0c80e9ed212369db57026ec53856ba058635586edb103407855031bf4dcf1b2dfd4d60f78d",
-        "sha256": "f2ff9ee5122b037d4e93537425ab9fbe49860fc9c3977db13b20a50ca7d30f9e"
-      },
-      "side": "both",
-      "source": "https://modrinth.com/mod/ae2",
-      "dependencies": [
-        {
-          "version_id": null,
-          "project_id": "tq47Uqpn",
-          "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
-          "version_id": null,
-          "project_id": "Eyw0UxEx",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "version_id": null,
-          "project_id": "6AQIaxuO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "version_id": null,
-          "project_id": "Ck4E7v7R",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "version_id": null,
-          "project_id": "nfn13YXA",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "version_id": null,
-          "project_id": "u6dRKJwZ",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "version_id": null,
-          "project_id": "nvQzSEkH",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ],
-      "size": 8501309
-    },
     {
       "name": "Architectury API",
       "slug": "architectury-api",
@@ -880,70 +819,70 @@
       "size": 18209988
     },
     {
-      "name": "GTMThings",
-      "slug": "gtmthings",
-      "version": "gtmthings-1.6.0.jar",
-      "filename": "gtmthings-1.6.0.jar",
-      "url": "https://mediafilez.forgecdn.net/files/7712/957/gtmthings-1.6.0.jar",
+      "name": "GTBC's SpellLib/API",
+      "slug": "gtbcs-spelllib",
+      "version": "2.2.0",
+      "filename": "gtbcs_spell_lib-2.2.0-1.20.1.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8824/662/gtbcs_spell_lib-2.2.0-1.20.1.jar",
       "hashes": {
-        "sha1": "0403380dfa1110e69d7545bafaf89e512010ccc9",
-        "sha512": "a84369b7ca9d560b39042ea99085279b3afc6f176b73849e78e0bb041874cdc55eb12be18f873efa9bea2deae6a62010692048cef06fe35d9e4e49786693ab46",
-        "sha256": "72fdc64e0af5093c7c7b4b4697ecf3186ed487d6368b68543eefb65b8fe2852f"
+        "sha1": "753917963574a7087fa10999b7646e2efe5772b2",
+        "sha512": "9fd0d41d81b49784dfa1b1f6d5bf338859062086a2161edfc14a83c76196618f86a604be1fcd92c90b1b599b38c6b9cdfb752bec1ce4cfb20327f26fe609576e",
+        "sha256": "3eae2c21132d69d7d6e764f357671f3f01847d34dcd08649abb1e9fab2f3aaf3"
       },
       "side": "both",
-      "source": "https://www.curseforge.com/minecraft/mc-mods/gtmthings/files/7712957",
-      "curseforge_project_id": 1104310,
-      "curseforge_file_id": 7712957,
-      "size": 960006
+      "source": "https://www.curseforge.com/minecraft/mc-mods/gtbcs-spelllib/files/8824662",
+      "curseforge_project_id": 1194714,
+      "curseforge_file_id": 8824662,
+      "size": 293807
     },
     {
-      "name": "GT--",
-      "slug": "gtnn",
-      "project_id": "onpJaUJ0",
-      "version_id": "DypJcHuM",
-      "version": "1.3.10",
-      "filename": "gtnn-1.20.1-1.3.10.jar",
-      "url": "https://cdn.modrinth.com/data/onpJaUJ0/versions/DypJcHuM/gtnn-1.20.1-1.3.10.jar",
+      "name": "Hazen 'n Stuff",
+      "slug": "hazen-n-stuff",
+      "project_id": "I94FeWYD",
+      "version_id": "4opC9DbH",
+      "version": "1.1.2",
+      "filename": "hazennstuff-watered-down-edition-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/I94FeWYD/versions/4opC9DbH/hazennstuff-watered-down-edition-1.1.2.jar",
       "hashes": {
-        "sha1": "d8a37bf7abcca2c3665510318e94b03e28e9f4f4",
-        "sha512": "b663752f64aabb23d19ba1e0969dfa9b35fb15c9b4f39bef251082487de293ac9357adb44e008e636d76ed283d8d5ccd69909a60ce509c9be31d5b8676277c1b",
-        "sha256": "ae22ebfc7cca807592eede57639b7113fc7900604a18525ed162d27d5637578c"
+        "sha1": "6c1f91348f92e77e830a569d20733ab13251afe0",
+        "sha512": "2b120543258d29ba2d68ca75bdc21dd748b3dd2f2a3090e80bae032ca4c3124fb89ee608ff9f6ed1f4cd4fedc368a300fb71ef99097eef8fba7879d63f9116cb",
+        "sha256": "cce49aa74707634ac78e955442eb6a75e2122338db7f7b91da0286f375014f90"
       },
       "side": "both",
-      "source": "https://modrinth.com/mod/gtnn",
+      "source": "https://modrinth.com/mod/hazen-n-stuff",
+      "dependencies": [],
+      "size": 1204816
+    },
+    {
+      "name": "HBM's Nuclear Tech Modernized",
+      "slug": "hbms-nuclear-tech-modernized",
+      "project_id": "5YPeUFlb",
+      "version_id": "rEJAJjEN",
+      "version": "0.2.1-alpha",
+      "filename": "hbm_m-0.2.1-alpha+1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/5YPeUFlb/versions/rEJAJjEN/hbm_m-0.2.1-alpha%2B1.20.1-forge.jar",
+      "hashes": {
+        "sha1": "1adc73d9f51c8dca6983e2ccc593302f47504ea4",
+        "sha512": "469090411e8c57ee089c7c7b8a9ceb2b7a05894e77214f412c20dbd6ea0deb76c1f515241458c77751fc95ff9eb1245b3af94c19323fa385e450e52cf10d9fa0",
+        "sha256": "14acbd4fd0de45f2b2b9116094fefb9de5055439e36033c0b2802a7dc8bf4828"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/hbms-nuclear-tech-modernized",
       "dependencies": [
         {
           "version_id": null,
-          "project_id": "7tG215v7",
+          "project_id": "lhGA9TYQ",
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "embedded"
         },
         {
           "version_id": null,
-          "project_id": "B1CBVXHX",
+          "project_id": "u6dRKJwZ",
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ],
-      "size": 8747969
-    },
-    {
-      "name": "GuideME",
-      "slug": "guideme",
-      "project_id": "Ck4E7v7R",
-      "version_id": "i7Tp1AHw",
-      "version": "20.1.15",
-      "filename": "guideme-20.1.15.jar",
-      "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/i7Tp1AHw/guideme-20.1.15.jar",
-      "hashes": {
-        "sha1": "3d432fc99cefcfd17a12635d2d220f09a069f1c7",
-        "sha512": "c08f2ab76b4442a5fcdd19c7ddc6e2a4c74469fd96844d2f868f2fb18517aced97bf40032c3036f7ca4b094de1ded9e3dab57924a49f3a3d499b61a0ecc2a9cc",
-        "sha256": "cf8052ab3da121012efc59a20e731c24bfe7488dfa556c9b88809f42dea3b24a"
-      },
-      "side": "both",
-      "source": "https://modrinth.com/mod/guideme",
-      "dependencies": [],
-      "size": 9414827
+      "size": 44945383
     },
     {
       "name": "Hex Casting",
@@ -1030,6 +969,74 @@
         }
       ],
       "size": 375864
+    },
+    {
+      "name": "Iron's Lib",
+      "slug": "irons-lib",
+      "project_id": "9nfaJPtX",
+      "version_id": "6HqXQkgC",
+      "version": "1.20.1-2.2.0",
+      "filename": "irons_lib-1.20.1-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/6HqXQkgC/irons_lib-1.20.1-2.2.0.jar",
+      "hashes": {
+        "sha1": "8cad65f57a4bdcbbf3ea8a5eda9240810e3a55aa",
+        "sha512": "5d3ce588f692233672f5059e527fa093a3a3d40f2121a90101aa5c815c1677dc9d5eeca0528a010c0ad6d417b244943fc935bc093e66af72c9a6e1b0b674eeab",
+        "sha256": "48f1c1d80fa85b0ddea59465bef9ac86fc1e46c58caaea839c8e8f89f29b9ebb"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/irons-lib",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "8BmcQJ2H",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 490088
+    },
+    {
+      "name": "Iron's Spells 'n Spellbooks",
+      "slug": "irons-spells-n-spellbooks",
+      "project_id": "s4OWxYQQ",
+      "version_id": "hZaEegS9",
+      "version": "1.20.1-3.16.3",
+      "filename": "irons_spellbooks-1.20.1-3.16.3.jar",
+      "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/hZaEegS9/irons_spellbooks-1.20.1-3.16.3.jar",
+      "hashes": {
+        "sha1": "726345aa215756bd30b7cf8c338c9ae6bbc59799",
+        "sha512": "a699631fa56568d39a30773b8fe96d7a49f1cd7f8e243340ce7ad91b09ccf49c9a6802a944f4bd04b2d88d9fc796a70add1d18d8f326bb2be238b02a8c8076da",
+        "sha256": "54b5aaa52887c38f570fbd820288171234d8541c17a5e953f9271189fdd480fb"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/irons-spells-n-spellbooks",
+      "dependencies": [],
+      "size": 15570397
+    },
+    {
+      "name": "Jade 🔍",
+      "slug": "jade",
+      "project_id": "nvQzSEkH",
+      "version_id": "xJQHCmWJ",
+      "version": "11.13.3+forge",
+      "filename": "Jade-1.20.1-Forge-11.13.3.jar",
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/xJQHCmWJ/Jade-1.20.1-Forge-11.13.3.jar",
+      "hashes": {
+        "sha1": "d08e64e66521d69e083c8525f1fc507f1c202384",
+        "sha512": "72025c4ad6d26522bafe3d5d6ac9d4702c006a868312cb34df8a7a2398a4618205839607b129c167fd176e58cb7655f08e3afbf1993925c80d4fcc559c45a037",
+        "sha256": "a632c77975e5aedff6322b0072f8b0db3f5d4bf914df6bdcc87d1aea4d5f55f4"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/jade",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "u6dRKJwZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "size": 553487
     },
     {
       "name": "Just Enough Items (JEI)",
@@ -1347,6 +1354,24 @@
       "size": 181437
     },
     {
+      "name": "Refined Storage",
+      "slug": "refined-storage",
+      "project_id": "KDvYkUg3",
+      "version_id": "ZITLFjjf",
+      "version": "1.12.4",
+      "filename": "refinedstorage-1.12.4.jar",
+      "url": "https://cdn.modrinth.com/data/KDvYkUg3/versions/ZITLFjjf/refinedstorage-1.12.4.jar",
+      "hashes": {
+        "sha1": "014bf4de4975f6310d22a6ed06c6a7e1e0805641",
+        "sha512": "82b0f695cd360c46645e1587d254066ef1d3d0b6e5be31259604ed618f4ce6d686c579453c7b4fc7ea08d8d206b382b86280a3f49b5516a1094b314a08dbef0d",
+        "sha256": "afda49a01e5ac8e20706032eb80699cc3b50d3b346478324ead62503cb774acd"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/refined-storage",
+      "dependencies": [],
+      "size": 3300191
+    },
+    {
       "name": "Resourceful Lib",
       "slug": "resourceful-lib",
       "project_id": "G1hIVOrD",
@@ -1628,5 +1653,5 @@
       "size": 792381
     }
   ],
-  "save_schema": 3
+  "save_schema": 4
 }

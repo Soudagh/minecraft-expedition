@@ -169,6 +169,26 @@ class PreservationTests(unittest.TestCase):
             finally:
                 install.ROOT=previous
 
+    def test_jade_preferences_are_seeded_once_and_survive_upgrade(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp); pack = root/'pack'; pack.mkdir()
+            (pack/'overrides').mkdir(); cache = root/'cache'; cache.mkdir()
+            jar = cache/'jade.jar'; jar.write_bytes(b'fixture')
+            lock = {'version':'test','save_schema':4,'minecraft':'1.20.1','forge':'47.4.10',
+                    'mods':[{'slug':'jade','filename':jar.name,'side':'both',
+                             'hashes':{'sha256':install.digest(jar)}}]}
+            (pack/'mods.lock.json').write_text(json.dumps(lock))
+            with patch.object(install, 'ROOT', pack), contextlib.redirect_stdout(io.StringIO()):
+                first = install.install(root/'first','client',cache=cache)
+                prefs = first/'config/jade/plugins.json'
+                self.assertEqual(json.loads(prefs.read_text())['minecraft']['entity_health.max_for_render'], 0)
+                self.assertNotIn('config/jade/plugins.json', json.loads((first/'expedition-installed.json').read_text())['files'])
+                prefs.write_text('{"minecraft": {"entity_health": false}}')
+                second = install.install(root/'second','client',first,True,cache)
+                self.assertEqual((second/'config/jade/plugins.json').read_bytes(), prefs.read_bytes())
+                server = install.install(root/'server','server',cache=cache)
+                self.assertFalse((server/'config/jade/plugins.json').exists())
+
     def test_unsafe_paths_rejected(self):
         for name in ['../world', '/etc/passwd', 'C:\\world', 'mods/../../world']:
             with self.assertRaises(ValueError): install.safe_relative(name)

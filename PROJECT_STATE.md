@@ -1,3 +1,20 @@
+# 0.9.0-hbm-qol-preview — HBM, Jade, Hazen, Refined Storage
+
+Пользователь разрешил Jade/HBM/Chipped/темп GT, затем добавил Hazen ’N Stuff, замену AE2 → Refined Storage и попросил продолжить. Реализован preview, схема4, новый мир и новая папка обязательны; исходные экземпляры/сохранения не изменены.
+
+- Добавлены Jade11.13.3 xJQHCmWJ, HBMModernized0.2.1alpha rEJAJjEN, RS1.12.4 ZITLFjjf, HazenWateredDown1.1.2 4opC9DbH, IronSpells3.16.3, IronLib2.2.0 и GTBCSpellLib2.2.0 CF8824662. Последняя обязательна для Hazen, но отсутствовала в API/mods.toml, выявлена NoClassDefFoundError GeoStaffItem. Все версии/хеши заморожены. Остальные записи старого lock идентичны.
+- Удалены AE2, GuideME и GTMThings (mandatory AE2). GT--1.3.10 тоже временно убран: после удаления AE2 его BotaniaMaterialsModification падает RegistryAlreadyFrozen. QA-попытки раннего Java.loadClass BotaniaBlocks в startup и registry callback НЕ работают, в источники не включены. Не возвращать эти хаки. GTCEu7.5.3/LDLib/Solar остаются. Конфигgtnn удалён.
+- 71clientJAR,64server, shaders72+ZIP. Jade seed config/jade/plugins.json namespace->values: jade object_name/mod_name true, minecraft entity_health true/max_for_render0 (числа). Пользовательские настройки не managed, сохраняются. 9unittest, новый тест сохранения Jade prefs.
+- Chipped JEI hideItems negative-regex оставляет7столов; только каталог, память/блоки/постройки не уменьшаются. Графический клиент НЕ тестировался.
+- GTqol: 172обычных recipes bender/wiremill/lathe/cutter для finiteoutputs обычных9материалов <=128EUt, duration ceil/2. JSON numeric через Gson JsonParser; addProperty с JSNumber выбирает String overload и ломает GTdecoder (не использовать). Независимый beforeafter аудит2658рецептов:172changed durationonly,2486unchanged,inputsoutputsEUtпрочему совпали. docs/GT-QOL-0.9-RECIPES.md содержитexactIDs. Copperwire63->32,steelplate56->28. Энергияоперации≈вдвое меньше.
+- HBM iron/lead anvils+press требуют MVhull; press требует gtceu:mv_electric_piston (НЕ electric_piston_mv!) +attunedcore. RScontroller machinecasing заменёнLVhull. Проверены конечные ingredients через ServerEvents.loaded RecipeManager, не только EventJSON (replaceInput применяетсяпозже). HBMgrenades/missiles/missileassembly recipe&loot запрещены по прежней оружейнойполитике, creative остаётся. Нет полного bossgate или гарантий анти-солоrush, честноуказано вrelease.
+- HBMpaint tag bober1 отсутствует. Override replace:true сохраняет26vanilla+epicfight_logo и optionalbober1. replace:false НЕ устраняет исходный requiredmissing; конечныйtagпроверен безошибки.
+- QA instances/expedition-0.9-release-check, fresh install+copia disposable0.9world после удаленияgtnn. final startup-09-publish.log:6/6server scripts(5ship+QAaudit),5added51removed175modified0failed,Done,9chapters99quests, финальныеgates verified,save-allflush/stop. Старые нефатальные M&A/LDLib/clientclass warnings остаются. Клиент instances/client-0.9-release-check freshshaders:72JAR, всеSHA/overrides проверены, графикине запускали. Старыйhbm-0.9-check (schema3 сGTMThings/AE2) сохранён отдельно и не использован какисточник новойверсии. ВсеQAскрипты ignored,вZIPнет.
+- docs/INSTALL-LEGACY-WINDOWS.md актуализирован0.9; старыйrunpywrapper теперь sys.path.insert(0,'tools') чтобы compatimportработал. README/releasedoc имеютnewworldrestriction, source+downloadbootstrap. Публикацияпоручена ранее, повторногоразрешенияне нужно. АрхивбезJAR/cache/worlds.
+- Не трогать пользовательские untracked E9E-баланс-аудит.md и demo-beta/tools/probe_sources.py.
+
+---
+
 # 0.8.1 — SSL-загрузка
 
 Пользователь прислал Windows/Python3.12 CERTIFICATE_VERIFY_FAILED unable to get local issuer certificate из urllib при install.py. Точная причина на Windows не установлена. Даны команды pip install truststore и запуск старого0.8 через inject_into_ssl+runpy. Новый install.py использует необязательный truststore.SSLContext(PROTOCOL_TLS_CLIENT), иначе ssl.create_default_context; URL в прогрессе, понятная ошибка, очистка .part, сохранён SHA256. Небезопасного обхода TLS нет.
