@@ -1,5 +1,7 @@
 # Публикация 0.21
 
+Код3399834 и тегv0.21 опубликованы. Загрузка ZIP отклонена auto-review: «публику» не принято как явное подтверждение точногоpayload/destination. ZIP-релиз отсутствует; README/Legacy/releasedoc исправлены на публикацию кода и ожидающую загрузку ZIP. Нужен прямой ответ на конкретный вопрос об архиве expedition-0.21.0-hbm-all-stages-dev-bootstrap.zip и репозитории Soudagh/minecraft-expedition. Не обходить отказ.
+
 Пользователь поручил публикацию в ответ на готовый архив0.21. Репозиторий Soudagh/minecraft-expedition, ветка codex/demo-beta, тег v0.21.0-hbm-all-stages-dev; prerelease с expedition-0.21.0-hbm-all-stages-dev-bootstrap.zip. Документация и ссылки обновлены. 27тестов и10124nativechecks пройдены; архив перед загрузкой сверяется с исходниками. В публикацию не входят E9E-баланс-аудит.md и tools/probe_sources.py. NativeQA подтверждает загрузку и классы, не прохождение/миграцию/реакторныеопыты.
 
 # 0.21.0-hbm-all-stages-dev — все стадии HBM, локально

@@ -33,7 +33,7 @@
 
 ## Установка
 
-Скачайте [bootstrap 0.21](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.21.0-hbm-all-stages-dev/expedition-0.21.0-hbm-all-stages-dev-bootstrap.zip) из [промежуточного релиза GitHub](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.21.0-hbm-all-stages-dev) или используйте исходники этой версии. Папка `demo-beta` в исходниках и `expedition-demo` в старом формате архива сохранены как технические имена. В Windows нужны Python 3.10+ и Java 17. Из папки сборки:
+Используйте [исходники 0.21](https://github.com/Soudagh/minecraft-expedition/tree/v0.21.0-hbm-all-stages-dev) или локально собранный bootstrap этой версии. ZIP-релиз 0.21 ещё не создан; последний опубликованный [bootstrap 0.19](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.19.0-hbm-quests-dev/expedition-0.19.0-hbm-quests-dev-bootstrap.zip) не содержит новых глав. Папка `demo-beta` в исходниках и `expedition-demo` в старом формате архива сохранены как технические имена. В Windows нужны Python 3.10+ и Java 17. Из папки сборки:
 
 ```powershell
 py tools/install.py --side client --destination "D:\Minecraft\Expedition-0.21" --visuals shaders
