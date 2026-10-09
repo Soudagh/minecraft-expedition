@@ -1,7 +1,17 @@
 """Separate acquisition from practice; organise HBM into five production chapters."""
 import json
 
-PHASES=[('hbm_industry','HBM I · площадка и металлургия'),('hbm_press','HBM II · пресс и оснастка'),('hbm_components','HBM III · компоненты и обмотки'),('hbm_assembly','HBM IV · сборщик и электроника'),('hbm_operations','HBM V · эксплуатация и контроль')]
+BASE_PHASES=[('hbm_industry','HBM I · площадка и металлургия'),('hbm_press','HBM II · пресс и оснастка'),('hbm_components','HBM III · компоненты и обмотки'),('hbm_assembly','HBM IV · сборщик и электроника'),('hbm_operations','HBM V · эксплуатация и контроль')]
+
+PHASES=BASE_PHASES+[
+    ('hbm_processing','HBM VI · переработка и литейная'),
+    ('hbm_chemistry','HBM VII · нефть и химия'),
+    ('hbm_energy','HBM VIII · энергия и пар'),
+    ('hbm_nuclear','HBM IX · топливный цикл'),
+    ('hbm_zirnox','HBM X · стенд ZIRNOX'),
+    ('hbm_rbmk','HBM XI · стенд RBMK'),
+    ('hbm_frontier','HBM XII · поздние исследования'),
+]
 
 def structure_book(root):
     chapters={p.stem:json.loads(p.read_text()) for p in sorted((root/'chapters').glob('*.snbt'))}
@@ -26,7 +36,7 @@ def structure_book(root):
             q['dependencies']=[split.get(d,d) for d in q.get('dependencies',[])]
             items=[t for t in q['tasks'] if t['type']=='item']
             if items:q['icon']=items[0]['item']
-    hbm=chapters['hbm_industry'];groups=[[] for _ in PHASES]
+    hbm=chapters['hbm_industry'];groups=[[] for _ in BASE_PHASES]
     for q in hbm['quests']:
         # Split IDs retain their original prefix in the report; don't infer it.
         origin=next((r['itemQuest'] for r in report if r['practiceQuest']==q['id']),q['id'])
@@ -39,11 +49,11 @@ def structure_book(root):
         groups[phase].append(q)
     for c in chapters.values():c['order_index']=c.get('order_index',0)*10
     base=hbm['order_index']
-    for i,(slug,title) in enumerate(PHASES):
+    for i,(slug,title) in enumerate(BASE_PHASES):
         c=hbm if i==0 else {'id':f'300000000000{0x40+i:04X}','filename':slug}
         c.update(title=title,order_index=base+i,quests=groups[i]);chapters[slug]=c
     welcome=next(q for q in groups[0] if q['id']=='1611000000000001')
-    welcome['description']=['HBM разделён на пять глав: I — площадка и металлургия, II — пресс и оснастка, III — компоненты, IV — сборщик и электроника, V — эксплуатация и контроль.','Начните с наковальни и пресса после корпуса MV. Медные пластины позволяют собрать печь; металлургия и компоненты сходятся в электронике.','Квест с предметом проверяет только запас. Следующее задание «Практика» содержит только галочку; выполните его действия до перехода дальше.','Переходы между главами перечислены в подготовке каждого задания. Прежние ID квестов и задач сохранены.']
+    welcome['description']=['Первые пять глав HBM: I — площадка и металлургия, II — пресс и оснастка, III — компоненты, IV — сборщик и электроника, V — эксплуатация и контроль. Далее идут переработка, химия, энергия, топливный цикл и отдельные стенды реакторов.','Начните с наковальни и пресса после корпуса MV. Медные пластины позволяют собрать печь; металлургия и компоненты сходятся в электронике.','Квест с предметом проверяет только запас. Следующее задание «Практика» содержит только галочку; выполните его действия до перехода дальше.','Переходы между главами перечислены в подготовке каждого задания. Прежние ID квестов и задач сохранены.']
     allq={q['id']:q for c in chapters.values() for q in c['quests']}
     for c in chapters.values():
         for q in c['quests']:
@@ -54,5 +64,5 @@ def structure_book(root):
             if deps:q['description'].insert(0,'Подготовка: '+'; '.join(allq[d]['title'] for d in deps)+'.')
     for slug,c in chapters.items():
         (root/'chapters'/f'{slug}.snbt').write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n')
-    (root.parents[3]/'docs/QUEST-TASK-SPLITS-0.20.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    (root.parents[3]/'docs/QUEST-TASK-SPLITS-0.21.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     return report

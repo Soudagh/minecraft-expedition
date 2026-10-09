@@ -1,4 +1,4 @@
-"""Export five HBM phase maps from the generated book."""
+"""Export HBM phase maps from the generated book."""
 import json
 from html import escape
 import textwrap
@@ -25,5 +25,5 @@ def export_graph(root):
             for i,line in enumerate(lines[:3]):panels.append(f'<text x="{x+10}" y="{y+40+i*17}" fill="#eef3fb" font-family="sans-serif" font-size="13">{escape(line)}</text>')
             panels.append('</g>')
         width=max(width,int(max(x for x,y in pos.values())+270));offset=int(max(y for x,y in pos.values())+160)
-    out=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {offset}" width="{width}" height="{offset}">','<rect width="100%" height="100%" fill="#101724"/>','<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#788aa6"/></marker></defs>','<text x="50" y="35" fill="#eef3fb" font-family="sans-serif" font-size="25">HBM · пять глав · предметы и практика отдельно</text>','<text x="50" y="65" fill="#b0bfd4" font-family="sans-serif" font-size="16">Межглавная подготовка указана в описаниях; стрелки внутри каждой главы следуют реальным зависимостям.</text>']+panels+['</svg>']
-    (root.parents[3]/'docs/HBM-CONNECTIONS-0.20.svg').write_text('\n'.join(out)+'\n')
+    out=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {offset}" width="{width}" height="{offset}">','<rect width="100%" height="100%" fill="#101724"/>','<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#788aa6"/></marker></defs>','<text x="50" y="35" fill="#eef3fb" font-family="sans-serif" font-size="25">HBM · двенадцать глав · предметы и практика отдельно</text>','<text x="50" y="65" fill="#b0bfd4" font-family="sans-serif" font-size="16">Межглавная подготовка указана в описаниях; стрелки внутри каждой главы следуют реальным зависимостям.</text>']+panels+['</svg>']
+    (root.parents[3]/'docs/HBM-CONNECTIONS-0.21.svg').write_text('\n'.join(out)+'\n')

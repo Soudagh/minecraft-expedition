@@ -37,7 +37,7 @@ class ProductionConnections(unittest.TestCase):
         self.assertTrue(self.quests[self.deep(33)]['dependencies'])
         self.assertGreaterEqual(len(self.quests[self.deep(33)]['dependencies']),3)
     def test_removed_edges_remain_required_through_other_steps(self):
-        report=json.loads((ROOT.parents[3]/'docs/QUEST-CONNECTIONS-0.20.json').read_text())
+        report=json.loads((ROOT.parents[3]/'docs/QUEST-CONNECTIONS-0.21.json').read_text())
         for edge in report['redundantEdgesRemoved']:
             self.assertIn(edge['dependency'],self.ancestors(edge['quest']),edge)
 

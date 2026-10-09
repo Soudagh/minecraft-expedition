@@ -160,6 +160,21 @@ def layout_production_graph(nodes,top):
                     if best_swap:best_swap['y']=old
                     changed=True
         if not changed:break
+    # Dense branches can trap the greedy optimiser at a collinear crossing.
+    # Hide only those target connectors; prerequisites remain in the card text.
+    hidden=set()
+    for a,b in edges:
+        dx=b['x']-a['x'];dy=b['y']-a['y'];length=dx*dx+dy*dy
+        for n in nodes:
+            if n is a or n is b:continue
+            t=((n['x']-a['x'])*dx+(n['y']-a['y'])*dy)/length
+            if 0<t<1 and (n['x']-a['x']-t*dx)**2+(n['y']-a['y']-t*dy)**2<1e-16:
+                hidden.add(b['id'])
+    for qid in sorted(hidden):
+        q=by[qid];q['hide_dependency_lines']=True
+        note='Линии этой сходящейся ветви скрыты для читаемости. Все требования сохранены: '+ '; '.join(by[d]['title'] for d in q.get('dependencies',[]) if d in by)+'.'
+        if note not in q['description']:q['description'].append(note)
+    edges=[(a,b) for a,b in edges if b['id'] not in hidden]
     # Slightly wider fork spacing keeps diagonals clear of adjacent icons.
     clearance=1.0
     for a,b in edges:
@@ -171,4 +186,4 @@ def layout_production_graph(nodes,top):
     if clearance<1e-8:raise ValueError('Production edge passes through an icon')
     spacing=max(1.125,.62/clearance)
     for q in nodes:q.update(x=q['x']*spacing,y=q['y']*spacing+top)
-    return {'nodes':len(nodes),'visibleEdges':len(edges),'columns':len(columns)}
+    return {'nodes':len(nodes),'visibleEdges':len(edges),'columns':len(columns),'hiddenConvergences':sorted(hidden)}

@@ -1,0 +1,387 @@
+[
+  {
+    "itemQuest": "1807000000000001",
+    "practiceQuest": "1B18070001000000",
+    "chapter": "botania_supply"
+  },
+  {
+    "itemQuest": "1807000000000005",
+    "practiceQuest": "1B18070005000000",
+    "chapter": "botania_supply"
+  },
+  {
+    "itemQuest": "1807000000000007",
+    "practiceQuest": "1B18070007000000",
+    "chapter": "botania_supply"
+  },
+  {
+    "itemQuest": "180700000000000A",
+    "practiceQuest": "1B1807000A000000",
+    "chapter": "botania_supply"
+  },
+  {
+    "itemQuest": "1806000000000001",
+    "practiceQuest": "1B18060001000000",
+    "chapter": "create_workshop"
+  },
+  {
+    "itemQuest": "1806000000000004",
+    "practiceQuest": "1B18060004000000",
+    "chapter": "create_workshop"
+  },
+  {
+    "itemQuest": "1806000000000007",
+    "practiceQuest": "1B18060007000000",
+    "chapter": "create_workshop"
+  },
+  {
+    "itemQuest": "1906000000000001",
+    "practiceQuest": "1B19060001000000",
+    "chapter": "create_workshop"
+  },
+  {
+    "itemQuest": "1812000000000001",
+    "practiceQuest": "1B18120001000000",
+    "chapter": "gt_hv_ev"
+  },
+  {
+    "itemQuest": "1814000000000001",
+    "practiceQuest": "1B18140001000000",
+    "chapter": "gt_iv_luv"
+  },
+  {
+    "itemQuest": "180D000000000001",
+    "practiceQuest": "1B180D0001000000",
+    "chapter": "gt_lv"
+  },
+  {
+    "itemQuest": "180F000000000001",
+    "practiceQuest": "1B180F0001000000",
+    "chapter": "gt_mv"
+  },
+  {
+    "itemQuest": "1815000000000001",
+    "practiceQuest": "1B18150001000000",
+    "chapter": "gt_zpm_uv"
+  },
+  {
+    "itemQuest": "1811000000000001",
+    "practiceQuest": "1B18110001000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1811000000000004",
+    "practiceQuest": "1B18110004000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000001",
+    "practiceQuest": "1B19110001000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000002",
+    "practiceQuest": "1B19110002000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000003",
+    "practiceQuest": "1B19110003000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000004",
+    "practiceQuest": "1B19110004000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000005",
+    "practiceQuest": "1B19110005000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000006",
+    "practiceQuest": "1B19110006000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000007",
+    "practiceQuest": "1B19110007000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000009",
+    "practiceQuest": "1B19110009000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000000A",
+    "practiceQuest": "1B1911000A000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000000B",
+    "practiceQuest": "1B1911000B000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000000C",
+    "practiceQuest": "1B1911000C000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000000D",
+    "practiceQuest": "1B1911000D000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000000E",
+    "practiceQuest": "1B1911000E000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000000F",
+    "practiceQuest": "1B1911000F000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000010",
+    "practiceQuest": "1B19110010000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000011",
+    "practiceQuest": "1B19110011000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000013",
+    "practiceQuest": "1B19110013000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000014",
+    "practiceQuest": "1B19110014000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000015",
+    "practiceQuest": "1B19110015000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000016",
+    "practiceQuest": "1B19110016000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000017",
+    "practiceQuest": "1B19110017000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000018",
+    "practiceQuest": "1B19110018000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000019",
+    "practiceQuest": "1B19110019000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000001A",
+    "practiceQuest": "1B1911001A000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000001B",
+    "practiceQuest": "1B1911001B000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000001C",
+    "practiceQuest": "1B1911001C000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000001D",
+    "practiceQuest": "1B1911001D000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000001F",
+    "practiceQuest": "1B1911001F000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000021",
+    "practiceQuest": "1B19110021000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000022",
+    "practiceQuest": "1B19110022000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000023",
+    "practiceQuest": "1B19110023000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000024",
+    "practiceQuest": "1B19110024000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000025",
+    "practiceQuest": "1B19110025000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000002A",
+    "practiceQuest": "1B1911002A000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000002E",
+    "practiceQuest": "1B1911002E000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000030",
+    "practiceQuest": "1B19110030000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000031",
+    "practiceQuest": "1B19110031000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000034",
+    "practiceQuest": "1B19110034000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000035",
+    "practiceQuest": "1B19110035000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000036",
+    "practiceQuest": "1B19110036000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000037",
+    "practiceQuest": "1B19110037000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000038",
+    "practiceQuest": "1B19110038000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000039",
+    "practiceQuest": "1B19110039000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000003B",
+    "practiceQuest": "1B1911003B000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000003C",
+    "practiceQuest": "1B1911003C000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000003D",
+    "practiceQuest": "1B1911003D000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "191100000000003F",
+    "practiceQuest": "1B1911003F000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1911000000000040",
+    "practiceQuest": "1B19110040000000",
+    "chapter": "hbm_industry"
+  },
+  {
+    "itemQuest": "1809000000000001",
+    "practiceQuest": "1B18090001000000",
+    "chapter": "hex_practice"
+  },
+  {
+    "itemQuest": "1809000000000005",
+    "practiceQuest": "1B18090005000000",
+    "chapter": "hex_practice"
+  },
+  {
+    "itemQuest": "1809000000000009",
+    "practiceQuest": "1B18090009000000",
+    "chapter": "hex_practice"
+  },
+  {
+    "itemQuest": "180C000000000001",
+    "practiceQuest": "1B180C0001000000",
+    "chapter": "industrial_prep"
+  },
+  {
+    "itemQuest": "180C000000000002",
+    "practiceQuest": "1B180C0002000000",
+    "chapter": "industrial_prep"
+  },
+  {
+    "itemQuest": "180C000000000006",
+    "practiceQuest": "1B180C0006000000",
+    "chapter": "industrial_prep"
+  },
+  {
+    "itemQuest": "1808000000000001",
+    "practiceQuest": "1B18080001000000",
+    "chapter": "mana_artifice"
+  },
+  {
+    "itemQuest": "1808000000000004",
+    "practiceQuest": "1B18080004000000",
+    "chapter": "mana_artifice"
+  },
+  {
+    "itemQuest": "1808000000000007",
+    "practiceQuest": "1B18080007000000",
+    "chapter": "mana_artifice"
+  },
+  {
+    "itemQuest": "180A000000000001",
+    "practiceQuest": "1B180A0001000000",
+    "chapter": "spell_supply"
+  },
+  {
+    "itemQuest": "180A000000000003",
+    "practiceQuest": "1B180A0003000000",
+    "chapter": "spell_supply"
+  },
+  {
+    "itemQuest": "180A000000000007",
+    "practiceQuest": "1B180A0007000000",
+    "chapter": "spell_supply"
+  },
+  {
+    "itemQuest": "180E000000000001",
+    "practiceQuest": "1B180E0001000000",
+    "chapter": "storage"
+  },
+  {
+    "itemQuest": "180E000000000004",
+    "practiceQuest": "1B180E0004000000",
+    "chapter": "storage"
+  }
+]

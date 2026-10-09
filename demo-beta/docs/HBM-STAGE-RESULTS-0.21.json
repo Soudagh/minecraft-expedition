@@ -1,0 +1,90 @@
+{
+	"scope": "Native machine classes only; no construction, production or survival test",
+	"blocks": [
+		{
+			"id": "hbm_m:zirnox",
+			"className": "com.hbm_m.block.machines.MachineZirnoxBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:rbmk_loader",
+			"className": "com.hbm_m.block.machines.rbmk.RBMKLoaderBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:rbmk_control",
+			"className": "com.hbm_m.block.machines.rbmk.RBMKControlManualBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:rbmk_boiler",
+			"className": "com.hbm_m.block.machines.rbmk.RBMKBoilerBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:chemical_plant",
+			"className": "com.hbm_m.block.machines.MachineChemicalPlantBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:refinery",
+			"className": "com.hbm_m.block.machines.MachineRefineryBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:gas_centrifuge",
+			"className": "com.hbm_m.block.machines.MachineGasCentrifugeBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:centrifuge",
+			"className": "com.hbm_m.block.machines.MachineCentrifugeBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:crucible",
+			"className": "com.hbm_m.block.machines.MachineCrucibleBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:steam_turbine",
+			"className": "com.hbm_m.block.machines.MachineSteamTurbineBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:steam_condenser",
+			"className": "com.hbm_m.block.machines.MachineSteamCondenserBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:industrial_boiler",
+			"className": "com.hbm_m.block.machines.MachineIndustrialBoilerBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:solar_boiler",
+			"className": "com.hbm_m.block.machines.MachineSolarBoilerBlock",
+			"hasBlockEntity": true
+		},
+		{
+			"id": "hbm_m:pwr_casing",
+			"className": "net.minecraft.world.level.block.Block",
+			"hasBlockEntity": false
+		},
+		{
+			"id": "hbm_m:iter",
+			"className": "net.minecraft.world.level.block.Block",
+			"hasBlockEntity": false
+		},
+		{
+			"id": "hbm_m:dieselgen",
+			"className": "net.minecraft.world.level.block.Block",
+			"hasBlockEntity": false
+		},
+		{
+			"id": "hbm_m:machine_converter_he_rf",
+			"className": "net.minecraft.world.level.block.Block",
+			"hasBlockEntity": false
+		}
+	]
+}

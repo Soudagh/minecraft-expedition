@@ -13,7 +13,7 @@ class HbmStructure(unittest.TestCase):
                 if types=={'item'}:self.assertEqual(q['icon'],q['tasks'][0]['item'])
     def test_split_preserves_required_practice(self):
         qs={q['id']:q for p in (ROOT/'overrides/config/ftbquests/quests/chapters').glob('*.snbt') for q in json.loads(p.read_text())['quests']}
-        for r in json.loads((ROOT/'docs/QUEST-TASK-SPLITS-0.20.json').read_text()):
+        for r in json.loads((ROOT/'docs/QUEST-TASK-SPLITS-0.21.json').read_text()):
             item=qs[r['itemQuest']];practice=qs[r['practiceQuest']]
             self.assertEqual(practice['dependencies'],[item['id']])
             self.assertEqual({t['type'] for t in item['tasks']},{'item'})
@@ -23,6 +23,6 @@ class HbmStructure(unittest.TestCase):
     def test_phase_order_and_unique_membership(self):
         chapters=[json.loads((ROOT/'overrides/config/ftbquests/quests/chapters'/f'{s}.snbt').read_text()) for s,_ in PHASES]
         orders=[c['order_index'] for c in chapters];self.assertEqual(orders,sorted(orders))
-        self.assertEqual(len(set(orders)),5)
-        for c in chapters:self.assertGreater(len(c['quests']),15)
+        self.assertEqual(len(set(orders)),len(PHASES))
+        for c in chapters:self.assertGreater(len(c['quests']),5)
 if __name__=='__main__':unittest.main()

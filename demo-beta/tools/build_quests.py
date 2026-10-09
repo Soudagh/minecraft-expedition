@@ -2,7 +2,8 @@
 import json
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1] / 'overrides/config/ftbquests/quests'
-for generated_phase in ['hbm_press','hbm_components','hbm_assembly','hbm_operations']:
+from hbm_structure import PHASES
+for generated_phase,_ in PHASES[1:]:
     (ROOT/'chapters'/f'{generated_phase}.snbt').unlink(missing_ok=True)
 def qid(n): return f'100000000000{n:04X}'
 def tid(n): return f'200000000000{n:04X}'
@@ -94,9 +95,11 @@ from quest_connections import connect_book
 connect_book(ROOT)
 from hbm_structure import structure_book
 structure_book(ROOT)
+from hbm_stages import write_stages
+write_stages(ROOT)
 from quest_layout import layout_book
 layout_summary=layout_book(ROOT)
-(ROOT.parents[3]/'docs/QUEST-LAYOUT-0.20.json').write_text(json.dumps(layout_summary,ensure_ascii=False,indent=2)+'\n')
+(ROOT.parents[3]/'docs/QUEST-LAYOUT-0.21.json').write_text(json.dumps(layout_summary,ensure_ascii=False,indent=2)+'\n')
 from quest_graph_preview import export_graph
 export_graph(ROOT)
 from expanded_quests import write_report

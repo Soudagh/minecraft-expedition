@@ -137,4 +137,4 @@ def write_report(root):
                 if isinstance(item,dict):item=item.get('id')
                 if item:items.add(item)
     report={'version':json.loads((pack/'mods.lock.json').read_text())['version'],'chapters':sorted(chapters,key=lambda c:c['order']),'questCount':len(quest_ids),'taskCount':len(task_ids),'questIDs':quest_ids,'taskIDs':task_ids,'items':sorted(items),'layout':layout}
-    (pack/'docs/QUEST-CURRICULUM-0.20.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    (pack/'docs/QUEST-CURRICULUM-0.21.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
