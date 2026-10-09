@@ -1,0 +1,1226 @@
+{
+	"schema": 1,
+	"kind": "isolated native hit health loss, not player DPS or boss fight",
+	"checks": 356,
+	"procChance": 15,
+	"weapons": [
+		{
+			"id": "simplyswords:iron_longsword",
+			"attackBonus": 5,
+			"speedModifiers": [
+				{
+					"amount": -2.4000000953674316,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_twinblade",
+			"attackBonus": 5,
+			"speedModifiers": [
+				{
+					"amount": -2,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_rapier",
+			"attackBonus": 4,
+			"speedModifiers": [
+				{
+					"amount": -1.7999999523162842,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_katana",
+			"attackBonus": 5,
+			"speedModifiers": [
+				{
+					"amount": -2,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_sai",
+			"attackBonus": 2,
+			"speedModifiers": [
+				{
+					"amount": -1.5,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_spear",
+			"attackBonus": 5,
+			"speedModifiers": [
+				{
+					"amount": -2.700000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_glaive",
+			"attackBonus": 5,
+			"speedModifiers": [
+				{
+					"amount": -2.5999999046325684,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_warglaive",
+			"attackBonus": 5,
+			"speedModifiers": [
+				{
+					"amount": -2.200000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_cutlass",
+			"attackBonus": 5,
+			"speedModifiers": [
+				{
+					"amount": -2,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_claymore",
+			"attackBonus": 7,
+			"speedModifiers": [
+				{
+					"amount": -2.799999952316284,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_greataxe",
+			"attackBonus": 8,
+			"speedModifiers": [
+				{
+					"amount": -3.0999999046325684,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_greathammer",
+			"attackBonus": 9,
+			"speedModifiers": [
+				{
+					"amount": -3.200000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_chakram",
+			"attackBonus": 4,
+			"speedModifiers": [
+				{
+					"amount": -3,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_scythe",
+			"attackBonus": 6,
+			"speedModifiers": [
+				{
+					"amount": -2.700000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:iron_halberd",
+			"attackBonus": 8,
+			"speedModifiers": [
+				{
+					"amount": -2.799999952316284,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_longsword",
+			"attackBonus": 6,
+			"speedModifiers": [
+				{
+					"amount": -2.4000000953674316,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_twinblade",
+			"attackBonus": 6,
+			"speedModifiers": [
+				{
+					"amount": -2,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_rapier",
+			"attackBonus": 5,
+			"speedModifiers": [
+				{
+					"amount": -1.7999999523162842,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_katana",
+			"attackBonus": 6,
+			"speedModifiers": [
+				{
+					"amount": -2,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_sai",
+			"attackBonus": 3,
+			"speedModifiers": [
+				{
+					"amount": -1.5,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_spear",
+			"attackBonus": 6,
+			"speedModifiers": [
+				{
+					"amount": -2.700000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_glaive",
+			"attackBonus": 6,
+			"speedModifiers": [
+				{
+					"amount": -2.5999999046325684,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_warglaive",
+			"attackBonus": 6,
+			"speedModifiers": [
+				{
+					"amount": -2.200000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_cutlass",
+			"attackBonus": 6,
+			"speedModifiers": [
+				{
+					"amount": -2,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_claymore",
+			"attackBonus": 8,
+			"speedModifiers": [
+				{
+					"amount": -2.799999952316284,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_greataxe",
+			"attackBonus": 9,
+			"speedModifiers": [
+				{
+					"amount": -3.0999999046325684,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_greathammer",
+			"attackBonus": 10,
+			"speedModifiers": [
+				{
+					"amount": -3.200000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_chakram",
+			"attackBonus": 5,
+			"speedModifiers": [
+				{
+					"amount": -3,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_scythe",
+			"attackBonus": 7,
+			"speedModifiers": [
+				{
+					"amount": -2.700000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:diamond_halberd",
+			"attackBonus": 9,
+			"speedModifiers": [
+				{
+					"amount": -2.799999952316284,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_longsword",
+			"attackBonus": 7,
+			"speedModifiers": [
+				{
+					"amount": -2.4000000953674316,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_twinblade",
+			"attackBonus": 7,
+			"speedModifiers": [
+				{
+					"amount": -2,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_rapier",
+			"attackBonus": 6,
+			"speedModifiers": [
+				{
+					"amount": -1.7999999523162842,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_katana",
+			"attackBonus": 7,
+			"speedModifiers": [
+				{
+					"amount": -2,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_sai",
+			"attackBonus": 4,
+			"speedModifiers": [
+				{
+					"amount": -1.5,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_spear",
+			"attackBonus": 7,
+			"speedModifiers": [
+				{
+					"amount": -2.700000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_glaive",
+			"attackBonus": 7,
+			"speedModifiers": [
+				{
+					"amount": -2.5999999046325684,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_warglaive",
+			"attackBonus": 7,
+			"speedModifiers": [
+				{
+					"amount": -2.200000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_cutlass",
+			"attackBonus": 7,
+			"speedModifiers": [
+				{
+					"amount": -2,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_claymore",
+			"attackBonus": 9,
+			"speedModifiers": [
+				{
+					"amount": -2.799999952316284,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_greataxe",
+			"attackBonus": 10,
+			"speedModifiers": [
+				{
+					"amount": -3.0999999046325684,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_greathammer",
+			"attackBonus": 11,
+			"speedModifiers": [
+				{
+					"amount": -3.200000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_chakram",
+			"attackBonus": 6,
+			"speedModifiers": [
+				{
+					"amount": -3,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_scythe",
+			"attackBonus": 8,
+			"speedModifiers": [
+				{
+					"amount": -2.700000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:netherite_halberd",
+			"attackBonus": 10,
+			"speedModifiers": [
+				{
+					"amount": -2.799999952316284,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_longsword",
+			"attackBonus": 8,
+			"speedModifiers": [
+				{
+					"amount": -2.4000000953674316,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_twinblade",
+			"attackBonus": 8,
+			"speedModifiers": [
+				{
+					"amount": -2,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_rapier",
+			"attackBonus": 7,
+			"speedModifiers": [
+				{
+					"amount": -1.7999999523162842,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_katana",
+			"attackBonus": 8,
+			"speedModifiers": [
+				{
+					"amount": -2,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_sai",
+			"attackBonus": 5,
+			"speedModifiers": [
+				{
+					"amount": -1.5,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_spear",
+			"attackBonus": 8,
+			"speedModifiers": [
+				{
+					"amount": -2.700000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_glaive",
+			"attackBonus": 8,
+			"speedModifiers": [
+				{
+					"amount": -2.5999999046325684,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_warglaive",
+			"attackBonus": 8,
+			"speedModifiers": [
+				{
+					"amount": -2.200000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_cutlass",
+			"attackBonus": 8,
+			"speedModifiers": [
+				{
+					"amount": -2,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_claymore",
+			"attackBonus": 10,
+			"speedModifiers": [
+				{
+					"amount": -2.799999952316284,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_greataxe",
+			"attackBonus": 11,
+			"speedModifiers": [
+				{
+					"amount": -3.0999999046325684,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_greathammer",
+			"attackBonus": 12,
+			"speedModifiers": [
+				{
+					"amount": -3.200000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_chakram",
+			"attackBonus": 7,
+			"speedModifiers": [
+				{
+					"amount": -3,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_scythe",
+			"attackBonus": 9,
+			"speedModifiers": [
+				{
+					"amount": -2.700000047683716,
+					"operation": "ADDITION"
+				}
+			]
+		},
+		{
+			"id": "simplyswords:runic_halberd",
+			"attackBonus": 11,
+			"speedModifiers": [
+				{
+					"amount": -2.799999952316284,
+					"operation": "ADDITION"
+				}
+			]
+		}
+	],
+	"cases": [
+		{
+			"kind": "spell_hit",
+			"spell": "magic_missile",
+			"level": 1,
+			"power": 1,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 1,
+			"projectileDamage": 6.0,
+			"actualHealthLost": 6
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "magic_missile",
+			"level": 1,
+			"power": 1,
+			"armor": 20,
+			"toughness": 8,
+			"resist": 1,
+			"projectileDamage": 6.0,
+			"actualHealthLost": 1.55999755859375
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "magic_missile",
+			"level": 1,
+			"power": 1,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 2,
+			"projectileDamage": 6.0,
+			"actualHealthLost": 1.5
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "magic_missile",
+			"level": 1,
+			"power": 4,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 1,
+			"projectileDamage": 24.0,
+			"actualHealthLost": 24
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "magic_missile",
+			"level": 1,
+			"power": 4,
+			"armor": 20,
+			"toughness": 8,
+			"resist": 1,
+			"projectileDamage": 24.0,
+			"actualHealthLost": 10.55999755859375
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "magic_missile",
+			"level": 1,
+			"power": 4,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 2,
+			"projectileDamage": 24.0,
+			"actualHealthLost": 6
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "magic_missile",
+			"level": 10,
+			"power": 1,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 1,
+			"projectileDamage": 10.5,
+			"actualHealthLost": 10.5
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "magic_missile",
+			"level": 10,
+			"power": 1,
+			"armor": 20,
+			"toughness": 8,
+			"resist": 1,
+			"projectileDamage": 10.5,
+			"actualHealthLost": 3.2025146484375
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "magic_missile",
+			"level": 10,
+			"power": 1,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 2,
+			"projectileDamage": 10.5,
+			"actualHealthLost": 2.625
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "magic_missile",
+			"level": 10,
+			"power": 4,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 1,
+			"projectileDamage": 42.0,
+			"actualHealthLost": 42
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "magic_missile",
+			"level": 10,
+			"power": 4,
+			"armor": 20,
+			"toughness": 8,
+			"resist": 1,
+			"projectileDamage": 42.0,
+			"actualHealthLost": 26.03997802734375
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "magic_missile",
+			"level": 10,
+			"power": 4,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 2,
+			"projectileDamage": 42.0,
+			"actualHealthLost": 10.5
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "firebolt",
+			"level": 1,
+			"power": 1,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 1,
+			"projectileDamage": 6.0,
+			"actualHealthLost": 6
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "firebolt",
+			"level": 1,
+			"power": 1,
+			"armor": 20,
+			"toughness": 8,
+			"resist": 1,
+			"projectileDamage": 6.0,
+			"actualHealthLost": 1.55999755859375
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "firebolt",
+			"level": 1,
+			"power": 1,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 2,
+			"projectileDamage": 6.0,
+			"actualHealthLost": 1.5
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "firebolt",
+			"level": 1,
+			"power": 4,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 1,
+			"projectileDamage": 24.0,
+			"actualHealthLost": 24
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "firebolt",
+			"level": 1,
+			"power": 4,
+			"armor": 20,
+			"toughness": 8,
+			"resist": 1,
+			"projectileDamage": 24.0,
+			"actualHealthLost": 10.55999755859375
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "firebolt",
+			"level": 1,
+			"power": 4,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 2,
+			"projectileDamage": 24.0,
+			"actualHealthLost": 6
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "firebolt",
+			"level": 10,
+			"power": 1,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 1,
+			"projectileDamage": 10.5,
+			"actualHealthLost": 10.5
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "firebolt",
+			"level": 10,
+			"power": 1,
+			"armor": 20,
+			"toughness": 8,
+			"resist": 1,
+			"projectileDamage": 10.5,
+			"actualHealthLost": 3.2025146484375
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "firebolt",
+			"level": 10,
+			"power": 1,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 2,
+			"projectileDamage": 10.5,
+			"actualHealthLost": 2.625
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "firebolt",
+			"level": 10,
+			"power": 4,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 1,
+			"projectileDamage": 42.0,
+			"actualHealthLost": 42
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "firebolt",
+			"level": 10,
+			"power": 4,
+			"armor": 20,
+			"toughness": 8,
+			"resist": 1,
+			"projectileDamage": 42.0,
+			"actualHealthLost": 26.03997802734375
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "firebolt",
+			"level": 10,
+			"power": 4,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 2,
+			"projectileDamage": 42.0,
+			"actualHealthLost": 10.5
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "chain_lightning",
+			"level": 1,
+			"power": 1,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 1,
+			"projectileDamage": 6.0,
+			"actualHealthLost": 6
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "chain_lightning",
+			"level": 1,
+			"power": 1,
+			"armor": 20,
+			"toughness": 8,
+			"resist": 1,
+			"projectileDamage": 6.0,
+			"actualHealthLost": 1.55999755859375
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "chain_lightning",
+			"level": 1,
+			"power": 1,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 2,
+			"projectileDamage": 6.0,
+			"actualHealthLost": 1.5
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "chain_lightning",
+			"level": 1,
+			"power": 4,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 1,
+			"projectileDamage": 24.0,
+			"actualHealthLost": 24
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "chain_lightning",
+			"level": 1,
+			"power": 4,
+			"armor": 20,
+			"toughness": 8,
+			"resist": 1,
+			"projectileDamage": 24.0,
+			"actualHealthLost": 10.55999755859375
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "chain_lightning",
+			"level": 1,
+			"power": 4,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 2,
+			"projectileDamage": 24.0,
+			"actualHealthLost": 6
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "chain_lightning",
+			"level": 10,
+			"power": 1,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 1,
+			"projectileDamage": 15.0,
+			"actualHealthLost": 15
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "chain_lightning",
+			"level": 10,
+			"power": 1,
+			"armor": 20,
+			"toughness": 8,
+			"resist": 1,
+			"projectileDamage": 15.0,
+			"actualHealthLost": 5.25
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "chain_lightning",
+			"level": 10,
+			"power": 1,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 2,
+			"projectileDamage": 15.0,
+			"actualHealthLost": 3.75
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "chain_lightning",
+			"level": 10,
+			"power": 4,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 1,
+			"projectileDamage": 60.0,
+			"actualHealthLost": 60
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "chain_lightning",
+			"level": 10,
+			"power": 4,
+			"armor": 20,
+			"toughness": 8,
+			"resist": 1,
+			"projectileDamage": 60.0,
+			"actualHealthLost": 48
+		},
+		{
+			"kind": "spell_hit",
+			"spell": "chain_lightning",
+			"level": 10,
+			"power": 4,
+			"armor": 0,
+			"toughness": 0,
+			"resist": 2,
+			"projectileDamage": 60.0,
+			"actualHealthLost": 15
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": false,
+			"power": 1,
+			"armor": 0,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 4.34,
+			"nativeValue": 6.0,
+			"actualHealthLost": 0.9000244140625,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": false,
+			"power": 1,
+			"armor": 20,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 4.34,
+			"nativeValue": 6.0,
+			"actualHealthLost": 0.9000244140625,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": false,
+			"power": 2,
+			"armor": 0,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 8.68,
+			"nativeValue": 8.68,
+			"actualHealthLost": 1.302001953125,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": false,
+			"power": 2,
+			"armor": 20,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 8.68,
+			"nativeValue": 8.68,
+			"actualHealthLost": 1.302001953125,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": false,
+			"power": 4,
+			"armor": 0,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 17.36,
+			"nativeValue": 17.36,
+			"actualHealthLost": 2.60400390625,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": false,
+			"power": 4,
+			"armor": 20,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 17.36,
+			"nativeValue": 17.36,
+			"actualHealthLost": 2.60400390625,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": false,
+			"power": 8,
+			"armor": 0,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 34.72,
+			"nativeValue": 34.72,
+			"actualHealthLost": 5.2080078125,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": false,
+			"power": 8,
+			"armor": 20,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 34.72,
+			"nativeValue": 34.72,
+			"actualHealthLost": 5.2080078125,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": false,
+			"power": 16,
+			"armor": 0,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 69.44,
+			"nativeValue": 69.44,
+			"actualHealthLost": 10.416015625,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": false,
+			"power": 16,
+			"armor": 20,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 69.44,
+			"nativeValue": 69.44,
+			"actualHealthLost": 10.416015625,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": true,
+			"power": 1,
+			"armor": 0,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 4.34,
+			"nativeValue": 10.0,
+			"actualHealthLost": 1.5,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": true,
+			"power": 1,
+			"armor": 20,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 4.34,
+			"nativeValue": 10.0,
+			"actualHealthLost": 1.5,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": true,
+			"power": 2,
+			"armor": 0,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 8.68,
+			"nativeValue": 10.0,
+			"actualHealthLost": 1.5,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": true,
+			"power": 2,
+			"armor": 20,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 8.68,
+			"nativeValue": 10.0,
+			"actualHealthLost": 1.5,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": true,
+			"power": 4,
+			"armor": 0,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 17.36,
+			"nativeValue": 17.36,
+			"actualHealthLost": 2.60400390625,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": true,
+			"power": 4,
+			"armor": 20,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 17.36,
+			"nativeValue": 17.36,
+			"actualHealthLost": 2.60400390625,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": true,
+			"power": 8,
+			"armor": 0,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 34.72,
+			"nativeValue": 34.72,
+			"actualHealthLost": 5.2080078125,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": true,
+			"power": 8,
+			"armor": 20,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 34.72,
+			"nativeValue": 34.72,
+			"actualHealthLost": 5.2080078125,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": true,
+			"power": 16,
+			"armor": 0,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 69.44,
+			"nativeValue": 69.44,
+			"actualHealthLost": 10.416015625,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		},
+		{
+			"kind": "imbued_proc",
+			"greater": true,
+			"power": 16,
+			"armor": 20,
+			"spellScaling": 2.0,
+			"rawSpellBranch": 69.44,
+			"nativeValue": 69.44,
+			"actualHealthLost": 10.416015625,
+			"fixture": "cow caster; native non-player ability/hit multipliers retained; forced proc chance"
+		}
+	]
+}

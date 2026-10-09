@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "jar": "sword_soaring-20.14.2.8-mc1.20.1-forge.jar",
+  "sha256": "05117e1e4247af963621930d69d6f5bd90c1fe8c7c738835ad5af31e19e987d3",
+  "kind": "locked native defaults, not damage measurements",
+  "parameters": {
+    "data/sword_soaring/skill_parameters/babylon.json": {
+      "cooldown": 1000,
+      "interval": 65,
+      "xp_requirement": 1024
+    },
+    "data/sword_soaring/skill_parameters/kill_aura_1.json": {
+      "cooldown": 500,
+      "life_time": 200,
+      "xp_requirement": 3
+    },
+    "data/sword_soaring/skill_parameters/kill_aura_2.json": {
+      "cooldown": 300,
+      "life_time": 250,
+      "xp_requirement": 3
+    },
+    "data/sword_soaring/skill_parameters/rain_sword.json": {
+      "min_count": 3,
+      "max_count": 7,
+      "interval": 5,
+      "cooldown": 400,
+      "life_time": 400,
+      "xp_requirement": 5
+    },
+    "data/sword_soaring/skill_parameters/screen_sword.json": {
+      "cooldown": 500,
+      "life_time": 300,
+      "protect_count": 36,
+      "heal_count": 4.0,
+      "xp_requirement": 3
+    },
+    "data/sword_soaring/skill_parameters/sword_soaring_apprentice.json": {
+      "cooldown": 200,
+      "speed": 0.7,
+      "consumption": 0.1
+    },
+    "data/sword_soaring/skill_parameters/sword_soaring_elytra_apprentice.json": {
+      "cooldown": 200,
+      "speed": 0.8,
+      "consumption": 0.1
+    },
+    "data/sword_soaring/skill_parameters/sword_soaring_elytra_expert.json": {
+      "cooldown": 100,
+      "speed": 1.2,
+      "consumption": 0.05
+    },
+    "data/sword_soaring/skill_parameters/sword_soaring_elytra_master.json": {
+      "cooldown": 0,
+      "speed": 1.3,
+      "consumption": 0.0
+    },
+    "data/sword_soaring/skill_parameters/sword_soaring_expert.json": {
+      "cooldown": 100,
+      "speed": 1.0,
+      "consumption": 0.05
+    },
+    "data/sword_soaring/skill_parameters/sword_soaring_master.json": {
+      "cooldown": 0,
+      "speed": 1.2,
+      "consumption": 0.0
+    },
+    "data/sword_soaring/skill_parameters/vatansever_dodge.json": {
+      "consumption": 2.0,
+      "xp_requirement": 2147483647
+    },
+    "data/sword_soaring/skill_parameters/vatansever_innate.json": {
+      "consumption": 11451.4,
+      "max_stacks": 7
+    },
+    "data/sword_soaring/skill_parameters/wan_jian_gui_zong.json": {
+      "cooldown": 1000,
+      "xp_requirement": 1024
+    }
+  }
+}

@@ -78,3 +78,9 @@ build_progression()
 
 from equipment_quests import write_equipment
 write_equipment(ROOT, json)
+
+from expanded_quests import write_expanded
+curriculum_summary=write_expanded(ROOT)
+print('Expanded curriculum:',sum(row['added'] for row in curriculum_summary),'new quests')
+from expanded_quests import write_report
+write_report(ROOT)

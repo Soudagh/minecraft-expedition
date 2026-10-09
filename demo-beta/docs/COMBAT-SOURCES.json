@@ -1,5 +1,5 @@
 {
-  "version": "0.15.0-combat-sustain-dev",
+  "version": "0.17.0-quest-overhaul-dev",
   "scope": "Static references only; Java loot, trades, runtime functions and effects need separate analysis.",
   "mods": [
     {
