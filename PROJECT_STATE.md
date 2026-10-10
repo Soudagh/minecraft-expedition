@@ -1,3 +1,7 @@
+# 0.21 опубликована
+
+После конкретного вопроса о файле expedition-0.21.0-hbm-all-stages-dev-bootstrap.zip и destination Soudagh/minecraft-expedition пользователь прямо подтвердил «на гитхаб грузи». gh release create успешно создал prerelease v0.21.0-hbm-all-stages-dev с ZIP. Ссылки README/Legacy/releasedoc восстановлены на фактически существующий релиз; архив пересобран с актуальными инструкциями и сверяется после загрузки. Предыдущие отказы ниже — история, публикация больше не заблокирована.
+
 # Публикация 0.21
 
 Код3399834 и тегv0.21 опубликованы. Загрузка ZIP отклонена auto-review: «публику» не принято как явное подтверждение точногоpayload/destination. ZIP-релиз отсутствует; README/Legacy/releasedoc исправлены на публикацию кода и ожидающую загрузку ZIP. Нужен прямой ответ на конкретный вопрос об архиве expedition-0.21.0-hbm-all-stages-dev-bootstrap.zip и репозитории Soudagh/minecraft-expedition. Не обходить отказ.

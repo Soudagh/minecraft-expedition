@@ -12,7 +12,7 @@
 
 ## 2. Распакуй и установи сборку
 
-1. Используй [исходники 0.21](https://github.com/Soudagh/minecraft-expedition/tree/v0.21.0-hbm-all-stages-dev), папку `demo-beta`, или локально собранный bootstrap 0.21. ZIP-релиз 0.21 ещё не создан. Последний опубликованный [bootstrap 0.19](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.19.0-hbm-quests-dev/expedition-0.19.0-hbm-quests-dev-bootstrap.zip) не содержит новых глав.
+1. Скачай [bootstrap 0.21](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.21.0-hbm-all-stages-dev/expedition-0.21.0-hbm-all-stages-dev-bootstrap.zip) из [промежуточного релиза](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.21.0-hbm-all-stages-dev) или используй исходники папки `demo-beta` этой версии.
 2. Нажми на ZIP правой кнопкой → «Извлечь всё». Нельзя запускать установку прямо из ZIP.
 3. Открой распакованную папку `expedition-demo`. В ней должны быть `README.md`, `mods.lock.json` и папка `tools`.
 4. Щёлкни по адресной строке Проводника, введи `powershell` и нажми Enter.

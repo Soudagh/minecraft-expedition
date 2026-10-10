@@ -19,4 +19,4 @@ HBM расширен с пяти до **12 глав / 238 карточек**. Д
 
 Графический клиент, доступность всех поздних входов в выживании, реальные производственные/реакторные опыты и перенос командного прогресса не проверены. Сохранность ID не заменяет испытание обновления на остановленной копии экземпляра с резервной копией.
 
-[Коммит и тег 0.21](https://github.com/Soudagh/minecraft-expedition/tree/v0.21.0-hbm-all-stages-dev) опубликованы на GitHub. ZIP-релиз ещё не создан. Архив bootstrap содержит исходники, документацию, генераторы и overrides; диагностические миры и сторонние JAR исключены. Состав модов, рецепты сборки и схема сохранений 4 сохранены.
+[Релиз 0.21](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.21.0-hbm-all-stages-dev) · [Bootstrap](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.21.0-hbm-all-stages-dev/expedition-0.21.0-hbm-all-stages-dev-bootstrap.zip). Архив bootstrap содержит исходники, документацию, генераторы и overrides; диагностические миры и сторонние JAR исключены. Состав модов, рецепты сборки и схема сохранений 4 сохранены.
