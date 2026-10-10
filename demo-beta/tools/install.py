@@ -66,10 +66,17 @@ def safe_relative(name):
     return path
 
 
+def destination_conflict(destination):
+    return ('Destination already exists: ' + str(destination) + '\n'
+            'Choose a NEW, unused --destination (for example, a name ending in -new).\n'
+            'Existing files are not overwritten. Verified downloads remain in the cache; '
+            'rerun from the same pack folder to reuse them.')
+
+
 def install(destination, side, source=None, stopped=False, cache=None, visuals=None):
     destination = Path(destination).resolve()
-    if destination.exists():
-        raise ValueError('Destination must not exist. Use a NEW directory.')
+    if destination.exists() or destination.is_symlink():
+        raise ValueError(destination_conflict(destination))
     if destination == ROOT or ROOT in destination.parents:
         raise ValueError('Choose an instance directory outside the pack source.')
     old = None
@@ -117,14 +124,20 @@ def install(destination, side, source=None, stopped=False, cache=None, visuals=N
             download_verified(entry, target)
         print('Verified:', name, flush=True)
     generated = boss_overrides(entries, cache)
+    # Another installer or Explorer may create the directory during downloads.
+    # Keep exclusive creation: never merge into that directory.
+    try:
+        if source:
+            shutil.copytree(source, destination)
+        else:
+            destination.mkdir(parents=True)
+    except FileExistsError as exc:
+        raise ValueError(destination_conflict(destination)) from exc
     if source:
-        shutil.copytree(source, destination)
         for name in old['files']:
             p = destination / safe_relative(name)
             if p.exists():
                 p.unlink()
-    else:
-        destination.mkdir(parents=True)
     managed = {}
     def put(src, relative):
         target = destination / relative

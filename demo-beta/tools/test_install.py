@@ -13,6 +13,42 @@ import install
 
 
 class PreservationTests(unittest.TestCase):
+    def test_existing_destination_is_rejected_before_download(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            destination = Path(tmp)/'existing'
+            destination.mkdir()
+            marker = destination/'world.dat'; marker.write_bytes(b'world')
+            with patch.object(install, 'download_verified') as download:
+                with self.assertRaisesRegex(ValueError, 'Destination already exists'):
+                    install.install(destination, 'client')
+                download.assert_not_called()
+            self.assertEqual(marker.read_bytes(), b'world')
+
+    def test_directory_created_during_download_is_preserved_and_cache_reused(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp); pack = root/'pack'; pack.mkdir()
+            (pack/'overrides').mkdir(); cache = root/'cache'
+            destination = root/'instance'; payload = b'fixture'
+            entry = {'filename':'mod.jar', 'side':'both',
+                     'hashes':{'sha256':hashlib.sha256(payload).hexdigest()}}
+            (pack/'mods.lock.json').write_text(json.dumps({
+                'version':'test', 'minecraft':'1.20.1','forge':'47.4.10','mods':[entry]}))
+            def concurrent_creation(entry, target):
+                target.write_bytes(payload)
+                destination.mkdir()
+                (destination/'world.dat').write_bytes(b'keep world')
+            with patch.object(install, 'ROOT', pack), contextlib.redirect_stdout(io.StringIO()):
+                with patch.object(install, 'download_verified', side_effect=concurrent_creation):
+                    with self.assertRaisesRegex(ValueError, 'Verified downloads remain in the cache'):
+                        install.install(destination,'server',cache=cache)
+                self.assertEqual(list(destination.iterdir()),[destination/'world.dat'])
+                self.assertEqual((destination/'world.dat').read_bytes(),b'keep world')
+                self.assertEqual((cache/'mod.jar').read_bytes(),payload)
+                with patch.object(install,'download_verified') as download:
+                    new = install.install(root/'instance-new','server',cache=cache)
+                    download.assert_not_called()
+                self.assertEqual((new/'mods/mod.jar').read_bytes(),payload)
+
     def test_download_verifies_hash_before_replacing_cache(self):
         with tempfile.TemporaryDirectory() as tmp:
             target = Path(tmp) / 'mod.jar'

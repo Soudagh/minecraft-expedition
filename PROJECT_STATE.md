@@ -1,3 +1,7 @@
+# Исправление обработки конфликта папки установщика
+
+После публикации0.22 пользователь прислал WinError183 на destination.mkdir после Verified. Первичная проверка уже существует в install; ошибка означает появление destination после preflight (внешнее создание/параллельный запуск). Локально добавлен catch FileExistsError при эксклюзивном mkdir/copytree → ValueError с понятной инструкцией выбрать новый destination и повторно использовать кэш. Тесты11 installer OK: existing before downloads + concurrent creation retains sentinel and retry reusescache. Книга/моды/версия не менялись. Исправление публикуется в ветку; ZIP релиза0.22 остаётся прежним. Обход для прежнего ZIP: та же installcommand с destinationExpedition-0.22-new.
+
 # 0.22 опубликована
 
 GitHub prerelease v0.22.0-quest-sync-fix-dev успешно создан: https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.22.0-quest-sync-fix-dev . Ветка codex/demo-beta и тег указывают на исправление4b4e11c. Оба asset state uploaded; API digest совпадает с локальным SHA256: bootstrap2c619b9029056f600b2eeb364a1ab6118d5b5c5fc4e45cb8234d9aaaf939279a (946038bytes), quests-patch ac407def9e22d88f73cbcdf5fc015d252c312ccd574d4f43333d914e5413050a (195648bytes). Публикация завершена; записи «локально/не публиковалась» ниже — история до прямого запроса пользователя. Личные логи и два пользовательских untracked исключены.
