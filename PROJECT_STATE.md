@@ -1,3 +1,7 @@
+# 0.22 опубликована
+
+GitHub prerelease v0.22.0-quest-sync-fix-dev успешно создан: https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.22.0-quest-sync-fix-dev . Ветка codex/demo-beta и тег указывают на исправление4b4e11c. Оба asset state uploaded; API digest совпадает с локальным SHA256: bootstrap2c619b9029056f600b2eeb364a1ab6118d5b5c5fc4e45cb8234d9aaaf939279a (946038bytes), quests-patch ac407def9e22d88f73cbcdf5fc015d252c312ccd574d4f43333d914e5413050a (195648bytes). Публикация завершена; записи «локально/не публиковалась» ниже — история до прямого запроса пользователя. Личные логи и два пользовательских untracked исключены.
+
 # Публикация 0.22
 
 Пользователь прямо поручил «грузи на гитхаб» после готового патча0.22. Публикуются проверенные исходники, тегv0.22.0-quest-sync-fix-dev и prerelease в Soudagh/minecraft-expedition с bootstrap и config-only quests-patch. Личные логи, миры, сторонние JAR и два пользовательских untracked исключены.
