@@ -1,0 +1,19 @@
+{
+  "baselineVersion": "0.21.0-hbm-all-stages-dev",
+  "fixedVersion": "0.22.0-quest-sync-fix-dev",
+  "method": "SyncQuestsMessage(ServerQuestFile.INSTANCE).toPacket(); ClientboundCustomPayloadPacket.getData().readableBytes()",
+  "baseline": {
+    "limit": 1048576,
+    "packetConstructed": false,
+    "error": "JavaException: java.lang.IllegalArgumentException: Payload may not be larger than 1048576 bytes"
+  },
+  "fixed": {
+    "limit": 1048576,
+    "packetConstructed": true,
+    "error": "",
+    "bytes": 873418
+  },
+  "headroomBytes": 175158,
+  "qa": "Forge 47.4.10 / Java 17 / isolated dedicated server localhost:25592",
+  "scope": "Native login-packet constructor and loaded quest objects verified. GUI client login and team progress migration not tested."
+}

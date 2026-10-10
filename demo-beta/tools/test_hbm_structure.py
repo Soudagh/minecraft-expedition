@@ -13,7 +13,7 @@ class HbmStructure(unittest.TestCase):
                 if types=={'item'}:self.assertEqual(q['icon'],q['tasks'][0]['item'])
     def test_split_preserves_required_practice(self):
         qs={q['id']:q for p in (ROOT/'overrides/config/ftbquests/quests/chapters').glob('*.snbt') for q in json.loads(p.read_text())['quests']}
-        for r in json.loads((ROOT/'docs/QUEST-TASK-SPLITS-0.21.json').read_text()):
+        for r in json.loads((ROOT/'docs/QUEST-TASK-SPLITS-0.22.json').read_text()):
             item=qs[r['itemQuest']];practice=qs[r['practiceQuest']]
             self.assertEqual(practice['dependencies'],[item['id']])
             self.assertEqual({t['type'] for t in item['tasks']},{'item'})

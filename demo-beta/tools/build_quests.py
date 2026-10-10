@@ -99,8 +99,10 @@ from hbm_stages import write_stages
 write_stages(ROOT)
 from quest_layout import layout_book
 layout_summary=layout_book(ROOT)
-(ROOT.parents[3]/'docs/QUEST-LAYOUT-0.21.json').write_text(json.dumps(layout_summary,ensure_ascii=False,indent=2)+'\n')
+(ROOT.parents[3]/'docs/QUEST-LAYOUT-0.22.json').write_text(json.dumps(layout_summary,ensure_ascii=False,indent=2)+'\n')
 from quest_graph_preview import export_graph
 export_graph(ROOT)
+from quest_text_budget import compact_book
+compact_book(ROOT)
 from expanded_quests import write_report
 write_report(ROOT)

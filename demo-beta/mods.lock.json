@@ -1,6 +1,6 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.21.0-hbm-all-stages-dev",
+  "version": "0.22.0-quest-sync-fix-dev",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,

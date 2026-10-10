@@ -1,0 +1,2004 @@
+{
+  "scope": "Locked recipe JSON and expected runtime classes; no survival or production test",
+  "jar": "hbm_m-0.2.1-alpha+1.20.1-forge.jar",
+  "sha256": "14acbd4fd0de45f2b2b9116094fefb9de5055439e36033c0b2802a7dc8bf4828",
+  "recipes": {
+    "anvil/iron/craft_7blast_furnace": {
+      "type": "hbm_m:anvil",
+      "outputs": [
+        {
+          "item": "hbm_m:blast_furnace"
+        }
+      ],
+      "overlay": "construction",
+      "required_items": [
+        {
+          "count": 4,
+          "item": "hbm_m:plate_copper"
+        },
+        {
+          "count": 4,
+          "item": "minecraft:stone_bricks"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:firebrick"
+        }
+      ],
+      "tier": "iron"
+    },
+    "anvil/iron/combine_anvil_steel": {
+      "type": "hbm_m:anvil",
+      "input_a": {
+        "item": "hbm_m:anvil_iron"
+      },
+      "input_b": {
+        "count": 10,
+        "item": "hbm_m:steel_ingot"
+      },
+      "outputs": [
+        {
+          "item": "hbm_m:anvil_steel"
+        }
+      ],
+      "overlay": "smithing",
+      "tier": "iron"
+    },
+    "anvil/iron/combine_silicon": {
+      "type": "hbm_m:anvil",
+      "input_a": {
+        "item": "hbm_m:cinnabar"
+      },
+      "input_b": {
+        "item": "hbm_m:borax"
+      },
+      "outputs": [
+        {
+          "count": 3,
+          "item": "hbm_m:billet_silicon"
+        }
+      ],
+      "overlay": "smithing",
+      "tier": "iron"
+    },
+    "anvil/steel/craft_8advanced_assemble_machine": {
+      "type": "hbm_m:anvil",
+      "outputs": [
+        {
+          "item": "hbm_m:advanced_assembly_machine"
+        }
+      ],
+      "overlay": "construction",
+      "required_items": [
+        {
+          "count": 4,
+          "item": "hbm_m:plate_copper"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:steel_ingot"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:motor"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:vacuum_tube"
+        }
+      ],
+      "tier": "steel"
+    },
+    "blast_furnace/steel_from_ingot": {
+      "type": "hbm_m:blast_furnace",
+      "ingredients": [
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "tag": "minecraft:coals"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:steel_ingot"
+      }
+    },
+    "blast_furnace/red_copper": {
+      "type": "hbm_m:blast_furnace",
+      "ingredients": [
+        {
+          "item": "minecraft:copper_ingot"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "output": {
+        "count": 2,
+        "item": "hbm_m:red_copper_ingot"
+      }
+    },
+    "blast_furnace/advanced_alloy": {
+      "type": "hbm_m:blast_furnace",
+      "ingredients": [
+        {
+          "item": "hbm_m:steel_ingot"
+        },
+        {
+          "item": "hbm_m:red_copper_ingot"
+        }
+      ],
+      "output": {
+        "count": 2,
+        "item": "hbm_m:advanced_alloy_ingot"
+      }
+    },
+    "wire_copper": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/wire"
+        },
+        {
+          "item": "minecraft:copper_ingot"
+        }
+      ],
+      "output": {
+        "count": 8,
+        "item": "hbm_m:wire_copper"
+      }
+    },
+    "wire_carbon": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/wire"
+        },
+        {
+          "item": "hbm_m:lead_ingot"
+        }
+      ],
+      "output": {
+        "count": 8,
+        "item": "hbm_m:wire_carbon"
+      }
+    },
+    "wire_tungsten": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/wire"
+        },
+        {
+          "item": "hbm_m:tungsten_ingot"
+        }
+      ],
+      "output": {
+        "count": 8,
+        "item": "hbm_m:wire_tungsten"
+      }
+    },
+    "wire_red_copper": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/wire"
+        },
+        {
+          "item": "hbm_m:red_copper_ingot"
+        }
+      ],
+      "output": {
+        "count": 8,
+        "item": "hbm_m:wire_red_copper"
+      }
+    },
+    "silicon_circuit": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/circuit"
+        },
+        {
+          "item": "hbm_m:billet_silicon"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:silicon_circuit"
+      }
+    },
+    "crafting/insulator": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "minecraft:white_wool"
+        },
+        "$": {
+          "item": "minecraft:string"
+        }
+      },
+      "pattern": [
+        "$#$",
+        "   ",
+        "   "
+      ],
+      "result": {
+        "count": 4,
+        "item": "hbm_m:insulator"
+      },
+      "show_notification": true
+    },
+    "crafting/insulator2": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "$": {
+          "item": "minecraft:brick"
+        }
+      },
+      "pattern": [
+        "$  ",
+        "$  ",
+        "   "
+      ],
+      "result": {
+        "count": 4,
+        "item": "hbm_m:insulator"
+      },
+      "show_notification": true
+    },
+    "crafting/pcb": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:insulator"
+        },
+        "@": [
+          {
+            "item": "hbm_m:plate_copper"
+          },
+          {
+            "item": "hbm_m:plate_gold"
+          }
+        ]
+      },
+      "pattern": [
+        "#  ",
+        "@  ",
+        "   "
+      ],
+      "result": {
+        "count": 4,
+        "item": "hbm_m:pcb"
+      },
+      "show_notification": true
+    },
+    "crafting/capacitor": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:aluminum_powder"
+        },
+        "$": {
+          "item": "hbm_m:insulator"
+        },
+        "%": [
+          {
+            "item": "hbm_m:wire_copper"
+          },
+          {
+            "item": "hbm_m:wire_aluminium"
+          }
+        ]
+      },
+      "pattern": [
+        "$#$",
+        "% %"
+      ],
+      "result": {
+        "count": 2,
+        "item": "hbm_m:capacitor"
+      },
+      "show_notification": true
+    },
+    "crafting/vacuum_tube": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:wire_tungsten"
+        },
+        "$": {
+          "tag": "forge:glass_panes"
+        },
+        "@": {
+          "item": "hbm_m:insulator"
+        }
+      },
+      "pattern": [
+        "$",
+        "#",
+        "@"
+      ],
+      "result": {
+        "item": "hbm_m:vacuum_tube"
+      },
+      "show_notification": true
+    },
+    "crafting/microchip": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:insulator"
+        },
+        "%": [
+          {
+            "item": "hbm_m:wire_copper"
+          },
+          {
+            "item": "hbm_m:wire_gold"
+          }
+        ],
+        "@": {
+          "item": "hbm_m:silicon_circuit"
+        }
+      },
+      "pattern": [
+        "#  ",
+        "@  ",
+        "%  "
+      ],
+      "result": {
+        "item": "hbm_m:microchip"
+      },
+      "show_notification": true
+    },
+    "crafting/coil_copper": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:wire_red_copper"
+        },
+        "$": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "pattern": [
+        "###",
+        "#$#",
+        "###"
+      ],
+      "result": {
+        "item": "hbm_m:coil_copper"
+      },
+      "show_notification": true
+    },
+    "crafting/coil_copper_torus": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:coil_copper"
+        },
+        "$": {
+          "item": "hbm_m:plate_iron"
+        }
+      },
+      "pattern": [
+        " # ",
+        "#$#",
+        " # "
+      ],
+      "result": {
+        "count": 2,
+        "item": "hbm_m:coil_copper_torus"
+      },
+      "show_notification": true
+    },
+    "crafting/motor1": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:coil_copper"
+        },
+        "$": {
+          "item": "hbm_m:wire_red_copper"
+        },
+        "%": {
+          "item": "hbm_m:plate_iron"
+        },
+        "@": {
+          "item": "hbm_m:coil_copper_torus"
+        }
+      },
+      "pattern": [
+        " $ ",
+        "%#%",
+        "%@%"
+      ],
+      "result": {
+        "count": 2,
+        "item": "hbm_m:motor"
+      },
+      "show_notification": true
+    },
+    "crafting/motor2": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:coil_copper"
+        },
+        "$": {
+          "item": "hbm_m:wire_red_copper"
+        },
+        "%": {
+          "item": "hbm_m:plate_steel"
+        },
+        "@": {
+          "item": "hbm_m:coil_copper_torus"
+        }
+      },
+      "pattern": [
+        " $ ",
+        "%#%",
+        " @ "
+      ],
+      "result": {
+        "count": 2,
+        "item": "hbm_m:motor"
+      },
+      "show_notification": true
+    },
+    "analog_circuit": {
+      "type": "hbm_m:assembler",
+      "duration": 80,
+      "ingredients": [
+        {
+          "count": 2,
+          "item": "hbm_m:capacitor"
+        },
+        {
+          "count": 3,
+          "item": "hbm_m:vacuum_tube"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:wire_carbon"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:pcb"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:analog_circuit"
+      },
+      "power": 150
+    },
+    "integrated_circuit": {
+      "type": "hbm_m:assembler",
+      "duration": 80,
+      "ingredients": [
+        {
+          "count": 4,
+          "item": "hbm_m:wire_carbon"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:capacitor"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:microchip"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:pcb"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:integrated_circuit"
+      },
+      "power": 150
+    },
+    "advanced_circuit": {
+      "type": "hbm_m:assembler",
+      "duration": 120,
+      "ingredients": [
+        {
+          "count": 8,
+          "item": "hbm_m:wire_carbon"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:capacitor"
+        },
+        {
+          "count": 32,
+          "item": "hbm_m:microchip"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:pcb"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:advanced_circuit"
+      },
+      "power": 250
+    },
+    "blast_furnace/steel_from_ore": {
+      "type": "hbm_m:blast_furnace",
+      "ingredients": [
+        {
+          "tag": "forge:ores/iron"
+        },
+        {
+          "tag": "minecraft:coals"
+        }
+      ],
+      "output": {
+        "count": 2,
+        "item": "hbm_m:steel_ingot"
+      }
+    },
+    "blast_furnace/steel_from_ore_coal_block": {
+      "type": "hbm_m:blast_furnace",
+      "ingredients": [
+        {
+          "tag": "forge:ores/iron"
+        },
+        {
+          "item": "minecraft:coal_block"
+        }
+      ],
+      "output": {
+        "count": 3,
+        "item": "hbm_m:steel_ingot"
+      }
+    },
+    "blast_furnace/steel_from_ore_powder": {
+      "type": "hbm_m:blast_furnace",
+      "ingredients": [
+        {
+          "tag": "forge:ores/iron"
+        },
+        {
+          "item": "hbm_m:coal_powder"
+        }
+      ],
+      "output": {
+        "count": 3,
+        "item": "hbm_m:steel_ingot"
+      }
+    },
+    "plate_advanced_alloy": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/plate"
+        },
+        {
+          "item": "hbm_m:advanced_alloy_ingot"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:plate_advanced_alloy"
+      }
+    },
+    "plate_advanced_alloy_from_ingots": {
+      "type": "hbm_m:assembler",
+      "blueprint_pool": "plates",
+      "duration": 60,
+      "ingredients": [
+        {
+          "count": 3,
+          "item": "hbm_m:advanced_alloy_ingot"
+        }
+      ],
+      "output": {
+        "count": 2,
+        "item": "hbm_m:plate_advanced_alloy"
+      },
+      "power": 100
+    },
+    "wire_gold": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/wire"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        }
+      ],
+      "output": {
+        "count": 8,
+        "item": "hbm_m:wire_gold"
+      }
+    },
+    "crafting/coil_gold": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:wire_gold"
+        },
+        "$": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "pattern": [
+        "###",
+        "#$#",
+        "###"
+      ],
+      "result": {
+        "item": "hbm_m:coil_gold"
+      },
+      "show_notification": true
+    },
+    "crafting/coil_gold_torus": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:coil_gold"
+        },
+        "$": {
+          "item": "hbm_m:plate_iron"
+        }
+      },
+      "pattern": [
+        " # ",
+        "#$#",
+        " # "
+      ],
+      "result": {
+        "count": 2,
+        "item": "hbm_m:coil_gold_torus"
+      },
+      "show_notification": true
+    },
+    "anvil/steel/craft_2coil_gold_torus": {
+      "type": "hbm_m:anvil",
+      "outputs": [
+        {
+          "item": "hbm_m:coil_gold_torus"
+        }
+      ],
+      "overlay": "construction",
+      "required_items": [
+        {
+          "count": 2,
+          "item": "hbm_m:coil_gold"
+        }
+      ],
+      "tier": "steel"
+    },
+    "crafting/geiger1": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:geiger_counter"
+        }
+      },
+      "pattern": [
+        "#  ",
+        "   ",
+        "   "
+      ],
+      "result": {
+        "item": "hbm_m:geiger_counter_block"
+      },
+      "show_notification": true
+    },
+    "crafting/geiger2": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:geiger_counter_block"
+        }
+      },
+      "pattern": [
+        "#  ",
+        "   ",
+        "   "
+      ],
+      "result": {
+        "item": "hbm_m:geiger_counter"
+      },
+      "show_notification": true
+    },
+    "crafting/geiger3": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "minecraft:gold_ingot"
+        },
+        "$": {
+          "item": "hbm_m:integrated_circuit"
+        },
+        "%": {
+          "item": "hbm_m:wire_gold"
+        },
+        "&": {
+          "item": "hbm_m:beryllium_ingot"
+        },
+        "@": {
+          "item": "hbm_m:plate_steel"
+        }
+      },
+      "pattern": [
+        "###",
+        "%$@",
+        "%&&"
+      ],
+      "result": {
+        "item": "hbm_m:geiger_counter"
+      },
+      "show_notification": true
+    },
+    "beryllium_raw_smelting": {
+      "type": "minecraft:smelting",
+      "category": "misc",
+      "cookingtime": 200,
+      "experience": 0.7,
+      "ingredient": {
+        "item": "hbm_m:beryllium_raw"
+      },
+      "result": "hbm_m:beryllium_ingot"
+    },
+    "titanium_raw_smelting": {
+      "type": "minecraft:smelting",
+      "category": "misc",
+      "cookingtime": 200,
+      "experience": 0.7,
+      "ingredient": {
+        "item": "hbm_m:titanium_raw"
+      },
+      "result": "hbm_m:titanium_ingot"
+    },
+    "tungsten_raw_smelting": {
+      "type": "minecraft:smelting",
+      "category": "misc",
+      "cookingtime": 200,
+      "experience": 0.7,
+      "ingredient": {
+        "item": "hbm_m:tungsten_raw"
+      },
+      "result": "hbm_m:tungsten_ingot"
+    },
+    "crafting/stamp_steel_flat": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "minecraft:brick"
+        },
+        "$": {
+          "item": "hbm_m:steel_ingot"
+        }
+      },
+      "pattern": [
+        "###",
+        "$$$",
+        "   "
+      ],
+      "result": {
+        "item": "hbm_m:stamp_steel_flat"
+      },
+      "show_notification": true
+    },
+    "wire_advanced_alloy": {
+      "type": "hbm_m:press",
+      "ingredients": [
+        {
+          "tag": "hbm_m:stamps/wire"
+        },
+        {
+          "item": "hbm_m:advanced_alloy_ingot"
+        }
+      ],
+      "output": {
+        "count": 8,
+        "item": "hbm_m:wire_advanced_alloy"
+      }
+    },
+    "crafting/coil_advanced_alloy": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:wire_advanced_alloy"
+        },
+        "$": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "pattern": [
+        "###",
+        "#$#",
+        "###"
+      ],
+      "result": {
+        "item": "hbm_m:coil_advanced_alloy"
+      },
+      "show_notification": true
+    },
+    "crafting/coil_tungsten": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:wire_tungsten"
+        },
+        "$": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "pattern": [
+        "###",
+        "#$#",
+        "###"
+      ],
+      "result": {
+        "item": "hbm_m:coil_tungsten"
+      },
+      "show_notification": true
+    },
+    "crafting/coil_advanced_alloy_torus": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:coil_advanced_alloy"
+        },
+        "$": {
+          "item": "hbm_m:plate_iron"
+        }
+      },
+      "pattern": [
+        " # ",
+        "#$#",
+        " # "
+      ],
+      "result": {
+        "count": 2,
+        "item": "hbm_m:coil_advanced_alloy_torus"
+      },
+      "show_notification": true
+    },
+    "shredder": {
+      "type": "hbm_m:assembler",
+      "duration": 80,
+      "ingredients": [
+        {
+          "count": 2,
+          "item": "hbm_m:motor"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:plate_steel"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:plate_copper"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:shredder"
+      },
+      "power": 150
+    },
+    "shredder/coal_to_powder": {
+      "type": "hbm_m:shredding",
+      "ingredient": {
+        "item": "minecraft:coal"
+      },
+      "result": {
+        "item": "hbm_m:coal_powder"
+      }
+    },
+    "shredder/iron_ingot_to_powder": {
+      "type": "hbm_m:shredding",
+      "ingredient": {
+        "item": "minecraft:iron_ingot"
+      },
+      "result": {
+        "item": "hbm_m:iron_powder"
+      }
+    },
+    "shredder/steel_powder": {
+      "type": "hbm_m:shredding",
+      "ingredient": {
+        "item": "hbm_m:steel_ingot"
+      },
+      "result": {
+        "item": "hbm_m:steel_powder"
+      }
+    },
+    "steel_powder_smelting": {
+      "type": "minecraft:smelting",
+      "category": "misc",
+      "cookingtime": 200,
+      "experience": 0.35,
+      "ingredient": {
+        "item": "hbm_m:steel_powder"
+      },
+      "result": "hbm_m:steel_ingot"
+    },
+    "anvil/steel/craft_7crucible": {
+      "type": "hbm_m:anvil",
+      "outputs": [
+        {
+          "item": "hbm_m:crucible"
+        }
+      ],
+      "overlay": "construction",
+      "required_items": [
+        {
+          "count": 20,
+          "item": "hbm_m:firebrick"
+        },
+        {
+          "count": 8,
+          "item": "minecraft:copper_ingot"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:plate_steel"
+        }
+      ],
+      "tier": "steel"
+    },
+    "centrifuge_element": {
+      "type": "hbm_m:assembler",
+      "duration": 20,
+      "ingredients": [
+        {
+          "count": 4,
+          "item": "hbm_m:plate_dura_steel"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:plate_titanium"
+        },
+        {
+          "count": 1,
+          "item": "hbm_m:motor"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:centrifuge_element"
+      },
+      "power": 100
+    },
+    "centrifuge": {
+      "type": "hbm_m:assembler",
+      "duration": 40,
+      "ingredients": [
+        {
+          "count": 1,
+          "item": "hbm_m:centrifuge_element"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "item": "hbm_m:polymer_ingot"
+            },
+            {
+              "item": "hbm_m:bakelite_ingot"
+            }
+          ]
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:plate_steel"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:plate_copper"
+        },
+        {
+          "count": 1,
+          "item": "hbm_m:analog_circuit"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:centrifuge"
+      },
+      "power": 125
+    },
+    "centrifuge/iron_ore": {
+      "type": "hbm_m:centrifuge",
+      "ingredient": {
+        "tag": "forge:ores/iron"
+      },
+      "results": [
+        {
+          "item": "hbm_m:iron_powder"
+        },
+        {
+          "item": "hbm_m:iron_powder"
+        },
+        {
+          "item": "hbm_m:iron_powder"
+        },
+        {
+          "item": "minecraft:gravel"
+        }
+      ]
+    },
+    "centrifuge/aluminum_ore": {
+      "type": "hbm_m:centrifuge",
+      "ingredient": {
+        "tag": "forge:ores/aluminum"
+      },
+      "results": [
+        {
+          "item": "hbm_m:aluminum_powder"
+        },
+        {
+          "item": "hbm_m:aluminum_powder"
+        },
+        {
+          "item": "hbm_m:titanium_powder"
+        },
+        {
+          "item": "minecraft:gravel"
+        }
+      ]
+    },
+    "centrifuge/lead_ore": {
+      "type": "hbm_m:centrifuge",
+      "ingredient": {
+        "tag": "forge:ores/lead"
+      },
+      "results": [
+        {
+          "item": "hbm_m:lead_powder"
+        },
+        {
+          "item": "hbm_m:lead_powder"
+        },
+        {
+          "item": "hbm_m:gold_powder"
+        },
+        {
+          "item": "minecraft:gravel"
+        }
+      ]
+    },
+    "crafting/oil_detector": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:wire_gold"
+        },
+        "$": {
+          "item": "hbm_m:analog_circuit"
+        },
+        "&": {
+          "item": "hbm_m:plate_steel"
+        },
+        "@": {
+          "item": "minecraft:copper_ingot"
+        }
+      },
+      "pattern": [
+        "# @",
+        "#$@",
+        "&&&"
+      ],
+      "result": {
+        "item": "hbm_m:oil_detector"
+      },
+      "show_notification": true
+    },
+    "refinery": {
+      "type": "hbm_m:assembler",
+      "duration": 160,
+      "ingredients": [
+        {
+          "count": 3,
+          "item": "hbm_m:plate_welded_steel"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:plate_copper"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:shell_steel"
+        },
+        {
+          "count": 12,
+          "item": "hbm_m:pipe_steel"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:insulator"
+        },
+        {
+          "count": 3,
+          "item": "hbm_m:analog_circuit"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:refinery"
+      },
+      "power": 250
+    },
+    "pumpjack": {
+      "type": "hbm_m:assembler",
+      "duration": 400,
+      "ingredients": [
+        {
+          "count": 8,
+          "item": "hbm_m:plate_dura_steel"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:plate_welded_steel"
+        },
+        {
+          "count": 12,
+          "item": "hbm_m:pipe_steel"
+        },
+        {
+          "count": 1,
+          "item": "hbm_m:motor_desh"
+        },
+        {
+          "count": 1,
+          "item": "hbm_m:drill_titanium"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:pumpjack"
+      },
+      "power": 100
+    },
+    "fluid_tank": {
+      "type": "hbm_m:assembler",
+      "duration": 40,
+      "ingredients": [
+        {
+          "count": 8,
+          "item": "hbm_m:plate_steel"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:shell_steel"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:fluid_tank"
+      },
+      "power": 100
+    },
+    "chemical_plant": {
+      "type": "hbm_m:assembler",
+      "duration": 200,
+      "ingredients": [
+        {
+          "count": 8,
+          "item": "hbm_m:steel_ingot"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:pipe_copper"
+        },
+        {
+          "count": 16,
+          "item": "hbm_m:insulator"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:motor"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:coil_tungsten"
+        },
+        {
+          "count": 1,
+          "item": "hbm_m:analog_circuit"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:chemical_plant"
+      },
+      "power": 300
+    },
+    "chemplant/chem_peroxide": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 50,
+      "fluid_inputs": [
+        {
+          "amount": 1000,
+          "fluid": "hbm_m:water"
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "amount": 1000,
+          "fluid": "hbm_m:peroxide"
+        }
+      ],
+      "icon_fluid": "hbm_m:peroxide",
+      "icon_item": {
+        "item": "hbm_m:fluid_identifier"
+      },
+      "item_inputs": [],
+      "item_outputs": [],
+      "power": 100
+    },
+    "chemplant/chem_sulfuricacid": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 50,
+      "fluid_inputs": [
+        {
+          "amount": 1000,
+          "fluid": "hbm_m:peroxide"
+        },
+        {
+          "amount": 1000,
+          "fluid": "hbm_m:water"
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "amount": 2000,
+          "fluid": "hbm_m:sulfuric_acid"
+        }
+      ],
+      "icon_fluid": "hbm_m:sulfuric_acid",
+      "icon_item": {
+        "item": "hbm_m:fluid_identifier"
+      },
+      "item_inputs": [
+        {
+          "count": 1,
+          "item": "hbm_m:sulfur"
+        }
+      ],
+      "item_outputs": [],
+      "power": 100
+    },
+    "chemplant/chem_nitricacid": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 50,
+      "fluid_inputs": [
+        {
+          "amount": 500,
+          "fluid": "hbm_m:sulfuric_acid"
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "amount": 1000,
+          "fluid": "hbm_m:nitric_acid"
+        }
+      ],
+      "icon_fluid": "hbm_m:nitric_acid",
+      "icon_item": {
+        "item": "hbm_m:fluid_identifier"
+      },
+      "item_inputs": [
+        {
+          "count": 1,
+          "item": "hbm_m:crystal_niter"
+        }
+      ],
+      "item_outputs": [],
+      "power": 100
+    },
+    "chemplant/chem_birkeland": {
+      "type": "hbm_m:chemical_plant",
+      "blueprint_pool": "alt.birkeland",
+      "duration": 200,
+      "fluid_inputs": [
+        {
+          "amount": 8000,
+          "fluid": "hbm_m:air"
+        },
+        {
+          "amount": 2000,
+          "fluid": "hbm_m:water"
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "amount": 1000,
+          "fluid": "hbm_m:nitric_acid"
+        }
+      ],
+      "icon_fluid": "hbm_m:nitric_acid",
+      "icon_item": {
+        "item": "hbm_m:fluid_identifier"
+      },
+      "item_inputs": [],
+      "item_outputs": [],
+      "power": 5000
+    },
+    "chemplant/chem_polymer": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 100,
+      "fluid_inputs": [
+        {
+          "amount": 1000,
+          "fluid": "hbm_m:petroleum"
+        }
+      ],
+      "fluid_outputs": [],
+      "icon_item": {
+        "item": "hbm_m:polymer_ingot"
+      },
+      "item_inputs": [
+        {
+          "count": 2,
+          "item": "hbm_m:coal_powder"
+        },
+        {
+          "count": 1,
+          "item": "hbm_m:fluorite"
+        }
+      ],
+      "item_outputs": [
+        {
+          "count": 4,
+          "item": "hbm_m:polymer_ingot"
+        }
+      ],
+      "power": 100
+    },
+    "chemplant/chem_bakelite": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 100,
+      "fluid_inputs": [
+        {
+          "amount": 500,
+          "fluid": "hbm_m:aromatics"
+        },
+        {
+          "amount": 500,
+          "fluid": "hbm_m:petroleum"
+        }
+      ],
+      "fluid_outputs": [],
+      "icon_item": {
+        "item": "hbm_m:bakelite_ingot"
+      },
+      "item_inputs": [],
+      "item_outputs": [
+        {
+          "item": "hbm_m:bakelite_ingot"
+        }
+      ],
+      "power": 100
+    },
+    "chemplant/chem_rubber": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 100,
+      "fluid_inputs": [
+        {
+          "amount": 500,
+          "fluid": "hbm_m:unsaturateds"
+        }
+      ],
+      "fluid_outputs": [],
+      "icon_item": {
+        "item": "hbm_m:rubber_ingot"
+      },
+      "item_inputs": [
+        {
+          "count": 1,
+          "item": "hbm_m:sulfur"
+        }
+      ],
+      "item_outputs": [
+        {
+          "count": 2,
+          "item": "hbm_m:rubber_ingot"
+        }
+      ],
+      "power": 200
+    },
+    "chemplant/chem_concrete": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 100,
+      "fluid_inputs": [
+        {
+          "amount": 2000,
+          "fluid": "hbm_m:water"
+        }
+      ],
+      "fluid_outputs": [],
+      "icon_item": {
+        "item": "hbm_m:concrete"
+      },
+      "item_inputs": [
+        {
+          "count": 1,
+          "item": "hbm_m:cement_powder"
+        },
+        {
+          "count": 8,
+          "item": "minecraft:gravel"
+        },
+        {
+          "count": 8,
+          "item": "minecraft:sand"
+        }
+      ],
+      "item_outputs": [
+        {
+          "count": 16,
+          "item": "hbm_m:concrete"
+        }
+      ],
+      "power": 100
+    },
+    "chemplant/chem_liquidconk": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 100,
+      "fluid_inputs": [
+        {
+          "amount": 2000,
+          "fluid": "hbm_m:water"
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "amount": 16000,
+          "fluid": "hbm_m:concrete"
+        }
+      ],
+      "icon_fluid": "hbm_m:concrete",
+      "icon_item": {
+        "item": "hbm_m:fluid_identifier"
+      },
+      "item_inputs": [
+        {
+          "count": 1,
+          "item": "hbm_m:cement_powder"
+        },
+        {
+          "count": 8,
+          "item": "minecraft:gravel"
+        },
+        {
+          "count": 8,
+          "item": "minecraft:sand"
+        }
+      ],
+      "item_outputs": [],
+      "power": 100
+    },
+    "chemplant/chem_steam": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 10,
+      "fluid_inputs": [
+        {
+          "amount": 1000,
+          "fluid": "hbm_m:water"
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "amount": 1000,
+          "fluid": "hbm_m:steam"
+        }
+      ],
+      "icon_fluid": "hbm_m:steam",
+      "icon_item": {
+        "item": "hbm_m:fluid_identifier"
+      },
+      "item_inputs": [],
+      "item_outputs": [],
+      "power": 50
+    },
+    "crafting/steam_turbine": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "hbm_m:steel_ingot"
+        },
+        "B": {
+          "item": "hbm_m:coil_copper"
+        },
+        "C": [
+          {
+            "item": "hbm_m:polymer_ingot"
+          },
+          {
+            "item": "hbm_m:bakelite_ingot"
+          }
+        ],
+        "D": {
+          "item": "hbm_m:turbine_titanium"
+        }
+      },
+      "pattern": [
+        "ABA",
+        "CDC",
+        "ABA"
+      ],
+      "result": {
+        "item": "hbm_m:steam_turbine"
+      },
+      "show_notification": true
+    },
+    "crafting/steam_condenser": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "hbm_m:steel_ingot"
+        },
+        "B": {
+          "item": "hbm_m:plate_iron"
+        },
+        "C": {
+          "item": "hbm_m:plate_cast_copper"
+        }
+      },
+      "pattern": [
+        "ABA",
+        "BCB",
+        "ABA"
+      ],
+      "result": {
+        "item": "hbm_m:steam_condenser"
+      },
+      "show_notification": true
+    },
+    "centrifuge/uranium_ore": {
+      "type": "hbm_m:centrifuge",
+      "ingredient": {
+        "tag": "forge:ores/uranium"
+      },
+      "results": [
+        {
+          "item": "hbm_m:uranium_powder"
+        },
+        {
+          "item": "hbm_m:uranium_powder"
+        },
+        {
+          "item": "hbm_m:ra226_ingot"
+        },
+        {
+          "item": "minecraft:gravel"
+        }
+      ]
+    },
+    "chemplant/chem_uf6": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 100,
+      "fluid_inputs": [
+        {
+          "amount": 1000,
+          "fluid": "hbm_m:water"
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "amount": 1200,
+          "fluid": "hbm_m:uf6"
+        }
+      ],
+      "icon_fluid": "hbm_m:uf6",
+      "icon_item": {
+        "item": "hbm_m:fluid_identifier"
+      },
+      "item_inputs": [
+        {
+          "count": 1,
+          "item": "hbm_m:uranium_powder"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:fluorite"
+        }
+      ],
+      "item_outputs": [
+        {
+          "count": 2,
+          "item": "hbm_m:sulfur"
+        }
+      ],
+      "power": 500
+    },
+    "gas_centrifuge": {
+      "type": "hbm_m:assembler",
+      "duration": 80,
+      "ingredients": [
+        {
+          "count": 4,
+          "item": "hbm_m:centrifuge_element"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:polymer_ingot"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:desh_ingot"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:plate_steel"
+        },
+        {
+          "count": 1,
+          "item": "hbm_m:advanced_circuit"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:gas_centrifuge"
+      },
+      "power": 150
+    },
+    "chemplant/chem_desh": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 100,
+      "fluid_inputs": [
+        {
+          "amount": 200,
+          "fluid": "hbm_m:lightoil"
+        },
+        {
+          "amount": 200,
+          "fluid": "hbm_m:mercury"
+        }
+      ],
+      "fluid_outputs": [],
+      "icon_item": {
+        "item": "hbm_m:desh_ingot"
+      },
+      "item_inputs": [
+        {
+          "count": 1,
+          "item": "hbm_m:powder_desh_mix"
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "hbm_m:desh_ingot"
+        }
+      ],
+      "power": 100
+    },
+    "crafting/billet_uranium_fuel_compress": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "hbm_m:nugget_uranium_fuel"
+        }
+      },
+      "pattern": [
+        "###",
+        "###"
+      ],
+      "result": {
+        "item": "hbm_m:billet_uranium_fuel"
+      },
+      "show_notification": true
+    },
+    "crafting/nugget_uranium_fuel_decompress": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "hbm_m:billet_uranium_fuel"
+        }
+      ],
+      "result": {
+        "count": 6,
+        "item": "hbm_m:nugget_uranium_fuel"
+      }
+    },
+    "centrifuge/thorium_ore": {
+      "type": "hbm_m:centrifuge",
+      "ingredient": {
+        "tag": "forge:ores/thorium"
+      },
+      "results": [
+        {
+          "item": "hbm_m:thorium_powder"
+        },
+        {
+          "item": "hbm_m:thorium_powder"
+        },
+        {
+          "item": "hbm_m:uranium_powder"
+        },
+        {
+          "item": "minecraft:gravel"
+        }
+      ]
+    },
+    "chemplant/chem_puf6": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 200,
+      "fluid_inputs": [
+        {
+          "amount": 1000,
+          "fluid": "hbm_m:water"
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "amount": 900,
+          "fluid": "hbm_m:puf6"
+        }
+      ],
+      "icon_fluid": "hbm_m:puf6",
+      "icon_item": {
+        "item": "hbm_m:fluid_identifier"
+      },
+      "item_inputs": [
+        {
+          "count": 1,
+          "item": "hbm_m:plutonium_powder"
+        },
+        {
+          "count": 3,
+          "item": "hbm_m:fluorite"
+        }
+      ],
+      "item_outputs": [],
+      "power": 500
+    },
+    "zirnox": {
+      "type": "hbm_m:assembler",
+      "duration": 240,
+      "ingredients": [
+        {
+          "count": 4,
+          "item": "hbm_m:shell_steel"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:pipe_steel"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:boron_ingot"
+        },
+        {
+          "count": 16,
+          "item": "hbm_m:graphite_ingot"
+        },
+        {
+          "count": 16,
+          "item": "hbm_m:rubber_ingot"
+        },
+        {
+          "count": 16,
+          "item": "hbm_m:concrete"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:integrated_circuit"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:zirnox"
+      },
+      "power": 400
+    },
+    "rbmk": {
+      "type": "hbm_m:assembler",
+      "duration": 100,
+      "ingredients": [
+        {
+          "count": 4,
+          "item": "hbm_m:concrete_asbestos"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:plate_cast_steel"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:plate_copper"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:rubber_ingot"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:rbmk_blank"
+      },
+      "power": 100
+    },
+    "chemplant/chem_concreteasbestos": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 100,
+      "fluid_inputs": [
+        {
+          "amount": 2000,
+          "fluid": "hbm_m:water"
+        }
+      ],
+      "fluid_outputs": [],
+      "icon_item": {
+        "item": "hbm_m:concrete_asbestos"
+      },
+      "item_inputs": [
+        {
+          "count": 4,
+          "item": "hbm_m:cement_powder"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:asbestos_ingot"
+        },
+        {
+          "count": 8,
+          "item": "minecraft:sand"
+        }
+      ],
+      "item_outputs": [
+        {
+          "count": 16,
+          "item": "hbm_m:concrete_asbestos"
+        }
+      ],
+      "power": 100
+    },
+    "chemplant/chem_deshcracked": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 100,
+      "fluid_inputs": [
+        {
+          "amount": 500,
+          "fluid": "hbm_m:lightoil_crack"
+        },
+        {
+          "amount": 100,
+          "fluid": "hbm_m:mercury"
+        }
+      ],
+      "fluid_outputs": [],
+      "icon_item": {
+        "item": "hbm_m:desh_ingot"
+      },
+      "item_inputs": [
+        {
+          "count": 1,
+          "item": "hbm_m:powder_desh_mix"
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "hbm_m:desh_ingot"
+        }
+      ],
+      "power": 100
+    },
+    "chemplant/chem_sas3": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 200,
+      "fluid_inputs": [
+        {
+          "amount": 2000,
+          "fluid": "hbm_m:peroxide"
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "amount": 1000,
+          "fluid": "hbm_m:sas3"
+        }
+      ],
+      "icon_fluid": "hbm_m:sas3",
+      "icon_item": {
+        "item": "hbm_m:fluid_identifier"
+      },
+      "item_inputs": [
+        {
+          "count": 1,
+          "item": "hbm_m:schrabidium_powder"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:sulfur"
+        }
+      ],
+      "item_outputs": [],
+      "power": 5000
+    },
+    "chemplant/chem_schrabidic": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 60,
+      "fluid_inputs": [
+        {
+          "amount": 2000,
+          "fluid": "hbm_m:sas3"
+        },
+        {
+          "amount": 2000,
+          "fluid": "hbm_m:peroxide"
+        }
+      ],
+      "fluid_outputs": [
+        {
+          "amount": 2000,
+          "fluid": "hbm_m:schrabidic"
+        }
+      ],
+      "icon_fluid": "hbm_m:schrabidic",
+      "icon_item": {
+        "item": "hbm_m:fluid_identifier"
+      },
+      "item_inputs": [],
+      "item_outputs": [],
+      "power": 5000
+    },
+    "chemplant/chem_schrabidate": {
+      "type": "hbm_m:chemical_plant",
+      "duration": 150,
+      "fluid_inputs": [
+        {
+          "amount": 250,
+          "fluid": "hbm_m:schrabidic"
+        }
+      ],
+      "fluid_outputs": [],
+      "icon_item": {
+        "item": "hbm_m:schrabidate_ingot"
+      },
+      "item_inputs": [
+        {
+          "count": 1,
+          "item": "hbm_m:iron_powder"
+        }
+      ],
+      "item_outputs": [
+        {
+          "item": "hbm_m:schrabidate_ingot"
+        }
+      ],
+      "power": 5000
+    }
+  },
+  "expectedBlockClasses": {
+    "zirnox": "com.hbm_m.block.machines.MachineZirnoxBlock",
+    "rbmk_loader": "com.hbm_m.block.machines.rbmk.RBMKLoaderBlock",
+    "rbmk_control": "com.hbm_m.block.machines.rbmk.RBMKControlManualBlock",
+    "rbmk_boiler": "com.hbm_m.block.machines.rbmk.RBMKBoilerBlock",
+    "chemical_plant": "com.hbm_m.block.machines.MachineChemicalPlantBlock",
+    "refinery": "com.hbm_m.block.machines.MachineRefineryBlock",
+    "gas_centrifuge": "com.hbm_m.block.machines.MachineGasCentrifugeBlock",
+    "centrifuge": "com.hbm_m.block.machines.MachineCentrifugeBlock",
+    "crucible": "com.hbm_m.block.machines.MachineCrucibleBlock",
+    "steam_turbine": "com.hbm_m.block.machines.MachineSteamTurbineBlock",
+    "steam_condenser": "com.hbm_m.block.machines.MachineSteamCondenserBlock",
+    "industrial_boiler": "com.hbm_m.block.machines.MachineIndustrialBoilerBlock",
+    "solar_boiler": "com.hbm_m.block.machines.MachineSolarBoilerBlock",
+    "pwr_casing": "net.minecraft.world.level.block.Block",
+    "iter": "net.minecraft.world.level.block.Block",
+    "dieselgen": "net.minecraft.world.level.block.Block",
+    "machine_converter_he_rf": "net.minecraft.world.level.block.Block"
+  }
+}

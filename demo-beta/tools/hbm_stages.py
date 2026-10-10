@@ -55,5 +55,5 @@ def write_stages(root):
         summary.append({**r,'chapter':slug,'quest':q['id'],'completion':quest_id(key,bool(tasks)),'dependencies':deps})
     for slug,c in chapters.items():
         (root/'chapters'/f'{slug}.snbt').write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n')
-    (root.parents[3]/'docs/HBM-STAGES-0.21.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
+    (root.parents[3]/'docs/HBM-STAGES-0.22.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
     return summary

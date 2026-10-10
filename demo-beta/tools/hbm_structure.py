@@ -64,5 +64,5 @@ def structure_book(root):
             if deps:q['description'].insert(0,'Подготовка: '+'; '.join(allq[d]['title'] for d in deps)+'.')
     for slug,c in chapters.items():
         (root/'chapters'/f'{slug}.snbt').write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n')
-    (root.parents[3]/'docs/QUEST-TASK-SPLITS-0.21.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    (root.parents[3]/'docs/QUEST-TASK-SPLITS-0.22.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     return report

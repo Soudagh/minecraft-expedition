@@ -41,7 +41,7 @@ class HbmStages(unittest.TestCase):
                 self.assertEqual({t['type'] for t in q['tasks']},{'checkmark'})
                 self.assertTrue(any(p.startswith(('Учебный стенд:','Исследование:')) for p in q['description']))
     def test_every_cited_recipe_has_exact_locked_source(self):
-        source=json.loads((ROOT/'docs/HBM-QUEST-SOURCES-0.21.json').read_text())['recipes']
+        source=json.loads((ROOT/'docs/HBM-QUEST-SOURCES-0.22.json').read_text())['recipes']
         for r in self.rows:
             if r['recipes']!='~':
                 for recipe in r['recipes'].split(';'):self.assertIn(recipe,source)

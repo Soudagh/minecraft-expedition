@@ -1,6 +1,6 @@
 # Экспедиция · полная сборка
 
-**0.21.0-hbm-all-stages-dev** — промежуточная рабочая версия баланса и квестов всей сборки. Формат демо отменён. Minecraft **1.20.1**, Forge **47.4.10**, **Java 17**. Состав 0.9 сохранён: 71 клиентский / 64 серверных внешних JAR с фиксированными хешами; необязательный профиль shaders добавляет Oculus и Complementary.
+**0.22.0-quest-sync-fix-dev** — промежуточная рабочая версия баланса и квестов всей сборки. Формат демо отменён. Minecraft **1.20.1**, Forge **47.4.10**, **Java 17**. Состав 0.9 сохранён: 71 клиентский / 64 серверных внешних JAR с фиксированными хешами; необязательный профиль shaders добавляет Oculus и Complementary.
 
 [Конкретные примеры изменённых рецептов и настроек баланса](docs/BALANCE-EXAMPLES.md).
 
@@ -31,12 +31,16 @@
 
 **Статус:** книга, общие боссовые флаги, материалы и ограничения корпусов реализованы; ограничения магических способностей/лута, баланс еды и полное прохождение вчетвером ещё не завершены. Зависимость квеста не является серверным запретом крафта. Не начинайте основной долгосрочный мир до проверки всей прогрессии.
 
+## Исправление входа в мир 0.22
+
+В 0.21 выявлено превышение лимита сетевого пакета книги FTB Quests. Локальная 0.22 сохраняет все квесты и уменьшает пакет до 873 418 байт. [Патч для установленной сборки](docs/UPDATE-0.22.md), [проверки и ограничения](docs/RELEASE-0.22.0-quest-sync-fix-dev.md). [Релиз 0.22](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.22.0-quest-sync-fix-dev) содержит полный bootstrap и патч для установленной 0.21.
+
 ## Установка
 
-Скачайте [bootstrap 0.21](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.21.0-hbm-all-stages-dev/expedition-0.21.0-hbm-all-stages-dev-bootstrap.zip) из [промежуточного релиза GitHub](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.21.0-hbm-all-stages-dev) или используйте исходники этой версии. Папка `demo-beta` в исходниках и `expedition-demo` в старом формате архива сохранены как технические имена. В Windows нужны Python 3.10+ и Java 17. Из папки сборки:
+Для новой установки скачайте [bootstrap 0.22](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.22.0-quest-sync-fix-dev/expedition-0.22.0-quest-sync-fix-dev-bootstrap.zip) из [релиза GitHub](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.22.0-quest-sync-fix-dev). Для уже установленной 0.21 используйте [небольшой патч](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.22.0-quest-sync-fix-dev/expedition-0.22.0-quest-sync-fix-dev-quests-patch.zip) по [инструкции обновления](docs/UPDATE-0.22.md). Папка `demo-beta` в исходниках и `expedition-demo` в старом формате архива сохранены как технические имена. В Windows нужны Python 3.10+ и Java 17. Из папки сборки:
 
 ```powershell
-py tools/install.py --side client --destination "D:\Minecraft\Expedition-0.21" --visuals shaders
+py tools/install.py --side client --destination "D:\Minecraft\Expedition-0.22" --visuals shaders
 ```
 
 Для клиента без шейдеров уберите `--visuals shaders`. First-person Model исключается при Epic Fight. В macOS/Linux используйте `python3` вместо `py` и собственный путь. Папка назначения не должна существовать. Установщик загружает JAR с проверкой SHA-256 и создаёт исправления функций Souls like Bosses; одного ручного копирования JAR недостаточно.

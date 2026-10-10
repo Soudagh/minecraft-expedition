@@ -1,3 +1,13 @@
+# Публикация 0.22
+
+Пользователь прямо поручил «грузи на гитхаб» после готового патча0.22. Публикуются проверенные исходники, тегv0.22.0-quest-sync-fix-dev и prerelease в Soudagh/minecraft-expedition с bootstrap и config-only quests-patch. Личные логи, миры, сторонние JAR и два пользовательских untracked исключены.
+
+# 0.22 — исправление синхронизации книги, локально
+
+Логи друга `/Users/soudagh/Downloads/logs.zip` содержат исключение >1048576 в SyncQuestsMessage/ClientboundCustomPayloadPacket при FTBQuests ServerQuestFile.playerLoggedIn. QA точно воспроизведена на 0.21; после дедупликации текстов packet constructed true, 873418 bytes, headroom175158. 34/951/1000 и все tasks/deps/title/icon/coords сохранены; содержательные параграфы остаются в главе, часть общих во вступлениях и практика в связанном item-квесте. 29tests, validator951/1000, native10124/506items/1316deps. Историческая база regression d73fa81. Собраны отчёты0.22; tools/quest_sync_probe.js QA-only, бюджет950000. Личные логи в /tmp, не публиковать. Состав JAR unchanged; версии Forge друга47.4.23, QA47.4.10. GUIlogin и progressmigration не проверены.
+
+Подготовлены bootstrap и config-only patch0.22 + UPDATE-0.22.md. Публикация 0.22 на GitHub пока не выполнялась; последнее согласование payload/destination относится к ZIP0.21. Пользовательские E9E-баланс-аудит.md и tools/probe_sources.py не трогать/не включать.
+
 # 0.21 опубликована
 
 После конкретного вопроса о файле expedition-0.21.0-hbm-all-stages-dev-bootstrap.zip и destination Soudagh/minecraft-expedition пользователь прямо подтвердил «на гитхаб грузи». gh release create успешно создал prerelease v0.21.0-hbm-all-stages-dev с ZIP. Ссылки README/Legacy/releasedoc восстановлены на фактически существующий релиз; архив пересобран с актуальными инструкциями и сверяется после загрузки. Предыдущие отказы ниже — история, публикация больше не заблокирована.
