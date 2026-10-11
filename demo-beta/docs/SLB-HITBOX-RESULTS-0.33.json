@@ -1,0 +1,3780 @@
+{
+  "checks": 976,
+  "scope": "Exact pinned summon NBT loaded into unspawned native Cow/Slime. Component callback versus full cooldown FakePlayer Player.attack and native Epic Fight patch.attack with first basic animation source; implicit suppressed; forcedSlow100. AddedResistance225 diagnostic mirrors effect strength, not actual phase execution. StageVII intentionally permits all weapons. No SLB root/riding/scores/fulltick/client EF movement or DPS.",
+  "rows": [
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499996.3,
+      "healthLost": 3.6875,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499996.3,
+      "healthLost": 3.6875,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-start",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 999999,
+        "amplifier": 4
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 999999,
+        "amplifier": 4
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 999999,
+        "amplifier": 4
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 999999,
+        "amplifier": 4
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 999999,
+        "amplifier": 4
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 999999,
+        "amplifier": 4
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 999999,
+        "amplifier": 4
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 999999,
+        "amplifier": 4
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 999999,
+        "amplifier": 4
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "watchers-transition",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "component",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "component",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "component",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499996.3,
+      "healthLost": 3.6875,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499996.3,
+      "healthLost": 3.6875,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-start",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "component",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "component",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "component",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499996.3,
+      "healthLost": 3.6875,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499996.3,
+      "healthLost": 3.6875,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "lothric-resummon",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "component",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "component",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "component",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 891.0,
+      "healthLost": 9,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 891.0,
+      "healthLost": 9,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 888.0,
+      "healthLost": 12,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 891.0,
+      "healthLost": 9,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 891.0,
+      "healthLost": 9,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 888.0,
+      "healthLost": 12,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-start",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "component",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "component",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "component",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 891.0,
+      "healthLost": 9,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 891.0,
+      "healthLost": 9,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 888.0,
+      "healthLost": 12,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "attack-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 891.0,
+      "healthLost": 9,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 891.0,
+      "healthLost": 9,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 888.0,
+      "healthLost": 12,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "sunflower-transition",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:slime",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 900.0,
+      "healthAfter": 900.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 0,
+      "toughness": 0
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499996.3,
+      "healthLost": 3.6875,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499996.3,
+      "healthLost": 3.6875,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "cinder-start",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499996.3,
+      "healthLost": 3.6875,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499996.3,
+      "healthLost": 3.6875,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "nightlord-start",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499996.3,
+      "healthLost": 3.6875,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499997.47,
+      "healthLost": 2.53125,
+      "resistance": null,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 499996.3,
+      "healthLost": 3.6875,
+      "resistance": null,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-start",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": null,
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 320,
+        "amplifier": 225
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "component",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "attack",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "attack-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "ef-patch",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "runic",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique4",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "entity": "minecraft:cow",
+      "mode": "ef-patch-resistance225",
+      "weapon": "unique8",
+      "stage": 7,
+      "spawned": false,
+      "initialHealth": 500000.0,
+      "healthAfter": 500000.0,
+      "healthLost": 0,
+      "resistance": {
+        "duration": 200,
+        "amplifier": 250
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "armor": 20,
+      "toughness": 10
+    }
+  ]
+}

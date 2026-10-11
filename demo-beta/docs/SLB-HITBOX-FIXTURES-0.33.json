@@ -1,0 +1,134 @@
+{
+  "gameVersion": "0.26.0-equipment-balance-dev",
+  "jar": {
+    "filename": "Souls_Like_Bosses_3_4_Forge+Fabric+Quilt_1_20_1.jar",
+    "sha256": "28da2196641703a03db170d4575cba357158c8854e94b441be5033d16904cf73"
+  },
+  "scope": "Exact summon NBT only. Command conditions, riding/root, scoreboards, full functions and live phase transitions are not executed.",
+  "fixtures": [
+    {
+      "fixture": "watchers-start",
+      "entity": "minecraft:cow",
+      "source": "data/souls_like_bosses/functions/bosses/aw/boss_start.mcfunction",
+      "command": "execute if score @s abyss_watcher_number matches 1..2 at @s run summon cow ~ ~-5 ~ {CustomName:'[{\"text\":\"Abyss Watcher\",\"bold\":true,\"color\":\"#a0000]\"}]',Health:500000,NoAI:1b,NoGravity:1b,Silent:1b,Tags:[\"soc\",\"abyss_team\"],ActiveEffects:[{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Base:500000f},{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "snbt": "{CustomName:'[{\"text\":\"Abyss Watcher\",\"bold\":true,\"color\":\"#a0000]\"}]',Health:500000,NoAI:1b,NoGravity:1b,Silent:1b,Tags:[\"soc\",\"abyss_team\"],ActiveEffects:[{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Base:500000f},{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "executedFullFunction": false
+    },
+    {
+      "fixture": "watchers-transition",
+      "entity": "minecraft:cow",
+      "source": "data/animated_java/functions/slb_aw/zzzzzzzz/animations/phase_change/tree/leaf_284_effects_0.mcfunction",
+      "command": "execute at @s run summon cow ~ ~ ~ {CustomName:'[{\"text\":\"Soul of Cinder\",\"bold\":true,\"color\":\"#a0000]\"}]',Health:500000,NoAI:1b,NoGravity:1b,Silent:1b,Tags:[\"soc\"],ActiveEffects:[{Id:11b,Duration:999999,Amplifier:4,ShowParticles:0b},{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Base:500000f},{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "snbt": "{CustomName:'[{\"text\":\"Soul of Cinder\",\"bold\":true,\"color\":\"#a0000]\"}]',Health:500000,NoAI:1b,NoGravity:1b,Silent:1b,Tags:[\"soc\"],ActiveEffects:[{Id:11b,Duration:999999,Amplifier:4,ShowParticles:0b},{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Base:500000f},{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "executedFullFunction": false
+    },
+    {
+      "fixture": "lothric-start",
+      "entity": "minecraft:slime",
+      "source": "data/souls_like_bosses/functions/bosses/lothran/init_lothian.mcfunction",
+      "command": "execute at @s run summon slime ~ ~ ~ {Size:5,Health:500000,NoAI:1b,NoGravity:1b,Silent:1b,ActiveEffects:[{Id:14b,Duration:999999,Amplifier:3,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "snbt": "{Size:5,Health:500000,NoAI:1b,NoGravity:1b,Silent:1b,ActiveEffects:[{Id:14b,Duration:999999,Amplifier:3,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "executedFullFunction": false
+    },
+    {
+      "fixture": "lothric-resummon",
+      "entity": "minecraft:slime",
+      "source": "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/idle_end_tp_away/tree/leaf_32_effects_0.mcfunction",
+      "command": "execute at @s if entity @e[type=player,distance=..75,limit=1,gamemode=!creative] run summon slime ^ ^-5 ^5 {CustomName:'[{\"text\":\"Lothric, Lord of Light\",\"color\":\"gold\"}]',Size:5,Health:500000,NoAI:1b,NoGravity:1b,Silent:1b,ActiveEffects:[{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}],Tags:[\"hitbox\",\"lothran\"]}",
+      "snbt": "{CustomName:'[{\"text\":\"Lothric, Lord of Light\",\"color\":\"gold\"}]',Size:5,Health:500000,NoAI:1b,NoGravity:1b,Silent:1b,ActiveEffects:[{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}],Tags:[\"hitbox\",\"lothran\"]}",
+      "executedFullFunction": false
+    },
+    {
+      "fixture": "sunflower-start",
+      "entity": "minecraft:slime",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/idle/tree/leaf_5_effects_0.mcfunction",
+      "command": "execute if score @s rng_number matches 1 at @s run summon slime ~ ~-5 ~ {CustomName:'[{\"text\":\"Curse-rotted Sunflower\",\"color\":\"gold\"}]',Size:7,Health:900,NoAI:1b,NoGravity:1b,Silent:1b,ActiveEffects:[{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:900f}],Tags:[\"hitbox\",\"sunflower_avatar\"]}",
+      "snbt": "{CustomName:'[{\"text\":\"Curse-rotted Sunflower\",\"color\":\"gold\"}]',Size:7,Health:900,NoAI:1b,NoGravity:1b,Silent:1b,ActiveEffects:[{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:900f}],Tags:[\"hitbox\",\"sunflower_avatar\"]}",
+      "executedFullFunction": false
+    },
+    {
+      "fixture": "sunflower-transition",
+      "entity": "minecraft:slime",
+      "source": "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_650_effects_0.mcfunction",
+      "command": "execute at @s run summon slime ~ ~-5 ~ {CustomName:'[{\"text\":\"Curse-rotted Sunflower\",\"color\":\"gold\"}]',Size:7,Health:900,NoAI:1b,NoGravity:1b,Silent:1b,ActiveEffects:[{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:900f}],Tags:[\"hitbox\"]}",
+      "snbt": "{CustomName:'[{\"text\":\"Curse-rotted Sunflower\",\"color\":\"gold\"}]',Size:7,Health:900,NoAI:1b,NoGravity:1b,Silent:1b,ActiveEffects:[{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:900f}],Tags:[\"hitbox\"]}",
+      "executedFullFunction": false
+    },
+    {
+      "fixture": "cinder-start",
+      "entity": "minecraft:cow",
+      "source": "data/souls_like_bosses/functions/bosses/soc/boss_start.mcfunction",
+      "command": "execute at @s run summon cow ~ ~-5 ~ {CustomName:'[{\"text\":\"Soul of Cinder\",\"bold\":true,\"color\":\"#a0000]\"}]',Health:500000,NoAI:1b,NoGravity:1b,Silent:1b,Tags:[\"soc\",\"cinder\"],ActiveEffects:[{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Base:500000f},{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "snbt": "{CustomName:'[{\"text\":\"Soul of Cinder\",\"bold\":true,\"color\":\"#a0000]\"}]',Health:500000,NoAI:1b,NoGravity:1b,Silent:1b,Tags:[\"soc\",\"cinder\"],ActiveEffects:[{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Base:500000f},{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "executedFullFunction": false
+    },
+    {
+      "fixture": "nightlord-start",
+      "entity": "minecraft:cow",
+      "source": "data/souls_like_bosses/functions/bosses/nl/boss_start.mcfunction",
+      "command": "execute at @s run summon cow ~ ~-5 ~ {CustomName:'[{\"text\":\"The Shape of Night\",\"bold\":true,\"color\":\"#a0000]\"}]',Health:500000,NoAI:1b,NoGravity:1b,Silent:1b,Tags:[\"soc\",\"nl\",\"elemental_light_wave\"],ActiveEffects:[{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Base:500000f},{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "snbt": "{CustomName:'[{\"text\":\"The Shape of Night\",\"bold\":true,\"color\":\"#a0000]\"}]',Health:500000,NoAI:1b,NoGravity:1b,Silent:1b,Tags:[\"soc\",\"nl\",\"elemental_light_wave\"],ActiveEffects:[{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Base:500000f},{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "executedFullFunction": false
+    },
+    {
+      "fixture": "melkor-start",
+      "entity": "minecraft:cow",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "command": "execute at @s run summon cow ~ ~-5 ~ {CustomName:'[{\"text\":\"Melkor, Eraser of Time\",\"bold\":true,\"color\":\"#a0000]\"}]',Health:500000f,NoAI:1b,NoGravity:1b,Silent:1b,Tags:[\"soc\",\"nl\",\"elemental_light_wave\",\"melkor\"],ActiveEffects:[{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "snbt": "{CustomName:'[{\"text\":\"Melkor, Eraser of Time\",\"bold\":true,\"color\":\"#a0000]\"}]',Health:500000f,NoAI:1b,NoGravity:1b,Silent:1b,Tags:[\"soc\",\"nl\",\"elemental_light_wave\",\"melkor\"],ActiveEffects:[{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "executedFullFunction": false
+    },
+    {
+      "fixture": "melkor-lightning-resistance250",
+      "entity": "minecraft:cow",
+      "source": "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction",
+      "command": "execute at @s run summon cow ~ ~-5 ~ {CustomName:'[{\"text\":\"Melkor, Eraser of Time\",\"bold\":true,\"color\":\"#a0000]\"}]',Health:500000f,NoAI:1b,NoGravity:1b,Silent:1b,Tags:[\"soc\",\"nl\",\"elemental_light_wave\",\"melkor\"],ActiveEffects:[{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "snbt": "{CustomName:'[{\"text\":\"Melkor, Eraser of Time\",\"bold\":true,\"color\":\"#a0000]\"}]',Health:500000f,NoAI:1b,NoGravity:1b,Silent:1b,Tags:[\"soc\",\"nl\",\"elemental_light_wave\",\"melkor\"],ActiveEffects:[{Id:12b,Duration:999999,Amplifier:1,ShowParticles:0b},{Id:14b,Duration:999999,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:500000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.armor_toughness\",Base:10f},{Name:\"generic.knockback_resistance\",Base:1f}]}",
+      "executedFullFunction": false,
+      "extraEffect": {
+        "effect": "minecraft:resistance",
+        "durationTicks": 200,
+        "amplifier": 250,
+        "source": "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction",
+        "command": "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+      },
+      "scope": "Start hitbox NBT plus exact effect-command parameters. Keyframe conditions/timing and full animation are not executed."
+    }
+  ],
+  "resistanceCommands": {
+    "data/animated_java/functions/gigant_sunflower/zzzzzzzz/animations/third_phase_transition/tree/leaf_0_effects_0.mcfunction": [
+      "execute at @s as @e[tag=g_o_t,type=marker,limit=1,sort=nearest] at @s run effect give @e[type=slime,scores={boss_hitbox=4},limit=1,sort=nearest] resistance 32 251 true"
+    ],
+    "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/cutscene_part1/tree/leaf_0_effects_0.mcfunction": [
+      "execute at @s run effect give @e[distance=..50,type=slime,limit=1,sort=nearest,scores={boss_hitbox=1}] resistance 16 225 true"
+    ],
+    "data/animated_java/functions/lothran_boss_test_1/zzzzzzzz/animations/cutscene_part3/tree/leaf_33_effects_0.mcfunction": [
+      "execute at @s run effect clear @e[distance=..50,type=slime,limit=1,sort=nearest,scores={boss_hitbox=1}] resistance"
+    ],
+    "data/animated_java/functions/slb_nl/zzzzzzzz/animations/gigant_lightning_bolt/tree/leaf_43_effects_0.mcfunction": [
+      "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+    ],
+    "data/animated_java/functions/slb_soc/zzzzzzzz/animations/gigant_lightning_bolt/tree/leaf_43_effects_0.mcfunction": [
+      "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=soc] resistance 10 250 true"
+    ],
+    "data/animated_java/functions/slb_te/zzzzzzzz/animations/gigant_lightning_bolt_off/tree/leaf_43_effects_0.mcfunction": [
+      "execute at @s run effect give @e[distance=..10,type=cow,limit=1,sort=nearest,tag=nl] resistance 10 250 true"
+    ],
+    "data/souls_like_bosses/functions/adjust_config/mob_battle_mark_nearest_mob.mcfunction": [
+      "effect give Patches resistance 999999 200 true"
+    ],
+    "data/souls_like_bosses/functions/bosses/te/boss_start.mcfunction": [
+      "execute at @s if entity @a[name=Patches,limit=1,distance=..50] run effect give @e[type=cow,limit=1,sort=nearest,distance=..25] minecraft:resistance 999999 3 true"
+    ],
+    "data/souls_like_bosses/functions/bosses/te/soc/combo_meter_check.mcfunction": [
+      "execute at @s if entity @a[name=Patches,limit=1,distance=..50] run effect give @e[type=cow,limit=1,sort=nearest,distance=..25] minecraft:resistance 999999 3 true"
+    ],
+    "data/souls_like_bosses/functions/incantations/lothran/teleport/main.mcfunction": [
+      "execute if score @s incantation_timer matches 3 at @s unless entity @e[distance=..100,limit=1,type=marker,scores={boss_active=1}] run effect give @e[distance=..100,type=cow,tag=hitbox] resistance 999999 250 true"
+    ],
+    "data/souls_like_bosses/functions/incantations/soc/first_flame/main.mcfunction": [
+      "execute if score @s incantation_timer matches 5999 run effect give @s resistance 999999 250 true",
+      "execute if score @s incantation_timer matches 2999 run effect give @s resistance 999999 250 true"
+    ]
+  }
+}
