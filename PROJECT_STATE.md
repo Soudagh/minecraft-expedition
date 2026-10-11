@@ -1,3 +1,7 @@
+## 2026-10-11 · релиз опубликован; продолжение контроля боссов 0.31
+
+GitHub prerelease https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.26.0-equipment-balance-dev успешно создан на 83c29fd; три assets state=uploaded, размеры 1242435/25411/6685 байт. Далее добавлен source-only аудит BOSS-CONTROL-BALANCE.md / BOSS-CONTROL-SOURCES-0.31.json и воспроизводимый audit_boss_control_sources.py. Locked SLB SHA проверен;119354 функций,70 evidencefiles,31 active speed-referencefiles (0 в boss namespace). AW fixed tp step0.28125, NoAI hitboxes, scoreboard-driven root/health показывают необходимость отдельно проверять Slow на носителе и визуальный/боевой контроль. Liveboss/nativeeffectacceptance/clientDPS не испытаны; game0.26 unchanged. Эти новые отчёты появились после release и не включены в его ZIP.
+
 ## 2026-10-11 · публикация промежуточной 0.26
 
 По запросу пользователя подготовлена публикация v0.26.0-equipment-balance-dev в Soudagh/minecraft-expedition: накопленные игровые изменения 0.23–0.26, отчёты и инструменты аудитов 0.27–0.30. Архивы bootstrap (410 файлов), balance-patch (25 файлов), отдельный opt-in combat recorder. Установщик 11 тестов, промышленность 2, кухня 2: OK. ZIP CRC/байты исходников/исключение JAR, кэшей и пользовательских файлов проверены; recorder SHA256 180308e61e899ec4b395716e2ef2bbc6d2386576ca3d39b392e5be80bca53683. Реальные клиентские комбо/DPS ещё не измерены. Пользовательские E9E-баланс-аудит.md и tools/probe_sources.py исключены.
