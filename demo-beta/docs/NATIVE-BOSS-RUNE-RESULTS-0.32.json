@@ -1,0 +1,549 @@
+{
+  "checks": 103,
+  "scope": "Unspawned freshly-created native entities. Native addEffect and GemPowerComponent.postHit; chance forced100 restored. No actual hit/damage, phase initialization, full entity tick, SLB root, EF client cadence or DPS.",
+  "rows": [
+    {
+      "target": {
+        "entity": "minecraft:cow",
+        "nativeClass": "net.minecraft.world.entity.animal.Cow",
+        "spawned": false,
+        "health": 10.0,
+        "movementAttribute": 0.20000000298023224,
+        "directSlowAccepted": true,
+        "directSlow": {
+          "duration": 50,
+          "amplifier": 2
+        },
+        "movementAttributeWithSlow": 0.10999999806284899,
+        "regenerationAccepted": true
+      },
+      "power": "slow",
+      "awakening": 4,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "minecraft:cow",
+        "nativeClass": "net.minecraft.world.entity.animal.Cow",
+        "spawned": false,
+        "health": 10.0,
+        "movementAttribute": 0.20000000298023224,
+        "directSlowAccepted": true,
+        "directSlow": {
+          "duration": 50,
+          "amplifier": 2
+        },
+        "movementAttributeWithSlow": 0.10999999806284899,
+        "regenerationAccepted": true
+      },
+      "power": "slow",
+      "awakening": 8,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "minecraft:cow",
+        "nativeClass": "net.minecraft.world.entity.animal.Cow",
+        "spawned": false,
+        "health": 10.0,
+        "movementAttribute": 0.20000000298023224,
+        "directSlowAccepted": true,
+        "directSlow": {
+          "duration": 50,
+          "amplifier": 2
+        },
+        "movementAttributeWithSlow": 0.10999999806284899,
+        "regenerationAccepted": true
+      },
+      "power": "greater_slow",
+      "awakening": 4,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "minecraft:cow",
+        "nativeClass": "net.minecraft.world.entity.animal.Cow",
+        "spawned": false,
+        "health": 10.0,
+        "movementAttribute": 0.20000000298023224,
+        "directSlowAccepted": true,
+        "directSlow": {
+          "duration": 50,
+          "amplifier": 2
+        },
+        "movementAttributeWithSlow": 0.10999999806284899,
+        "regenerationAccepted": true
+      },
+      "power": "greater_slow",
+      "awakening": 8,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "minecraft:slime",
+        "nativeClass": "net.minecraft.world.entity.monster.Slime",
+        "spawned": false,
+        "health": 20.0,
+        "movementAttribute": 0.699999988079071,
+        "directSlowAccepted": true,
+        "directSlow": {
+          "duration": 50,
+          "amplifier": 2
+        },
+        "movementAttributeWithSlow": 0.3849999809265139,
+        "regenerationAccepted": true
+      },
+      "power": "slow",
+      "awakening": 4,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "minecraft:slime",
+        "nativeClass": "net.minecraft.world.entity.monster.Slime",
+        "spawned": false,
+        "health": 20.0,
+        "movementAttribute": 0.699999988079071,
+        "directSlowAccepted": true,
+        "directSlow": {
+          "duration": 50,
+          "amplifier": 2
+        },
+        "movementAttributeWithSlow": 0.3849999809265139,
+        "regenerationAccepted": true
+      },
+      "power": "slow",
+      "awakening": 8,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "minecraft:slime",
+        "nativeClass": "net.minecraft.world.entity.monster.Slime",
+        "spawned": false,
+        "health": 20.0,
+        "movementAttribute": 0.699999988079071,
+        "directSlowAccepted": true,
+        "directSlow": {
+          "duration": 50,
+          "amplifier": 2
+        },
+        "movementAttributeWithSlow": 0.3849999809265139,
+        "regenerationAccepted": true
+      },
+      "power": "greater_slow",
+      "awakening": 4,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "minecraft:slime",
+        "nativeClass": "net.minecraft.world.entity.monster.Slime",
+        "spawned": false,
+        "health": 20.0,
+        "movementAttribute": 0.699999988079071,
+        "directSlowAccepted": true,
+        "directSlow": {
+          "duration": 50,
+          "amplifier": 2
+        },
+        "movementAttributeWithSlow": 0.3849999809265139,
+        "regenerationAccepted": true
+      },
+      "power": "greater_slow",
+      "awakening": 8,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "graveyard:lich",
+        "nativeClass": "com.lion.graveyard.entities.LichEntity",
+        "spawned": false,
+        "health": 400.0,
+        "movementAttribute": 0,
+        "directSlowAccepted": false,
+        "directSlow": null,
+        "movementAttributeWithSlow": 0,
+        "regenerationAccepted": false
+      },
+      "power": "slow",
+      "awakening": 4,
+      "slow": null,
+      "onslaught": null,
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "graveyard:lich",
+        "nativeClass": "com.lion.graveyard.entities.LichEntity",
+        "spawned": false,
+        "health": 400.0,
+        "movementAttribute": 0,
+        "directSlowAccepted": false,
+        "directSlow": null,
+        "movementAttributeWithSlow": 0,
+        "regenerationAccepted": false
+      },
+      "power": "slow",
+      "awakening": 8,
+      "slow": null,
+      "onslaught": null,
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "graveyard:lich",
+        "nativeClass": "com.lion.graveyard.entities.LichEntity",
+        "spawned": false,
+        "health": 400.0,
+        "movementAttribute": 0,
+        "directSlowAccepted": false,
+        "directSlow": null,
+        "movementAttributeWithSlow": 0,
+        "regenerationAccepted": false
+      },
+      "power": "greater_slow",
+      "awakening": 4,
+      "slow": null,
+      "onslaught": null,
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "graveyard:lich",
+        "nativeClass": "com.lion.graveyard.entities.LichEntity",
+        "spawned": false,
+        "health": 400.0,
+        "movementAttribute": 0,
+        "directSlowAccepted": false,
+        "directSlow": null,
+        "movementAttributeWithSlow": 0,
+        "regenerationAccepted": false
+      },
+      "power": "greater_slow",
+      "awakening": 8,
+      "slow": null,
+      "onslaught": null,
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "eeeabsmobs:relic_annihilator",
+        "nativeClass": "com.eeeab.eeeabsmobs.sever.entity.mob.relicron.EntityRelicAnnihilator",
+        "spawned": false,
+        "health": 300.0,
+        "movementAttribute": 0.34,
+        "directSlowAccepted": false,
+        "directSlow": null,
+        "movementAttributeWithSlow": 0.34,
+        "regenerationAccepted": true
+      },
+      "power": "slow",
+      "awakening": 4,
+      "slow": null,
+      "onslaught": null,
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "eeeabsmobs:relic_annihilator",
+        "nativeClass": "com.eeeab.eeeabsmobs.sever.entity.mob.relicron.EntityRelicAnnihilator",
+        "spawned": false,
+        "health": 300.0,
+        "movementAttribute": 0.34,
+        "directSlowAccepted": false,
+        "directSlow": null,
+        "movementAttributeWithSlow": 0.34,
+        "regenerationAccepted": true
+      },
+      "power": "slow",
+      "awakening": 8,
+      "slow": null,
+      "onslaught": null,
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "eeeabsmobs:relic_annihilator",
+        "nativeClass": "com.eeeab.eeeabsmobs.sever.entity.mob.relicron.EntityRelicAnnihilator",
+        "spawned": false,
+        "health": 300.0,
+        "movementAttribute": 0.34,
+        "directSlowAccepted": false,
+        "directSlow": null,
+        "movementAttributeWithSlow": 0.34,
+        "regenerationAccepted": true
+      },
+      "power": "greater_slow",
+      "awakening": 4,
+      "slow": null,
+      "onslaught": null,
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "eeeabsmobs:relic_annihilator",
+        "nativeClass": "com.eeeab.eeeabsmobs.sever.entity.mob.relicron.EntityRelicAnnihilator",
+        "spawned": false,
+        "health": 300.0,
+        "movementAttribute": 0.34,
+        "directSlowAccepted": false,
+        "directSlow": null,
+        "movementAttributeWithSlow": 0.34,
+        "regenerationAccepted": true
+      },
+      "power": "greater_slow",
+      "awakening": 8,
+      "slow": null,
+      "onslaught": null,
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "eeeabsmobs:realm_warden",
+        "nativeClass": "com.eeeab.eeeabsmobs.sever.entity.mob.relicron.EntityRealmWarden",
+        "spawned": false,
+        "health": 400.0,
+        "movementAttribute": 0.32,
+        "directSlowAccepted": false,
+        "directSlow": null,
+        "movementAttributeWithSlow": 0.32,
+        "regenerationAccepted": true
+      },
+      "power": "slow",
+      "awakening": 4,
+      "slow": null,
+      "onslaught": null,
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "eeeabsmobs:realm_warden",
+        "nativeClass": "com.eeeab.eeeabsmobs.sever.entity.mob.relicron.EntityRealmWarden",
+        "spawned": false,
+        "health": 400.0,
+        "movementAttribute": 0.32,
+        "directSlowAccepted": false,
+        "directSlow": null,
+        "movementAttributeWithSlow": 0.32,
+        "regenerationAccepted": true
+      },
+      "power": "slow",
+      "awakening": 8,
+      "slow": null,
+      "onslaught": null,
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "eeeabsmobs:realm_warden",
+        "nativeClass": "com.eeeab.eeeabsmobs.sever.entity.mob.relicron.EntityRealmWarden",
+        "spawned": false,
+        "health": 400.0,
+        "movementAttribute": 0.32,
+        "directSlowAccepted": false,
+        "directSlow": null,
+        "movementAttributeWithSlow": 0.32,
+        "regenerationAccepted": true
+      },
+      "power": "greater_slow",
+      "awakening": 4,
+      "slow": null,
+      "onslaught": null,
+      "healthUnchanged": true
+    },
+    {
+      "target": {
+        "entity": "eeeabsmobs:realm_warden",
+        "nativeClass": "com.eeeab.eeeabsmobs.sever.entity.mob.relicron.EntityRealmWarden",
+        "spawned": false,
+        "health": 400.0,
+        "movementAttribute": 0.32,
+        "directSlowAccepted": false,
+        "directSlow": null,
+        "movementAttributeWithSlow": 0.32,
+        "regenerationAccepted": true
+      },
+      "power": "greater_slow",
+      "awakening": 8,
+      "slow": null,
+      "onslaught": null,
+      "healthUnchanged": true
+    }
+  ],
+  "carry": [
+    {
+      "entity": "minecraft:cow",
+      "initialOnslaughtDuration": 31,
+      "afterCallbackOnslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "refreshed": true
+    },
+    {
+      "entity": "minecraft:slime",
+      "initialOnslaughtDuration": 31,
+      "afterCallbackOnslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "refreshed": true
+    },
+    {
+      "entity": "graveyard:lich",
+      "initialOnslaughtDuration": 31,
+      "afterCallbackOnslaught": {
+        "duration": 31,
+        "amplifier": 0
+      },
+      "slow": null,
+      "refreshed": false
+    },
+    {
+      "entity": "eeeabsmobs:relic_annihilator",
+      "initialOnslaughtDuration": 31,
+      "afterCallbackOnslaught": {
+        "duration": 31,
+        "amplifier": 0
+      },
+      "slow": null,
+      "refreshed": false
+    },
+    {
+      "entity": "eeeabsmobs:realm_warden",
+      "initialOnslaughtDuration": 31,
+      "afterCallbackOnslaught": {
+        "duration": 31,
+        "amplifier": 0
+      },
+      "slow": null,
+      "refreshed": false
+    }
+  ],
+  "weakness": [
+    {
+      "entity": "minecraft:cow",
+      "weakness": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null
+    },
+    {
+      "entity": "minecraft:slime",
+      "weakness": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null
+    },
+    {
+      "entity": "graveyard:lich",
+      "weakness": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "slow": null,
+      "onslaught": null
+    },
+    {
+      "entity": "eeeabsmobs:relic_annihilator",
+      "weakness": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "slow": null,
+      "onslaught": null
+    },
+    {
+      "entity": "eeeabsmobs:realm_warden",
+      "weakness": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "slow": null,
+      "onslaught": null
+    }
+  ]
+}
