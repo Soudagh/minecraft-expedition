@@ -27,6 +27,12 @@ files+=list((ROOT/'docs').glob('*0.26.*'))
 for audit_version in ['0.27','0.28','0.29','0.30','0.31','0.32','0.33','0.34']:
     files+=list((ROOT/'docs').glob('*'+audit_version+'.json'))
 files+=list((ROOT/'qa').rglob('*'))
+files+=list((ROOT/'docs').glob('*0.35.json'))
+files+=list((ROOT/'docs').glob('*0.36.json'))
+files+=list((ROOT/'docs').glob('*0.37.json'))
+files += [ROOT/'tools/final_quests.py',ROOT/'tools/late_balance_probe.js']
+files += [ROOT/'tools/divine_balance_probe.js']
+files += [ROOT/'tools'/name for name in ['divine_quests.py','build_divine_probe_sources.py','build_hbm_peaceful.py','divine_team_probe.js','test_divine_integration.py']]
 files += [ROOT/'tools'/name for name in ['build_melkor_phase_sources.py','melkor_phase_geometry_probe.js','build_slb_hitbox_fixtures.py','audit_ef_hit_sources.py','slb_hitbox_probe.js','audit_boss_control_sources.py','audit_native_boss_sources.py','boss_rune_probe.js','audit_enchant_rune_sources.py','audit_rune_socket_sources.py','build_gem_economy.py','combat_capture_server.js','combat_capture_startup.js','enchant_rune_cadence_probe.js','gem_economy_probe.js','onslaught_cycle_probe.js','rune_socket_probe.js','summarize_combat_capture.py']]
 files += [ROOT/'tools'/name for name in ['equipment_combat_probe.js','food_sustain_probe.js','build_kitchen_balance.py','test_kitchen_balance.py','kitchen_energy_probe.js','build_industry_balance.py','test_industry_balance.py','industry_balance_probe.js','install.py','compat.py','test_install.py','build_quests.py','quest_branches.py','full_quests.py','validate_quests.py','progression.py','build_progression.py','test_progression.py','audit_combat_sources.py','equipment_quests.py','spell_balance_probe.js','offensive_balance_probe.js','sword_skill_probe.js','quest_book_probe.js','expanded_quests.py','quest_curriculum.tsv','core_quests.py','core_curriculum.tsv','deep_quests.py','deep_curriculum.tsv','quest_connections.py','hbm_structure.py','test_hbm_structure.py','hbm_stages.py','hbm_stages.tsv','test_hbm_stages.py','hbm_stage_probe.js','quest_text_budget.py','test_quest_text_budget.py','quest_sync_probe.js','quest_graph_preview.py','test_quest_connections.py','hbm_quest_probe.js','quest_layout.py','test_quest_layout.py']]
 with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED) as archive:
@@ -61,11 +67,12 @@ if version.startswith(('0.23.','0.24.','0.25.','0.26.')):
             archive.writestr('EQUIPMENT-COMBAT-BALANCE.md',(ROOT/'docs/EQUIPMENT-COMBAT-BALANCE.md').read_bytes())
         archive.writestr('INDUSTRY-BALANCE.md',(ROOT/'docs/INDUSTRY-BALANCE.md').read_bytes())
         for f in sorted(selected):archive.write(f,f.relative_to(ROOT/'overrides'))
-else:
+elif not version.startswith(('0.35.','0.36.','0.37.')):
     patch=ROOT/('dist/expedition-'+version+'-quests-patch.zip')
     quest_root=ROOT/'overrides/config/ftbquests/quests'
     with zipfile.ZipFile(patch,'w',zipfile.ZIP_DEFLATED) as archive:
         archive.writestr('UPDATE-0.22.txt',(ROOT/'docs/UPDATE-0.22.md').read_text(encoding='utf-8').encode('utf-8-sig'))
         for f in sorted(quest_root.rglob('*')):
             if f.is_file():archive.write(f,f.relative_to(ROOT/'overrides'))
-print(patch)
+if not version.startswith(('0.35.','0.36.','0.37.')):
+    print(patch)

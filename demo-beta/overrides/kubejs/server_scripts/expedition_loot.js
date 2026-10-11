@@ -2,6 +2,9 @@
 LootJS.modifiers(event => {
   event.addLootTypeModifier(LootType.CHEST, LootType.ENTITY)
     .removeLoot(/^hbm_m:(grenade.*|missile_.*|machine_missile_assembly)$/)
+  // Defensive filter also covers already generated, unopened structure chests.
+  event.addLootTypeModifier(LootType.CHEST)
+    .removeLoot(/^hbm_m:(gun_(?!fireext)|ammo_(?!fireext)|grenade|missile_|machine_missile|turret_|rocket_|nuke_|detonator|multi_detonator|range_detonator|airstrike_|airbomb|airnukebomb|barbed_wire|mine_|naval_mine|crate_weapon|crate_ammo|assembly_nuke|custom_nuke|dud_nuke|det_nuke|bomb_|balebomb|fissure_bomb|smoke_bomb|boltgun|chopper_gun|compact_launcher|boy_bullet|mold_shell|struct_launcher).*$/)
   event.addLootTypeModifier(LootType.CHEST)
     .removeLoot('#simplyswords:uniques')
   event.addLootTypeModifier(LootType.CHEST, LootType.ENTITY)

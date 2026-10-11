@@ -4,8 +4,12 @@ const expeditionEquipmentTag = Java.loadClass('net.minecraft.nbt.CompoundTag')
 const expeditionEquipmentList = Java.loadClass('net.minecraft.nbt.ListTag')
 const expeditionEquipmentStack = Java.loadClass('net.minecraft.world.item.ItemStack')
 const expeditionCuriosApi = Java.loadClass('top.theillusivec4.curios.api.CuriosApi')
+const expeditionDivineBalance = JsonIO.read('kubejs/config/divine_balance.json')
 function expeditionGearStage(stack, slot) {
   const id=String(stack.id)
+  const divine=expeditionDivineBalance.gear[id]
+  if (divine && (divine.kind === 'weapon' ? (slot === 'mainhand' || slot === 'offhand') : ['head','chest','legs','feet'].indexOf(slot)>=0)) return divine.stage
+
   if (slot === 'curio') return id === 'botania:flight_tiara' ? 6 : 0
   if (slot === 'mainhand' || slot === 'offhand') {
     if (id === 'minecraft:netherite_sword' || id === 'minecraft:netherite_axe') return 3

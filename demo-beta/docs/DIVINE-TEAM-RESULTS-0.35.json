@@ -1,0 +1,6 @@
+{
+	"checks": 85,
+	"items": 32,
+	"recipes": 14,
+	"scope": "Native server/API and fake-player command checks. No client GUI, actual travel, full claim permission workflow or fight."
+}

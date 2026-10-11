@@ -10,8 +10,11 @@ class QuestTextBudgetTests(unittest.TestCase):
  def test_budget_and_historical_content(self):
   chapters={p.stem:json.loads(p.read_text()) for p in (PACK/'overrides/config/ftbquests/quests/chapters').glob('*.snbt')}
   self.assertLessEqual(description_bytes(chapters),TEXT_BUDGET)
-  for slug,c in chapters.items():
-   relative='demo-beta/overrides/config/ftbquests/quests/chapters/'+slug+'.snbt'
+  historical=subprocess.check_output(['git','ls-tree','-r','--name-only',BASE,'demo-beta/overrides/config/ftbquests/quests/chapters'],cwd=PACK.parent,text=True).splitlines()
+  for relative in historical:
+   slug=Path(relative).stem
+   self.assertIn(slug,chapters)
+   c=chapters[slug]
    old=json.loads(subprocess.check_output(['git','show',BASE+':'+relative],cwd=PACK.parent,text=True))
    before={q['id']:q for q in old['quests']}; after={q['id']:q for q in c['quests']}
    self.assertEqual(set(before),set(after))

@@ -1,0 +1,132 @@
+{
+	"flight": {
+		"cost": "1x kubejs:material_nightlord",
+		"ticks": 3600,
+		"groundedCharge": false,
+		"emergencySlowFallTicks": 80
+	},
+	"claimAttacks": [
+		{
+			"case": "stranger_to_cow",
+			"canceled": true
+		},
+		{
+			"case": "owner_to_cow",
+			"canceled": false
+		},
+		{
+			"case": "zombie_to_owner",
+			"canceled": false
+		},
+		{
+			"case": "cow_to_owner",
+			"canceled": false
+		},
+		{
+			"case": "magic_to_owner",
+			"canceled": false
+		}
+	],
+	"completion": {
+		"nativeTier": 8,
+		"unformedRejected": true,
+		"positiveScope": "Snapshot reducer only; no assembled fusion or positive end-to-end completion fixture."
+	},
+	"armor": [
+		{
+			"set": "none",
+			"armor": 0,
+			"toughness": 0,
+			"sourceDamage": 16,
+			"healthLost": 16,
+			"effects": []
+		},
+		{
+			"set": "minecraft:diamond",
+			"armor": 20,
+			"toughness": 8,
+			"sourceDamage": 16,
+			"healthLost": 5.760009765625,
+			"effects": []
+		},
+		{
+			"set": "minecraft:netherite",
+			"armor": 20,
+			"toughness": 12,
+			"sourceDamage": 16,
+			"healthLost": 5.24798583984375,
+			"effects": []
+		},
+		{
+			"set": "divinerpg:eden",
+			"armor": 25,
+			"toughness": 12,
+			"sourceDamage": 16,
+			"healthLost": 3.20001220703125,
+			"effects": []
+		},
+		{
+			"set": "divinerpg:wildwood",
+			"armor": 26,
+			"toughness": 14,
+			"sourceDamage": 16,
+			"healthLost": 3.20001220703125,
+			"effects": [
+				"divinerpg:wildwood_heal"
+			]
+		},
+		{
+			"set": "divinerpg:apalachia",
+			"armor": 27,
+			"toughness": 14,
+			"sourceDamage": 16,
+			"healthLost": 3.20001220703125,
+			"effects": [
+				"divinerpg:block_protection"
+			]
+		},
+		{
+			"set": "divinerpg:skythern",
+			"armor": 27,
+			"toughness": 16,
+			"sourceDamage": 16,
+			"healthLost": 3.20001220703125,
+			"effects": [
+				"minecraft:jump_boost",
+				"divinerpg:prevent_fall_damage"
+			]
+		},
+		{
+			"set": "divinerpg:mortum",
+			"armor": 28,
+			"toughness": 16,
+			"sourceDamage": 16,
+			"healthLost": 3.20001220703125,
+			"effects": [
+				"minecraft:night_vision"
+			]
+		},
+		{
+			"set": "divinerpg:halite",
+			"armor": 28,
+			"toughness": 18,
+			"sourceDamage": 16,
+			"healthLost": 3.20001220703125,
+			"effects": [
+				"divinerpg:halite_strength"
+			]
+		},
+		{
+			"set": "divinerpg:awakened_halite",
+			"armor": 29,
+			"toughness": 18,
+			"sourceDamage": 16,
+			"healthLost": 3.20001220703125,
+			"effects": [
+				"divinerpg:awakened_halite_strength"
+			]
+		}
+	],
+	"checks": 51,
+	"scope": "Native APIs, actual effects and one ordinary damage source; no real client, assembled fusion, SLB command damage or boss fights."
+}

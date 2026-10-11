@@ -1,0 +1,10 @@
+[serverConfig]
+primaryPartySystem = "ftb_teams"
+
+[serverConfig.parties]
+# Use FTB Teams to create teams and invite members.
+enabled = false
+
+[serverConfig.claims]
+enabled = true
+partyOwnedClaims = true

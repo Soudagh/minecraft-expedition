@@ -1,5 +1,7 @@
 # Экспедиция · полная сборка
 
+Текущий предварительный релиз: [0.37](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.37.0-late-project-balance-dev) · [Клиентский установщик](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.37.0-late-project-balance-dev/expedition-0.37.0-late-project-balance-dev-bootstrap.zip) · [Готовый сервер](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.37.0-late-project-balance-dev/expedition-0.37.0-late-project-balance-dev-server.zip). Minecraft 1.20.1, Forge 47.4.10, Java 17; 73 клиентских / 68 серверных модов, 36 глав / 994 квеста / 1044 задачи. Полный игровой прогон ещё не завершён.
+
 **0.26.0-equipment-balance-dev** — промежуточная рабочая версия баланса и квестов всей сборки. Формат демо отменён. Minecraft **1.20.1**, Forge **47.4.10**, **Java 17**. Состав 0.9 сохранён: 71 клиентский / 64 серверных внешних JAR с фиксированными хешами; необязательный профиль shaders добавляет Oculus и Complementary.
 
 [Конкретные примеры изменённых рецептов и настроек баланса](docs/BALANCE-EXAMPLES.md).
@@ -71,8 +73,12 @@ py tools/install.py --side client --destination "D:\Minecraft\Expedition-0.26" -
 
 ## Сервер и общий прогресс
 
+Готовый локальный [серверный архив 0.26](dist/expedition-0.26.0-equipment-balance-dev-server.zip) содержит серверные моды, конфиги, исправления совместимости и установленный Forge. Распакуйте его в новую папку, установите Java 17, прочитайте EULA и при согласии измените `eula=false` на `eula=true`, затем запустите `run.bat` (Windows) или `bash run.sh` (Linux/macOS). Python и отдельная установка Forge для этого архива не нужны. Память задаётся в `user_jvm_args.txt` (по умолчанию 2–8 ГБ). Полная инструкция находится в `START-HERE.txt` внутри архива.
+
+Для подготовки сервера из bootstrap используйте установщик:
+
 ```powershell
-py tools/install.py --side server --destination "D:\Minecraft\Expedition-server-0.21"
+py tools/install.py --side server --destination "D:\Minecraft\Expedition-server-0.26"
 ```
 
 Скачайте [Forge Installer 1.20.1-47.4.10](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar). В папке сервера выполните `java -jar ПУТЬ-К-INSTALLER.jar --installServer`, затем используйте созданный `run.bat`/`run.sh`. В `user_jvm_args.txt` можно начать с `-Xms2G` и `-Xmx8G`.
@@ -112,3 +118,15 @@ python3 tools/package.py
 [Аудит 0.29: доступные сочетания рун и сохранение зачарований при перековке](docs/RUNE-SOCKET-BALANCE.md). Игровые настройки в этом проходе сохранены.
 
 [Экономика самоцветов, аудит0.30](docs/GEM-ECONOMY-BALANCE.md); [готовый регистратор клиентских QA-прогонов](qa/COMBAT-RECORDER-README.md) и [QA ZIP](qa/expedition-combat-recorder-qa.zip).
+
+## Divine RPG, карта команды и приват · 0.35
+
+Локальная версия 0.35 добавляет Divine RPG, отдельные 40 квестов, интеграцию с Create/Botania/HBM, очищенные от оружия структуры HBM, отслеживание команды на Xaero, командные метки `/teammap` и приват Open Parties and Claims через FTB Teams. [Установка и обновление](docs/UPDATE-0.35.md). Для новой версии используйте bootstrap 0.35; ссылки на опубликованную 0.26 выше относятся к предыдущему релизу.
+
+## Локальная проверка баланса 0.36
+
+349 предметов Divine согласованы с этапами кампании; исправлен ранний полёт и пропущенные улучшения, выровнены шесть клинков. Повторный QA промышленности, кухни, магии и рун пройден. [Отчёт](docs/BALANCE-AUDIT-0.36.md) перечисляет подтверждённые исправления и оставшиеся игровые проверки. [Bootstrap](dist/expedition-0.36.0-divine-balance-dev-bootstrap.zip), [сервер](dist/expedition-0.36.0-divine-balance-dev-server.zip).
+
+## Локальная версия 0.37 · защита и финальный проект
+
+Ступенчатая броня Divine, снабжение ангельского полёта и серверный UV-зачёт после девяти побед. [Отчёт](docs/LATE-BALANCE-0.37.md) содержит реальные одиночные попадания и границы QA. [Bootstrap](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.37.0-late-project-balance-dev/expedition-0.37.0-late-project-balance-dev-bootstrap.zip), [сервер](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.37.0-late-project-balance-dev/expedition-0.37.0-late-project-balance-dev-server.zip). Полный перезапуск обеих сторон обязателен; реальный UV-реактор и клиентские бои ещё требуют приёмки.

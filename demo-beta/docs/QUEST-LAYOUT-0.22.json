@@ -90,6 +90,19 @@
     "productionGraph": null
   },
   {
+    "chapter": "divine_rpg",
+    "before": {
+      "width": 36.0,
+      "height": 13.0
+    },
+    "after": {
+      "width": 44.800000000000004,
+      "height": 8.0
+    },
+    "quests": 40,
+    "productionGraph": null
+  },
+  {
     "chapter": "expedition",
     "before": {
       "width": 24.0,
@@ -100,6 +113,19 @@
       "height": 9.6
     },
     "quests": 26,
+    "productionGraph": null
+  },
+  {
+    "chapter": "final_project",
+    "before": {
+      "width": 4.0,
+      "height": 0.0
+    },
+    "after": {
+      "width": 3.2,
+      "height": 0.0
+    },
+    "quests": 3,
     "productionGraph": null
   },
   {

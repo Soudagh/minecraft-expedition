@@ -1,0 +1,1871 @@
+{
+  "gear": {
+    "divinerpg:amthirmis_backsword": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:amthirmis_bow": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:amthirmis_cannon": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:amthirmis_claw": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:amthirmis_disk": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:amthirmis_hammer": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:angelic_boots": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:angelic_chestplate": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:angelic_helmet": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:angelic_leggings": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:apalachia_blade": {
+      "stage": 4,
+      "kind": "weapon",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:apalachia_blitz": {
+      "stage": 4,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:apalachia_boots": {
+      "stage": 4,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:apalachia_bow": {
+      "stage": 4,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:apalachia_chestplate": {
+      "stage": 4,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:apalachia_helmet": {
+      "stage": 4,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:apalachia_leggings": {
+      "stage": 4,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:apalachia_phaser": {
+      "stage": 4,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:aquastrive_boots": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:aquastrive_chestplate": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:aquastrive_helmet": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:aquastrive_leggings": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:aquatic_dagger": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:aquatic_maul": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced native attack III"
+    },
+    "divinerpg:aquatic_trident": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:aquaton": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:aquatooth_maul": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced native attack III"
+    },
+    "divinerpg:aquatooth_sword": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:arcanite_blade": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "Arcana trading and weapons V"
+    },
+    "divinerpg:arcanium_saber": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "Arcana trading and weapons V"
+    },
+    "divinerpg:arksiane_backsword": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:arksiane_bow": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:arksiane_cannon": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:arksiane_claw": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:arksiane_disk": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:arksiane_hammer": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:arlemite_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:arlemite_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:arlemite_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:arlemite_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:arlemite_stabber": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:awakened_halite_boots": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:awakened_halite_chestplate": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:awakened_halite_helmet": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:awakened_halite_leggings": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:bedrock_boots": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:bedrock_chestplate": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:bedrock_helmet": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:bedrock_leggings": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:bedrock_maul": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:bedrock_sword": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:black_ender_sword": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:bloodgem_sword": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:blue_divine_sword": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:blue_ender_boots": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:blue_ender_chestplate": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:blue_ender_helmet": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:blue_ender_leggings": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:blue_ender_sword": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:blue_rupee_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:blue_rupee_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:blue_rupee_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:blue_rupee_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:bowhead_anchor": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:captains_sparkler": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "Arcana trading and weapons V"
+    },
+    "divinerpg:cermile_backsword": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:cermile_bow": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:cermile_cannon": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:cermile_claw": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:cermile_disk": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:cermile_hammer": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:corrupted_boots": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:corrupted_chestplate": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:corrupted_helmet": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:corrupted_leggings": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:corrupted_maul": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:crab_anchor": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:crabclaw_maul": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:cyclopsian_sword": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:darven_backsword": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:darven_bow": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:darven_cannon": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:darven_claw": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:darven_disk": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:darven_hammer": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:death_bringer": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:degraded_boots": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:degraded_chestplate": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:degraded_helmet": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:degraded_hood": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:degraded_leggings": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:degraded_mask": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:demonized_boots": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:demonized_chestplate": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:demonized_helmet": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:demonized_hood": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:demonized_leggings": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:demonized_mask": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:divine_boots": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:divine_chestplate": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:divine_helmet": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:divine_leggings": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:divine_sword": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:dual_claw": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:eden_blade": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:eden_blitz": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:eden_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:eden_bow": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:eden_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:eden_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:eden_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:eden_phaser": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:elite_realmite_boots": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:elite_realmite_chestplate": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:elite_realmite_helmet": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:elite_realmite_leggings": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:ender_boots": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:ender_chestplate": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:ender_helmet": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:ender_leggings": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:ender_sword": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:enderice": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced native attack III"
+    },
+    "divinerpg:everbright": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:everlight": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:finished_boots": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:finished_chestplate": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:finished_helmet": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:finished_hood": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:finished_leggings": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:finished_mask": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:firefly": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "Arcana trading and weapons V"
+    },
+    "divinerpg:flaming_fury": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced native attack III"
+    },
+    "divinerpg:frossivence": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:frost_sword": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:frostking_sword": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:frozen_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:frozen_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:frozen_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:frozen_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:frozen_maul": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced native attack III"
+    },
+    "divinerpg:fury_maul": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "high native attack V"
+    },
+    "divinerpg:ghostbane": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "Arcana trading and weapons V"
+    },
+    "divinerpg:glacial_blade": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced native attack III"
+    },
+    "divinerpg:glacier_sword": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:glistening_boots": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:glistening_chestplate": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:glistening_helmet": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:glistening_hood": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:glistening_leggings": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:glistening_mask": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:gray_divine_sword": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:gray_ender_boots": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:gray_ender_chestplate": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:gray_ender_helmet": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:gray_ender_leggings": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:gray_rupee_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:gray_rupee_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:gray_rupee_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:gray_rupee_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:green_divine_sword": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:green_ender_boots": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:green_ender_chestplate": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:green_ender_helmet": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:green_ender_leggings": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:green_ender_sword": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:green_rupee_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:green_rupee_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:green_rupee_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:green_rupee_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:grenade": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "Arcana trading and weapons V"
+    },
+    "divinerpg:halite_blade": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:halite_blitz": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:halite_boots": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:halite_bow": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:halite_chestplate": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:halite_helmet": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:halite_leggings": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "free flight or late equipment VII"
+    },
+    "divinerpg:halite_phaser": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:heliosis_backsword": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:heliosis_bow": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:heliosis_cannon": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:heliosis_claw": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:heliosis_disk": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:heliosis_hammer": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:icicle_bane": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:icicle_dagger": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "high native attack V"
+    },
+    "divinerpg:icine_sword": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "high native attack V"
+    },
+    "divinerpg:inferno_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:inferno_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:inferno_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:inferno_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:inferno_sword": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:jack_o_man_boots": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:jack_o_man_chestplate": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:jack_o_man_helmet": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:jack_o_man_leggings": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:jungle_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:jungle_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:jungle_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:jungle_knife": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:jungle_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:jungle_rapier": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:karos_backsword": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:karos_bow": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:karos_cannon": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:karos_claw": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:karos_disk": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:karos_hammer": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:karos_rockmaul": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:korma_boots": {
+      "stage": 5,
+      "kind": "armor",
+      "reason": "Arcana V"
+    },
+    "divinerpg:korma_chestplate": {
+      "stage": 5,
+      "kind": "armor",
+      "reason": "Arcana V"
+    },
+    "divinerpg:korma_helmet": {
+      "stage": 5,
+      "kind": "armor",
+      "reason": "Arcana V"
+    },
+    "divinerpg:korma_leggings": {
+      "stage": 5,
+      "kind": "armor",
+      "reason": "Arcana V"
+    },
+    "divinerpg:kraken_boots": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:kraken_chestplate": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:kraken_helmet": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:kraken_leggings": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:la_vekor": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "Arcana trading and weapons V"
+    },
+    "divinerpg:liopleurodon_anchor": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced native attack III"
+    },
+    "divinerpg:livicia_sword": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "Arcana trading and weapons V"
+    },
+    "divinerpg:massivence": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:meriks_missile": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "Arcana trading and weapons V"
+    },
+    "divinerpg:molten_sword": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:mortum_blade": {
+      "stage": 6,
+      "kind": "weapon",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:mortum_blitz": {
+      "stage": 6,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:mortum_boots": {
+      "stage": 6,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:mortum_bow": {
+      "stage": 6,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:mortum_chestplate": {
+      "stage": 6,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:mortum_helmet": {
+      "stage": 6,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:mortum_leggings": {
+      "stage": 6,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:mortum_phaser": {
+      "stage": 6,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:ocean_knife": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:palavence": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:pardimal_backsword": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:pardimal_bow": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:pardimal_cannon": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:pardimal_claw": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:pardimal_disk": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:pardimal_hammer": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:poison_saber": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:quadrotic_backsword": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:quadrotic_bow": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:quadrotic_cannon": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:quadrotic_claw": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:quadrotic_disk": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:quadrotic_hammer": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:realmite_boots": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:realmite_chestplate": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:realmite_helmet": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:realmite_leggings": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:realmite_sword": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:red_divine_sword": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:red_ender_boots": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:red_ender_chestplate": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:red_ender_helmet": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:red_ender_leggings": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:red_ender_sword": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:red_rupee_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:red_rupee_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:red_rupee_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:red_rupee_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:rupee_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:rupee_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:rupee_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:rupee_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:rupee_rapier": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:sabear_sabre": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:sandslash": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "high native attack V"
+    },
+    "divinerpg:santa_boots": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:santa_chestplate": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:santa_helmet": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:santa_leggings": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:scorching_sword": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:seng_fur_boots": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:seng_fur_chestplate": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:seng_fur_helmet": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:seng_fur_leggings": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:shadow_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:shadow_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:shadow_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:shadow_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:shadow_saber": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "Arcana trading and weapons V"
+    },
+    "divinerpg:shark_anchor": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:shark_sword": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:skeleman_boots": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:skeleman_chestplate": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:skeleman_helmet": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:skeleman_leggings": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:skythern_blade": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:skythern_blitz": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:skythern_boots": {
+      "stage": 5,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:skythern_bow": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:skythern_chestplate": {
+      "stage": 5,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:skythern_helmet": {
+      "stage": 5,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:skythern_leggings": {
+      "stage": 5,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:skythern_phaser": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:slime_sword": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:snowslash": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "high native attack V"
+    },
+    "divinerpg:soulfire_sword": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:storm_sword": {
+      "stage": 5,
+      "kind": "weapon",
+      "reason": "Arcana trading and weapons V"
+    },
+    "divinerpg:teaker_backsword": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:teaker_bow": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:teaker_cannon": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:teaker_claw": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:teaker_disk": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea ranged weapon VII"
+    },
+    "divinerpg:teaker_hammer": {
+      "stage": 7,
+      "kind": "weapon",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:terran_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:terran_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:terran_dagger": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:terran_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:terran_knife": {
+      "stage": 0,
+      "kind": "weapon",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:terran_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:terran_maul": {
+      "stage": 2,
+      "kind": "weapon",
+      "reason": "above diamond native attack II"
+    },
+    "divinerpg:tormented_boots": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:tormented_chestplate": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:tormented_helmet": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:tormented_hood": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:tormented_leggings": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:tormented_mask": {
+      "stage": 7,
+      "kind": "armor",
+      "reason": "Vethea VII"
+    },
+    "divinerpg:torridite_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:torridite_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:torridite_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:torridite_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:vemos_boots": {
+      "stage": 5,
+      "kind": "armor",
+      "reason": "Arcana V"
+    },
+    "divinerpg:vemos_chestplate": {
+      "stage": 5,
+      "kind": "armor",
+      "reason": "Arcana V"
+    },
+    "divinerpg:vemos_helmet": {
+      "stage": 5,
+      "kind": "armor",
+      "reason": "Arcana V"
+    },
+    "divinerpg:vemos_leggings": {
+      "stage": 5,
+      "kind": "armor",
+      "reason": "Arcana V"
+    },
+    "divinerpg:wildwood_blade": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:wildwood_blitz": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:wildwood_boots": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:wildwood_bow": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:wildwood_chestplate": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:wildwood_helmet": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:wildwood_leggings": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "realm campaign stage"
+    },
+    "divinerpg:wildwood_phaser": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "realm ranged weapon"
+    },
+    "divinerpg:wither_reaper_boots": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:wither_reaper_chestplate": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:wither_reaper_helmet": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:wither_reaper_leggings": {
+      "stage": 0,
+      "kind": "armor",
+      "reason": "native basic equipment"
+    },
+    "divinerpg:yellow_divine_sword": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:yellow_ender_boots": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:yellow_ender_chestplate": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:yellow_ender_helmet": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:yellow_ender_leggings": {
+      "stage": 3,
+      "kind": "armor",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:yellow_ender_sword": {
+      "stage": 3,
+      "kind": "weapon",
+      "reason": "advanced overworld equipment III"
+    },
+    "divinerpg:yellow_rupee_boots": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:yellow_rupee_chestplate": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:yellow_rupee_helmet": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    },
+    "divinerpg:yellow_rupee_leggings": {
+      "stage": 2,
+      "kind": "armor",
+      "reason": "intermediate armour II"
+    }
+  },
+  "attack_modifiers": {
+    "divinerpg:eden_blade": 8,
+    "divinerpg:wildwood_blade": 10,
+    "divinerpg:apalachia_blade": 12,
+    "divinerpg:skythern_blade": 14,
+    "divinerpg:mortum_blade": 16,
+    "divinerpg:halite_blade": 18
+  },
+  "armor_modifiers": {
+    "divinerpg:eden_helmet": {
+      "armor": 3,
+      "toughness": 2
+    },
+    "divinerpg:eden_chestplate": {
+      "armor": 8,
+      "toughness": 2
+    },
+    "divinerpg:eden_leggings": {
+      "armor": 6,
+      "toughness": 2
+    },
+    "divinerpg:eden_boots": {
+      "armor": 3,
+      "toughness": 2
+    },
+    "divinerpg:wildwood_helmet": {
+      "armor": 4,
+      "toughness": 3
+    },
+    "divinerpg:wildwood_chestplate": {
+      "armor": 8,
+      "toughness": 3
+    },
+    "divinerpg:wildwood_leggings": {
+      "armor": 6,
+      "toughness": 3
+    },
+    "divinerpg:wildwood_boots": {
+      "armor": 3,
+      "toughness": 3
+    },
+    "divinerpg:apalachia_helmet": {
+      "armor": 4,
+      "toughness": 3.5
+    },
+    "divinerpg:apalachia_chestplate": {
+      "armor": 8,
+      "toughness": 3.5
+    },
+    "divinerpg:apalachia_leggings": {
+      "armor": 6,
+      "toughness": 3.5
+    },
+    "divinerpg:apalachia_boots": {
+      "armor": 4,
+      "toughness": 3.5
+    },
+    "divinerpg:skythern_helmet": {
+      "armor": 4,
+      "toughness": 4
+    },
+    "divinerpg:skythern_chestplate": {
+      "armor": 9,
+      "toughness": 4
+    },
+    "divinerpg:skythern_leggings": {
+      "armor": 6,
+      "toughness": 4
+    },
+    "divinerpg:skythern_boots": {
+      "armor": 4,
+      "toughness": 4
+    },
+    "divinerpg:mortum_helmet": {
+      "armor": 4,
+      "toughness": 4
+    },
+    "divinerpg:mortum_chestplate": {
+      "armor": 9,
+      "toughness": 4
+    },
+    "divinerpg:mortum_leggings": {
+      "armor": 7,
+      "toughness": 4
+    },
+    "divinerpg:mortum_boots": {
+      "armor": 4,
+      "toughness": 4
+    },
+    "divinerpg:halite_helmet": {
+      "armor": 4,
+      "toughness": 4.5
+    },
+    "divinerpg:halite_chestplate": {
+      "armor": 9,
+      "toughness": 4.5
+    },
+    "divinerpg:halite_leggings": {
+      "armor": 7,
+      "toughness": 4.5
+    },
+    "divinerpg:halite_boots": {
+      "armor": 5,
+      "toughness": 4.5
+    },
+    "divinerpg:awakened_halite_helmet": {
+      "armor": 5,
+      "toughness": 4.5
+    },
+    "divinerpg:awakened_halite_chestplate": {
+      "armor": 9,
+      "toughness": 4.5
+    },
+    "divinerpg:awakened_halite_leggings": {
+      "armor": 7,
+      "toughness": 4.5
+    },
+    "divinerpg:awakened_halite_boots": {
+      "armor": 5,
+      "toughness": 4.5
+    }
+  }
+}

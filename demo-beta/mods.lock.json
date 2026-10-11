@@ -1,6 +1,6 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.26.0-equipment-balance-dev",
+  "version": "0.37.0-late-project-balance-dev",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,
@@ -440,6 +440,24 @@
       "source": "https://modrinth.com/mod/curios",
       "dependencies": [],
       "size": 398066
+    },
+    {
+      "name": "DivineRPG",
+      "slug": "divinerpg",
+      "project_id": "F3kLpGw6",
+      "version_id": "iPO1zRlr",
+      "version": "1.10.7.5",
+      "filename": "DivineRPG-1.10.7.5.jar",
+      "url": "https://cdn.modrinth.com/data/F3kLpGw6/versions/iPO1zRlr/DivineRPG-1.10.7.5.jar",
+      "hashes": {
+        "sha1": "5c67025048dc95b979fd02430ded615b534175e6",
+        "sha512": "a292787ae2c873c223021deb3a0622b05c2136873e22fccf19cecb849bde99b6a97abd2802c4d778ea18902a6c86235364e6d3115ae9f27b9b8d941efa2f9c26",
+        "sha256": "ce73e2a3f97082cae1ae4afbb1b2facea0331a381b8d5d8f8e67ed27bb450030"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/divinerpg",
+      "dependencies": [],
+      "size": 28016649
     },
     {
       "name": "EEEAB's Mobs",
@@ -1293,6 +1311,24 @@
       "size": 1870649
     },
     {
+      "name": "Open Parties and Claims",
+      "slug": "open-parties-and-claims",
+      "project_id": "gF3BGWvG",
+      "version_id": "PkZL3SuC",
+      "version": "forge-1.20.1-0.32.7",
+      "filename": "open-parties-and-claims-forge-1.20.1-0.32.7.jar",
+      "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/PkZL3SuC/open-parties-and-claims-forge-1.20.1-0.32.7.jar",
+      "hashes": {
+        "sha512": "eed600ad9daddccb00e797a7e5c5adaa7e9dc492ff1bd07ada3912998fdf46aaf1e5f309c476c7c7ef18d50179d4bfa6896dff8c28cbc78ebcf06c3efa33f1d0",
+        "sha1": "a42e6c94af7067c33e186029bcce42417d694579",
+        "sha256": "e315edb21094281e1182697e6fbfbb380bbec424eaf1c3daa1c40d831221f2cb"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/open-parties-and-claims",
+      "dependencies": [],
+      "size": 1875093
+    },
+    {
       "name": "Patchouli",
       "slug": "patchouli",
       "project_id": "nU0bVIaL",
@@ -1572,7 +1608,7 @@
         "sha512": "9c566a2b9537c37b438a38a060cc251187e6643e96522466c50c90c7fa747a4e4edc3a5fff0f31fb042e1eeefd047df2a57d1bbe6a3d741837cef8cdb6426a25",
         "sha256": "9b39cd06094d7631c8614d172d0ba8399c71c981530af417f12a7909fcb855bd"
       },
-      "side": "client",
+      "side": "both",
       "source": "https://modrinth.com/mod/xaeros-minimap",
       "dependencies": [
         {
@@ -1597,7 +1633,7 @@
         "sha512": "a8c775ad1645cd3dc922072955fff65f7874bd6a1c99e6a61d370e7a9a5880e450ba61dafa6c719ad8f719fcff3b17ec6124b7f47288009547b4b136d81e5657",
         "sha256": "88c6d844163c95a94d92bc6d87d9011cc840bd6207c3099a81b113d4450a3f6b"
       },
-      "side": "client",
+      "side": "both",
       "source": "https://modrinth.com/mod/xaeros-world-map",
       "dependencies": [
         {

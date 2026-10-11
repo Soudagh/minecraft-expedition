@@ -1,0 +1,409 @@
+{
+  "jarSHA256": "14acbd4fd0de45f2b2b9116094fefb9de5055439e36033c0b2802a7dc8bf4828",
+  "templates": [
+    {
+      "path": "data/hbm_m/structures/avanpost.nbt",
+      "removed": [
+        "hbm_m:crate_weapon"
+      ]
+    },
+    {
+      "path": "data/hbm_m/structures/bunker.nbt",
+      "removed": [
+        "hbm_m:crate_weapon"
+      ]
+    },
+    {
+      "path": "data/hbm_m/structures/depthtest.nbt",
+      "removed": [
+        "hbm_m:crate_weapon"
+      ]
+    },
+    {
+      "path": "data/hbm_m/structures/house.nbt",
+      "removed": [
+        "hbm_m:crate_weapon"
+      ]
+    },
+    {
+      "path": "data/hbm_m/structures/navalmine/navalmine.nbt",
+      "removed": [
+        "hbm_m:naval_mine"
+      ]
+    },
+    {
+      "path": "data/hbm_m/structures/phoenix_bunker_2m.nbt",
+      "removed": [
+        "hbm_m:crate_weapon"
+      ]
+    },
+    {
+      "path": "data/hbm_m/structures/phoenix_concretebarrack.nbt",
+      "removed": [
+        "hbm_m:crate_weapon"
+      ]
+    },
+    {
+      "path": "data/hbm_m/structures/razchexlitiel_hut.nbt",
+      "removed": [
+        "hbm_m:crate_weapon"
+      ]
+    },
+    {
+      "path": "data/hbm_m/structures/ruins1.nbt",
+      "removed": [
+        "hbm_m:crate_weapon",
+        "hbm_m:mine_fat"
+      ]
+    }
+  ],
+  "loot": [
+    {
+      "path": "data/hbm_m/loot_tables/blocks/airbomb.json",
+      "removed": [
+        "hbm_m:airbomb"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/ammo_press.json",
+      "removed": [
+        "hbm_m:ammo_press"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/balebomb_test.json",
+      "removed": [
+        "hbm_m:balebomb_test"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/barbed_wire.json",
+      "removed": [
+        "hbm_m:barbed_wire"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/barbed_wire_acid.json",
+      "removed": [
+        "hbm_m:barbed_wire_acid"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/barbed_wire_fire.json",
+      "removed": [
+        "hbm_m:barbed_wire_fire"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/barbed_wire_poison.json",
+      "removed": [
+        "hbm_m:barbed_wire_poison"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/barbed_wire_rad.json",
+      "removed": [
+        "hbm_m:barbed_wire_rad"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/barbed_wire_ultradeath.json",
+      "removed": [
+        "hbm_m:barbed_wire_ultradeath"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/barbed_wire_wither.json",
+      "removed": [
+        "hbm_m:barbed_wire_wither"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/compact_launcher.json",
+      "removed": [
+        "hbm_m:compact_launcher"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/crate_ammo.json",
+      "removed": [
+        "hbm_m:crate_ammo"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/crate_weapon.json",
+      "removed": [
+        "hbm_m:crate_weapon"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/det_nuke.json",
+      "removed": [
+        "hbm_m:det_nuke"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/dud_nuke.json",
+      "removed": [
+        "hbm_m:dud_nuke"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/fissure_bomb.json",
+      "removed": [
+        "hbm_m:fissure_bomb"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/machine_missile_assembly.json",
+      "removed": [
+        "hbm_m:machine_missile_assembly"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/mine_ap.json",
+      "removed": [
+        "hbm_m:mine_ap"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/mine_fat.json",
+      "removed": [
+        "hbm_m:mine_fat"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/mine_he.json",
+      "removed": [
+        "hbm_m:mine_he"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/mine_naval.json",
+      "removed": [
+        "hbm_m:mine_naval"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/mine_shrap.json",
+      "removed": [
+        "hbm_m:mine_shrap"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/naval_mine.json",
+      "removed": [
+        "hbm_m:naval_mine"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/nuke_fat_man.json",
+      "removed": [
+        "hbm_m:nuke_fat_man"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/nuke_fstbmb.json",
+      "removed": [
+        "hbm_m:nuke_fstbmb"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/nuke_n2.json",
+      "removed": [
+        "hbm_m:nuke_n2"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/nuke_prototype.json",
+      "removed": [
+        "hbm_m:nuke_prototype"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/nuke_solinium.json",
+      "removed": [
+        "hbm_m:nuke_solinium"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/smoke_bomb.json",
+      "removed": [
+        "hbm_m:smoke_bomb"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/struct_launcher.json",
+      "removed": [
+        "hbm_m:struct_launcher"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/struct_launcher_core.json",
+      "removed": [
+        "hbm_m:struct_launcher_core"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/struct_launcher_core_large.json",
+      "removed": [
+        "hbm_m:struct_launcher_core_large"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/turret_arty.json",
+      "removed": [
+        "hbm_m:turret_arty"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/turret_chekhov.json",
+      "removed": [
+        "hbm_m:turret_chekhov"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/turret_friendly.json",
+      "removed": [
+        "hbm_m:turret_friendly"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/turret_fritz.json",
+      "removed": [
+        "hbm_m:turret_fritz"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/turret_himars.json",
+      "removed": [
+        "hbm_m:turret_himars"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/turret_howard.json",
+      "removed": [
+        "hbm_m:turret_howard"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/turret_jeremy.json",
+      "removed": [
+        "hbm_m:turret_jeremy"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/turret_maxwell.json",
+      "removed": [
+        "hbm_m:turret_maxwell"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/turret_richard.json",
+      "removed": [
+        "hbm_m:turret_richard"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/turret_sentry.json",
+      "removed": [
+        "hbm_m:turret_sentry"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/blocks/turret_tauon.json",
+      "removed": [
+        "hbm_m:turret_tauon"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/chests/generic.json",
+      "removed": [
+        "hbm_m:gun_kit_1",
+        "hbm_m:ammo_9mm_sp"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/chests/military_cache.json",
+      "removed": [
+        "hbm_m:gun_b92",
+        "hbm_m:gun_kit_1",
+        "hbm_m:gun_kit_2",
+        "hbm_m:ammo_9mm_sp",
+        "hbm_m:ammo_9mm_fmj",
+        "hbm_m:ammo_50_sp",
+        "hbm_m:ammo_556_sp",
+        "hbm_m:ammo_556_fmj",
+        "hbm_m:ammo_shell",
+        "hbm_m:ammo_container",
+        "hbm_m:grenade",
+        "hbm_m:grenadehe",
+        "hbm_m:airstrike_agent",
+        "hbm_m:airstrike_heavy",
+        "hbm_m:missile_generic",
+        "hbm_m:missile_incendiary",
+        "hbm_m:missile_micro"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/chests/radio_station.json",
+      "removed": [
+        "hbm_m:airstrike_agent",
+        "hbm_m:airstrike_heavy"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/chests/supply_drop.json",
+      "removed": [
+        "hbm_m:gun_b92",
+        "hbm_m:gun_kit_1",
+        "hbm_m:gun_kit_2",
+        "hbm_m:ammo_50_fmj",
+        "hbm_m:ammo_556_fmj",
+        "hbm_m:ammo_container",
+        "hbm_m:grenadehe",
+        "hbm_m:airstrike_agent",
+        "hbm_m:airstrike_heavy",
+        "hbm_m:airstrike_nuke",
+        "hbm_m:missile_incendiary",
+        "hbm_m:missile_strong",
+        "hbm_m:missile_buster"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/crates/iron_crate.json",
+      "removed": [
+        "hbm_m:gun_b92",
+        "hbm_m:ammo_9mm_sp",
+        "hbm_m:ammo_shell",
+        "hbm_m:gun_kit_1"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/crates/iron_crate_expensive.json",
+      "removed": [
+        "hbm_m:gun_kit_1",
+        "hbm_m:gun_kit_2",
+        "hbm_m:ammo_50_sp",
+        "hbm_m:airstrike_agent",
+        "hbm_m:missile_micro"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/crates/steel_crate_silo.json",
+      "removed": [
+        "hbm_m:missile_generic",
+        "hbm_m:missile_incendiary",
+        "hbm_m:missile_cluster",
+        "hbm_m:airstrike_heavy"
+      ]
+    },
+    {
+      "path": "data/hbm_m/loot_tables/crates/steel_crate_vault_lockers.json",
+      "removed": [
+        "hbm_m:gun_kit_1",
+        "hbm_m:ammo_container"
+      ]
+    }
+  ]
+}

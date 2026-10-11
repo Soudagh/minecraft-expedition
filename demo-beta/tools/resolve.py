@@ -8,14 +8,14 @@ ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.cache' / 'mods'
 CACHE.mkdir(parents=True, exist_ok=True)
 # Tectonic omits Lithostitched; Hazen omits Iron's Spells and GTBC SpellLib in API dependencies.
-ROOTS = ['jade', 'hbms-nuclear-tech-modernized', 'refined-storage', 'hazen-n-stuff', 'irons-spells-n-spellbooks', 'irons-lib'] + ['terralith', 'tectonic', 'lithostitched', 'farmers-delight', 'brewin-and-chewin'] + ['create-connected', 'copycats', 'createaddition', 'create-enchantment-industry', 'create-dragons-plus', 'create-diesel-generators', 'ldlib'] + ['explorify', 'create', 'gregtechceu-modern', 'epic-fight', 'epic-fight-sword-soaring', 'combat-roll',
+ROOTS = ['divinerpg', 'open-parties-and-claims', 'jade', 'hbms-nuclear-tech-modernized', 'refined-storage', 'hazen-n-stuff', 'irons-spells-n-spellbooks', 'irons-lib'] + ['terralith', 'tectonic', 'lithostitched', 'farmers-delight', 'brewin-and-chewin'] + ['create-connected', 'copycats', 'createaddition', 'create-enchantment-industry', 'create-dragons-plus', 'create-diesel-generators', 'ldlib'] + ['explorify', 'create', 'gregtechceu-modern', 'epic-fight', 'epic-fight-sword-soaring', 'combat-roll',
  'simply-swords', 'hex-casting', 'botania', 'l_enders-cataclysm',
  'yungs-better-dungeons', 'chipped', 'framedblocks', 'kubejs', 'lootjs',
  'jei', 'modernfix', 'ferrite-core', 'embeddium', 'geckolib', 'curios',
  'caelus', 'patchouli', 'architectury-api', 'melody',
  'the-graveyard-forge', 'attributefix', 'huge-structure-blocks',
  'xaeros-minimap', 'xaeros-world-map', 'not-enough-animations']
-CLIENT_ONLY = {'embeddium', 'jei', 'xaeros-minimap', 'xaeros-world-map', 'not-enough-animations'}
+CLIENT_ONLY = {'embeddium', 'jei', 'not-enough-animations'}
 resolved = {}
 query = urllib.parse.urlencode({'game_versions': '["1.20.1"]', 'loaders': '["forge"]'})
 
@@ -23,7 +23,7 @@ def resolve(project_id, version_id=None):
     project = get('project/' + project_id)
     # Hex metadata pins older files, but its mods.toml accepts these versions.
     # Botania requires Patchouli >=83; retain the tested shared dependencies.
-    version_id = {'irons-lib': '6HqXQkgC', 'irons-spells-n-spellbooks': 'hZaEegS9', 'refined-storage': 'ZITLFjjf', 'hazen-n-stuff': '4opC9DbH', 'jade': 'xJQHCmWJ', 'hbms-nuclear-tech-modernized': 'rEJAJjEN', 'terralith': 'WeYhEb5d', 'tectonic': 'KLmvRxwh', 'farmers-delight': 'SiIpcZzM', 'brewin-and-chewin': '9myDFPCD', 'lithostitched': 'srPoHKt8', 'copycats': 'LlMxIysb', 'create-connected': '6gnvaVkN', 'create-diesel-generators': 'DTQVvA5H', 'create-dragons-plus': 'eMalpJtP', 'create-enchantment-industry': 'HM5htsU7', 'createaddition': '9LgyB6Yb', 'ldlib': 'YSOP0G6O', 'epic-fight-invincible-lib': 'dDWp05UU', 'epic-fight': 'KEBfkBat', 'epic-fight-sword-soaring': '9qFBIdEx', 'explorify': 'CuBdAr31', 'patchouli': '94dtOLgZ', 'caelus': 'mRry0DgY',
+    version_id = {'divinerpg':'iPO1zRlr', 'open-parties-and-claims':'PkZL3SuC', 'irons-lib': '6HqXQkgC', 'irons-spells-n-spellbooks': 'hZaEegS9', 'refined-storage': 'ZITLFjjf', 'hazen-n-stuff': '4opC9DbH', 'jade': 'xJQHCmWJ', 'hbms-nuclear-tech-modernized': 'rEJAJjEN', 'terralith': 'WeYhEb5d', 'tectonic': 'KLmvRxwh', 'farmers-delight': 'SiIpcZzM', 'brewin-and-chewin': '9myDFPCD', 'lithostitched': 'srPoHKt8', 'copycats': 'LlMxIysb', 'create-connected': '6gnvaVkN', 'create-diesel-generators': 'DTQVvA5H', 'create-dragons-plus': 'eMalpJtP', 'create-enchantment-industry': 'HM5htsU7', 'createaddition': '9LgyB6Yb', 'ldlib': 'YSOP0G6O', 'epic-fight-invincible-lib': 'dDWp05UU', 'epic-fight': 'KEBfkBat', 'epic-fight-sword-soaring': '9qFBIdEx', 'explorify': 'CuBdAr31', 'patchouli': '94dtOLgZ', 'caelus': 'mRry0DgY',
                   'xaeros-minimap': 'dB6E0CY9', 'xaeros-world-map': 'KtEupJvB',
                   'not-enough-animations': 'kGjMleOz'}.get(project['slug'], version_id)
     pid = project['id']

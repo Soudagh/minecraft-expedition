@@ -2,6 +2,7 @@
 import json
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1] / 'overrides/config/ftbquests/quests'
+(ROOT/'chapters/final_project.snbt').unlink(missing_ok=True)
 from hbm_structure import PHASES
 for generated_phase,_ in PHASES[1:]:
     (ROOT/'chapters'/f'{generated_phase}.snbt').unlink(missing_ok=True)
@@ -97,6 +98,10 @@ from hbm_structure import structure_book
 structure_book(ROOT)
 from hbm_stages import write_stages
 write_stages(ROOT)
+from divine_quests import write_divine
+write_divine(ROOT)
+from final_quests import write_final
+write_final(ROOT)
 from quest_layout import layout_book
 layout_summary=layout_book(ROOT)
 (ROOT.parents[3]/'docs/QUEST-LAYOUT-0.22.json').write_text(json.dumps(layout_summary,ensure_ascii=False,indent=2)+'\n')

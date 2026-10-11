@@ -1,5 +1,5 @@
 {
-  "version": "0.22.0-quest-sync-fix-dev",
+  "version": "0.37.0-late-project-balance-dev",
   "chapters": [
     {
       "id": "3000000000000001",
@@ -21,6 +21,13 @@
       "count": 26,
       "title": "03 · Экспедиции: путь, ресурсы и возвращение",
       "order": 20
+    },
+    {
+      "id": "3C35000000000001",
+      "slug": "divine_rpg",
+      "count": 40,
+      "title": "Divine RPG · измерения и командные экспедиции",
+      "order": 25
     },
     {
       "id": "3000000000000010",
@@ -70,6 +77,13 @@
       "count": 47,
       "title": "10 · Iron’s и Hazen: от свитка к рабочей роли",
       "order": 90
+    },
+    {
+      "id": "3C37000000000001",
+      "slug": "final_project",
+      "count": 3,
+      "title": "Финальный проект · работающий UV-синтез",
+      "order": 99
     },
     {
       "id": "3000000000000021",
@@ -240,8 +254,8 @@
       "order": 990
     }
   ],
-  "questCount": 951,
-  "taskCount": 1000,
+  "questCount": 994,
+  "taskCount": 1044,
   "questIDs": [
     "1100000000000000",
     "1100000000000001",
@@ -460,6 +474,46 @@
     "1601000000000002",
     "1601000000000003",
     "1601000000000004",
+    "1C35000000000001",
+    "1C35000000000002",
+    "1C35000000000003",
+    "1C35000000000004",
+    "1C35000000000005",
+    "1C35000000000006",
+    "1C35000000000007",
+    "1C35000000000008",
+    "1C35000000000009",
+    "1C3500000000000A",
+    "1C3500000000000B",
+    "1C3500000000000C",
+    "1C35000000000014",
+    "1C35000000000015",
+    "1C35000000000016",
+    "1C35000000000017",
+    "1C35000000000018",
+    "1C35000000000019",
+    "1C3500000000001A",
+    "1C3500000000001B",
+    "1C3500000000001C",
+    "1C3500000000001D",
+    "1C3500000000001E",
+    "1C3500000000001F",
+    "1C35000000000020",
+    "1C35000000000021",
+    "1C35000000000022",
+    "1C35000000000023",
+    "1C35000000000024",
+    "1C35000000000025",
+    "1C35000000000026",
+    "1C35000000000027",
+    "1C35000000000032",
+    "1C35000000000033",
+    "1C35000000000034",
+    "1C35000000000035",
+    "1C35000000000036",
+    "1C3500000000003C",
+    "1C3500000000003D",
+    "1C3500000000003E",
     "1203000000000001",
     "1203000000000002",
     "1203000000000003",
@@ -486,6 +540,9 @@
     "160300000000000F",
     "1603000000000010",
     "1603000000000011",
+    "1C37000000000001",
+    "1C37000000000002",
+    "1C37000000000003",
     "1315000000000001",
     "1315000000000002",
     "1315000000000003",
@@ -1425,6 +1482,46 @@
     "2701000200000000",
     "2701000300000000",
     "2701000400000000",
+    "2C35000000000001",
+    "2C35000000000002",
+    "2C35000000000003",
+    "2C35000000000004",
+    "2C35000000000005",
+    "2C35000000000006",
+    "2C35000000000007",
+    "2C35000000000008",
+    "2C35000000000009",
+    "2C3500000000000A",
+    "2C3500000000000B",
+    "2C3500000000000C",
+    "2C35000000000014",
+    "2C35000000000015",
+    "2C35000000000016",
+    "2C35000000000017",
+    "2C35000000000018",
+    "2C35000000000019",
+    "2C3500000000001A",
+    "2C3500000000001B",
+    "2C3500000000001C",
+    "2C3500000000001D",
+    "2C3500000000001E",
+    "2C3500000000001F",
+    "2C35000000000020",
+    "2C35000000000021",
+    "2C35000000000022",
+    "2C35000000000023",
+    "2C35000000000024",
+    "2C35000000000025",
+    "2C35000000000026",
+    "2C35000000000027",
+    "2C35000000000032",
+    "2C35000000000033",
+    "2C35000000000034",
+    "2C35000000000035",
+    "2C35000000000036",
+    "2C3500000000003C",
+    "2C3500000000003D",
+    "2C3500000000003E",
     "2203000000000001",
     "2203000000000002",
     "2203000000000003",
@@ -1452,6 +1549,10 @@
     "2703000F00000000",
     "2703001000000000",
     "2703001100000000",
+    "2C37000000000001",
+    "2C37000000000002",
+    "2C37000000000003",
+    "2C37000000000004",
     "2415000100000000",
     "2415000200000000",
     "2415000300000000",
@@ -2319,6 +2420,30 @@
     "createaddition:spool",
     "createdieselgenerators:diesel_engine",
     "createdieselgenerators:distillation_controller",
+    "divinerpg:apalachia_chunk",
+    "divinerpg:apalachia_fragments",
+    "divinerpg:apalachia_gem",
+    "divinerpg:arcana_portal_frame",
+    "divinerpg:arcanium",
+    "divinerpg:arlemite_ingot",
+    "divinerpg:divine_rock",
+    "divinerpg:divine_shards",
+    "divinerpg:eden_chunk",
+    "divinerpg:eden_fragments",
+    "divinerpg:eden_gem",
+    "divinerpg:mortum_chunk",
+    "divinerpg:mortum_fragments",
+    "divinerpg:mortum_gem",
+    "divinerpg:nightmare_bed",
+    "divinerpg:realmite_ingot",
+    "divinerpg:rupee_ingot",
+    "divinerpg:skythern_chunk",
+    "divinerpg:skythern_fragments",
+    "divinerpg:skythern_gem",
+    "divinerpg:twilight_clock",
+    "divinerpg:wildwood_chunk",
+    "divinerpg:wildwood_fragments",
+    "divinerpg:wildwood_gem",
     "farmersdelight:bacon_sandwich",
     "farmersdelight:beef_stew",
     "farmersdelight:cabbage",
@@ -2613,6 +2738,7 @@
     "minecraft:bow",
     "minecraft:bread",
     "minecraft:brewing_stand",
+    "minecraft:campfire",
     "minecraft:carrot",
     "minecraft:chest",
     "minecraft:chorus_fruit",
@@ -5753,6 +5879,579 @@
       ]
     },
     {
+      "id": "1C35000000000001",
+      "x": 0.0,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [],
+      "icon": "",
+      "taskTypes": [
+        "checkmark"
+      ]
+    },
+    {
+      "id": "1C35000000000002",
+      "x": 1.6,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000001"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "checkmark"
+      ]
+    },
+    {
+      "id": "1C35000000000003",
+      "x": 1.6,
+      "y": 1.6,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000001"
+      ],
+      "icon": "divinerpg:realmite_ingot",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000004",
+      "x": 3.2,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000003"
+      ],
+      "icon": "divinerpg:arlemite_ingot",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000005",
+      "x": 3.2,
+      "y": 3.2,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000003"
+      ],
+      "icon": "divinerpg:rupee_ingot",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000006",
+      "x": 4.800000000000001,
+      "y": 1.6,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000004",
+        "1C35000000000005"
+      ],
+      "icon": "create:crushing_wheel",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000007",
+      "x": 3.2,
+      "y": 4.800000000000001,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000003",
+        "1000000000000009"
+      ],
+      "icon": "botania:livingrock",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000008",
+      "x": 4.800000000000001,
+      "y": 4.800000000000001,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000007"
+      ],
+      "icon": "divinerpg:divine_shards",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000009",
+      "x": 6.4,
+      "y": 4.800000000000001,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000008"
+      ],
+      "icon": "divinerpg:divine_rock",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C3500000000000A",
+      "x": 8.0,
+      "y": 3.2,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000009",
+        "1400000000000002"
+      ],
+      "icon": "divinerpg:twilight_clock",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C3500000000000B",
+      "x": 3.2,
+      "y": 1.6,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000002",
+        "1C35000000000003"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
+      ]
+    },
+    {
+      "id": "1C3500000000000C",
+      "x": 4.800000000000001,
+      "y": 3.2,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C3500000000000B"
+      ],
+      "icon": "minecraft:campfire",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000014",
+      "x": 9.600000000000001,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C3500000000000A",
+        "1400000000000002"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "checkmark"
+      ]
+    },
+    {
+      "id": "1C35000000000015",
+      "x": 11.200000000000001,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000014"
+      ],
+      "icon": "divinerpg:eden_fragments",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000016",
+      "x": 12.8,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000015"
+      ],
+      "icon": "divinerpg:eden_gem",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000017",
+      "x": 14.4,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000016"
+      ],
+      "icon": "divinerpg:eden_chunk",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000018",
+      "x": 16.0,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000017",
+        "1400000000000003"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "checkmark"
+      ]
+    },
+    {
+      "id": "1C35000000000019",
+      "x": 17.6,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000018"
+      ],
+      "icon": "divinerpg:wildwood_fragments",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C3500000000001A",
+      "x": 19.200000000000003,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000019"
+      ],
+      "icon": "divinerpg:wildwood_gem",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C3500000000001B",
+      "x": 20.8,
+      "y": 1.6,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C3500000000001A"
+      ],
+      "icon": "divinerpg:wildwood_chunk",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C3500000000001C",
+      "x": 22.400000000000002,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C3500000000001B",
+        "1400000000000004"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "checkmark"
+      ]
+    },
+    {
+      "id": "1C3500000000001D",
+      "x": 24.0,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C3500000000001C"
+      ],
+      "icon": "divinerpg:apalachia_fragments",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C3500000000001E",
+      "x": 25.6,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C3500000000001D"
+      ],
+      "icon": "divinerpg:apalachia_gem",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C3500000000001F",
+      "x": 27.200000000000003,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C3500000000001E"
+      ],
+      "icon": "divinerpg:apalachia_chunk",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000020",
+      "x": 28.8,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C3500000000001F",
+        "1400000000000005"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "checkmark"
+      ]
+    },
+    {
+      "id": "1C35000000000021",
+      "x": 30.400000000000002,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000020"
+      ],
+      "icon": "divinerpg:skythern_fragments",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000022",
+      "x": 32.0,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000021"
+      ],
+      "icon": "divinerpg:skythern_gem",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000023",
+      "x": 33.6,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000022"
+      ],
+      "icon": "divinerpg:skythern_chunk",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000024",
+      "x": 35.2,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000023",
+        "1400000000000006"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "checkmark"
+      ]
+    },
+    {
+      "id": "1C35000000000025",
+      "x": 36.800000000000004,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000024"
+      ],
+      "icon": "divinerpg:mortum_fragments",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000026",
+      "x": 38.400000000000006,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000025"
+      ],
+      "icon": "divinerpg:mortum_gem",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000027",
+      "x": 40.0,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000026"
+      ],
+      "icon": "divinerpg:mortum_chunk",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000032",
+      "x": 28.8,
+      "y": 1.6,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C3500000000001F",
+        "1400000000000005"
+      ],
+      "icon": "divinerpg:arcana_portal_frame",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000033",
+      "x": 30.400000000000002,
+      "y": 3.2,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000032"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "checkmark"
+      ]
+    },
+    {
+      "id": "1C35000000000034",
+      "x": 32.0,
+      "y": 4.800000000000001,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000033"
+      ],
+      "icon": "divinerpg:arcanium",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000035",
+      "x": 41.6,
+      "y": 1.6,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000027",
+        "1400000000000007"
+      ],
+      "icon": "divinerpg:nightmare_bed",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C35000000000036",
+      "x": 43.2,
+      "y": 3.2,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000035"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "checkmark"
+      ]
+    },
+    {
+      "id": "1C3500000000003C",
+      "x": 22.400000000000002,
+      "y": 3.2,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000006",
+        "1C3500000000001B"
+      ],
+      "icon": "refinedstorage:controller",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C3500000000003D",
+      "x": 24.0,
+      "y": 8.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C3500000000000C",
+        "1C3500000000003C"
+      ],
+      "icon": "farmersdelight:cooking_pot",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C3500000000003E",
+      "x": 44.800000000000004,
+      "y": 4.800000000000001,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C35000000000036",
+        "1C35000000000034",
+        "1C3500000000003D"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "checkmark"
+      ]
+    },
+    {
       "id": "1203000000000001",
       "x": 0.0,
       "y": 0.0,
@@ -6113,6 +6812,48 @@
       "icon": "",
       "taskTypes": [
         "checkmark"
+      ]
+    },
+    {
+      "id": "1C37000000000001",
+      "x": 0.0,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1400000000000009"
+      ],
+      "icon": "gtceu:uv_electric_motor",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1C37000000000002",
+      "x": 1.6,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C37000000000001"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "checkmark"
+      ]
+    },
+    {
+      "id": "1C37000000000003",
+      "x": 3.2,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C37000000000002"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
       ]
     },
     {
