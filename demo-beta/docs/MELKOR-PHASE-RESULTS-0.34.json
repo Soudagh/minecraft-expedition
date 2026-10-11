@@ -1,0 +1,141 @@
+{
+  "checks": 32,
+  "scope": "Exact entry keyframe function and three selected return commands on isolated spawned item_display root and native Cow loaded from Melkor NBT. No AnimatedJava root tag, full phase, animation tick, natural terrain, player input, EF collider, hit or DPS. Distances are geometry for chosen test points; six-block sphere is a diagnostic threshold, not actual weapon reach.",
+  "rows": [
+    {
+      "rootOffset": 0,
+      "rootY": 122,
+      "before": {
+        "bodyY": 122,
+        "riding": true,
+        "bounds": {
+          "minX": 16.05000001192093,
+          "minY": 122,
+          "minZ": 0.050000011920928955,
+          "maxX": 16.94999998807907,
+          "maxY": 123.39999997615814,
+          "maxZ": 0.949999988079071
+        }
+      },
+      "during": {
+        "bodyY": 112,
+        "bounds": {
+          "minX": 16.05000001192093,
+          "minY": 112,
+          "minZ": 0.050000011920928955,
+          "maxX": 16.94999998807907,
+          "maxY": 113.39999997615814,
+          "maxZ": 0.949999988079071
+        },
+        "resistance": {
+          "duration": 200,
+          "amplifier": 250
+        },
+        "phase": 2,
+        "riding": false,
+        "pointToAABBDistance": {
+          "rootFloor": 8.73856398082859,
+          "rootEye": 10.336870925201811,
+          "lowerFloor": 1.550000011920929
+        }
+      },
+      "afterReturn": {
+        "riding": true,
+        "phase": 0,
+        "bodyYBeforePassengerTick": 112
+      },
+      "spawnedInQA": true,
+      "fullAnimation": false
+    },
+    {
+      "rootOffset": 3,
+      "rootY": 125,
+      "before": {
+        "bodyY": 125,
+        "riding": true,
+        "bounds": {
+          "minX": 16.05000001192093,
+          "minY": 125,
+          "minZ": 0.050000011920928955,
+          "maxX": 16.94999998807907,
+          "maxY": 126.39999997615814,
+          "maxZ": 0.949999988079071
+        }
+      },
+      "during": {
+        "bodyY": 115,
+        "bounds": {
+          "minX": 16.05000001192093,
+          "minY": 115,
+          "minZ": 0.050000011920928955,
+          "maxX": 16.94999998807907,
+          "maxY": 116.39999997615814,
+          "maxZ": 0.949999988079071
+        },
+        "resistance": {
+          "duration": 200,
+          "amplifier": 250
+        },
+        "phase": 2,
+        "riding": false,
+        "pointToAABBDistance": {
+          "rootFloor": 8.73856398082859,
+          "rootEye": 10.336870925201811,
+          "lowerFloor": 1.550000011920929
+        }
+      },
+      "afterReturn": {
+        "riding": true,
+        "phase": 0,
+        "bodyYBeforePassengerTick": 115
+      },
+      "spawnedInQA": true,
+      "fullAnimation": false
+    },
+    {
+      "rootOffset": 8,
+      "rootY": 130,
+      "before": {
+        "bodyY": 130,
+        "riding": true,
+        "bounds": {
+          "minX": 16.05000001192093,
+          "minY": 130,
+          "minZ": 0.050000011920928955,
+          "maxX": 16.94999998807907,
+          "maxY": 131.39999997615814,
+          "maxZ": 0.949999988079071
+        }
+      },
+      "during": {
+        "bodyY": 120,
+        "bounds": {
+          "minX": 16.05000001192093,
+          "minY": 120,
+          "minZ": 0.050000011920928955,
+          "maxX": 16.94999998807907,
+          "maxY": 121.39999997615814,
+          "maxZ": 0.949999988079071
+        },
+        "resistance": {
+          "duration": 200,
+          "amplifier": 250
+        },
+        "phase": 2,
+        "riding": false,
+        "pointToAABBDistance": {
+          "rootFloor": 8.73856398082859,
+          "rootEye": 10.336870925201811,
+          "lowerFloor": 1.550000011920929
+        }
+      },
+      "afterReturn": {
+        "riding": true,
+        "phase": 0,
+        "bodyYBeforePassengerTick": 120
+      },
+      "spawnedInQA": true,
+      "fullAnimation": false
+    }
+  ]
+}
