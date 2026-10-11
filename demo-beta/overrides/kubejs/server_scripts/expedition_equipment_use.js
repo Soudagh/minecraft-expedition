@@ -8,12 +8,15 @@ function expeditionGearStage(stack, slot) {
   const id=String(stack.id)
   if (slot === 'curio') return id === 'botania:flight_tiara' ? 6 : 0
   if (slot === 'mainhand' || slot === 'offhand') {
-    if (id.startsWith('simplyswords:netherite_')) return 3
+    if (id === 'minecraft:netherite_sword' || id === 'minecraft:netherite_axe') return 3
+    // Runic is the smithing upgrade of Netherite: transport must not unlock use.
+    if (/^simplyswords:(netherite|runic)_(longsword|twinblade|rapier|katana|sai|spear|glaive|warglaive|cutlass|claymore|greataxe|greathammer|chakram|scythe|halberd)$/.test(id)) return 3
     if (stack.hasTag('simplyswords:uniques')) return 7
     if (id === 'irons_spellbooks:diamond_spell_book') return 3
     if (id === 'irons_spellbooks:netherite_spell_book') return 6
     return 0
   }
+  if (/^minecraft:netherite_(helmet|chestplate|leggings|boots)$/.test(id)) return 3
   if (/^botania:terrasteel_(helmet|chestplate|leggings|boots)$/.test(id)) return 3
   if (/^irons_spellbooks:netherite_mage_(helmet|chestplate|leggings|boots)$/.test(id)) return 6
   if (/^gtceu:(advanced_)?nanomuscle_/.test(id)) return 6

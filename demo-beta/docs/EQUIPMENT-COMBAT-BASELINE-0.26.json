@@ -1,0 +1,1700 @@
+{
+  "scope": "Native item attributes and direct Player.attack on QA FakePlayer at full cooldown; no Epic Fight animations, measured DPS, enchants or armour set passives; ordinary matrix suppresses native weapon implicits; separate rapier tests force chance 0/100 on QA-only stacks; rune procs possible in gate tests",
+  "checks": 627,
+  "weapons": [
+    {
+      "id": "simplyswords:iron_longsword",
+      "attack": 6,
+      "attackSpeed": 1.5999999046325684,
+      "stage": 0,
+      "statProduct": 9.59999942779541
+    },
+    {
+      "id": "simplyswords:iron_twinblade",
+      "attack": 6,
+      "attackSpeed": 2,
+      "stage": 0,
+      "statProduct": 12
+    },
+    {
+      "id": "simplyswords:iron_rapier",
+      "attack": 5,
+      "attackSpeed": 2.200000047683716,
+      "stage": 0,
+      "statProduct": 11.000000238418579
+    },
+    {
+      "id": "simplyswords:iron_katana",
+      "attack": 6,
+      "attackSpeed": 2,
+      "stage": 0,
+      "statProduct": 12
+    },
+    {
+      "id": "simplyswords:iron_sai",
+      "attack": 3,
+      "attackSpeed": 2.5,
+      "stage": 0,
+      "statProduct": 7.5
+    },
+    {
+      "id": "simplyswords:iron_spear",
+      "attack": 6,
+      "attackSpeed": 1.2999999523162842,
+      "stage": 0,
+      "statProduct": 7.799999713897705
+    },
+    {
+      "id": "simplyswords:iron_glaive",
+      "attack": 6,
+      "attackSpeed": 1.4000000953674316,
+      "stage": 0,
+      "statProduct": 8.40000057220459
+    },
+    {
+      "id": "simplyswords:iron_warglaive",
+      "attack": 6,
+      "attackSpeed": 1.7999999523162842,
+      "stage": 0,
+      "statProduct": 10.799999713897705
+    },
+    {
+      "id": "simplyswords:iron_cutlass",
+      "attack": 6,
+      "attackSpeed": 2,
+      "stage": 0,
+      "statProduct": 12
+    },
+    {
+      "id": "simplyswords:iron_claymore",
+      "attack": 8,
+      "attackSpeed": 1.2000000476837158,
+      "stage": 0,
+      "statProduct": 9.600000381469727
+    },
+    {
+      "id": "simplyswords:iron_greataxe",
+      "attack": 9,
+      "attackSpeed": 0.9000000953674316,
+      "stage": 0,
+      "statProduct": 8.100000858306885
+    },
+    {
+      "id": "simplyswords:iron_greathammer",
+      "attack": 10,
+      "attackSpeed": 0.7999999523162842,
+      "stage": 0,
+      "statProduct": 7.999999523162842
+    },
+    {
+      "id": "simplyswords:iron_chakram",
+      "attack": 5,
+      "attackSpeed": 1,
+      "stage": 0,
+      "statProduct": 5
+    },
+    {
+      "id": "simplyswords:iron_scythe",
+      "attack": 7,
+      "attackSpeed": 1.2999999523162842,
+      "stage": 0,
+      "statProduct": 9.09999966621399
+    },
+    {
+      "id": "simplyswords:iron_halberd",
+      "attack": 9,
+      "attackSpeed": 1.2000000476837158,
+      "stage": 0,
+      "statProduct": 10.800000429153442
+    },
+    {
+      "id": "simplyswords:gold_longsword",
+      "attack": 4,
+      "attackSpeed": 1.5999999046325684,
+      "stage": 0,
+      "statProduct": 6.399999618530273
+    },
+    {
+      "id": "simplyswords:gold_twinblade",
+      "attack": 4,
+      "attackSpeed": 2,
+      "stage": 0,
+      "statProduct": 8
+    },
+    {
+      "id": "simplyswords:gold_rapier",
+      "attack": 3,
+      "attackSpeed": 2.200000047683716,
+      "stage": 0,
+      "statProduct": 6.6000001430511475
+    },
+    {
+      "id": "simplyswords:gold_katana",
+      "attack": 4,
+      "attackSpeed": 2,
+      "stage": 0,
+      "statProduct": 8
+    },
+    {
+      "id": "simplyswords:gold_sai",
+      "attack": 1,
+      "attackSpeed": 2.5,
+      "stage": 0,
+      "statProduct": 2.5
+    },
+    {
+      "id": "simplyswords:gold_spear",
+      "attack": 4,
+      "attackSpeed": 1.2999999523162842,
+      "stage": 0,
+      "statProduct": 5.199999809265137
+    },
+    {
+      "id": "simplyswords:gold_glaive",
+      "attack": 4,
+      "attackSpeed": 1.4000000953674316,
+      "stage": 0,
+      "statProduct": 5.600000381469727
+    },
+    {
+      "id": "simplyswords:gold_warglaive",
+      "attack": 4,
+      "attackSpeed": 1.7999999523162842,
+      "stage": 0,
+      "statProduct": 7.199999809265137
+    },
+    {
+      "id": "simplyswords:gold_cutlass",
+      "attack": 4,
+      "attackSpeed": 2,
+      "stage": 0,
+      "statProduct": 8
+    },
+    {
+      "id": "simplyswords:gold_claymore",
+      "attack": 6,
+      "attackSpeed": 1.2000000476837158,
+      "stage": 0,
+      "statProduct": 7.200000286102295
+    },
+    {
+      "id": "simplyswords:gold_greataxe",
+      "attack": 7,
+      "attackSpeed": 0.9000000953674316,
+      "stage": 0,
+      "statProduct": 6.3000006675720215
+    },
+    {
+      "id": "simplyswords:gold_greathammer",
+      "attack": 8,
+      "attackSpeed": 0.7999999523162842,
+      "stage": 0,
+      "statProduct": 6.399999618530273
+    },
+    {
+      "id": "simplyswords:gold_chakram",
+      "attack": 3,
+      "attackSpeed": 1,
+      "stage": 0,
+      "statProduct": 3
+    },
+    {
+      "id": "simplyswords:gold_scythe",
+      "attack": 5,
+      "attackSpeed": 1.2999999523162842,
+      "stage": 0,
+      "statProduct": 6.499999761581421
+    },
+    {
+      "id": "simplyswords:gold_halberd",
+      "attack": 7,
+      "attackSpeed": 1.2000000476837158,
+      "stage": 0,
+      "statProduct": 8.40000033378601
+    },
+    {
+      "id": "simplyswords:diamond_longsword",
+      "attack": 7,
+      "attackSpeed": 1.5999999046325684,
+      "stage": 0,
+      "statProduct": 11.199999332427979
+    },
+    {
+      "id": "simplyswords:diamond_twinblade",
+      "attack": 7,
+      "attackSpeed": 2,
+      "stage": 0,
+      "statProduct": 14
+    },
+    {
+      "id": "simplyswords:diamond_rapier",
+      "attack": 6,
+      "attackSpeed": 2.200000047683716,
+      "stage": 0,
+      "statProduct": 13.200000286102295
+    },
+    {
+      "id": "simplyswords:diamond_katana",
+      "attack": 7,
+      "attackSpeed": 2,
+      "stage": 0,
+      "statProduct": 14
+    },
+    {
+      "id": "simplyswords:diamond_sai",
+      "attack": 4,
+      "attackSpeed": 2.5,
+      "stage": 0,
+      "statProduct": 10
+    },
+    {
+      "id": "simplyswords:diamond_spear",
+      "attack": 7,
+      "attackSpeed": 1.2999999523162842,
+      "stage": 0,
+      "statProduct": 9.09999966621399
+    },
+    {
+      "id": "simplyswords:diamond_glaive",
+      "attack": 7,
+      "attackSpeed": 1.4000000953674316,
+      "stage": 0,
+      "statProduct": 9.800000667572021
+    },
+    {
+      "id": "simplyswords:diamond_warglaive",
+      "attack": 7,
+      "attackSpeed": 1.7999999523162842,
+      "stage": 0,
+      "statProduct": 12.59999966621399
+    },
+    {
+      "id": "simplyswords:diamond_cutlass",
+      "attack": 7,
+      "attackSpeed": 2,
+      "stage": 0,
+      "statProduct": 14
+    },
+    {
+      "id": "simplyswords:diamond_claymore",
+      "attack": 9,
+      "attackSpeed": 1.2000000476837158,
+      "stage": 0,
+      "statProduct": 10.800000429153442
+    },
+    {
+      "id": "simplyswords:diamond_greataxe",
+      "attack": 10,
+      "attackSpeed": 0.9000000953674316,
+      "stage": 0,
+      "statProduct": 9.000000953674316
+    },
+    {
+      "id": "simplyswords:diamond_greathammer",
+      "attack": 11,
+      "attackSpeed": 0.7999999523162842,
+      "stage": 0,
+      "statProduct": 8.799999475479126
+    },
+    {
+      "id": "simplyswords:diamond_chakram",
+      "attack": 6,
+      "attackSpeed": 1,
+      "stage": 0,
+      "statProduct": 6
+    },
+    {
+      "id": "simplyswords:diamond_scythe",
+      "attack": 8,
+      "attackSpeed": 1.2999999523162842,
+      "stage": 0,
+      "statProduct": 10.399999618530273
+    },
+    {
+      "id": "simplyswords:diamond_halberd",
+      "attack": 10,
+      "attackSpeed": 1.2000000476837158,
+      "stage": 0,
+      "statProduct": 12.000000476837158
+    },
+    {
+      "id": "simplyswords:netherite_longsword",
+      "attack": 8,
+      "attackSpeed": 1.5999999046325684,
+      "stage": 3,
+      "statProduct": 12.799999237060547
+    },
+    {
+      "id": "simplyswords:netherite_twinblade",
+      "attack": 8,
+      "attackSpeed": 2,
+      "stage": 3,
+      "statProduct": 16
+    },
+    {
+      "id": "simplyswords:netherite_rapier",
+      "attack": 7,
+      "attackSpeed": 2.200000047683716,
+      "stage": 3,
+      "statProduct": 15.40000033378601
+    },
+    {
+      "id": "simplyswords:netherite_katana",
+      "attack": 8,
+      "attackSpeed": 2,
+      "stage": 3,
+      "statProduct": 16
+    },
+    {
+      "id": "simplyswords:netherite_sai",
+      "attack": 5,
+      "attackSpeed": 2.5,
+      "stage": 3,
+      "statProduct": 12.5
+    },
+    {
+      "id": "simplyswords:netherite_spear",
+      "attack": 8,
+      "attackSpeed": 1.2999999523162842,
+      "stage": 3,
+      "statProduct": 10.399999618530273
+    },
+    {
+      "id": "simplyswords:netherite_glaive",
+      "attack": 8,
+      "attackSpeed": 1.4000000953674316,
+      "stage": 3,
+      "statProduct": 11.200000762939453
+    },
+    {
+      "id": "simplyswords:netherite_warglaive",
+      "attack": 8,
+      "attackSpeed": 1.7999999523162842,
+      "stage": 3,
+      "statProduct": 14.399999618530273
+    },
+    {
+      "id": "simplyswords:netherite_cutlass",
+      "attack": 8,
+      "attackSpeed": 2,
+      "stage": 3,
+      "statProduct": 16
+    },
+    {
+      "id": "simplyswords:netherite_claymore",
+      "attack": 10,
+      "attackSpeed": 1.2000000476837158,
+      "stage": 3,
+      "statProduct": 12.000000476837158
+    },
+    {
+      "id": "simplyswords:netherite_greataxe",
+      "attack": 11,
+      "attackSpeed": 0.9000000953674316,
+      "stage": 3,
+      "statProduct": 9.900001049041748
+    },
+    {
+      "id": "simplyswords:netherite_greathammer",
+      "attack": 12,
+      "attackSpeed": 0.7999999523162842,
+      "stage": 3,
+      "statProduct": 9.59999942779541
+    },
+    {
+      "id": "simplyswords:netherite_chakram",
+      "attack": 7,
+      "attackSpeed": 1,
+      "stage": 3,
+      "statProduct": 7
+    },
+    {
+      "id": "simplyswords:netherite_scythe",
+      "attack": 9,
+      "attackSpeed": 1.2999999523162842,
+      "stage": 3,
+      "statProduct": 11.699999570846558
+    },
+    {
+      "id": "simplyswords:netherite_halberd",
+      "attack": 11,
+      "attackSpeed": 1.2000000476837158,
+      "stage": 3,
+      "statProduct": 13.200000524520874
+    },
+    {
+      "id": "simplyswords:runic_longsword",
+      "attack": 9,
+      "attackSpeed": 1.5999999046325684,
+      "stage": 0,
+      "statProduct": 14.399999141693115
+    },
+    {
+      "id": "simplyswords:runic_twinblade",
+      "attack": 9,
+      "attackSpeed": 2,
+      "stage": 0,
+      "statProduct": 18
+    },
+    {
+      "id": "simplyswords:runic_rapier",
+      "attack": 8,
+      "attackSpeed": 2.200000047683716,
+      "stage": 0,
+      "statProduct": 17.600000381469727
+    },
+    {
+      "id": "simplyswords:runic_katana",
+      "attack": 9,
+      "attackSpeed": 2,
+      "stage": 0,
+      "statProduct": 18
+    },
+    {
+      "id": "simplyswords:runic_sai",
+      "attack": 6,
+      "attackSpeed": 2.5,
+      "stage": 0,
+      "statProduct": 15
+    },
+    {
+      "id": "simplyswords:runic_spear",
+      "attack": 9,
+      "attackSpeed": 1.2999999523162842,
+      "stage": 0,
+      "statProduct": 11.699999570846558
+    },
+    {
+      "id": "simplyswords:runic_glaive",
+      "attack": 9,
+      "attackSpeed": 1.4000000953674316,
+      "stage": 0,
+      "statProduct": 12.600000858306885
+    },
+    {
+      "id": "simplyswords:runic_warglaive",
+      "attack": 9,
+      "attackSpeed": 1.7999999523162842,
+      "stage": 0,
+      "statProduct": 16.199999570846558
+    },
+    {
+      "id": "simplyswords:runic_cutlass",
+      "attack": 9,
+      "attackSpeed": 2,
+      "stage": 0,
+      "statProduct": 18
+    },
+    {
+      "id": "simplyswords:runic_claymore",
+      "attack": 11,
+      "attackSpeed": 1.2000000476837158,
+      "stage": 0,
+      "statProduct": 13.200000524520874
+    },
+    {
+      "id": "simplyswords:runic_greataxe",
+      "attack": 12,
+      "attackSpeed": 0.9000000953674316,
+      "stage": 0,
+      "statProduct": 10.80000114440918
+    },
+    {
+      "id": "simplyswords:runic_greathammer",
+      "attack": 13,
+      "attackSpeed": 0.7999999523162842,
+      "stage": 0,
+      "statProduct": 10.399999380111694
+    },
+    {
+      "id": "simplyswords:runic_chakram",
+      "attack": 8,
+      "attackSpeed": 1,
+      "stage": 0,
+      "statProduct": 8
+    },
+    {
+      "id": "simplyswords:runic_scythe",
+      "attack": 10,
+      "attackSpeed": 1.2999999523162842,
+      "stage": 0,
+      "statProduct": 12.999999523162842
+    },
+    {
+      "id": "simplyswords:runic_halberd",
+      "attack": 12,
+      "attackSpeed": 1.2000000476837158,
+      "stage": 0,
+      "statProduct": 14.40000057220459
+    }
+  ],
+  "armors": [
+    {
+      "id": "none",
+      "armor": 0,
+      "toughness": 0,
+      "pieces": [
+        {
+          "id": "minecraft:air",
+          "modifiers": []
+        },
+        {
+          "id": "minecraft:air",
+          "modifiers": []
+        },
+        {
+          "id": "minecraft:air",
+          "modifiers": []
+        },
+        {
+          "id": "minecraft:air",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "id": "minecraft:iron",
+      "armor": 15,
+      "toughness": 0,
+      "pieces": [
+        {
+          "id": "minecraft:iron_helmet",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 6,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 1,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 0,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 2,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "minecraft:iron_chestplate",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 18,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 0,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 6,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "minecraft:iron_leggings",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 15,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 2.5,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 0,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 5,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "minecraft:iron_boots",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 6,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 1,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 0,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 2,
+              "operation": "ADDITION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "minecraft:diamond",
+      "armor": 20,
+      "toughness": 8,
+      "pieces": [
+        {
+          "id": "minecraft:diamond_helmet",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 9,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 1.8,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 2,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 3,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "minecraft:diamond_chestplate",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 24,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 4.8,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 2,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 8,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "minecraft:diamond_leggings",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 18,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 3.6,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 2,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 6,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "minecraft:diamond_boots",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 9,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 1.8,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 2,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 3,
+              "operation": "ADDITION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "minecraft:netherite",
+      "armor": 20,
+      "toughness": 12,
+      "pieces": [
+        {
+          "id": "minecraft:netherite_helmet",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.generic.knockback_resistance",
+              "amount": 0.10000000149011612,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 9,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 2.25,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 3,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "minecraft:netherite_chestplate",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.generic.knockback_resistance",
+              "amount": 0.10000000149011612,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 25,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 6,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 8,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "minecraft:netherite_leggings",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.generic.knockback_resistance",
+              "amount": 0.10000000149011612,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 19,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 4.5,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 6,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "minecraft:netherite_boots",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.generic.knockback_resistance",
+              "amount": 0.10000000149011612,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 9,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 2.25,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 3,
+              "operation": "ADDITION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "botania:terrasteel",
+      "armor": 20,
+      "toughness": 12,
+      "pieces": [
+        {
+          "id": "botania:terrasteel_helmet",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.generic.knockback_resistance",
+              "amount": 0.15,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 7.5,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 1.125,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 3,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "botania:terrasteel_chestplate",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.generic.knockback_resistance",
+              "amount": 0.4,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 20,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 8,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "botania:terrasteel_leggings",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.generic.knockback_resistance",
+              "amount": 0.3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 15,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 2.25,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 6,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "botania:terrasteel_boots",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.generic.knockback_resistance",
+              "amount": 0.15,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 7.5,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 1.125,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 3,
+              "operation": "ADDITION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irons_spellbooks:wizard",
+      "armor": 20,
+      "toughness": 0,
+      "pieces": [
+        {
+          "id": "irons_spellbooks:wizard_helmet",
+          "modifiers": [
+            {
+              "attribute": "attribute.irons_spellbooks.spell_power",
+              "amount": 0.05,
+              "operation": "MULTIPLY_BASE"
+            },
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 7.5,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 1.125,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 0,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.irons_spellbooks.max_mana",
+              "amount": 125,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "irons_spellbooks:wizard_chestplate",
+          "modifiers": [
+            {
+              "attribute": "attribute.irons_spellbooks.spell_power",
+              "amount": 0.05,
+              "operation": "MULTIPLY_BASE"
+            },
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 20,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 0,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 8,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.irons_spellbooks.max_mana",
+              "amount": 125,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "irons_spellbooks:wizard_leggings",
+          "modifiers": [
+            {
+              "attribute": "attribute.irons_spellbooks.spell_power",
+              "amount": 0.05,
+              "operation": "MULTIPLY_BASE"
+            },
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 15,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 2.25,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 0,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 6,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.irons_spellbooks.max_mana",
+              "amount": 125,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "irons_spellbooks:wizard_boots",
+          "modifiers": [
+            {
+              "attribute": "attribute.irons_spellbooks.spell_power",
+              "amount": 0.05,
+              "operation": "MULTIPLY_BASE"
+            },
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 7.5,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 1.125,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 0,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 3,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.irons_spellbooks.max_mana",
+              "amount": 125,
+              "operation": "ADDITION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irons_spellbooks:wandering_magician",
+      "armor": 15,
+      "toughness": 0,
+      "pieces": [
+        {
+          "id": "irons_spellbooks:wandering_magician_helmet",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 5,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 0.75,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 0,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 2,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.irons_spellbooks.max_mana",
+              "amount": 25,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "irons_spellbooks:wandering_magician_chestplate",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 12.5,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 1.875,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 0,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 5,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.irons_spellbooks.max_mana",
+              "amount": 25,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "irons_spellbooks:wandering_magician_leggings",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 15,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 2.25,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 0,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 6,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.irons_spellbooks.max_mana",
+              "amount": 25,
+              "operation": "ADDITION"
+            }
+          ]
+        },
+        {
+          "id": "irons_spellbooks:wandering_magician_boots",
+          "modifiers": [
+            {
+              "attribute": "attribute.name.epicfight.weight",
+              "amount": 5,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.epicfight.stun_armor",
+              "amount": 0.75,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor_toughness",
+              "amount": 0,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.name.generic.armor",
+              "amount": 2,
+              "operation": "ADDITION"
+            },
+            {
+              "attribute": "attribute.irons_spellbooks.max_mana",
+              "amount": 25,
+              "operation": "ADDITION"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hits": [
+    {
+      "weapon": "minecraft:iron_sword",
+      "armor": "none",
+      "attack": 6,
+      "healthLost": 6
+    },
+    {
+      "weapon": "minecraft:diamond_sword",
+      "armor": "none",
+      "attack": 7,
+      "healthLost": 7
+    },
+    {
+      "weapon": "minecraft:netherite_sword",
+      "armor": "none",
+      "attack": 8,
+      "healthLost": 8
+    },
+    {
+      "weapon": "simplyswords:iron_longsword",
+      "armor": "none",
+      "attack": 6,
+      "healthLost": 6
+    },
+    {
+      "weapon": "simplyswords:diamond_longsword",
+      "armor": "none",
+      "attack": 7,
+      "healthLost": 7
+    },
+    {
+      "weapon": "simplyswords:netherite_longsword",
+      "armor": "none",
+      "attack": 8,
+      "healthLost": 8
+    },
+    {
+      "weapon": "simplyswords:diamond_greathammer",
+      "armor": "none",
+      "attack": 11,
+      "healthLost": 11
+    },
+    {
+      "weapon": "simplyswords:diamond_rapier",
+      "armor": "none",
+      "attack": 6,
+      "healthLost": 6
+    },
+    {
+      "weapon": "minecraft:iron_sword",
+      "armor": "minecraft:iron",
+      "attack": 6,
+      "healthLost": 3.1199951171875
+    },
+    {
+      "weapon": "minecraft:diamond_sword",
+      "armor": "minecraft:iron",
+      "attack": 7,
+      "healthLost": 3.780029296875
+    },
+    {
+      "weapon": "minecraft:netherite_sword",
+      "armor": "minecraft:iron",
+      "attack": 8,
+      "healthLost": 4.47998046875
+    },
+    {
+      "weapon": "simplyswords:iron_longsword",
+      "armor": "minecraft:iron",
+      "attack": 6,
+      "healthLost": 3.1199951171875
+    },
+    {
+      "weapon": "simplyswords:diamond_longsword",
+      "armor": "minecraft:iron",
+      "attack": 7,
+      "healthLost": 3.780029296875
+    },
+    {
+      "weapon": "simplyswords:netherite_longsword",
+      "armor": "minecraft:iron",
+      "attack": 8,
+      "healthLost": 4.47998046875
+    },
+    {
+      "weapon": "simplyswords:diamond_greathammer",
+      "armor": "minecraft:iron",
+      "attack": 11,
+      "healthLost": 6.82000732421875
+    },
+    {
+      "weapon": "simplyswords:diamond_rapier",
+      "armor": "minecraft:iron",
+      "attack": 6,
+      "healthLost": 3.1199951171875
+    },
+    {
+      "weapon": "minecraft:iron_sword",
+      "armor": "minecraft:diamond",
+      "attack": 6,
+      "healthLost": 1.55999755859375
+    },
+    {
+      "weapon": "minecraft:diamond_sword",
+      "armor": "minecraft:diamond",
+      "attack": 7,
+      "healthLost": 1.8900146484375
+    },
+    {
+      "weapon": "minecraft:netherite_sword",
+      "armor": "minecraft:diamond",
+      "attack": 8,
+      "healthLost": 2.239990234375
+    },
+    {
+      "weapon": "simplyswords:iron_longsword",
+      "armor": "minecraft:diamond",
+      "attack": 6,
+      "healthLost": 1.55999755859375
+    },
+    {
+      "weapon": "simplyswords:diamond_longsword",
+      "armor": "minecraft:diamond",
+      "attack": 7,
+      "healthLost": 1.8900146484375
+    },
+    {
+      "weapon": "simplyswords:netherite_longsword",
+      "armor": "minecraft:diamond",
+      "attack": 8,
+      "healthLost": 2.239990234375
+    },
+    {
+      "weapon": "simplyswords:diamond_greathammer",
+      "armor": "minecraft:diamond",
+      "attack": 11,
+      "healthLost": 3.40997314453125
+    },
+    {
+      "weapon": "simplyswords:diamond_rapier",
+      "armor": "minecraft:diamond",
+      "attack": 6,
+      "healthLost": 1.55999755859375
+    },
+    {
+      "weapon": "minecraft:iron_sword",
+      "armor": "minecraft:netherite",
+      "attack": 6,
+      "healthLost": 1.48797607421875
+    },
+    {
+      "weapon": "minecraft:diamond_sword",
+      "armor": "minecraft:netherite",
+      "attack": 7,
+      "healthLost": 1.7919921875
+    },
+    {
+      "weapon": "minecraft:netherite_sword",
+      "armor": "minecraft:netherite",
+      "attack": 8,
+      "healthLost": 2.11199951171875
+    },
+    {
+      "weapon": "simplyswords:iron_longsword",
+      "armor": "minecraft:netherite",
+      "attack": 6,
+      "healthLost": 1.48797607421875
+    },
+    {
+      "weapon": "simplyswords:diamond_longsword",
+      "armor": "minecraft:netherite",
+      "attack": 7,
+      "healthLost": 1.7919921875
+    },
+    {
+      "weapon": "simplyswords:netherite_longsword",
+      "armor": "minecraft:netherite",
+      "attack": 8,
+      "healthLost": 2.11199951171875
+    },
+    {
+      "weapon": "simplyswords:diamond_greathammer",
+      "armor": "minecraft:netherite",
+      "attack": 11,
+      "healthLost": 3.16802978515625
+    },
+    {
+      "weapon": "simplyswords:diamond_rapier",
+      "armor": "minecraft:netherite",
+      "attack": 6,
+      "healthLost": 1.48797607421875
+    },
+    {
+      "weapon": "minecraft:iron_sword",
+      "armor": "botania:terrasteel",
+      "attack": 6,
+      "healthLost": 1.48797607421875
+    },
+    {
+      "weapon": "minecraft:diamond_sword",
+      "armor": "botania:terrasteel",
+      "attack": 7,
+      "healthLost": 1.7919921875
+    },
+    {
+      "weapon": "minecraft:netherite_sword",
+      "armor": "botania:terrasteel",
+      "attack": 8,
+      "healthLost": 2.11199951171875
+    },
+    {
+      "weapon": "simplyswords:iron_longsword",
+      "armor": "botania:terrasteel",
+      "attack": 6,
+      "healthLost": 1.48797607421875
+    },
+    {
+      "weapon": "simplyswords:diamond_longsword",
+      "armor": "botania:terrasteel",
+      "attack": 7,
+      "healthLost": 1.7919921875
+    },
+    {
+      "weapon": "simplyswords:netherite_longsword",
+      "armor": "botania:terrasteel",
+      "attack": 8,
+      "healthLost": 2.11199951171875
+    },
+    {
+      "weapon": "simplyswords:diamond_greathammer",
+      "armor": "botania:terrasteel",
+      "attack": 11,
+      "healthLost": 3.16802978515625
+    },
+    {
+      "weapon": "simplyswords:diamond_rapier",
+      "armor": "botania:terrasteel",
+      "attack": 6,
+      "healthLost": 1.48797607421875
+    },
+    {
+      "weapon": "minecraft:iron_sword",
+      "armor": "irons_spellbooks:wizard",
+      "attack": 6,
+      "healthLost": 1.91998291015625
+    },
+    {
+      "weapon": "minecraft:diamond_sword",
+      "armor": "irons_spellbooks:wizard",
+      "attack": 7,
+      "healthLost": 2.3800048828125
+    },
+    {
+      "weapon": "minecraft:netherite_sword",
+      "armor": "irons_spellbooks:wizard",
+      "attack": 8,
+      "healthLost": 2.8800048828125
+    },
+    {
+      "weapon": "simplyswords:iron_longsword",
+      "armor": "irons_spellbooks:wizard",
+      "attack": 6,
+      "healthLost": 1.91998291015625
+    },
+    {
+      "weapon": "simplyswords:diamond_longsword",
+      "armor": "irons_spellbooks:wizard",
+      "attack": 7,
+      "healthLost": 2.3800048828125
+    },
+    {
+      "weapon": "simplyswords:netherite_longsword",
+      "armor": "irons_spellbooks:wizard",
+      "attack": 8,
+      "healthLost": 2.8800048828125
+    },
+    {
+      "weapon": "simplyswords:diamond_greathammer",
+      "armor": "irons_spellbooks:wizard",
+      "attack": 11,
+      "healthLost": 4.6199951171875
+    },
+    {
+      "weapon": "simplyswords:diamond_rapier",
+      "armor": "irons_spellbooks:wizard",
+      "attack": 6,
+      "healthLost": 1.91998291015625
+    },
+    {
+      "weapon": "minecraft:iron_sword",
+      "armor": "irons_spellbooks:wandering_magician",
+      "attack": 6,
+      "healthLost": 3.1199951171875
+    },
+    {
+      "weapon": "minecraft:diamond_sword",
+      "armor": "irons_spellbooks:wandering_magician",
+      "attack": 7,
+      "healthLost": 3.780029296875
+    },
+    {
+      "weapon": "minecraft:netherite_sword",
+      "armor": "irons_spellbooks:wandering_magician",
+      "attack": 8,
+      "healthLost": 4.47998046875
+    },
+    {
+      "weapon": "simplyswords:iron_longsword",
+      "armor": "irons_spellbooks:wandering_magician",
+      "attack": 6,
+      "healthLost": 3.1199951171875
+    },
+    {
+      "weapon": "simplyswords:diamond_longsword",
+      "armor": "irons_spellbooks:wandering_magician",
+      "attack": 7,
+      "healthLost": 3.780029296875
+    },
+    {
+      "weapon": "simplyswords:netherite_longsword",
+      "armor": "irons_spellbooks:wandering_magician",
+      "attack": 8,
+      "healthLost": 4.47998046875
+    },
+    {
+      "weapon": "simplyswords:diamond_greathammer",
+      "armor": "irons_spellbooks:wandering_magician",
+      "attack": 11,
+      "healthLost": 6.82000732421875
+    },
+    {
+      "weapon": "simplyswords:diamond_rapier",
+      "armor": "irons_spellbooks:wandering_magician",
+      "attack": 6,
+      "healthLost": 3.1199951171875
+    }
+  ],
+  "procHits": [
+    {
+      "armor": "none",
+      "fixtureChance": 0,
+      "healthLost": 6
+    },
+    {
+      "armor": "none",
+      "fixtureChance": 100,
+      "healthLost": 6
+    },
+    {
+      "armor": "minecraft:iron",
+      "fixtureChance": 0,
+      "healthLost": 3.1199951171875
+    },
+    {
+      "armor": "minecraft:iron",
+      "fixtureChance": 100,
+      "healthLost": 5.82000732421875
+    },
+    {
+      "armor": "minecraft:diamond",
+      "fixtureChance": 0,
+      "healthLost": 1.55999755859375
+    },
+    {
+      "armor": "minecraft:diamond",
+      "fixtureChance": 100,
+      "healthLost": 3.9000244140625
+    },
+    {
+      "armor": "minecraft:netherite",
+      "fixtureChance": 0,
+      "healthLost": 1.48797607421875
+    },
+    {
+      "armor": "minecraft:netherite",
+      "fixtureChance": 100,
+      "healthLost": 3.719970703125
+    }
+  ],
+  "gateHits": [
+    {
+      "weapon": "simplyswords:netherite_longsword",
+      "stage": 2,
+      "healthLost": 0
+    },
+    {
+      "weapon": "simplyswords:netherite_longsword",
+      "stage": 3,
+      "healthLost": 8
+    },
+    {
+      "weapon": "simplyswords:runic_longsword",
+      "stage": 2,
+      "healthLost": 9
+    },
+    {
+      "weapon": "simplyswords:runic_longsword",
+      "stage": 3,
+      "healthLost": 9
+    }
+  ]
+}

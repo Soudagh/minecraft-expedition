@@ -1,0 +1,41 @@
+{
+  "type": "hbm_m:assembler",
+  "duration": 40,
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "hbm_m:centrifuge_element"
+    },
+    {
+      "count": 4,
+      "items": [
+        {
+          "item": "hbm_m:polymer_ingot"
+        },
+        {
+          "item": "hbm_m:bakelite_ingot"
+        }
+      ]
+    },
+    {
+      "count": 8,
+      "item": "hbm_m:plate_steel"
+    },
+    {
+      "count": 4,
+      "item": "hbm_m:plate_copper"
+    },
+    {
+      "count": 1,
+      "item": "hbm_m:analog_circuit"
+    },
+    {
+      "count": 1,
+      "item": "gtceu:mv_machine_hull"
+    }
+  ],
+  "output": {
+    "item": "hbm_m:centrifuge"
+  },
+  "power": 125
+}

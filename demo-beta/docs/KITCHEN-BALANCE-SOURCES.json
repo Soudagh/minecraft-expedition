@@ -1,0 +1,74 @@
+{
+  "sourceSha256": "d06edc7a145e8808903b7bd06e0639458a817fbc4ee589be239c0af77a6367db",
+  "recipes": {
+    "brewinandchewin:fermenting/saccharine_rum_from_mead": {
+      "type": "brewinandchewin:fermenting",
+      "basefluid": {
+        "count": 1000,
+        "fluid": "brewinandchewin:mead"
+      },
+      "experience": 1.0,
+      "fermentingtime": 4800,
+      "ingredients": [
+        {
+          "item": "minecraft:sweet_berries"
+        },
+        {
+          "item": "minecraft:sugar_cane"
+        },
+        {
+          "item": "kubejs:sweet_fermentation_starter"
+        }
+      ],
+      "recipe_book_tab": "drinks",
+      "result": {
+        "count": 1000,
+        "fluid": "brewinandchewin:saccharine_rum"
+      },
+      "temperature": 4
+    },
+    "brewinandchewin:fermenting/red_rum_from_bloody_mary": {
+      "type": "brewinandchewin:fermenting",
+      "basefluid": {
+        "count": 1000,
+        "fluid": "brewinandchewin:bloody_mary"
+      },
+      "experience": 1.0,
+      "fermentingtime": 4800,
+      "ingredients": [
+        {
+          "item": "minecraft:crimson_fungus"
+        },
+        {
+          "item": "minecraft:nether_wart"
+        },
+        {
+          "item": "minecraft:fermented_spider_eye"
+        },
+        {
+          "item": "kubejs:combat_fermentation_starter"
+        }
+      ],
+      "recipe_book_tab": "drinks",
+      "result": {
+        "count": 1000,
+        "fluid": "brewinandchewin:red_rum"
+      },
+      "temperature": 5
+    }
+  },
+  "starters": {
+    "kubejs:sweet_fermentation_starter": {
+      "ingredient": "minecraft:melon",
+      "material": "kubejs:material_champion",
+      "stage": 2,
+      "drink": "brewinandchewin:saccharine_rum"
+    },
+    "kubejs:combat_fermentation_starter": {
+      "ingredient": "minecraft:shroomlight",
+      "material": "kubejs:material_lothric",
+      "stage": 3,
+      "drink": "brewinandchewin:red_rum"
+    }
+  }
+}

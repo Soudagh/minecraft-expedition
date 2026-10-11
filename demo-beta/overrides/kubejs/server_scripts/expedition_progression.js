@@ -39,6 +39,16 @@ function expeditionRequiredStage(id) {
   if (match && !id.endsWith('_machine_casing')) return tiers[match[1]]
   const machines = {'gtceu:electric_blast_furnace':5,'gtceu:vacuum_freezer':6,'gtceu:cleanroom':6,'gtceu:assembly_line':7,
     'createaddition:electric_motor':5,'createaddition:modular_accumulator':5,'hbm_m:anvil_iron':5,'hbm_m:anvil_lead':5,'hbm_m:press':5,'refinedstorage:controller':5}
+  const hbm = {
+    anvil_iron:5, anvil_lead:5, press:5, machine_assembler:5, advanced_assembly_machine:5,
+    blast_furnace:5, crucible:5, shredder:5, compressor:5, centrifuge:5,
+    chemical_plant:5, refinery:5, converter_block:5, machine_battery:5,
+    machine_battery_socket:5, steam_turbine:5, steam_condenser:5,
+    industrial_boiler:5, solar_boiler:5, gas_centrifuge:6, turbine:6,
+    industrial_turbine:6, zirnox:6, rbmk_blank:6, rbmk_loader:6,
+    rbmk_control:6, rbmk_boiler:6
+  }
+  if (id.startsWith('hbm_m:')) return hbm[id.substring(6)] || 0
   return machines[id] || 0
 }
 

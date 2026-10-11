@@ -1,12 +1,26 @@
 # Экспедиция · полная сборка
 
-**0.22.0-quest-sync-fix-dev** — промежуточная рабочая версия баланса и квестов всей сборки. Формат демо отменён. Minecraft **1.20.1**, Forge **47.4.10**, **Java 17**. Состав 0.9 сохранён: 71 клиентский / 64 серверных внешних JAR с фиксированными хешами; необязательный профиль shaders добавляет Oculus и Complementary.
+**0.26.0-equipment-balance-dev** — промежуточная рабочая версия баланса и квестов всей сборки. Формат демо отменён. Minecraft **1.20.1**, Forge **47.4.10**, **Java 17**. Состав 0.9 сохранён: 71 клиентский / 64 серверных внешних JAR с фиксированными хешами; необязательный профиль shaders добавляет Oculus и Complementary.
 
 [Конкретные примеры изменённых рецептов и настроек баланса](docs/BALANCE-EXAMPLES.md).
 
+[Аудит зачарований, рун и темпа Epic Fight](docs/ENCHANT-RUNE-CADENCE-BALANCE.md): 1186 нативных проверок на локальной 0.26, включая влияние брони и Onslaught на скорость анимаций. Диагностические отчёты 0.27 не меняют версию сборки и игровые коэффициенты; клиентский DPS ещё не измерен.
+
 [Навыки Sword Soaring и Epic Fight](docs/SWORD-SKILLS-BALANCE.md) · [Урон и сочетания оружия с магией](docs/OFFENSIVE-BALANCE.md) · [Лечение, щиты и контроль](docs/COMBAT-SUSTAIN.md) · [Ограничения школ и экипировки](docs/SCHOOL-EQUIPMENT-GATES.md) · [Магия и боевые роли](docs/MAGIC-EQUIPMENT.md) · [Производственные связи](docs/PRODUCTION-SYNERGY.md) · [Общие боссовые открытия](docs/BOSS-PROGRESSION.md) · [Полная схема баланса](docs/FULL-BALANCE.md) · [Квесты всей сборки](docs/QUESTS-FULL.md) · [Изменения 0.21 и проверки](docs/RELEASE-0.21.0-hbm-all-stages-dev.md) · [Установка в Legacy Launcher на Windows](docs/INSTALL-LEGACY-WINDOWS.md).
 
+Версия 0.26 добавляет III этап для рунического оружия и ванильной незеритовой боевой экипировки: [замеры оружия и защиты](docs/EQUIPMENT-COMBAT-BALANCE.md), [обновление 0.22–0.25](docs/UPDATE-0.26.md). Урон и защитные коэффициенты сохранены.
+
+Версия 0.25 добавляет подсказки напитков и проверку сочетаний еды с лечением: [результаты и ограничения](docs/FOOD-SUSTAIN.md), [обновление 0.22–0.24](docs/UPDATE-0.25.md). Численные коэффициенты лечения сохранены.
+
+Версия 0.24 добавляет настои для Saccharine Rum/Red Rum и общие этапы II/III для употребления этих напитков: [кухня и проверка энергетики](docs/KITCHEN-BALANCE.md), [обновление 0.22/0.23](docs/UPDATE-0.24.md).
+
+Промышленный баланс 0.23 входит в 0.26: [изменения промышленного баланса](docs/INDUSTRY-BALANCE.md), [патч для 0.22](docs/UPDATE-0.23.md). Последний опубликованный релиз — 0.26; включает аудиты рун и самоцветов 0.27–0.30.
+
 ## Что изменилось
+
+- Локальная 0.24: повар использует воспроизводимые материалы кампании для двух сильных напитков. Время, объём и остальные расходы бочки сохранены; найденные кружки проверяются при начале употребления. Энергетические коэффициенты сохранены после проверки.
+
+- Локальная 0.23: 11 машин HBM требуют корпуса GT с сохранением всех исходных затрат. Рабочий HE/FE-преобразователь собирается через Create; основные машины HBM проверяют общий этап при размещении и открытии.
 
 - Версия 0.21: HBM содержит 12 глав / 238 карточек, добавлены 78 упражнений / 91 карточка. Маршрут охватывает переработку, литейную, нефть, химию, пар, топливный цикл, стенды ZIRNOX/RBMK и поздние исследования. Предметы и практика сохраняют отдельные постоянные значки. [Подробнее о HBM](docs/HBM-QUESTS.md).
 
@@ -37,10 +51,10 @@
 
 ## Установка
 
-Для новой установки скачайте [bootstrap 0.22](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.22.0-quest-sync-fix-dev/expedition-0.22.0-quest-sync-fix-dev-bootstrap.zip) из [релиза GitHub](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.22.0-quest-sync-fix-dev). Для уже установленной 0.21 используйте [небольшой патч](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.22.0-quest-sync-fix-dev/expedition-0.22.0-quest-sync-fix-dev-quests-patch.zip) по [инструкции обновления](docs/UPDATE-0.22.md). Папка `demo-beta` в исходниках и `expedition-demo` в старом формате архива сохранены как технические имена. В Windows нужны Python 3.10+ и Java 17. Из папки сборки:
+Для новой установки скачайте [bootstrap 0.26](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.26.0-equipment-balance-dev/expedition-0.26.0-equipment-balance-dev-bootstrap.zip) из [релиза GitHub](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.26.0-equipment-balance-dev). Для установленной 0.22–0.25 используйте [патч баланса](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.26.0-equipment-balance-dev/expedition-0.26.0-equipment-balance-dev-balance-patch.zip) по [инструкции обновления](docs/UPDATE-0.26.md). Для 0.21 сначала примените исправление книги 0.22. Папка `demo-beta` в исходниках и `expedition-demo` в старом формате архива сохранены как технические имена. В Windows нужны Python 3.10+ и Java 17. Из папки сборки:
 
 ```powershell
-py tools/install.py --side client --destination "D:\Minecraft\Expedition-0.22" --visuals shaders
+py tools/install.py --side client --destination "D:\Minecraft\Expedition-0.26" --visuals shaders
 ```
 
 Для клиента без шейдеров уберите `--visuals shaders`. First-person Model исключается при Epic Fight. В macOS/Linux используйте `python3` вместо `py` и собственный путь. Папка назначения не должна существовать. Установщик загружает JAR с проверкой SHA-256 и создаёт исправления функций Souls like Bosses; одного ручного копирования JAR недостаточно.
@@ -86,3 +100,9 @@ python3 tools/package.py
 `tools/resolve.py` пересчитывает версии и не нужен игрокам. Не запускайте его для обычной установки. Источники каждого мода указаны в `mods.lock.json`; JAR, кеши и миры не распространяются в bootstrap.
 
 История предыдущих версий остаётся в `docs/RELEASE-*.md`. Старые BALANCE-0.4/PROGRESSION/RPG-ROADMAP описывают прежние планы; актуальный документ — [FULL-BALANCE.md](docs/FULL-BALANCE.md). Технические проверки не заменяют прохождение и оценку боя.
+
+Продолжение боевого баланса: [цикл Onslaught, аудит 0.28](docs/ONSLAUGHT-CYCLE-BALANCE.md) и [план клиентских испытаний](docs/COMBAT-TEST-PLAN.md). Новые инструменты предназначены для изолированного QA; игровая версия остаётся 0.26.
+
+[Аудит 0.29: доступные сочетания рун и сохранение зачарований при перековке](docs/RUNE-SOCKET-BALANCE.md). Игровые настройки в этом проходе сохранены.
+
+[Экономика самоцветов, аудит0.30](docs/GEM-ECONOMY-BALANCE.md); [готовый регистратор клиентских QA-прогонов](qa/COMBAT-RECORDER-README.md) и [QA ZIP](qa/expedition-combat-recorder-qa.zip).

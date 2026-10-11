@@ -1,0 +1,55 @@
+{
+	"scope": "Native keg ingredient/fluid matching, Forge use-start gates with QA FakePlayer and energy APIs; no full line or real player test",
+	"drinks": [
+		{
+			"id": "brewinandchewin:fermenting/saccharine_rum_from_mead",
+			"slots": 3,
+			"amount": 1000,
+			"time": 4800,
+			"temperature": 4
+		},
+		{
+			"id": "brewinandchewin:fermenting/red_rum_from_bloody_mary",
+			"slots": 4,
+			"amount": 1000,
+			"time": 4800,
+			"temperature": 5
+		}
+	],
+	"energy": {
+		"create": {
+			"scope": "Native alternator rates vs exact motor consumption formula from locked bytecode (motor method blocked by absent optional API)",
+			"feAtMax": 480,
+			"minimum": 8,
+			"rates": [
+				{
+					"rpm": 16,
+					"consumed": 30,
+					"generated": 22
+				},
+				{
+					"rpm": 64,
+					"consumed": 120,
+					"generated": 90
+				},
+				{
+					"rpm": 256,
+					"consumed": 480,
+					"generated": 360
+				}
+			]
+		},
+		"gt": {
+			"nativeEUToFE": true,
+			"enableFEConverters": false,
+			"euToFeRatio": 4,
+			"feToEuRatio": 4
+		},
+		"hbm": {
+			"received": 1000,
+			"extracted": 1000,
+			"remaining": 0
+		}
+	},
+	"checks": 299
+}

@@ -1,0 +1,87 @@
+{
+  "scope": "Actual native recipe matching/assemble and gem onCraftedBy callback. Inputs supplied by QA, no actual furnace ticks, client smithing input consumption, natural loot or measured factory throughput.500ticks is runtime recipe duration.",
+  "checks": 34,
+  "powerPools": {
+    "RUNEFUSED": [
+      "simplyswords:active_defence",
+      "simplyswords:float",
+      "simplyswords:greater_float",
+      "simplyswords:freeze",
+      "simplyswords:shielding",
+      "simplyswords:greater_shielding",
+      "simplyswords:slow",
+      "simplyswords:greater_slow",
+      "simplyswords:stoneskin",
+      "simplyswords:greater_stoneskin",
+      "simplyswords:swiftness",
+      "simplyswords:greater_swiftness",
+      "simplyswords:trailblaze",
+      "simplyswords:greater_trailblaze",
+      "simplyswords:weaken",
+      "simplyswords:greater_weaken",
+      "simplyswords:zephyr",
+      "simplyswords:greater_zephyr",
+      "simplyswords:frost_ward",
+      "simplyswords:wildfire",
+      "simplyswords:unstable",
+      "simplyswords:imbued",
+      "simplyswords:greater_imbued",
+      "simplyswords:stormlash",
+      "simplyswords:dancing_blades",
+      "simplyswords:faultline",
+      "simplyswords:runic_slash",
+      "simplyswords:evocation",
+      "simplyswords:sniffer_slam",
+      "simplyswords:pincushion",
+      "simplyswords:greater_pincushion",
+      "simplyswords:banehead_swarm"
+    ],
+    "NETHER": [
+      "simplyswords:echo",
+      "simplyswords:berserk",
+      "simplyswords:radiance",
+      "simplyswords:onslaught",
+      "simplyswords:nullification",
+      "simplyswords:verdant_trail",
+      "simplyswords:necromantic_arsenal",
+      "simplyswords:wolf_pack",
+      "simplyswords:goat_stampede",
+      "simplyswords:wing_buffet",
+      "simplyswords:dragon_maw"
+    ]
+  },
+  "recipes": [
+    {
+      "gem": "simplyswords:runefused_gem",
+      "addition": "minecraft:crying_obsidian",
+      "craftOutput": 1,
+      "identifiedPower": "simplyswords:greater_zephyr",
+      "repeatedIdentificationStable": true,
+      "meltOutput": "simplyswords:empowered_remnant",
+      "meltOutputCount": 1,
+      "meltTicks": 500,
+      "oldPowerCleared": true,
+      "recycledRemnantAccepted": true
+    },
+    {
+      "gem": "simplyswords:netherfused_gem",
+      "addition": "minecraft:netherite_ingot",
+      "craftOutput": 1,
+      "identifiedPower": "simplyswords:wing_buffet",
+      "repeatedIdentificationStable": true,
+      "meltOutput": "simplyswords:empowered_remnant",
+      "meltOutputCount": 1,
+      "meltTicks": 500,
+      "oldPowerCleared": true,
+      "recycledRemnantAccepted": true
+    }
+  ],
+  "auditRevision": "0.30",
+  "qaLog": "instances/rune-sockets-0.29-check/startup-030-gem-economy.log",
+  "probeSha256": "d04f3a1b19a8584da9d9d66ecd12e0f0197ead5e70fd29fe020322df7e6ed170",
+  "jar": {
+    "filename": "simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
+    "sha256": "642e385ffda914f1b9411f0a457fe5fb5e05aa160dc44392dec9a549c2bcec21"
+  },
+  "qaServerSavedAndStopped": true
+}

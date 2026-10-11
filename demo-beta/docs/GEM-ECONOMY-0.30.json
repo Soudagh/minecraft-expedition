@@ -1,0 +1,101 @@
+{
+  "gameVersion": "0.26.0-equipment-balance-dev",
+  "auditRevision": "0.30",
+  "scope": "Analytic independent geometric-draw model from uniform nextInt(pool.size), current runtime pools and recipes. Includes success craft; recycle failures retains the starting remnant. Not measured loot, smithing/furnace operation, RNG sample, production throughput or guarantee on any individual player.",
+  "excludes": [
+    "finding unique weapons/remnants/tablets",
+    "initial enchanting",
+    "mining and crafting additions",
+    "fuel",
+    "UI handling",
+    "travel",
+    "parallel furnaces",
+    "server lag"
+  ],
+  "runtimeEvidenceSha256": "c00c76b6db57df7163e71e46ea2e0c69eefaaf3eb7572cd9c5f3efb23e7acff5",
+  "jar": {
+    "filename": "simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
+    "sha256": "642e385ffda914f1b9411f0a457fe5fb5e05aa160dc44392dec9a549c2bcec21"
+  },
+  "poolSizes": {
+    "RUNEFUSED": 32,
+    "NETHER": 11
+  },
+  "runtimeRecipeChecks": 34,
+  "runtimeRecipes": [
+    {
+      "gem": "simplyswords:runefused_gem",
+      "addition": "minecraft:crying_obsidian",
+      "craftOutput": 1,
+      "identifiedPower": "simplyswords:greater_zephyr",
+      "repeatedIdentificationStable": true,
+      "meltOutput": "simplyswords:empowered_remnant",
+      "meltOutputCount": 1,
+      "meltTicks": 500,
+      "oldPowerCleared": true,
+      "recycledRemnantAccepted": true
+    },
+    {
+      "gem": "simplyswords:netherfused_gem",
+      "addition": "minecraft:netherite_ingot",
+      "craftOutput": 1,
+      "identifiedPower": "simplyswords:wing_buffet",
+      "repeatedIdentificationStable": true,
+      "meltOutput": "simplyswords:empowered_remnant",
+      "meltOutputCount": 1,
+      "meltTicks": 500,
+      "oldPowerCleared": true,
+      "recycledRemnantAccepted": true
+    }
+  ],
+  "estimates": [
+    {
+      "selection": "exact-slow",
+      "acceptableRunefusedPowers": 1,
+      "runefusedSuccessProbability": 0.03125,
+      "onslaughtSuccessProbability": 0.09090909090909091,
+      "meanRunefusedCrafts": 32.0,
+      "meanNetherfusedCrafts": 11.0,
+      "meanGemCrafts": 43.0,
+      "totalGemCraftQuantiles": {
+        "0.5": 34,
+        "0.9": 86,
+        "0.95": 108
+      },
+      "meanRunicTabletsForGems": 43.0,
+      "meanCryingObsidian": 32.0,
+      "meanNetheriteIngots": 11.0,
+      "startingEmpoweredRemnantsWithRecycling": 2,
+      "meanFailedGemsToRecycle": 41.0,
+      "nominalSerialRecyclingTicks": 20500.0,
+      "nominalSerialRecyclingSecondsAt20TPS": 1025.0,
+      "meanTabletsIncludingAwakening4": 47.0,
+      "meanTabletsIncludingAwakening8": 51.0,
+      "fourCopiesMeanTabletsIncludingAwakening8": 204.0
+    },
+    {
+      "selection": "slow-or-greater-slow",
+      "acceptableRunefusedPowers": 2,
+      "runefusedSuccessProbability": 0.0625,
+      "onslaughtSuccessProbability": 0.09090909090909091,
+      "meanRunefusedCrafts": 16.0,
+      "meanNetherfusedCrafts": 11.0,
+      "meanGemCrafts": 27.0,
+      "totalGemCraftQuantiles": {
+        "0.5": 23,
+        "0.9": 52,
+        "0.95": 63
+      },
+      "meanRunicTabletsForGems": 27.0,
+      "meanCryingObsidian": 16.0,
+      "meanNetheriteIngots": 11.0,
+      "startingEmpoweredRemnantsWithRecycling": 2,
+      "meanFailedGemsToRecycle": 25.0,
+      "nominalSerialRecyclingTicks": 12500.0,
+      "nominalSerialRecyclingSecondsAt20TPS": 625.0,
+      "meanTabletsIncludingAwakening4": 31.0,
+      "meanTabletsIncludingAwakening8": 35.0,
+      "fourCopiesMeanTabletsIncludingAwakening8": 140.0
+    }
+  ]
+}

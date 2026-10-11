@@ -1,0 +1,38 @@
+{
+  "type": "hbm_m:assembler",
+  "duration": 200,
+  "ingredients": [
+    {
+      "count": 8,
+      "item": "hbm_m:steel_ingot"
+    },
+    {
+      "count": 2,
+      "item": "hbm_m:pipe_copper"
+    },
+    {
+      "count": 16,
+      "item": "hbm_m:insulator"
+    },
+    {
+      "count": 2,
+      "item": "hbm_m:motor"
+    },
+    {
+      "count": 2,
+      "item": "hbm_m:coil_tungsten"
+    },
+    {
+      "count": 1,
+      "item": "hbm_m:analog_circuit"
+    },
+    {
+      "count": 1,
+      "item": "gtceu:mv_machine_hull"
+    }
+  ],
+  "output": {
+    "item": "hbm_m:chemical_plant"
+  },
+  "power": 300
+}

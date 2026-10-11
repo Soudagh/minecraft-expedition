@@ -1,0 +1,428 @@
+{
+  "scope": "Pinned native unique forge slot validation, identified typed gems with native unique inventory initialization, real container commit and input conservation, then real full-cooldown Player.attack. Stage III rejection and stage VII native hits; Slow chance forced100 and restored. QA supplies all inputs; not a natural loot/drop/re-roll cost measurement, client menu sync or Epic Fight dual-wield attack test.",
+  "checks": 211,
+  "powerPools": {
+    "RUNIC": [
+      "simplyswords:active_defence",
+      "simplyswords:float",
+      "simplyswords:greater_float",
+      "simplyswords:freeze",
+      "simplyswords:shielding",
+      "simplyswords:greater_shielding",
+      "simplyswords:slow",
+      "simplyswords:greater_slow",
+      "simplyswords:stoneskin",
+      "simplyswords:greater_stoneskin",
+      "simplyswords:swiftness",
+      "simplyswords:greater_swiftness",
+      "simplyswords:trailblaze",
+      "simplyswords:greater_trailblaze",
+      "simplyswords:weaken",
+      "simplyswords:greater_weaken",
+      "simplyswords:zephyr",
+      "simplyswords:greater_zephyr",
+      "simplyswords:frost_ward",
+      "simplyswords:wildfire",
+      "simplyswords:unstable",
+      "simplyswords:imbued",
+      "simplyswords:greater_imbued",
+      "simplyswords:stormlash",
+      "simplyswords:dancing_blades",
+      "simplyswords:faultline",
+      "simplyswords:runic_slash",
+      "simplyswords:evocation",
+      "simplyswords:sniffer_slam",
+      "simplyswords:pincushion",
+      "simplyswords:greater_pincushion",
+      "simplyswords:momentum",
+      "simplyswords:greater_momentum",
+      "simplyswords:ward",
+      "simplyswords:immolation",
+      "simplyswords:throwing",
+      "simplyswords:banehead_swarm"
+    ],
+    "RUNEFUSED": [
+      "simplyswords:active_defence",
+      "simplyswords:float",
+      "simplyswords:greater_float",
+      "simplyswords:freeze",
+      "simplyswords:shielding",
+      "simplyswords:greater_shielding",
+      "simplyswords:slow",
+      "simplyswords:greater_slow",
+      "simplyswords:stoneskin",
+      "simplyswords:greater_stoneskin",
+      "simplyswords:swiftness",
+      "simplyswords:greater_swiftness",
+      "simplyswords:trailblaze",
+      "simplyswords:greater_trailblaze",
+      "simplyswords:weaken",
+      "simplyswords:greater_weaken",
+      "simplyswords:zephyr",
+      "simplyswords:greater_zephyr",
+      "simplyswords:frost_ward",
+      "simplyswords:wildfire",
+      "simplyswords:unstable",
+      "simplyswords:imbued",
+      "simplyswords:greater_imbued",
+      "simplyswords:stormlash",
+      "simplyswords:dancing_blades",
+      "simplyswords:faultline",
+      "simplyswords:runic_slash",
+      "simplyswords:evocation",
+      "simplyswords:sniffer_slam",
+      "simplyswords:pincushion",
+      "simplyswords:greater_pincushion",
+      "simplyswords:banehead_swarm"
+    ],
+    "NETHER": [
+      "simplyswords:echo",
+      "simplyswords:berserk",
+      "simplyswords:radiance",
+      "simplyswords:onslaught",
+      "simplyswords:nullification",
+      "simplyswords:verdant_trail",
+      "simplyswords:necromantic_arsenal",
+      "simplyswords:wolf_pack",
+      "simplyswords:goat_stampede",
+      "simplyswords:wing_buffet",
+      "simplyswords:dragon_maw"
+    ]
+  },
+  "forge": [
+    {
+      "fixture": "ordinary-runic",
+      "weapon": {
+        "id": "simplyswords:runic_longsword",
+        "level": 8,
+        "hasRunic": true,
+        "hasNether": false,
+        "runic": "simplyswords:slow",
+        "nether": "simplyswords:empty_power"
+      },
+      "weaponSlotAccepts": false
+    },
+    {
+      "fixture": "unique-forge",
+      "tabletsInserted": 0,
+      "weapon": {
+        "id": "simplyswords:brimstone_claymore",
+        "level": 0,
+        "hasRunic": true,
+        "hasNether": true,
+        "runic": "simplyswords:slow",
+        "nether": "simplyswords:onslaught"
+      },
+      "gemsConsumed": 2,
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1
+    },
+    {
+      "fixture": "unique-forge",
+      "tabletsInserted": 1,
+      "weapon": {
+        "id": "simplyswords:brimstone_claymore",
+        "level": 1,
+        "hasRunic": true,
+        "hasNether": true,
+        "runic": "simplyswords:slow",
+        "nether": "simplyswords:onslaught"
+      },
+      "gemsConsumed": 2,
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1
+    },
+    {
+      "fixture": "unique-forge",
+      "tabletsInserted": 4,
+      "weapon": {
+        "id": "simplyswords:brimstone_claymore",
+        "level": 4,
+        "hasRunic": true,
+        "hasNether": true,
+        "runic": "simplyswords:slow",
+        "nether": "simplyswords:onslaught"
+      },
+      "gemsConsumed": 2,
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1
+    },
+    {
+      "fixture": "unique-forge",
+      "tabletsInserted": 8,
+      "weapon": {
+        "id": "simplyswords:brimstone_claymore",
+        "level": 8,
+        "hasRunic": true,
+        "hasNether": true,
+        "runic": "simplyswords:slow",
+        "nether": "simplyswords:onslaught"
+      },
+      "gemsConsumed": 2,
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1
+    }
+  ],
+  "hits": [
+    {
+      "fixture": "unique-dual-power-stage-III-rejected",
+      "stage": 3,
+      "healthLost": 0,
+      "slow": null,
+      "onslaught": null
+    },
+    {
+      "fixture": "real-native-attack-dual-unique",
+      "weapon": {
+        "id": "simplyswords:brimstone_claymore",
+        "level": 0,
+        "hasRunic": true,
+        "hasNether": true,
+        "runic": "simplyswords:slow",
+        "nether": "simplyswords:onslaught"
+      },
+      "stage": 7,
+      "gemActive": false,
+      "slow": null,
+      "onslaught": null,
+      "healthLost": 9
+    },
+    {
+      "fixture": "real-native-attack-dual-unique",
+      "weapon": {
+        "id": "simplyswords:brimstone_claymore",
+        "level": 1,
+        "hasRunic": true,
+        "hasNether": true,
+        "runic": "simplyswords:slow",
+        "nether": "simplyswords:onslaught"
+      },
+      "stage": 7,
+      "gemActive": false,
+      "slow": null,
+      "onslaught": null,
+      "healthLost": 9.75
+    },
+    {
+      "fixture": "real-native-attack-dual-unique",
+      "weapon": {
+        "id": "simplyswords:brimstone_claymore",
+        "level": 4,
+        "hasRunic": true,
+        "hasNether": true,
+        "runic": "simplyswords:slow",
+        "nether": "simplyswords:onslaught"
+      },
+      "stage": 7,
+      "gemActive": true,
+      "slow": {
+        "duration": 25,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 40,
+        "amplifier": 0
+      },
+      "healthLost": 12
+    },
+    {
+      "fixture": "real-native-attack-dual-unique",
+      "weapon": {
+        "id": "simplyswords:brimstone_claymore",
+        "level": 8,
+        "hasRunic": true,
+        "hasNether": true,
+        "runic": "simplyswords:slow",
+        "nether": "simplyswords:onslaught"
+      },
+      "stage": 7,
+      "gemActive": true,
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": {
+        "duration": 80,
+        "amplifier": 0
+      },
+      "healthLost": 15
+    },
+    {
+      "fixture": "native-main-Slow-passive-offhand-Onslaught",
+      "slow": {
+        "duration": 50,
+        "amplifier": 2
+      },
+      "onslaught": null,
+      "healthLost": 9
+    }
+  ],
+  "rerolls": [
+    {
+      "weapon": "simplyswords:runic_longsword",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_twinblade",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_rapier",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_katana",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_sai",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_spear",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_glaive",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_warglaive",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_cutlass",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_claymore",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_greataxe",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_greathammer",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_chakram",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_scythe",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    },
+    {
+      "weapon": "simplyswords:runic_halberd",
+      "sharpness": 5,
+      "unbreaking": 3,
+      "mending": 1,
+      "damage": 7,
+      "oldPowerCleared": true,
+      "fullInputsMatch": true,
+      "missingTabletRejected": true
+    }
+  ],
+  "originalSlowChance": 50,
+  "gameVersion": "0.26.0-equipment-balance-dev",
+  "auditRevision": "0.29",
+  "qaLog": "instances/rune-sockets-0.29-check/startup-029-final.log",
+  "previousSuccessfulNativeDataIdentical": true,
+  "probeSha256": "5568a3ee3d3f799b742e99b554dd213e454a9c24e6ca1492535fa88b8159815f",
+  "jar": {
+    "filename": "simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
+    "sha256": "642e385ffda914f1b9411f0a457fe5fb5e05aa160dc44392dec9a549c2bcec21"
+  },
+  "equipmentGateSha256": "2d7f6c3847b312745f9ee914bcad13d5b94c1b810de1862e98a68693a53ff000",
+  "sourceCopiesVerified": true
+}

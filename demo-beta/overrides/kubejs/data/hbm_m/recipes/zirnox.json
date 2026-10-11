@@ -1,0 +1,42 @@
+{
+  "type": "hbm_m:assembler",
+  "duration": 240,
+  "ingredients": [
+    {
+      "count": 4,
+      "item": "hbm_m:shell_steel"
+    },
+    {
+      "count": 8,
+      "item": "hbm_m:pipe_steel"
+    },
+    {
+      "count": 8,
+      "item": "hbm_m:boron_ingot"
+    },
+    {
+      "count": 16,
+      "item": "hbm_m:graphite_ingot"
+    },
+    {
+      "count": 16,
+      "item": "hbm_m:rubber_ingot"
+    },
+    {
+      "count": 16,
+      "item": "hbm_m:concrete"
+    },
+    {
+      "count": 4,
+      "item": "hbm_m:integrated_circuit"
+    },
+    {
+      "count": 1,
+      "item": "gtceu:ev_machine_hull"
+    }
+  ],
+  "output": {
+    "item": "hbm_m:zirnox"
+  },
+  "power": 400
+}

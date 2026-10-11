@@ -1,0 +1,38 @@
+{
+  "type": "hbm_m:assembler",
+  "duration": 160,
+  "ingredients": [
+    {
+      "count": 3,
+      "item": "hbm_m:plate_welded_steel"
+    },
+    {
+      "count": 8,
+      "item": "hbm_m:plate_copper"
+    },
+    {
+      "count": 4,
+      "item": "hbm_m:shell_steel"
+    },
+    {
+      "count": 12,
+      "item": "hbm_m:pipe_steel"
+    },
+    {
+      "count": 8,
+      "item": "hbm_m:insulator"
+    },
+    {
+      "count": 3,
+      "item": "hbm_m:analog_circuit"
+    },
+    {
+      "count": 1,
+      "item": "gtceu:mv_machine_hull"
+    }
+  ],
+  "output": {
+    "item": "hbm_m:refinery"
+  },
+  "power": 250
+}

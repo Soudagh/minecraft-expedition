@@ -1,0 +1,89 @@
+{
+	"scope": "Native recipes, full/short/missing-hull batch matching and stage mapping; no assembled line or reactor production",
+	"checks": 276,
+	"recipes": [
+		{
+			"id": "hbm_m:battery",
+			"hull": "gtceu:mv_machine_hull",
+			"slots": 4,
+			"duration": 80,
+			"power": 150
+		},
+		{
+			"id": "hbm_m:shredder",
+			"hull": "gtceu:mv_machine_hull",
+			"slots": 4,
+			"duration": 80,
+			"power": 150
+		},
+		{
+			"id": "hbm_m:compressor",
+			"hull": "gtceu:mv_machine_hull",
+			"slots": 6,
+			"duration": 200,
+			"power": 100
+		},
+		{
+			"id": "hbm_m:centrifuge",
+			"hull": "gtceu:mv_machine_hull",
+			"slots": 6,
+			"duration": 40,
+			"power": 125
+		},
+		{
+			"id": "hbm_m:chemical_plant",
+			"hull": "gtceu:mv_machine_hull",
+			"slots": 7,
+			"duration": 200,
+			"power": 300
+		},
+		{
+			"id": "hbm_m:refinery",
+			"hull": "gtceu:mv_machine_hull",
+			"slots": 7,
+			"duration": 160,
+			"power": 250
+		},
+		{
+			"id": "hbm_m:gas_centrifuge",
+			"hull": "gtceu:hv_machine_hull",
+			"slots": 6,
+			"duration": 80,
+			"power": 150
+		},
+		{
+			"id": "hbm_m:turbine",
+			"hull": "gtceu:hv_machine_hull",
+			"slots": 7,
+			"duration": 160,
+			"power": 250
+		},
+		{
+			"id": "hbm_m:industrial_turbine",
+			"hull": "gtceu:hv_machine_hull",
+			"slots": 7,
+			"duration": 240,
+			"power": 400
+		},
+		{
+			"id": "hbm_m:zirnox",
+			"hull": "gtceu:ev_machine_hull",
+			"slots": 8,
+			"duration": 240,
+			"power": 400
+		},
+		{
+			"id": "hbm_m:rbmk",
+			"hull": "gtceu:ev_machine_hull",
+			"slots": 5,
+			"duration": 100,
+			"power": 100
+		}
+	],
+	"converter": {
+		"hbm_m:capacitor": 3,
+		"minecraft:redstone": 3,
+		"hbm_m:steel_ingot": 3,
+		"gtceu:mv_machine_hull": 1
+	}
+}

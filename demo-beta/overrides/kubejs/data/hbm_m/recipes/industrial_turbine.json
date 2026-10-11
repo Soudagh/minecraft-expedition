@@ -1,0 +1,38 @@
+{
+  "type": "hbm_m:assembler",
+  "duration": 240,
+  "ingredients": [
+    {
+      "count": 16,
+      "item": "hbm_m:plate_steel"
+    },
+    {
+      "count": 4,
+      "item": "hbm_m:rubber_ingot"
+    },
+    {
+      "count": 2,
+      "item": "hbm_m:turbine_titanium"
+    },
+    {
+      "count": 4,
+      "item": "hbm_m:wire_dense_gold"
+    },
+    {
+      "count": 4,
+      "item": "hbm_m:pipe_dura_steel"
+    },
+    {
+      "count": 2,
+      "item": "hbm_m:integrated_circuit"
+    },
+    {
+      "count": 1,
+      "item": "gtceu:hv_machine_hull"
+    }
+  ],
+  "output": {
+    "item": "hbm_m:industrial_turbine"
+  },
+  "power": 400
+}

@@ -1,0 +1,118 @@
+{
+	"checks": 38,
+	"scope": "Actual native effect calls and FoodData.tick on isolated QA FakePlayers; prescribed effect order; no real client, damage, eating or full LivingEntity tick simulation",
+	"cases": [
+		{
+			"case": "vanilla",
+			"ticks": 400,
+			"healthGained": 15.5,
+			"saturationBefore": 20,
+			"saturationAfter": 0.0,
+			"foodAfter": 17,
+			"exhaustionAfter": 1.0,
+			"sweetHealing": 0,
+			"sweetSaturationSpent": 0,
+			"comfortHealing": 0
+		},
+		{
+			"case": "sweet",
+			"ticks": 400,
+			"healthGained": 18.5,
+			"saturationBefore": 20,
+			"saturationAfter": 0.0,
+			"foodAfter": 16,
+			"exhaustionAfter": 1.0,
+			"sweetHealing": 7.000000953674316,
+			"sweetSaturationSpent": 7,
+			"comfortHealing": 0
+		},
+		{
+			"case": "sweet_nourishment",
+			"ticks": 400,
+			"healthGained": 19.5,
+			"saturationBefore": 20,
+			"saturationAfter": 0.0,
+			"foodAfter": 19,
+			"exhaustionAfter": 0.0,
+			"sweetHealing": 7.000000953674316,
+			"sweetSaturationSpent": 7,
+			"comfortHealing": 0
+		},
+		{
+			"case": "sweet_nourishment_comfort",
+			"ticks": 400,
+			"healthGained": 22.5,
+			"saturationBefore": 20,
+			"saturationAfter": 0.0,
+			"foodAfter": 19,
+			"exhaustionAfter": 0.0,
+			"sweetHealing": 7.000000953674316,
+			"sweetSaturationSpent": 7,
+			"comfortHealing": 3
+		},
+		{
+			"case": "zero_saturation_nourishment",
+			"ticks": 400,
+			"healthGained": 5,
+			"saturationBefore": 0,
+			"saturationAfter": 0.0,
+			"foodAfter": 20,
+			"exhaustionAfter": 6.0,
+			"sweetHealing": 0,
+			"sweetSaturationSpent": 0,
+			"comfortHealing": 0
+		},
+		{
+			"case": "zero_saturation_nourishment_comfort",
+			"ticks": 400,
+			"healthGained": 10,
+			"saturationBefore": 0,
+			"saturationAfter": 0.0,
+			"foodAfter": 20,
+			"exhaustionAfter": 6.0,
+			"sweetHealing": 0,
+			"sweetSaturationSpent": 0,
+			"comfortHealing": 5
+		},
+		{
+			"case": "zero_saturation_comfort",
+			"ticks": 400,
+			"healthGained": 5,
+			"saturationBefore": 0,
+			"saturationAfter": 0.0,
+			"foodAfter": 20,
+			"exhaustionAfter": 0.0,
+			"sweetHealing": 0,
+			"sweetSaturationSpent": 0,
+			"comfortHealing": 5
+		},
+		{
+			"case": "sweet_no_natural_regeneration",
+			"ticks": 400,
+			"healthGained": 20,
+			"saturationBefore": 20,
+			"saturationAfter": 0.0,
+			"foodAfter": 20,
+			"exhaustionAfter": 0.0,
+			"sweetHealing": 20,
+			"sweetSaturationSpent": 20,
+			"comfortHealing": 0
+		}
+	],
+	"spells": [
+		{
+			"id": "irons_spellbooks:heal",
+			"level": 1,
+			"healthGained": 5,
+			"manaCost": 30,
+			"cooldownTicks": 600
+		},
+		{
+			"id": "irons_spellbooks:greater_heal",
+			"level": 1,
+			"healthGained": 999,
+			"manaCost": 150,
+			"cooldownTicks": 1200
+		}
+	]
+}

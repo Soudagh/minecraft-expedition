@@ -1,0 +1,390 @@
+{
+  "sourceSha256": "14acbd4fd0de45f2b2b9116094fefb9de5055439e36033c0b2802a7dc8bf4828",
+  "recipes": {
+    "hbm_m:battery": {
+      "type": "hbm_m:assembler",
+      "duration": 80,
+      "ingredients": [
+        {
+          "count": 12,
+          "item": "hbm_m:plate_steel"
+        },
+        {
+          "count": 12,
+          "item": "hbm_m:sulfur"
+        },
+        {
+          "count": 12,
+          "item": "hbm_m:lead_powder"
+        },
+        {
+          "count": 1,
+          "item": "gtceu:mv_machine_hull"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:machine_battery"
+      },
+      "power": 150
+    },
+    "hbm_m:shredder": {
+      "type": "hbm_m:assembler",
+      "duration": 80,
+      "ingredients": [
+        {
+          "count": 2,
+          "item": "hbm_m:motor"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:plate_steel"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:plate_copper"
+        },
+        {
+          "count": 1,
+          "item": "gtceu:mv_machine_hull"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:shredder"
+      },
+      "power": 150
+    },
+    "hbm_m:compressor": {
+      "type": "hbm_m:assembler",
+      "duration": 200,
+      "ingredients": [
+        {
+          "count": 8,
+          "item": "hbm_m:plate_cast_steel"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:plate_copper"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:shell_steel"
+        },
+        {
+          "count": 3,
+          "item": "hbm_m:motor"
+        },
+        {
+          "count": 1,
+          "item": "hbm_m:analog_circuit"
+        },
+        {
+          "count": 1,
+          "item": "gtceu:mv_machine_hull"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:compressor"
+      },
+      "power": 100
+    },
+    "hbm_m:centrifuge": {
+      "type": "hbm_m:assembler",
+      "duration": 40,
+      "ingredients": [
+        {
+          "count": 1,
+          "item": "hbm_m:centrifuge_element"
+        },
+        {
+          "count": 4,
+          "items": [
+            {
+              "item": "hbm_m:polymer_ingot"
+            },
+            {
+              "item": "hbm_m:bakelite_ingot"
+            }
+          ]
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:plate_steel"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:plate_copper"
+        },
+        {
+          "count": 1,
+          "item": "hbm_m:analog_circuit"
+        },
+        {
+          "count": 1,
+          "item": "gtceu:mv_machine_hull"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:centrifuge"
+      },
+      "power": 125
+    },
+    "hbm_m:chemical_plant": {
+      "type": "hbm_m:assembler",
+      "duration": 200,
+      "ingredients": [
+        {
+          "count": 8,
+          "item": "hbm_m:steel_ingot"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:pipe_copper"
+        },
+        {
+          "count": 16,
+          "item": "hbm_m:insulator"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:motor"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:coil_tungsten"
+        },
+        {
+          "count": 1,
+          "item": "hbm_m:analog_circuit"
+        },
+        {
+          "count": 1,
+          "item": "gtceu:mv_machine_hull"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:chemical_plant"
+      },
+      "power": 300
+    },
+    "hbm_m:refinery": {
+      "type": "hbm_m:assembler",
+      "duration": 160,
+      "ingredients": [
+        {
+          "count": 3,
+          "item": "hbm_m:plate_welded_steel"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:plate_copper"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:shell_steel"
+        },
+        {
+          "count": 12,
+          "item": "hbm_m:pipe_steel"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:insulator"
+        },
+        {
+          "count": 3,
+          "item": "hbm_m:analog_circuit"
+        },
+        {
+          "count": 1,
+          "item": "gtceu:mv_machine_hull"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:refinery"
+      },
+      "power": 250
+    },
+    "hbm_m:gas_centrifuge": {
+      "type": "hbm_m:assembler",
+      "duration": 80,
+      "ingredients": [
+        {
+          "count": 4,
+          "item": "hbm_m:centrifuge_element"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:polymer_ingot"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:desh_ingot"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:plate_steel"
+        },
+        {
+          "count": 1,
+          "item": "hbm_m:advanced_circuit"
+        },
+        {
+          "count": 1,
+          "item": "gtceu:hv_machine_hull"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:gas_centrifuge"
+      },
+      "power": 150
+    },
+    "hbm_m:turbine": {
+      "type": "hbm_m:assembler",
+      "duration": 160,
+      "ingredients": [
+        {
+          "count": 8,
+          "item": "hbm_m:plate_steel"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:biorubber_ingot"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:turbine_titanium"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:wire_dense_gold"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:pipe_copper"
+        },
+        {
+          "count": 1,
+          "item": "hbm_m:integrated_circuit"
+        },
+        {
+          "count": 1,
+          "item": "gtceu:hv_machine_hull"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:turbine"
+      },
+      "power": 250
+    },
+    "hbm_m:industrial_turbine": {
+      "type": "hbm_m:assembler",
+      "duration": 240,
+      "ingredients": [
+        {
+          "count": 16,
+          "item": "hbm_m:plate_steel"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:rubber_ingot"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:turbine_titanium"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:wire_dense_gold"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:pipe_dura_steel"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:integrated_circuit"
+        },
+        {
+          "count": 1,
+          "item": "gtceu:hv_machine_hull"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:industrial_turbine"
+      },
+      "power": 400
+    },
+    "hbm_m:zirnox": {
+      "type": "hbm_m:assembler",
+      "duration": 240,
+      "ingredients": [
+        {
+          "count": 4,
+          "item": "hbm_m:shell_steel"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:pipe_steel"
+        },
+        {
+          "count": 8,
+          "item": "hbm_m:boron_ingot"
+        },
+        {
+          "count": 16,
+          "item": "hbm_m:graphite_ingot"
+        },
+        {
+          "count": 16,
+          "item": "hbm_m:rubber_ingot"
+        },
+        {
+          "count": 16,
+          "item": "hbm_m:concrete"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:integrated_circuit"
+        },
+        {
+          "count": 1,
+          "item": "gtceu:ev_machine_hull"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:zirnox"
+      },
+      "power": 400
+    },
+    "hbm_m:rbmk": {
+      "type": "hbm_m:assembler",
+      "duration": 100,
+      "ingredients": [
+        {
+          "count": 4,
+          "item": "hbm_m:concrete_asbestos"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:plate_cast_steel"
+        },
+        {
+          "count": 4,
+          "item": "hbm_m:plate_copper"
+        },
+        {
+          "count": 2,
+          "item": "hbm_m:rubber_ingot"
+        },
+        {
+          "count": 1,
+          "item": "gtceu:ev_machine_hull"
+        }
+      ],
+      "output": {
+        "item": "hbm_m:rbmk_blank"
+      },
+      "power": 100
+    }
+  }
+}

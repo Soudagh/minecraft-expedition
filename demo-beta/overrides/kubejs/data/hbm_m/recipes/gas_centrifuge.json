@@ -1,0 +1,34 @@
+{
+  "type": "hbm_m:assembler",
+  "duration": 80,
+  "ingredients": [
+    {
+      "count": 4,
+      "item": "hbm_m:centrifuge_element"
+    },
+    {
+      "count": 8,
+      "item": "hbm_m:polymer_ingot"
+    },
+    {
+      "count": 2,
+      "item": "hbm_m:desh_ingot"
+    },
+    {
+      "count": 8,
+      "item": "hbm_m:plate_steel"
+    },
+    {
+      "count": 1,
+      "item": "hbm_m:advanced_circuit"
+    },
+    {
+      "count": 1,
+      "item": "gtceu:hv_machine_hull"
+    }
+  ],
+  "output": {
+    "item": "hbm_m:gas_centrifuge"
+  },
+  "power": 150
+}

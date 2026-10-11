@@ -1,0 +1,881 @@
+{
+  "packVersion": "0.26.0-equipment-balance-dev",
+  "scope": "Static pinned native bytecode and packaged data. Animation timing functions are not measured client cadence or DPS.",
+  "mods": [
+    {
+      "slug": "create-enchantment-industry",
+      "filename": "create-enchantment-industry-2.5.4.jar",
+      "sha256": "4a01792ae569370990431cfdf5c649cb4979095ac41ff3606090830cb3bdd24b",
+      "bytecode": {
+        "plus.dragons.createenchantmentindustry.common.processing.EnchantmentProcessingRules": [
+          "  public static int blazeEnchanterLevelExtension(net.minecraft.world.item.enchantment.Enchantment);\n    Code:\n       0: getstatic     #128                // Field plus/dragons/createenchantmentindustry/common/registry/CEIDataMaps.ENCHANTMENT_PROCESSING_RULES:Lplus/dragons/createenchantmentindustry/common/datamap/CEIDataMapType;\n       3: aload_0\n       4: invokevirtual #96                 // Method plus/dragons/createenchantmentindustry/common/datamap/CEIDataMapType.get:(Ljava/lang/Object;)Ljava/lang/Object;\n       7: checkcast     #16                 // class plus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRule\n      10: astore_1\n      11: aload_1\n      12: ifnull        41\n      15: aload_1\n      16: invokevirtual #132                // Method plus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRule.levelExtension:()Lplus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRule$LevelExtensionRule;\n      19: invokevirtual #136                // Method plus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRule$LevelExtensionRule.blazeEnchanter:()Ljava/util/Optional;\n      22: astore_2\n      23: aload_2\n      24: invokevirtual #141                // Method java/util/Optional.isPresent:()Z\n      27: ifeq          41\n      30: aload_2\n      31: invokevirtual #143                // Method java/util/Optional.get:()Ljava/lang/Object;\n      34: checkcast     #145                // class java/lang/Integer\n      37: invokevirtual #149                // Method java/lang/Integer.intValue:()I\n      40: ireturn\n      41: aload_0\n      42: invokestatic  #153                // Method legacyLevelExtension:(Lnet/minecraft/world/item/enchantment/Enchantment;)Ljava/lang/Integer;\n      45: astore_2\n      46: aload_2\n      47: ifnull        54\n      50: aload_2\n      51: goto          66\n      54: invokestatic  #158                // Method plus/dragons/createenchantmentindustry/config/CEIConfig.enchantments:()Lplus/dragons/createenchantmentindustry/config/CEIEnchantmentsConfig;\n      57: getfield      #164                // Field plus/dragons/createenchantmentindustry/config/CEIEnchantmentsConfig.blazeEnchanterMaxLevelExtension:Lnet/createmod/catnip/config/ConfigBase$ConfigInt;\n      60: invokevirtual #165                // Method net/createmod/catnip/config/ConfigBase$ConfigInt.get:()Ljava/lang/Object;\n      63: checkcast     #145                // class java/lang/Integer\n      66: invokevirtual #149                // Method java/lang/Integer.intValue:()I\n      69: ireturn",
+          "  public static int blazeForgerLevelExtension(net.minecraft.world.item.enchantment.Enchantment);\n    Code:\n       0: getstatic     #128                // Field plus/dragons/createenchantmentindustry/common/registry/CEIDataMaps.ENCHANTMENT_PROCESSING_RULES:Lplus/dragons/createenchantmentindustry/common/datamap/CEIDataMapType;\n       3: aload_0\n       4: invokevirtual #96                 // Method plus/dragons/createenchantmentindustry/common/datamap/CEIDataMapType.get:(Ljava/lang/Object;)Ljava/lang/Object;\n       7: checkcast     #16                 // class plus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRule\n      10: astore_1\n      11: aload_1\n      12: ifnull        41\n      15: aload_1\n      16: invokevirtual #132                // Method plus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRule.levelExtension:()Lplus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRule$LevelExtensionRule;\n      19: invokevirtual #176                // Method plus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRule$LevelExtensionRule.blazeForger:()Ljava/util/Optional;\n      22: astore_2\n      23: aload_2\n      24: invokevirtual #141                // Method java/util/Optional.isPresent:()Z\n      27: ifeq          41\n      30: aload_2\n      31: invokevirtual #143                // Method java/util/Optional.get:()Ljava/lang/Object;\n      34: checkcast     #145                // class java/lang/Integer\n      37: invokevirtual #149                // Method java/lang/Integer.intValue:()I\n      40: ireturn\n      41: aload_0\n      42: invokestatic  #153                // Method legacyLevelExtension:(Lnet/minecraft/world/item/enchantment/Enchantment;)Ljava/lang/Integer;\n      45: astore_2\n      46: aload_2\n      47: ifnull        54\n      50: aload_2\n      51: goto          66\n      54: invokestatic  #158                // Method plus/dragons/createenchantmentindustry/config/CEIConfig.enchantments:()Lplus/dragons/createenchantmentindustry/config/CEIEnchantmentsConfig;\n      57: getfield      #179                // Field plus/dragons/createenchantmentindustry/config/CEIEnchantmentsConfig.blazeForgerMaxLevelExtension:Lnet/createmod/catnip/config/ConfigBase$ConfigInt;\n      60: invokevirtual #165                // Method net/createmod/catnip/config/ConfigBase$ConfigInt.get:()Ljava/lang/Object;\n      63: checkcast     #145                // class java/lang/Integer\n      66: invokevirtual #149                // Method java/lang/Integer.intValue:()I\n      69: ireturn"
+        ],
+        "plus.dragons.createenchantmentindustry.common.processing.forger.BlazeForgerInventory": [
+          "  protected plus.dragons.createenchantmentindustry.common.processing.forger.BlazeForgerInventory$EnchantmentApplicationResult applyEnchantments(net.minecraft.world.item.ItemStack, java.util.Map<net.minecraft.world.item.enchantment.Enchantment, java.lang.Integer>, java.util.Map<net.minecraft.world.item.enchantment.Enchantment, java.lang.Integer>);\n    Code:\n       0: iconst_0\n       1: istore        4\n       3: new           #692                // class java/util/LinkedHashMap\n       6: dup\n       7: aload_2\n       8: invokespecial #695                // Method java/util/LinkedHashMap.\"<init>\":(Ljava/util/Map;)V\n      11: astore        5\n      13: iconst_0\n      14: istore        6\n      16: new           #751                // class java/util/ArrayList\n      19: dup\n      20: invokespecial #752                // Method java/util/ArrayList.\"<init>\":()V\n      23: astore        7\n      25: aload_3\n      26: invokeinterface #581,  1          // InterfaceMethod java/util/Map.entrySet:()Ljava/util/Set;\n      31: invokeinterface #756,  1          // InterfaceMethod java/util/Set.iterator:()Ljava/util/Iterator;\n      36: astore        8\n      38: aload         8\n      40: invokeinterface #763,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z\n      45: ifeq          464\n      48: aload         8\n      50: invokeinterface #766,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;\n      55: checkcast     #30                 // class java/util/Map$Entry\n      58: astore        9\n      60: aload         9\n      62: invokeinterface #591,  1          // InterfaceMethod java/util/Map$Entry.getKey:()Ljava/lang/Object;\n      67: checkcast     #546                // class net/minecraft/world/item/enchantment/Enchantment\n      70: astore        10\n      72: aload         5\n      74: aload         10\n      76: iconst_0\n      77: invokestatic  #601                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;\n      80: invokevirtual #767                // Method java/util/LinkedHashMap.getOrDefault:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;\n      83: checkcast     #597                // class java/lang/Integer\n      86: invokevirtual #718                // Method java/lang/Integer.intValue:()I\n      89: istore        11\n      91: aload         9\n      93: invokeinterface #770,  1          // InterfaceMethod java/util/Map$Entry.getValue:()Ljava/lang/Object;\n      98: checkcast     #597                // class java/lang/Integer\n     101: invokevirtual #718                // Method java/lang/Integer.intValue:()I\n     104: istore        12\n     106: iload         11\n     108: iload         12\n     110: if_icmpne     120\n     113: iload         12\n     115: iconst_1\n     116: iadd\n     117: goto          127\n     120: iload         12\n     122: iload         11\n     124: invokestatic  #773                // Method java/lang/Math.max:(II)I\n     127: istore        13\n     129: aload_1\n     130: aload         10\n     132: invokestatic  #777                // Method plus/dragons/createenchantmentindustry/common/processing/enchanter/CEIEnchantmentHelper.supportsEnchantment:(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/enchantment/Enchantment;)Z\n     135: ifne          173\n     138: aload         7\n     140: aload         10\n     142: iload         12\n     144: getstatic     #781                // Field plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectionReason.CANNOT_APPLY_TO_ITEM:Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectionReason;\n     147: iconst_1\n     148: anewarray     #358                // class java/lang/Object\n     151: dup\n     152: iconst_0\n     153: aload_1\n     154: invokevirtual #785                // Method net/minecraft/world/item/ItemStack.m_41786_:()Lnet/minecraft/network/chat/Component;\n     157: aastore\n     158: invokevirtual #789                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectionReason.message:([Ljava/lang/Object;)Lnet/minecraft/network/chat/Component;\n     161: invokestatic  #792                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectedEnchantment.of:(Lnet/minecraft/world/item/enchantment/Enchantment;ILnet/minecraft/network/chat/Component;)Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectedEnchantment;\n     164: invokeinterface #795,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z\n     169: pop\n     170: goto          38\n     173: aload_0\n     174: aload         10\n     176: aload         5\n     178: invokevirtual #799                // Method incompatibleEnchantments:(Lnet/minecraft/world/item/enchantment/Enchantment;Ljava/util/Map;)Ljava/util/List;\n     181: astore        14\n     183: aload         14\n     185: invokeinterface #800,  1          // InterfaceMethod java/util/List.isEmpty:()Z\n     190: ifne          295\n     193: aload_0\n     194: getfield      #70                 // Field forger:Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity;\n     197: getfield      #532                // Field plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity.special:Z\n     200: ifeq          229\n     203: invokestatic  #727                // Method plus/dragons/createenchantmentindustry/config/CEIConfig.enchantments:()Lplus/dragons/createenchantmentindustry/config/CEIEnchantmentsConfig;\n     206: getfield      #803                // Field plus/dragons/createenchantmentindustry/config/CEIEnchantmentsConfig.ignoreEnchantmentCompatibility:Lnet/createmod/catnip/config/ConfigBase$ConfigBool;\n     209: invokevirtual #734                // Method net/createmod/catnip/config/ConfigBase$ConfigBool.get:()Ljava/lang/Object;\n     212: checkcast     #736                // class java/lang/Boolean\n     215: invokevirtual #739                // Method java/lang/Boolean.booleanValue:()Z\n     218: ifeq          229\n     221: aload_0\n     222: iconst_1\n     223: putfield      #79                 // Field conflicting:Z\n     226: goto          295\n     229: aload         14\n     231: iconst_0\n     232: invokeinterface #804,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;\n     237: checkcast     #546                // class net/minecraft/world/item/enchantment/Enchantment\n     240: astore        15\n     242: aload         7\n     244: aload         10\n     246: iload         12\n     248: getstatic     #807                // Field plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectionReason.INCOMPATIBLE_WITH_OUTPUT:Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectionReason;\n     251: iconst_1\n     252: anewarray     #358                // class java/lang/Object\n     255: dup\n     256: iconst_0\n     257: aload         15\n     259: aload         5\n     261: aload         15\n     263: iconst_0\n     264: invokestatic  #601                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;\n     267: invokevirtual #767                // Method java/util/LinkedHashMap.getOrDefault:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;\n     270: checkcast     #597                // class java/lang/Integer\n     273: invokevirtual #718                // Method java/lang/Integer.intValue:()I\n     276: invokevirtual #811                // Method net/minecraft/world/item/enchantment/Enchantment.m_44700_:(I)Lnet/minecraft/network/chat/Component;\n     279: aastore\n     280: invokevirtual #789                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectionReason.message:([Ljava/lang/Object;)Lnet/minecraft/network/chat/Component;\n     283: invokestatic  #792                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectedEnchantment.of:(Lnet/minecraft/world/item/enchantment/Enchantment;ILnet/minecraft/network/chat/Component;)Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectedEnchantment;\n     286: invokeinterface #795,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z\n     291: pop\n     292: goto          38\n     295: aload         10\n     297: invokestatic  #721                // Method plus/dragons/createenchantmentindustry/common/processing/enchanter/CEIEnchantmentHelper.maxLevel:(Lnet/minecraft/world/item/enchantment/Enchantment;)I\n     300: istore        15\n     302: iload         15\n     304: aload         10\n     306: invokestatic  #742                // Method plus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRules.blazeForgerLevelExtension:(Lnet/minecraft/world/item/enchantment/Enchantment;)I\n     309: iadd\n     310: istore        16\n     312: iload         13\n     314: iload         16\n     316: if_icmple     326\n     319: iload         16\n     321: istore        13\n     323: goto          347\n     326: iload         13\n     328: iload         15\n     330: if_icmple     347\n     333: aload_0\n     334: getfield      #70                 // Field forger:Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity;\n     337: getfield      #532                // Field plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity.special:Z\n     340: ifne          347\n     343: iload         15\n     345: istore        13\n     347: iload         13\n     349: iload         11\n     351: if_icmpgt     382\n     354: aload         7\n     356: aload         10\n     358: iload         12\n     360: getstatic     #813                // Field plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectionReason.WOULD_NOT_IMPROVE:Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectionReason;\n     363: iconst_0\n     364: anewarray     #358                // class java/lang/Object\n     367: invokevirtual #789                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectionReason.message:([Ljava/lang/Object;)Lnet/minecraft/network/chat/Component;\n     370: invokestatic  #792                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectedEnchantment.of:(Lnet/minecraft/world/item/enchantment/Enchantment;ILnet/minecraft/network/chat/Component;)Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectedEnchantment;\n     373: invokeinterface #795,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z\n     378: pop\n     379: goto          38\n     382: iload         13\n     384: iload         15\n     386: if_icmple     394\n     389: aload_0\n     390: iconst_1\n     391: putfield      #81                 // Field overCap:Z\n     394: iconst_1\n     395: istore        6\n     397: iload         4\n     399: invokestatic  #816                // Method plus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRules.conflictExtraLevelCost:()I\n     402: aload         14\n     404: invokeinterface #817,  1          // InterfaceMethod java/util/List.size:()I\n     409: imul\n     410: iadd\n     411: istore        4\n     413: aload         5\n     415: aload         10\n     417: iload         13\n     419: invokestatic  #601                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;\n     422: invokevirtual #820                // Method java/util/LinkedHashMap.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;\n     425: pop\n     426: aload         10\n     428: invokestatic  #615                // Method plus/dragons/createenchantmentindustry/common/processing/enchanter/CEIEnchantmentHelper.anvilCost:(Lnet/minecraft/world/item/enchantment/Enchantment;)I\n     431: istore        17\n     433: iload         4\n     435: aload         10\n     437: aload_0\n     438: getfield      #70                 // Field forger:Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity;\n     441: invokevirtual #349                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity.getMode:()Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerMode;\n     444: aload_0\n     445: getfield      #70                 // Field forger:Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity;\n     448: getfield      #532                // Field plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity.special:Z\n     451: iload         17\n     453: iload         13\n     455: invokestatic  #621                // Method plus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRules.blazeForgerLevelCost:(Lnet/minecraft/world/item/enchantment/Enchantment;Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerMode;ZII)I\n     458: iadd\n     459: istore        4\n     461: goto          38\n     464: iload         6\n     466: ifne          480\n     469: new           #19                 // class plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$EnchantmentApplicationResult\n     472: dup\n     473: iconst_0\n     474: aload         7\n     476: invokespecial #823                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$EnchantmentApplicationResult.\"<init>\":(ZLjava/util/List;)V\n     479: areturn\n     480: aload_1\n     481: aload         5\n     483: invokestatic  #609                // Method setEnchantments:(Lnet/minecraft/world/item/ItemStack;Ljava/util/Map;)V\n     486: aload_0\n     487: dup\n     488: getfield      #135                // Field cost:I\n     491: iload         4\n     493: iadd\n     494: putfield      #135                // Field cost:I\n     497: new           #19                 // class plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$EnchantmentApplicationResult\n     500: dup\n     501: iconst_1\n     502: aload         7\n     504: invokespecial #823                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$EnchantmentApplicationResult.\"<init>\":(ZLjava/util/List;)V\n     507: areturn",
+          "  protected plus.dragons.createenchantmentindustry.common.processing.forger.BlazeForgerInventory$EnchantmentBookApplicationResult applyEnchantmentsToBook(java.util.Map<net.minecraft.world.item.enchantment.Enchantment, java.lang.Integer>);\n    Code:\n       0: iconst_0\n       1: istore_2\n       2: new           #692                // class java/util/LinkedHashMap\n       5: dup\n       6: invokespecial #836                // Method java/util/LinkedHashMap.\"<init>\":()V\n       9: astore_3\n      10: iconst_0\n      11: istore        4\n      13: new           #751                // class java/util/ArrayList\n      16: dup\n      17: invokespecial #752                // Method java/util/ArrayList.\"<init>\":()V\n      20: astore        5\n      22: aload_1\n      23: invokeinterface #581,  1          // InterfaceMethod java/util/Map.entrySet:()Ljava/util/Set;\n      28: invokeinterface #756,  1          // InterfaceMethod java/util/Set.iterator:()Ljava/util/Iterator;\n      33: astore        6\n      35: aload         6\n      37: invokeinterface #763,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z\n      42: ifeq          281\n      45: aload         6\n      47: invokeinterface #766,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;\n      52: checkcast     #30                 // class java/util/Map$Entry\n      55: astore        7\n      57: aload         7\n      59: invokeinterface #591,  1          // InterfaceMethod java/util/Map$Entry.getKey:()Ljava/lang/Object;\n      64: checkcast     #546                // class net/minecraft/world/item/enchantment/Enchantment\n      67: astore        8\n      69: aload_0\n      70: aload         8\n      72: aload_3\n      73: invokevirtual #799                // Method incompatibleEnchantments:(Lnet/minecraft/world/item/enchantment/Enchantment;Ljava/util/Map;)Ljava/util/List;\n      76: astore        9\n      78: aload         9\n      80: invokeinterface #800,  1          // InterfaceMethod java/util/List.isEmpty:()Z\n      85: ifne          214\n      88: aload_0\n      89: getfield      #70                 // Field forger:Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity;\n      92: getfield      #532                // Field plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity.special:Z\n      95: ifeq          138\n      98: invokestatic  #727                // Method plus/dragons/createenchantmentindustry/config/CEIConfig.enchantments:()Lplus/dragons/createenchantmentindustry/config/CEIEnchantmentsConfig;\n     101: getfield      #803                // Field plus/dragons/createenchantmentindustry/config/CEIEnchantmentsConfig.ignoreEnchantmentCompatibility:Lnet/createmod/catnip/config/ConfigBase$ConfigBool;\n     104: invokevirtual #734                // Method net/createmod/catnip/config/ConfigBase$ConfigBool.get:()Ljava/lang/Object;\n     107: checkcast     #736                // class java/lang/Boolean\n     110: invokevirtual #739                // Method java/lang/Boolean.booleanValue:()Z\n     113: ifeq          138\n     116: aload_0\n     117: iconst_1\n     118: putfield      #79                 // Field conflicting:Z\n     121: iload_2\n     122: invokestatic  #816                // Method plus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRules.conflictExtraLevelCost:()I\n     125: aload         9\n     127: invokeinterface #817,  1          // InterfaceMethod java/util/List.size:()I\n     132: imul\n     133: iadd\n     134: istore_2\n     135: goto          214\n     138: aload         9\n     140: iconst_0\n     141: invokeinterface #804,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;\n     146: checkcast     #546                // class net/minecraft/world/item/enchantment/Enchantment\n     149: astore        10\n     151: aload         5\n     153: aload         8\n     155: aload         7\n     157: invokeinterface #770,  1          // InterfaceMethod java/util/Map$Entry.getValue:()Ljava/lang/Object;\n     162: checkcast     #597                // class java/lang/Integer\n     165: invokevirtual #718                // Method java/lang/Integer.intValue:()I\n     168: getstatic     #807                // Field plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectionReason.INCOMPATIBLE_WITH_OUTPUT:Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectionReason;\n     171: iconst_1\n     172: anewarray     #358                // class java/lang/Object\n     175: dup\n     176: iconst_0\n     177: aload         10\n     179: aload_3\n     180: aload         10\n     182: iconst_0\n     183: invokestatic  #601                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;\n     186: invokevirtual #767                // Method java/util/LinkedHashMap.getOrDefault:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;\n     189: checkcast     #597                // class java/lang/Integer\n     192: invokevirtual #718                // Method java/lang/Integer.intValue:()I\n     195: invokevirtual #811                // Method net/minecraft/world/item/enchantment/Enchantment.m_44700_:(I)Lnet/minecraft/network/chat/Component;\n     198: aastore\n     199: invokevirtual #789                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectionReason.message:([Ljava/lang/Object;)Lnet/minecraft/network/chat/Component;\n     202: invokestatic  #792                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectedEnchantment.of:(Lnet/minecraft/world/item/enchantment/Enchantment;ILnet/minecraft/network/chat/Component;)Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$RejectedEnchantment;\n     205: invokeinterface #795,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z\n     210: pop\n     211: goto          35\n     214: iconst_1\n     215: istore        4\n     217: aload_3\n     218: aload         8\n     220: aload         7\n     222: invokeinterface #770,  1          // InterfaceMethod java/util/Map$Entry.getValue:()Ljava/lang/Object;\n     227: checkcast     #597                // class java/lang/Integer\n     230: invokevirtual #820                // Method java/util/LinkedHashMap.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;\n     233: pop\n     234: aload         8\n     236: invokestatic  #615                // Method plus/dragons/createenchantmentindustry/common/processing/enchanter/CEIEnchantmentHelper.anvilCost:(Lnet/minecraft/world/item/enchantment/Enchantment;)I\n     239: istore        10\n     241: iload_2\n     242: aload         8\n     244: aload_0\n     245: getfield      #70                 // Field forger:Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity;\n     248: invokevirtual #349                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity.getMode:()Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerMode;\n     251: aload_0\n     252: getfield      #70                 // Field forger:Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity;\n     255: getfield      #532                // Field plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerBlockEntity.special:Z\n     258: iload         10\n     260: aload         7\n     262: invokeinterface #770,  1          // InterfaceMethod java/util/Map$Entry.getValue:()Ljava/lang/Object;\n     267: checkcast     #597                // class java/lang/Integer\n     270: invokevirtual #718                // Method java/lang/Integer.intValue:()I\n     273: invokestatic  #621                // Method plus/dragons/createenchantmentindustry/common/processing/EnchantmentProcessingRules.blazeForgerLevelCost:(Lnet/minecraft/world/item/enchantment/Enchantment;Lplus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerMode;ZII)I\n     276: iadd\n     277: istore_2\n     278: goto          35\n     281: iload         4\n     283: ifne          299\n     286: new           #15                 // class plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$EnchantmentBookApplicationResult\n     289: dup\n     290: getstatic     #211                // Field net/minecraft/world/item/ItemStack.f_41583_:Lnet/minecraft/world/item/ItemStack;\n     293: aload         5\n     295: invokespecial #839                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$EnchantmentBookApplicationResult.\"<init>\":(Lnet/minecraft/world/item/ItemStack;Ljava/util/List;)V\n     298: areturn\n     299: getstatic     #439                // Field net/minecraft/world/item/Items.f_42690_:Lnet/minecraft/world/item/Item;\n     302: invokevirtual #578                // Method net/minecraft/world/item/Item.m_7968_:()Lnet/minecraft/world/item/ItemStack;\n     305: astore        6\n     307: aload         6\n     309: aload_3\n     310: invokestatic  #609                // Method setEnchantments:(Lnet/minecraft/world/item/ItemStack;Ljava/util/Map;)V\n     313: aload_0\n     314: dup\n     315: getfield      #135                // Field cost:I\n     318: iload_2\n     319: iadd\n     320: putfield      #135                // Field cost:I\n     323: new           #15                 // class plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$EnchantmentBookApplicationResult\n     326: dup\n     327: aload         6\n     329: aload         5\n     331: invokespecial #839                // Method plus/dragons/createenchantmentindustry/common/processing/forger/BlazeForgerInventory$EnchantmentBookApplicationResult.\"<init>\":(Lnet/minecraft/world/item/ItemStack;Ljava/util/List;)V\n     334: areturn",
+          "  private java.util.List<net.minecraft.world.item.enchantment.Enchantment> incompatibleEnchantments(net.minecraft.world.item.enchantment.Enchantment, java.util.Map<net.minecraft.world.item.enchantment.Enchantment, java.lang.Integer>);\n    Code:\n       0: aload_2\n       1: invokeinterface #536,  1          // InterfaceMethod java/util/Map.keySet:()Ljava/util/Set;\n       6: invokeinterface #542,  1          // InterfaceMethod java/util/Set.stream:()Ljava/util/stream/Stream;\n      11: aload_1\n      12: invokedynamic #873,  0            // InvokeDynamic #4:test:(Lnet/minecraft/world/item/enchantment/Enchantment;)Ljava/util/function/Predicate;\n      17: invokeinterface #689,  2          // InterfaceMethod java/util/stream/Stream.filter:(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;\n      22: aload_1\n      23: invokedynamic #878,  0            // InvokeDynamic #5:test:(Lnet/minecraft/world/item/enchantment/Enchantment;)Ljava/util/function/Predicate;\n      28: invokeinterface #689,  2          // InterfaceMethod java/util/stream/Stream.filter:(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;\n      33: invokeinterface #881,  1          // InterfaceMethod java/util/stream/Stream.toList:()Ljava/util/List;\n      38: areturn",
+          "  private static boolean lambda$incompatibleEnchantments$2(net.minecraft.world.item.enchantment.Enchantment, net.minecraft.world.item.enchantment.Enchantment);\n    Code:\n       0: aload_0\n       1: aload_1\n       2: invokevirtual #941                // Method net/minecraft/world/item/enchantment/Enchantment.m_44695_:(Lnet/minecraft/world/item/enchantment/Enchantment;)Z\n       5: ifne          12\n       8: iconst_1\n       9: goto          13\n      12: iconst_0\n      13: ireturn",
+          "  private static boolean lambda$incompatibleEnchantments$1(net.minecraft.world.item.enchantment.Enchantment, net.minecraft.world.item.enchantment.Enchantment);\n    Code:\n       0: aload_1\n       1: aload_0\n       2: invokevirtual #945                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z\n       5: ifne          12\n       8: iconst_1\n       9: goto          13\n      12: iconst_0\n      13: ireturn"
+        ]
+      },
+      "data": {
+        "data/create_enchantment_industry/data_maps/enchantment/enchantment_processing/rules.json": {
+          "values": {
+            "minecraft:infinity": {
+              "level_extension": {
+                "blaze_enchanter": 0,
+                "blaze_forger": 0
+              }
+            },
+            "minecraft:mending": {
+              "level_extension": {
+                "blaze_enchanter": 0,
+                "blaze_forger": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "epic-fight",
+      "filename": "epic-fight-20.14.17-mc1.20.1-forge.jar",
+      "sha256": "69566cf70ae2d91d3f2564c608f014c87e290cef6215c2a27719851165485f73",
+      "bytecode": {
+        "yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch": [
+          "  public float getAttackSpeed(net.minecraft.world.InteractionHand);\n    Code:\n       0: aload_1\n       1: getstatic     #685                // Field net/minecraft/world/InteractionHand.MAIN_HAND:Lnet/minecraft/world/InteractionHand;\n       4: if_acmpne     25\n       7: aload_0\n       8: getfield      #406                // Field original:Lnet/minecraft/world/entity/Entity;\n      11: checkcast     #96                 // class net/minecraft/world/entity/player/Player\n      14: getstatic     #691                // Field net/minecraft/world/entity/ai/attributes/Attributes.f_22283_:Lnet/minecraft/world/entity/ai/attributes/Attribute;\n      17: invokevirtual #475                // Method net/minecraft/world/entity/player/Player.m_21133_:(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D\n      20: d2f\n      21: fstore_2\n      22: goto          69\n      25: aload_0\n      26: invokevirtual #694                // Method isOffhandItemValid:()Z\n      29: ifeq          54\n      32: aload_0\n      33: getfield      #406                // Field original:Lnet/minecraft/world/entity/Entity;\n      36: checkcast     #96                 // class net/minecraft/world/entity/player/Player\n      39: getstatic     #697                // Field yesman/epicfight/world/entity/ai/attribute/EpicFightAttributes.OFFHAND_ATTACK_SPEED:Lnet/minecraftforge/registries/RegistryObject;\n      42: invokevirtual #469                // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;\n      45: checkcast     #471                // class net/minecraft/world/entity/ai/attributes/Attribute\n      48: invokevirtual #475                // Method net/minecraft/world/entity/player/Player.m_21133_:(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D\n      51: goto          67\n      54: aload_0\n      55: getfield      #406                // Field original:Lnet/minecraft/world/entity/Entity;\n      58: checkcast     #96                 // class net/minecraft/world/entity/player/Player\n      61: getstatic     #691                // Field net/minecraft/world/entity/ai/attributes/Attributes.f_22283_:Lnet/minecraft/world/entity/ai/attributes/Attribute;\n      64: invokevirtual #700                // Method net/minecraft/world/entity/player/Player.m_21172_:(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D\n      67: d2f\n      68: fstore_2\n      69: aload_0\n      70: aload_0\n      71: aload_1\n      72: invokevirtual #704                // Method getAdvancedHoldingItemCapability:(Lnet/minecraft/world/InteractionHand;)Lyesman/epicfight/world/capabilities/item/CapabilityItem;\n      75: fload_2\n      76: invokevirtual #708                // Method getModifiedAttackSpeed:(Lyesman/epicfight/world/capabilities/item/CapabilityItem;F)F\n      79: freturn",
+          "  public float getModifiedAttackSpeed(yesman.epicfight.world.capabilities.item.CapabilityItem, float);\n    Code:\n       0: new           #712                // class yesman/epicfight/world/entity/eventlistener/ModifyAttackSpeedEvent\n       3: dup\n       4: aload_0\n       5: aload_1\n       6: fload_2\n       7: invokespecial #715                // Method yesman/epicfight/world/entity/eventlistener/ModifyAttackSpeedEvent.\"<init>\":(Lyesman/epicfight/world/capabilities/entitypatch/player/PlayerPatch;Lyesman/epicfight/world/capabilities/item/CapabilityItem;F)V\n      10: astore_3\n      11: aload_0\n      12: getfield      #143                // Field eventListeners:Lyesman/epicfight/world/entity/eventlistener/PlayerEventListener;\n      15: getstatic     #718                // Field yesman/epicfight/world/entity/eventlistener/PlayerEventListener$EventType.MODIFY_ATTACK_SPEED_EVENT:Lyesman/epicfight/world/entity/eventlistener/PlayerEventListener$EventType;\n      18: aload_3\n      19: invokevirtual #671                // Method yesman/epicfight/world/entity/eventlistener/PlayerEventListener.triggerEvents:(Lyesman/epicfight/world/entity/eventlistener/PlayerEventListener$EventType;Lyesman/epicfight/world/entity/eventlistener/DetachablePlayerEvent;)Z\n      22: pop\n      23: aload_0\n      24: invokevirtual #721                // Method getWeight:()F\n      27: fstore        4\n      29: fload         4\n      31: ldc_w         #722                // float 40.0f\n      34: fcmpl\n      35: ifle          105\n      38: getstatic     #726                // Field yesman/epicfight/world/gamerule/EpicFightGameRules.WEIGHT_PENALTY:Lyesman/epicfight/world/gamerule/EpicFightGameRules$ConfigurableGameRule;\n      41: aload_0\n      42: invokevirtual #729                // Method getOriginal:()Lnet/minecraft/world/entity/Entity;\n      45: checkcast     #96                 // class net/minecraft/world/entity/player/Player\n      48: invokevirtual #733                // Method net/minecraft/world/entity/player/Player.m_9236_:()Lnet/minecraft/world/level/Level;\n      51: invokevirtual #737                // Method yesman/epicfight/world/gamerule/EpicFightGameRules$ConfigurableGameRule.getRuleValue:(Lnet/minecraft/world/level/Level;)Ljava/lang/Object;\n      54: checkcast     #739                // class java/lang/Integer\n      57: invokevirtual #742                // Method java/lang/Integer.intValue:()I\n      60: iconst_0\n      61: bipush        100\n      63: invokestatic  #746                // Method net/minecraft/util/Mth.m_14045_:(III)I\n      66: i2f\n      67: ldc_w         #747                // float 100.0f\n      70: fdiv\n      71: fstore        5\n      73: aload_3\n      74: invokevirtual #749                // Method yesman/epicfight/world/entity/eventlistener/ModifyAttackSpeedEvent.getAttackSpeed:()F\n      77: ldc_w         #750                // float -0.1f\n      80: fload         4\n      82: ldc_w         #722                // float 40.0f\n      85: fdiv\n      86: fmul\n      87: aload_3\n      88: invokevirtual #749                // Method yesman/epicfight/world/entity/eventlistener/ModifyAttackSpeedEvent.getAttackSpeed:()F\n      91: ldc_w         #751                // float 0.8f\n      94: fsub\n      95: fconst_0\n      96: invokestatic  #755                // Method java/lang/Math.max:(FF)F\n      99: fmul\n     100: fload         5\n     102: fmul\n     103: fadd\n     104: freturn\n     105: aload_3\n     106: invokevirtual #749                // Method yesman/epicfight/world/entity/eventlistener/ModifyAttackSpeedEvent.getAttackSpeed:()F\n     109: freturn",
+          "  public float getModifiedStaminaConsume(float);\n    Code:\n       0: getstatic     #726                // Field yesman/epicfight/world/gamerule/EpicFightGameRules.WEIGHT_PENALTY:Lyesman/epicfight/world/gamerule/EpicFightGameRules$ConfigurableGameRule;\n       3: aload_0\n       4: invokevirtual #729                // Method getOriginal:()Lnet/minecraft/world/entity/Entity;\n       7: checkcast     #96                 // class net/minecraft/world/entity/player/Player\n      10: invokevirtual #733                // Method net/minecraft/world/entity/player/Player.m_9236_:()Lnet/minecraft/world/level/Level;\n      13: invokevirtual #737                // Method yesman/epicfight/world/gamerule/EpicFightGameRules$ConfigurableGameRule.getRuleValue:(Lnet/minecraft/world/level/Level;)Ljava/lang/Object;\n      16: checkcast     #739                // class java/lang/Integer\n      19: invokevirtual #742                // Method java/lang/Integer.intValue:()I\n      22: iconst_0\n      23: bipush        100\n      25: invokestatic  #746                // Method net/minecraft/util/Mth.m_14045_:(III)I\n      28: i2f\n      29: ldc_w         #747                // float 100.0f\n      32: fdiv\n      33: fstore_2\n      34: aload_0\n      35: invokevirtual #721                // Method getWeight:()F\n      38: fstore_3\n      39: fload_3\n      40: ldc_w         #722                // float 40.0f\n      43: fdiv\n      44: fconst_1\n      45: fsub\n      46: fload_2\n      47: fmul\n      48: fconst_1\n      49: fadd\n      50: fload_1\n      51: fmul\n      52: freturn"
+        ],
+        "yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch": [
+          "  public void onJoinWorld(T, net.minecraftforge.event.entity.EntityJoinLevelEvent);\n    Code:\n       0: aload_0\n       1: aload_1\n       2: aload_2\n       3: invokespecial #293                // Method yesman/epicfight/world/capabilities/entitypatch/HurtableEntityPatch.onJoinWorld:(Lnet/minecraft/world/entity/Entity;Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V\n       6: aload_1\n       7: getstatic     #299                // Field yesman/epicfight/world/entity/ai/attribute/EpicFightAttributes.WEIGHT:Lnet/minecraftforge/registries/RegistryObject;\n      10: invokevirtual #305                // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;\n      13: checkcast     #307                // class net/minecraft/world/entity/ai/attributes/Attribute\n      16: invokevirtual #311                // Method net/minecraft/world/entity/LivingEntity.m_21172_:(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D\n      19: dconst_0\n      20: dcmpl\n      21: ifne          66\n      24: aload_1\n      25: getstatic     #317                // Field net/minecraft/world/entity/Pose.STANDING:Lnet/minecraft/world/entity/Pose;\n      28: invokevirtual #321                // Method net/minecraft/world/entity/LivingEntity.m_6972_:(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;\n      31: astore_3\n      32: aload_3\n      33: getfield      #326                // Field net/minecraft/world/entity/EntityDimensions.f_20377_:F\n      36: aload_3\n      37: getfield      #329                // Field net/minecraft/world/entity/EntityDimensions.f_20378_:F\n      40: fmul\n      41: f2d\n      42: ldc2_w        #94                 // double 37.037d\n      45: dmul\n      46: dstore        4\n      48: aload_1\n      49: getstatic     #299                // Field yesman/epicfight/world/entity/ai/attribute/EpicFightAttributes.WEIGHT:Lnet/minecraftforge/registries/RegistryObject;\n      52: invokevirtual #305                // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;\n      55: checkcast     #307                // class net/minecraft/world/entity/ai/attributes/Attribute\n      58: invokevirtual #333                // Method net/minecraft/world/entity/LivingEntity.m_21051_:(Lnet/minecraft/world/entity/ai/attributes/Attribute;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;\n      61: dload         4\n      63: invokevirtual #339                // Method net/minecraft/world/entity/ai/attributes/AttributeInstance.m_22100_:(D)V\n      66: return",
+          "  public float getWeight();\n    Code:\n       0: aload_0\n       1: getfield      #393                // Field original:Lnet/minecraft/world/entity/Entity;\n       4: checkcast     #158                // class net/minecraft/world/entity/LivingEntity\n       7: getstatic     #299                // Field yesman/epicfight/world/entity/ai/attribute/EpicFightAttributes.WEIGHT:Lnet/minecraftforge/registries/RegistryObject;\n      10: invokevirtual #305                // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;\n      13: checkcast     #307                // class net/minecraft/world/entity/ai/attributes/Attribute\n      16: invokevirtual #1026               // Method net/minecraft/world/entity/LivingEntity.m_21133_:(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D\n      19: d2f\n      20: freturn",
+          "  public void onJoinWorld(net.minecraft.world.entity.Entity, net.minecraftforge.event.entity.EntityJoinLevelEvent);\n    Code:\n       0: aload_0\n       1: aload_1\n       2: checkcast     #158                // class net/minecraft/world/entity/LivingEntity\n       5: aload_2\n       6: invokevirtual #1649               // Method onJoinWorld:(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V\n       9: return"
+        ],
+        "yesman.epicfight.api.animation.types.AttackAnimation": [
+          "  public float getPlaySpeed(yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch<?>, yesman.epicfight.api.animation.types.DynamicAnimation);\n    Code:\n       0: aload_1\n       1: instanceof    #841                // class yesman/epicfight/world/capabilities/entitypatch/player/PlayerPatch\n       4: ifeq          130\n       7: aload_1\n       8: checkcast     #841                // class yesman/epicfight/world/capabilities/entitypatch/player/PlayerPatch\n      11: astore_3\n      12: aload_0\n      13: aload_3\n      14: invokevirtual #842                // Method yesman/epicfight/world/capabilities/entitypatch/player/PlayerPatch.getAnimator:()Lyesman/epicfight/api/animation/Animator;\n      17: aload_0\n      18: invokevirtual #300                // Method getAccessor:()Lyesman/epicfight/api/animation/AnimationManager$AnimationAccessor;\n      21: invokevirtual #333                // Method yesman/epicfight/api/animation/Animator.getPlayerFor:(Lyesman/epicfight/api/asset/AssetAccessor;)Lyesman/epicfight/api/animation/AnimationPlayer;\n      24: invokevirtual #339                // Method yesman/epicfight/api/animation/AnimationPlayer.getElapsedTime:()F\n      27: invokevirtual #355                // Method getPhaseByTime:(F)Lyesman/epicfight/api/animation/types/AttackAnimation$Phase;\n      30: astore        4\n      32: aload_0\n      33: getstatic     #846                // Field yesman/epicfight/api/animation/property/AnimationProperty$AttackAnimationProperty.ATTACK_SPEED_FACTOR:Lyesman/epicfight/api/animation/property/AnimationProperty$AttackAnimationProperty;\n      36: invokevirtual #849                // Method getProperty:(Lyesman/epicfight/api/animation/property/AnimationProperty;)Ljava/util/Optional;\n      39: fconst_1\n      40: invokestatic  #854                // Method java/lang/Float.valueOf:(F)Ljava/lang/Float;\n      43: invokevirtual #475                // Method java/util/Optional.orElse:(Ljava/lang/Object;)Ljava/lang/Object;\n      46: checkcast     #851                // class java/lang/Float\n      49: invokevirtual #857                // Method java/lang/Float.floatValue:()F\n      52: fstore        5\n      54: aload_0\n      55: getstatic     #860                // Field yesman/epicfight/api/animation/property/AnimationProperty$AttackAnimationProperty.BASIS_ATTACK_SPEED:Lyesman/epicfight/api/animation/property/AnimationProperty$AttackAnimationProperty;\n      58: invokevirtual #849                // Method getProperty:(Lyesman/epicfight/api/animation/property/AnimationProperty;)Ljava/util/Optional;\n      61: astore        6\n      63: aload         6\n      65: aload_3\n      66: aload         4\n      68: invokedynamic #870,  0            // InvokeDynamic #9:apply:(Lyesman/epicfight/world/capabilities/entitypatch/player/PlayerPatch;Lyesman/epicfight/api/animation/types/AttackAnimation$Phase;)Ljava/util/function/Function;\n      73: invokevirtual #673                // Method java/util/Optional.map:(Ljava/util/function/Function;)Ljava/util/Optional;\n      76: aload_0\n      77: invokevirtual #439                // Method getTotalTime:()F\n      80: aload_3\n      81: aload         4\n      83: getfield      #416                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.hand:Lnet/minecraft/world/InteractionHand;\n      86: invokevirtual #874                // Method yesman/epicfight/world/capabilities/entitypatch/player/PlayerPatch.getAttackSpeed:(Lnet/minecraft/world/InteractionHand;)F\n      89: fmul\n      90: invokestatic  #854                // Method java/lang/Float.valueOf:(F)Ljava/lang/Float;\n      93: invokevirtual #475                // Method java/util/Optional.orElse:(Ljava/lang/Object;)Ljava/lang/Object;\n      96: checkcast     #851                // class java/lang/Float\n      99: invokevirtual #857                // Method java/lang/Float.floatValue:()F\n     102: fstore        7\n     104: fload         7\n     106: ldc_w         #875                // float 1000.0f\n     109: fmul\n     110: invokestatic  #880                // Method java/lang/Math.round:(F)I\n     113: i2f\n     114: ldc_w         #875                // float 1000.0f\n     117: fdiv\n     118: fstore        7\n     120: fconst_1\n     121: fload         7\n     123: fconst_1\n     124: fsub\n     125: fload         5\n     127: fmul\n     128: fadd\n     129: freturn\n     130: fconst_1\n     131: freturn",
+          "  private static java.lang.Float lambda$getPlaySpeed$11(yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch, yesman.epicfight.api.animation.types.AttackAnimation$Phase, java.lang.Float);\n    Code:\n       0: aload_0\n       1: aload_1\n       2: getfield      #416                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.hand:Lnet/minecraft/world/InteractionHand;\n       5: invokevirtual #874                // Method yesman/epicfight/world/capabilities/entitypatch/player/PlayerPatch.getAttackSpeed:(Lnet/minecraft/world/InteractionHand;)F\n       8: aload_2\n       9: invokevirtual #857                // Method java/lang/Float.floatValue:()F\n      12: fdiv\n      13: invokestatic  #854                // Method java/lang/Float.valueOf:(F)Ljava/lang/Float;\n      16: areturn"
+        ],
+        "yesman.epicfight.api.animation.types.BasicAttackAnimation": [
+          "  protected void bindPhaseState(yesman.epicfight.api.animation.types.AttackAnimation$Phase);\n    Code:\n       0: aload_1\n       1: getfield      #127                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.preDelay:F\n       4: fstore_2\n       5: aload_0\n       6: getfield      #131                // Field stateSpectrumBlueprint:Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n       9: aload_1\n      10: getfield      #134                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.start:F\n      13: fload_2\n      14: invokevirtual #138                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.newTimePair:(FF)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n      17: getstatic     #142                // Field yesman/epicfight/api/animation/types/EntityState.PHASE_LEVEL:Lyesman/epicfight/api/animation/types/EntityState$StateFactor;\n      20: iconst_1\n      21: invokestatic  #147                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;\n      24: invokevirtual #151                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.addState:(Lyesman/epicfight/api/animation/types/EntityState$StateFactor;Ljava/lang/Object;)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n      27: aload_1\n      28: getfield      #134                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.start:F\n      31: aload_1\n      32: getfield      #153                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.contact:F\n      35: invokevirtual #138                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.newTimePair:(FF)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n      38: getstatic     #156                // Field yesman/epicfight/api/animation/types/EntityState.CAN_SKILL_EXECUTION:Lyesman/epicfight/api/animation/types/EntityState$StateFactor;\n      41: iconst_0\n      42: invokestatic  #88                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;\n      45: invokevirtual #151                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.addState:(Lyesman/epicfight/api/animation/types/EntityState$StateFactor;Ljava/lang/Object;)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n      48: aload_1\n      49: getfield      #134                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.start:F\n      52: aload_1\n      53: getfield      #158                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.recovery:F\n      56: invokevirtual #138                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.newTimePair:(FF)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n      59: getstatic     #161                // Field yesman/epicfight/api/animation/types/EntityState.MOVEMENT_LOCKED:Lyesman/epicfight/api/animation/types/EntityState$StateFactor;\n      62: iconst_1\n      63: invokestatic  #88                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;\n      66: invokevirtual #151                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.addState:(Lyesman/epicfight/api/animation/types/EntityState$StateFactor;Ljava/lang/Object;)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n      69: getstatic     #164                // Field yesman/epicfight/api/animation/types/EntityState.UPDATE_LIVING_MOTION:Lyesman/epicfight/api/animation/types/EntityState$StateFactor;\n      72: iconst_0\n      73: invokestatic  #88                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;\n      76: invokevirtual #151                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.addState:(Lyesman/epicfight/api/animation/types/EntityState$StateFactor;Ljava/lang/Object;)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n      79: getstatic     #167                // Field yesman/epicfight/api/animation/types/EntityState.CAN_BASIC_ATTACK:Lyesman/epicfight/api/animation/types/EntityState$StateFactor;\n      82: iconst_0\n      83: invokestatic  #88                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;\n      86: invokevirtual #151                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.addState:(Lyesman/epicfight/api/animation/types/EntityState$StateFactor;Ljava/lang/Object;)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n      89: aload_1\n      90: getfield      #134                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.start:F\n      93: aload_1\n      94: getfield      #170                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.end:F\n      97: invokevirtual #138                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.newTimePair:(FF)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n     100: getstatic     #173                // Field yesman/epicfight/api/animation/types/EntityState.INACTION:Lyesman/epicfight/api/animation/types/EntityState$StateFactor;\n     103: iconst_1\n     104: invokestatic  #88                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;\n     107: invokevirtual #151                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.addState:(Lyesman/epicfight/api/animation/types/EntityState$StateFactor;Ljava/lang/Object;)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n     110: fload_2\n     111: aload_1\n     112: getfield      #153                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.contact:F\n     115: invokevirtual #138                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.newTimePair:(FF)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n     118: getstatic     #176                // Field yesman/epicfight/api/animation/types/EntityState.ATTACKING:Lyesman/epicfight/api/animation/types/EntityState$StateFactor;\n     121: iconst_1\n     122: invokestatic  #88                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;\n     125: invokevirtual #151                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.addState:(Lyesman/epicfight/api/animation/types/EntityState$StateFactor;Ljava/lang/Object;)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n     128: getstatic     #142                // Field yesman/epicfight/api/animation/types/EntityState.PHASE_LEVEL:Lyesman/epicfight/api/animation/types/EntityState$StateFactor;\n     131: iconst_2\n     132: invokestatic  #147                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;\n     135: invokevirtual #151                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.addState:(Lyesman/epicfight/api/animation/types/EntityState$StateFactor;Ljava/lang/Object;)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n     138: aload_1\n     139: getfield      #153                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.contact:F\n     142: aload_1\n     143: getfield      #170                // Field yesman/epicfight/api/animation/types/AttackAnimation$Phase.end:F\n     146: invokevirtual #138                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.newTimePair:(FF)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n     149: getstatic     #142                // Field yesman/epicfight/api/animation/types/EntityState.PHASE_LEVEL:Lyesman/epicfight/api/animation/types/EntityState$StateFactor;\n     152: iconst_3\n     153: invokestatic  #147                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;\n     156: invokevirtual #151                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.addState:(Lyesman/epicfight/api/animation/types/EntityState$StateFactor;Ljava/lang/Object;)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n     159: getstatic     #179                // Field yesman/epicfight/api/animation/types/EntityState.TURNING_LOCKED:Lyesman/epicfight/api/animation/types/EntityState$StateFactor;\n     162: iconst_1\n     163: invokestatic  #88                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;\n     166: invokevirtual #151                // Method yesman/epicfight/api/animation/types/StateSpectrum$Blueprint.addState:(Lyesman/epicfight/api/animation/types/EntityState$StateFactor;Ljava/lang/Object;)Lyesman/epicfight/api/animation/types/StateSpectrum$Blueprint;\n     169: pop\n     170: return",
+          "  public yesman.epicfight.api.utils.datastruct.TypeFlexibleHashMap<yesman.epicfight.api.animation.types.EntityState$StateFactor<?>> getStatesMap(yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch<?>, float);\n    Code:\n       0: aload_0\n       1: aload_1\n       2: fload_2\n       3: invokespecial #234                // Method yesman/epicfight/api/animation/types/AttackAnimation.getStatesMap:(Lyesman/epicfight/world/capabilities/entitypatch/LivingEntityPatch;F)Lyesman/epicfight/api/utils/datastruct/TypeFlexibleHashMap;\n       6: astore_3\n       7: getstatic     #238                // Field yesman/epicfight/world/gamerule/EpicFightGameRules.STIFF_COMBO_ATTACKS:Lyesman/epicfight/world/gamerule/EpicFightGameRules$ConfigurableGameRule;\n      10: aload_1\n      11: invokevirtual #244                // Method yesman/epicfight/world/capabilities/entitypatch/LivingEntityPatch.getOriginal:()Lnet/minecraft/world/entity/Entity;\n      14: checkcast     #246                // class net/minecraft/world/entity/LivingEntity\n      17: invokevirtual #250                // Method net/minecraft/world/entity/LivingEntity.m_9236_:()Lnet/minecraft/world/level/Level;\n      20: invokevirtual #254                // Method yesman/epicfight/world/gamerule/EpicFightGameRules$ConfigurableGameRule.getRuleValue:(Lnet/minecraft/world/level/Level;)Ljava/lang/Object;\n      23: checkcast     #84                 // class java/lang/Boolean\n      26: invokevirtual #258                // Method java/lang/Boolean.booleanValue:()Z\n      29: ifne          56\n      32: aload_3\n      33: getstatic     #161                // Field yesman/epicfight/api/animation/types/EntityState.MOVEMENT_LOCKED:Lyesman/epicfight/api/animation/types/EntityState$StateFactor;\n      36: iconst_0\n      37: invokestatic  #88                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;\n      40: invokevirtual #264                // Method yesman/epicfight/api/utils/datastruct/TypeFlexibleHashMap.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;\n      43: pop\n      44: aload_3\n      45: getstatic     #164                // Field yesman/epicfight/api/animation/types/EntityState.UPDATE_LIVING_MOTION:Lyesman/epicfight/api/animation/types/EntityState$StateFactor;\n      48: iconst_1\n      49: invokestatic  #88                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;\n      52: invokevirtual #264                // Method yesman/epicfight/api/utils/datastruct/TypeFlexibleHashMap.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;\n      55: pop\n      56: aload_3\n      57: areturn"
+        ]
+      },
+      "data": {}
+    },
+    {
+      "slug": "simply-swords",
+      "filename": "simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
+      "sha256": "642e385ffda914f1b9411f0a457fe5fb5e05aa160dc44392dec9a549c2bcec21",
+      "bytecode": {
+        "net.sweenus.simplyswords.util.HelperMethods": [
+          "  public static float abilityScaledDamage(java.lang.String, net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, float, float);\n    Code:\n       0: aload_0\n       1: invokestatic  #652                // Method net/sweenus/simplyswords/api/SpellScalingProfile.fromLegacyName:(Ljava/lang/String;)Lnet/sweenus/simplyswords/api/SpellScalingProfile;\n       4: aload_1\n       5: aload_2\n       6: fload_3\n       7: fload         4\n       9: invokestatic  #655                // Method abilityScaledDamage:(Lnet/sweenus/simplyswords/api/SpellScalingProfile;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;FF)F\n      12: freturn",
+          "  public static float abilityScaledDamage(net.sweenus.simplyswords.api.SpellScalingProfile, net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, float, float);\n    Code:\n       0: aload_0\n       1: ifnonnull     10\n       4: getstatic     #659                // Field net/sweenus/simplyswords/api/SpellScalingProfile.ARCANE:Lnet/sweenus/simplyswords/api/SpellScalingProfile;\n       7: goto          11\n      10: aload_0\n      11: astore        5\n      13: aload         5\n      15: invokevirtual #663                // Method net/sweenus/simplyswords/api/SpellScalingProfile.registryId:()Lnet/minecraft/resources/ResourceLocation;\n      18: aload_1\n      19: aload_2\n      20: fload_3\n      21: fload         4\n      23: invokestatic  #666                // Method abilityScaledDamage:(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;FF)F\n      26: freturn",
+          "  public static float abilityScaledDamage(net.minecraft.resources.ResourceLocation, net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, float, float);\n    Code:\n       0: aload_2\n       1: ifnonnull     10\n       4: getstatic     #671                // Field net/minecraft/world/item/ItemStack.f_41583_:Lnet/minecraft/world/item/ItemStack;\n       7: goto          11\n      10: aload_2\n      11: astore        5\n      13: aload_0\n      14: ifnonnull     26\n      17: getstatic     #659                // Field net/sweenus/simplyswords/api/SpellScalingProfile.ARCANE:Lnet/sweenus/simplyswords/api/SpellScalingProfile;\n      20: invokevirtual #663                // Method net/sweenus/simplyswords/api/SpellScalingProfile.registryId:()Lnet/minecraft/resources/ResourceLocation;\n      23: goto          27\n      26: aload_0\n      27: astore        6\n      29: aload         5\n      31: aload         6\n      33: invokestatic  #679                // Method net/sweenus/simplyswords/compat/SpellScalingComponents.weaponComponent:(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/resources/ResourceLocation;\n      36: astore        7\n      38: fload         4\n      40: aload_1\n      41: aload         7\n      43: invokestatic  #682                // Method commonSpellAttributeScaling:(FLnet/minecraft/world/entity/Entity;Lnet/minecraft/resources/ResourceLocation;)F\n      46: fstore        8\n      48: aload_1\n      49: aload         5\n      51: fload_3\n      52: invokestatic  #686                // Method attackScaledDamage:(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;F)F\n      55: fstore        9\n      57: fload         8\n      59: fload         9\n      61: invokestatic  #690                // Method applySpellDamageDiminishingReturns:(FF)F\n      64: fstore        8\n      66: aload         5\n      68: fload         8\n      70: fload         9\n      72: invokestatic  #692                // Method java/lang/Math.max:(FF)F\n      75: invokestatic  #698                // Method net/sweenus/simplyswords/api/AwakeningApi.scaleEffect:(Lnet/minecraft/world/item/ItemStack;F)F\n      78: freturn",
+          "  public static float abilityScaledDamage(java.lang.String, net.minecraft.world.entity.LivingEntity, float, float);\n    Code:\n       0: aload_0\n       1: aload_1\n       2: aload_1\n       3: ifnonnull     12\n       6: getstatic     #671                // Field net/minecraft/world/item/ItemStack.f_41583_:Lnet/minecraft/world/item/ItemStack;\n       9: goto          16\n      12: aload_1\n      13: invokevirtual #711                // Method net/minecraft/world/entity/LivingEntity.m_21205_:()Lnet/minecraft/world/item/ItemStack;\n      16: fload_2\n      17: fload_3\n      18: invokestatic  #713                // Method abilityScaledDamage:(Ljava/lang/String;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;FF)F\n      21: freturn",
+          "  public static float abilityScaledDamage(net.sweenus.simplyswords.api.SpellScalingProfile, net.minecraft.world.entity.LivingEntity, float, float);\n    Code:\n       0: aload_0\n       1: aload_1\n       2: aload_1\n       3: ifnonnull     12\n       6: getstatic     #671                // Field net/minecraft/world/item/ItemStack.f_41583_:Lnet/minecraft/world/item/ItemStack;\n       9: goto          16\n      12: aload_1\n      13: invokevirtual #711                // Method net/minecraft/world/entity/LivingEntity.m_21205_:()Lnet/minecraft/world/item/ItemStack;\n      16: fload_2\n      17: fload_3\n      18: invokestatic  #655                // Method abilityScaledDamage:(Lnet/sweenus/simplyswords/api/SpellScalingProfile;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;FF)F\n      21: freturn",
+          "  public static float abilityScaledDamageFromValue(net.sweenus.simplyswords.api.SpellScalingProfile, net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, float, float);\n    Code:\n       0: aload_0\n       1: ifnonnull     10\n       4: getstatic     #659                // Field net/sweenus/simplyswords/api/SpellScalingProfile.ARCANE:Lnet/sweenus/simplyswords/api/SpellScalingProfile;\n       7: goto          11\n      10: aload_0\n      11: astore        5\n      13: aload         5\n      15: invokevirtual #663                // Method net/sweenus/simplyswords/api/SpellScalingProfile.registryId:()Lnet/minecraft/resources/ResourceLocation;\n      18: aload_1\n      19: aload_2\n      20: fload_3\n      21: fload         4\n      23: invokestatic  #722                // Method abilityScaledDamageFromValue:(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;FF)F\n      26: freturn",
+          "  public static float abilityScaledDamageFromValue(net.minecraft.resources.ResourceLocation, net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, float, float);\n    Code:\n       0: aload_2\n       1: ifnonnull     10\n       4: getstatic     #671                // Field net/minecraft/world/item/ItemStack.f_41583_:Lnet/minecraft/world/item/ItemStack;\n       7: goto          11\n      10: aload_2\n      11: astore        5\n      13: aload_0\n      14: ifnonnull     26\n      17: getstatic     #659                // Field net/sweenus/simplyswords/api/SpellScalingProfile.ARCANE:Lnet/sweenus/simplyswords/api/SpellScalingProfile;\n      20: invokevirtual #663                // Method net/sweenus/simplyswords/api/SpellScalingProfile.registryId:()Lnet/minecraft/resources/ResourceLocation;\n      23: goto          27\n      26: aload_0\n      27: astore        6\n      29: aload         5\n      31: aload         6\n      33: invokestatic  #679                // Method net/sweenus/simplyswords/compat/SpellScalingComponents.weaponComponent:(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/resources/ResourceLocation;\n      36: astore        7\n      38: fload         4\n      40: aload_1\n      41: aload         7\n      43: invokestatic  #682                // Method commonSpellAttributeScaling:(FLnet/minecraft/world/entity/Entity;Lnet/minecraft/resources/ResourceLocation;)F\n      46: fstore        8\n      48: fload         8\n      50: fload_3\n      51: invokestatic  #690                // Method applySpellDamageDiminishingReturns:(FF)F\n      54: fstore        8\n      56: aload         5\n      58: fload         8\n      60: fload_3\n      61: invokestatic  #692                // Method java/lang/Math.max:(FF)F\n      64: invokestatic  #698                // Method net/sweenus/simplyswords/api/AwakeningApi.scaleEffect:(Lnet/minecraft/world/item/ItemStack;F)F\n      67: freturn",
+          "  public static float gemPowerScaledDamage(java.lang.String, net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, float, float);\n    Code:\n       0: aload_0\n       1: invokestatic  #652                // Method net/sweenus/simplyswords/api/SpellScalingProfile.fromLegacyName:(Ljava/lang/String;)Lnet/sweenus/simplyswords/api/SpellScalingProfile;\n       4: aload_1\n       5: aload_2\n       6: fload_3\n       7: fload         4\n       9: invokestatic  #725                // Method gemPowerScaledDamage:(Lnet/sweenus/simplyswords/api/SpellScalingProfile;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;FF)F\n      12: freturn",
+          "  public static float gemPowerScaledDamage(net.sweenus.simplyswords.api.SpellScalingProfile, net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, float, float);\n    Code:\n       0: aload_0\n       1: ifnonnull     10\n       4: getstatic     #659                // Field net/sweenus/simplyswords/api/SpellScalingProfile.ARCANE:Lnet/sweenus/simplyswords/api/SpellScalingProfile;\n       7: goto          11\n      10: aload_0\n      11: astore        5\n      13: aload         5\n      15: invokevirtual #663                // Method net/sweenus/simplyswords/api/SpellScalingProfile.registryId:()Lnet/minecraft/resources/ResourceLocation;\n      18: aload_1\n      19: aload_2\n      20: fload_3\n      21: fload         4\n      23: invokestatic  #727                // Method gemPowerScaledDamage:(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;FF)F\n      26: freturn",
+          "  public static float gemPowerScaledDamage(net.minecraft.resources.ResourceLocation, net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, float, float);\n    Code:\n       0: aload_2\n       1: ifnonnull     10\n       4: getstatic     #671                // Field net/minecraft/world/item/ItemStack.f_41583_:Lnet/minecraft/world/item/ItemStack;\n       7: goto          11\n      10: aload_2\n      11: astore        5\n      13: aload_0\n      14: ifnonnull     26\n      17: getstatic     #659                // Field net/sweenus/simplyswords/api/SpellScalingProfile.ARCANE:Lnet/sweenus/simplyswords/api/SpellScalingProfile;\n      20: invokevirtual #663                // Method net/sweenus/simplyswords/api/SpellScalingProfile.registryId:()Lnet/minecraft/resources/ResourceLocation;\n      23: goto          27\n      26: aload_0\n      27: astore        6\n      29: fload         4\n      31: aload_1\n      32: aload         6\n      34: invokestatic  #682                // Method commonSpellAttributeScaling:(FLnet/minecraft/world/entity/Entity;Lnet/minecraft/resources/ResourceLocation;)F\n      37: fstore        7\n      39: aload_1\n      40: aload         5\n      42: fload_3\n      43: invokestatic  #686                // Method attackScaledDamage:(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;F)F\n      46: fstore        8\n      48: fload         7\n      50: fload         8\n      52: invokestatic  #690                // Method applySpellDamageDiminishingReturns:(FF)F\n      55: fstore        7\n      57: aload         5\n      59: fload         7\n      61: fload         8\n      63: invokestatic  #692                // Method java/lang/Math.max:(FF)F\n      66: invokestatic  #730                // Method net/sweenus/simplyswords/api/AwakeningApi.scaleGemPower:(Lnet/minecraft/world/item/ItemStack;F)F\n      69: freturn",
+          "  public static float attackScaledDamage(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, float);\n    Code:\n       0: aload_0\n       1: ifnonnull     8\n       4: dconst_0\n       5: goto          12\n       8: aload_0\n       9: invokestatic  #737                // Method getEntityAttackDamage:(Lnet/minecraft/world/entity/LivingEntity;)D\n      12: dstore_3\n      13: dload_3\n      14: dconst_0\n      15: dcmpg\n      16: ifgt          44\n      19: aload_1\n      20: ifnull        44\n      23: aload_1\n      24: invokevirtual #740                // Method net/minecraft/world/item/ItemStack.m_41619_:()Z\n      27: ifne          44\n      30: dconst_1\n      31: dconst_1\n      32: aload_1\n      33: getstatic     #509                // Field net/minecraft/world/entity/EquipmentSlot.MAINHAND:Lnet/minecraft/world/entity/EquipmentSlot;\n      36: invokestatic  #744                // Method getAttackFromStack:(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/EquipmentSlot;)D\n      39: dadd\n      40: invokestatic  #747                // Method java/lang/Math.max:(DD)D\n      43: dstore_3\n      44: dconst_0\n      45: dload_3\n      46: fload_2\n      47: f2d\n      48: dmul\n      49: invokestatic  #747                // Method java/lang/Math.max:(DD)D\n      52: d2f\n      53: freturn",
+          "  public static float applySpellDamageDiminishingReturns(float, float);\n    Code:\n       0: fload_0\n       1: fload_1\n       2: getstatic     #751                // Field net/sweenus/simplyswords/config/Config.compatibility:Lnet/sweenus/simplyswords/config/CompatibilityConfig;\n       5: getfield      #755                // Field net/sweenus/simplyswords/config/CompatibilityConfig.spellScalingDiminishingReturnsStart:Lme/fzzyhmstrs/fzzy_config/validation/number/ValidatedFloat;\n       8: invokevirtual #758                // Method me/fzzyhmstrs/fzzy_config/validation/number/ValidatedFloat.get:()Ljava/lang/Object;\n      11: checkcast     #760                // class java/lang/Float\n      14: invokevirtual #763                // Method java/lang/Float.floatValue:()F\n      17: getstatic     #751                // Field net/sweenus/simplyswords/config/Config.compatibility:Lnet/sweenus/simplyswords/config/CompatibilityConfig;\n      20: getfield      #766                // Field net/sweenus/simplyswords/config/CompatibilityConfig.spellScalingDiminishingReturnsStrength:Lme/fzzyhmstrs/fzzy_config/validation/number/ValidatedFloat;\n      23: invokevirtual #758                // Method me/fzzyhmstrs/fzzy_config/validation/number/ValidatedFloat.get:()Ljava/lang/Object;\n      26: checkcast     #760                // class java/lang/Float\n      29: invokevirtual #763                // Method java/lang/Float.floatValue:()F\n      32: invokestatic  #769                // Method applySpellDamageDiminishingReturns:(FFFF)F\n      35: freturn",
+          "  static float applySpellDamageDiminishingReturns(float, float, float, float);\n    Code:\n       0: fload_0\n       1: fconst_0\n       2: fcmpg\n       3: ifle          18\n       6: fload_1\n       7: fconst_0\n       8: fcmpg\n       9: ifle          18\n      12: fload_3\n      13: fconst_0\n      14: fcmpg\n      15: ifgt          20\n      18: fload_0\n      19: freturn\n      20: fload_0\n      21: fload_1\n      22: fdiv\n      23: fstore        4\n      25: fload         4\n      27: fload_2\n      28: fcmpg\n      29: ifgt          34\n      32: fload_0\n      33: freturn\n      34: fload_0\n      35: f2d\n      36: fload_1\n      37: f2d\n      38: ddiv\n      39: fload_2\n      40: f2d\n      41: dsub\n      42: dstore        5\n      44: fload_2\n      45: f2d\n      46: fload_3\n      47: f2d\n      48: dload         5\n      50: dmul\n      51: invokestatic  #773                // Method java/lang/Math.log1p:(D)D\n      54: fload_3\n      55: f2d\n      56: ddiv\n      57: dadd\n      58: dstore        7\n      60: fload_0\n      61: fload_1\n      62: f2d\n      63: dload         7\n      65: dmul\n      66: d2f\n      67: invokestatic  #775                // Method java/lang/Math.min:(FF)F\n      70: freturn",
+          "  public static float applyAbilityDamageEnchantments(net.minecraft.server.level.ServerLevel, net.minecraft.world.item.ItemStack, net.minecraft.world.entity.Entity, net.minecraft.world.damagesource.DamageSource, float);\n    Code:\n       0: fload         4\n       2: fstore        5\n       4: getstatic     #342                // Field net/sweenus/simplyswords/config/Config.general:Lnet/sweenus/simplyswords/config/GeneralConfig;\n       7: getfield      #785                // Field net/sweenus/simplyswords/config/GeneralConfig.enableAbilityDamageEnchantScaling:Z\n      10: ifeq          63\n      13: aload_0\n      14: ifnull        63\n      17: aload_1\n      18: ifnull        63\n      21: aload_1\n      22: invokevirtual #740                // Method net/minecraft/world/item/ItemStack.m_41619_:()Z\n      25: ifne          63\n      28: aload_2\n      29: ifnull        63\n      32: aload_3\n      33: ifnull        63\n      36: aload_2\n      37: instanceof    #160                // class net/minecraft/world/entity/LivingEntity\n      40: ifeq          63\n      43: aload_2\n      44: checkcast     #160                // class net/minecraft/world/entity/LivingEntity\n      47: astore        6\n      49: fload         5\n      51: aload_1\n      52: aload         6\n      54: invokevirtual #789                // Method net/minecraft/world/entity/LivingEntity.m_6336_:()Lnet/minecraft/world/entity/MobType;\n      57: invokestatic  #795                // Method net/minecraft/world/item/enchantment/EnchantmentHelper.m_44833_:(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/MobType;)F\n      60: fadd\n      61: fstore        5\n      63: aload_3\n      64: invokestatic  #799                // Method resolveAbilityDamageActor:(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/world/entity/LivingEntity;\n      67: fload         5\n      69: invokestatic  #803                // Method applyNonPlayerAbilityDamageModifier:(Lnet/minecraft/world/entity/LivingEntity;F)F\n      72: fstore        5\n      74: aload_2\n      75: fload         5\n      77: invokestatic  #807                // Method applyWeaponAbilityDamageToPlayersModifier:(Lnet/minecraft/world/entity/Entity;F)F\n      80: fstore        5\n      82: fload         5\n      84: freturn"
+        ],
+        "net.sweenus.simplyswords.api.AwakeningApi": [
+          "  public static int getLevel(net.minecraft.world.item.ItemStack);\n    Code:\n       0: aload_0\n       1: invokestatic  #60                 // Method net/sweenus/simplyswords/api/AwakeningProfileRegistry.isAwakenable:(Lnet/minecraft/world/item/ItemStack;)Z\n       4: ifne          10\n       7: bipush        8\n       9: ireturn\n      10: aload_0\n      11: invokestatic  #70                 // Method usesAwakeningProgression:(Lnet/minecraft/world/item/ItemStack;)Z\n      14: ifne          20\n      17: bipush        8\n      19: ireturn\n      20: getstatic     #76                 // Field net/sweenus/simplyswords/registry/ComponentTypeRegistry.AWAKENING:Lnet/sweenus/simplyswords/item/component/StackComponentKey;\n      23: aload_0\n      24: invokevirtual #82                 // Method net/sweenus/simplyswords/item/component/StackComponentKey.get:(Lnet/minecraft/world/item/ItemStack;)Ljava/lang/Object;\n      27: checkcast     #84                 // class net/sweenus/simplyswords/item/component/AwakeningComponent\n      30: astore_1\n      31: aload_1\n      32: ifnull        40\n      35: aload_1\n      36: invokevirtual #88                 // Method net/sweenus/simplyswords/item/component/AwakeningComponent.level:()I\n      39: ireturn\n      40: aload_0\n      41: getstatic     #94                 // Field net/sweenus/simplyswords/registry/ItemsRegistry.SLUMBERING_LICHBLADE:Ldev/architectury/registry/registries/RegistrySupplier;\n      44: invokeinterface #99,  1           // InterfaceMethod dev/architectury/registry/registries/RegistrySupplier.get:()Ljava/lang/Object;\n      49: checkcast     #101                // class net/minecraft/world/item/Item\n      52: invokevirtual #107                // Method net/minecraft/world/item/ItemStack.m_150930_:(Lnet/minecraft/world/item/Item;)Z\n      55: ifne          76\n      58: aload_0\n      59: getstatic     #110                // Field net/sweenus/simplyswords/registry/ItemsRegistry.DORMANT_RELIC:Ldev/architectury/registry/registries/RegistrySupplier;\n      62: invokeinterface #99,  1           // InterfaceMethod dev/architectury/registry/registries/RegistrySupplier.get:()Ljava/lang/Object;\n      67: checkcast     #101                // class net/minecraft/world/item/Item\n      70: invokevirtual #107                // Method net/minecraft/world/item/ItemStack.m_150930_:(Lnet/minecraft/world/item/Item;)Z\n      73: ifeq          78\n      76: iconst_0\n      77: ireturn\n      78: bipush        8\n      80: ireturn",
+          "  public static float getAttributeMultiplier(net.minecraft.world.item.ItemStack);\n    Code:\n       0: aload_0\n       1: aload_0\n       2: invokestatic  #126                // Method getLevel:(Lnet/minecraft/world/item/ItemStack;)I\n       5: invokestatic  #130                // Method getAttributeMultiplier:(Lnet/minecraft/world/item/ItemStack;I)F\n       8: freturn",
+          "  private static float getAttributeMultiplier(net.minecraft.world.item.ItemStack, int);\n    Code:\n       0: aload_0\n       1: invokestatic  #168                // Method net/sweenus/simplyswords/api/AwakeningProfileRegistry.get:(Lnet/minecraft/world/item/ItemStack;)Ljava/util/Optional;\n       4: getstatic     #174                // Field net/sweenus/simplyswords/api/AwakeningProfile.DEFAULT:Lnet/sweenus/simplyswords/api/AwakeningProfile;\n       7: invokevirtual #180                // Method java/util/Optional.orElse:(Ljava/lang/Object;)Ljava/lang/Object;\n      10: checkcast     #170                // class net/sweenus/simplyswords/api/AwakeningProfile\n      13: astore_2\n      14: aload_2\n      15: invokevirtual #184                // Method net/sweenus/simplyswords/api/AwakeningProfile.dormantAttributeMultiplier:()F\n      18: iload_1\n      19: invokestatic  #188                // Method interpolateMultiplier:(FI)F\n      22: freturn",
+          "  public static float getAttackSpeedMultiplier(net.minecraft.world.item.ItemStack);\n    Code:\n       0: aload_0\n       1: aload_0\n       2: invokestatic  #126                // Method getLevel:(Lnet/minecraft/world/item/ItemStack;)I\n       5: invokestatic  #133                // Method getAttackSpeedMultiplier:(Lnet/minecraft/world/item/ItemStack;I)F\n       8: freturn",
+          "  private static float getAttackSpeedMultiplier(net.minecraft.world.item.ItemStack, int);\n    Code:\n       0: aload_0\n       1: invokestatic  #168                // Method net/sweenus/simplyswords/api/AwakeningProfileRegistry.get:(Lnet/minecraft/world/item/ItemStack;)Ljava/util/Optional;\n       4: getstatic     #174                // Field net/sweenus/simplyswords/api/AwakeningProfile.DEFAULT:Lnet/sweenus/simplyswords/api/AwakeningProfile;\n       7: invokevirtual #180                // Method java/util/Optional.orElse:(Ljava/lang/Object;)Ljava/lang/Object;\n      10: checkcast     #170                // class net/sweenus/simplyswords/api/AwakeningProfile\n      13: astore_2\n      14: aload_2\n      15: invokevirtual #192                // Method net/sweenus/simplyswords/api/AwakeningProfile.dormantAttackSpeedMultiplier:()F\n      18: iload_1\n      19: invokestatic  #188                // Method interpolateMultiplier:(FI)F\n      22: freturn",
+          "  public static float getEffectMultiplier(net.minecraft.world.item.ItemStack);\n    Code:\n       0: aload_0\n       1: invokestatic  #168                // Method net/sweenus/simplyswords/api/AwakeningProfileRegistry.get:(Lnet/minecraft/world/item/ItemStack;)Ljava/util/Optional;\n       4: getstatic     #174                // Field net/sweenus/simplyswords/api/AwakeningProfile.DEFAULT:Lnet/sweenus/simplyswords/api/AwakeningProfile;\n       7: invokevirtual #180                // Method java/util/Optional.orElse:(Ljava/lang/Object;)Ljava/lang/Object;\n      10: checkcast     #170                // class net/sweenus/simplyswords/api/AwakeningProfile\n      13: astore_1\n      14: aload_0\n      15: invokestatic  #126                // Method getLevel:(Lnet/minecraft/world/item/ItemStack;)I\n      18: istore_2\n      19: iload_2\n      20: aload_1\n      21: invokevirtual #265                // Method net/sweenus/simplyswords/api/AwakeningProfile.abilityUnlockLevel:()I\n      24: if_icmpge     31\n      27: fconst_0\n      28: goto          36\n      31: iload_2\n      32: i2f\n      33: ldc           #194                // float 8.0f\n      35: fdiv\n      36: freturn",
+          "  public static boolean isAbilityUnlocked(net.minecraft.world.item.ItemStack);\n    Code:\n       0: aload_0\n       1: invokestatic  #126                // Method getLevel:(Lnet/minecraft/world/item/ItemStack;)I\n       4: aload_0\n       5: invokestatic  #269                // Method getAbilityUnlockLevel:(Lnet/minecraft/world/item/ItemStack;)I\n       8: if_icmplt     15\n      11: iconst_1\n      12: goto          16\n      15: iconst_0\n      16: ireturn",
+          "  public static float getGemPowerMultiplier(net.minecraft.world.item.ItemStack);\n    Code:\n       0: aload_0\n       1: invokestatic  #274                // Method getEffectMultiplier:(Lnet/minecraft/world/item/ItemStack;)F\n       4: freturn"
+        ],
+        "net.sweenus.simplyswords.api.AwakeningProfile": [
+          "  static {};\n    Code:\n       0: new           #2                  // class net/sweenus/simplyswords/api/AwakeningProfile\n       3: dup\n       4: ldc           #17                 // float 0.5f\n       6: ldc           #19                 // float 0.75f\n       8: iconst_4\n       9: invokespecial #46                 // Method \"<init>\":(FFI)V\n      12: putstatic     #79                 // Field DEFAULT:Lnet/sweenus/simplyswords/api/AwakeningProfile;\n      15: return\n}"
+        ],
+        "net.sweenus.simplyswords.power.powers.StormlashPower": [
+          "  public void postHit(net.minecraft.world.item.ItemStack, net.minecraft.world.entity.LivingEntity, net.minecraft.world.entity.LivingEntity);\n    Code:\n       0: aload_3\n       1: invokevirtual #31                 // Method net/minecraft/world/entity/LivingEntity.m_9236_:()Lnet/minecraft/world/level/Level;\n       4: invokevirtual #37                 // Method net/minecraft/world/level/Level.m_5776_:()Z\n       7: ifeq          11\n      10: return\n      11: aload_3\n      12: invokevirtual #41                 // Method net/minecraft/world/entity/LivingEntity.m_217043_:()Lnet/minecraft/util/RandomSource;\n      15: bipush        100\n      17: invokeinterface #47,  2           // InterfaceMethod net/minecraft/util/RandomSource.m_188503_:(I)I\n      22: getstatic     #53                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n      25: getfield      #59                 // Field net/sweenus/simplyswords/config/GemPowersConfig.stormlash:Lnet/sweenus/simplyswords/power/powers/StormlashPower$Settings;\n      28: getfield      #63                 // Field net/sweenus/simplyswords/power/powers/StormlashPower$Settings.chance:I\n      31: if_icmplt     35\n      34: return\n      35: ldc           #64                 // String stormlash\n      37: invokestatic  #70                 // Method net/sweenus/simplyswords/compat/SpellScalingComponents.power:(Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;\n      40: aload_3\n      41: aload_1\n      42: getstatic     #53                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n      45: getfield      #59                 // Field net/sweenus/simplyswords/config/GemPowersConfig.stormlash:Lnet/sweenus/simplyswords/power/powers/StormlashPower$Settings;\n      48: getfield      #74                 // Field net/sweenus/simplyswords/power/powers/StormlashPower$Settings.damageScaling:F\n      51: getstatic     #53                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n      54: getfield      #59                 // Field net/sweenus/simplyswords/config/GemPowersConfig.stormlash:Lnet/sweenus/simplyswords/power/powers/StormlashPower$Settings;\n      57: getfield      #77                 // Field net/sweenus/simplyswords/power/powers/StormlashPower$Settings.spellScaling:F\n      60: invokestatic  #83                 // Method net/sweenus/simplyswords/util/HelperMethods.gemPowerScaledDamage:(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;FF)F\n      63: fstore        4\n      65: invokestatic  #89                 // Method net/sweenus/simplyswords/api/SimplySwordsAPI.getDelegatedWeaponHitContext:()Lnet/sweenus/simplyswords/api/DelegatedWeaponHitContext;\n      68: astore        5\n      70: aload         5\n      72: ifnull        119\n      75: aload_3\n      76: invokevirtual #31                 // Method net/minecraft/world/entity/LivingEntity.m_9236_:()Lnet/minecraft/world/level/Level;\n      79: checkcast     #91                 // class net/minecraft/server/level/ServerLevel\n      82: aload_3\n      83: aload         5\n      85: invokevirtual #97                 // Method net/sweenus/simplyswords/api/DelegatedWeaponHitContext.actor:()Lnet/minecraft/world/entity/LivingEntity;\n      88: aload_2\n      89: getstatic     #53                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n      92: getfield      #59                 // Field net/sweenus/simplyswords/config/GemPowersConfig.stormlash:Lnet/sweenus/simplyswords/power/powers/StormlashPower$Settings;\n      95: getfield      #100                // Field net/sweenus/simplyswords/power/powers/StormlashPower$Settings.chainCount:I\n      98: fload         4\n     100: getstatic     #53                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n     103: getfield      #59                 // Field net/sweenus/simplyswords/config/GemPowersConfig.stormlash:Lnet/sweenus/simplyswords/power/powers/StormlashPower$Settings;\n     106: getfield      #104                // Field net/sweenus/simplyswords/power/powers/StormlashPower$Settings.range:D\n     109: getstatic     #108                // Field net/sweenus/simplyswords/world/ChainLightningVisualManager.STORMBRINGER_SETTINGS:Lnet/sweenus/simplyswords/world/ChainLightningVisualManager$LightningVisualSettings;\n     112: invokestatic  #112                // Method net/sweenus/simplyswords/world/ChainLightningVisualManager.damageChain:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;IFDLnet/sweenus/simplyswords/world/ChainLightningVisualManager$LightningVisualSettings;)I\n     115: pop\n     116: goto          155\n     119: aload_3\n     120: invokevirtual #31                 // Method net/minecraft/world/entity/LivingEntity.m_9236_:()Lnet/minecraft/world/level/Level;\n     123: checkcast     #91                 // class net/minecraft/server/level/ServerLevel\n     126: aload_3\n     127: aload_2\n     128: getstatic     #53                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n     131: getfield      #59                 // Field net/sweenus/simplyswords/config/GemPowersConfig.stormlash:Lnet/sweenus/simplyswords/power/powers/StormlashPower$Settings;\n     134: getfield      #100                // Field net/sweenus/simplyswords/power/powers/StormlashPower$Settings.chainCount:I\n     137: fload         4\n     139: getstatic     #53                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n     142: getfield      #59                 // Field net/sweenus/simplyswords/config/GemPowersConfig.stormlash:Lnet/sweenus/simplyswords/power/powers/StormlashPower$Settings;\n     145: getfield      #104                // Field net/sweenus/simplyswords/power/powers/StormlashPower$Settings.range:D\n     148: getstatic     #108                // Field net/sweenus/simplyswords/world/ChainLightningVisualManager.STORMBRINGER_SETTINGS:Lnet/sweenus/simplyswords/world/ChainLightningVisualManager$LightningVisualSettings;\n     151: invokestatic  #115                // Method net/sweenus/simplyswords/world/ChainLightningVisualManager.damageChain:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;IFDLnet/sweenus/simplyswords/world/ChainLightningVisualManager$LightningVisualSettings;)I\n     154: pop\n     155: return"
+        ],
+        "net.sweenus.simplyswords.power.powers.SlowPower": [
+          "  public void postHit(net.minecraft.world.item.ItemStack, net.minecraft.world.entity.LivingEntity, net.minecraft.world.entity.LivingEntity);\n    Code:\n       0: getstatic     #27                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n       3: getfield      #33                 // Field net/sweenus/simplyswords/config/GemPowersConfig.slow:Lnet/sweenus/simplyswords/power/powers/SlowPower$Settings;\n       6: getfield      #37                 // Field net/sweenus/simplyswords/power/powers/SlowPower$Settings.chance:I\n       9: istore        4\n      11: aload_1\n      12: getstatic     #27                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n      15: getfield      #33                 // Field net/sweenus/simplyswords/config/GemPowersConfig.slow:Lnet/sweenus/simplyswords/power/powers/SlowPower$Settings;\n      18: getfield      #40                 // Field net/sweenus/simplyswords/power/powers/SlowPower$Settings.duration:I\n      21: invokestatic  #46                 // Method net/sweenus/simplyswords/api/AwakeningApi.scaleGemPowerDuration:(Lnet/minecraft/world/item/ItemStack;I)I\n      24: istore        5\n      26: aload_3\n      27: invokevirtual #52                 // Method net/minecraft/world/entity/LivingEntity.m_217043_:()Lnet/minecraft/util/RandomSource;\n      30: bipush        100\n      32: invokeinterface #58,  2           // InterfaceMethod net/minecraft/util/RandomSource.m_188503_:(I)I\n      37: iload         4\n      39: if_icmpgt     96\n      42: aload_2\n      43: new           #60                 // class net/minecraft/world/effect/MobEffectInstance\n      46: dup\n      47: getstatic     #66                 // Field net/minecraft/world/effect/MobEffects.f_19597_:Lnet/minecraft/world/effect/MobEffect;\n      50: iload         5\n      52: iconst_2\n      53: invokespecial #69                 // Method net/minecraft/world/effect/MobEffectInstance.\"<init>\":(Lnet/minecraft/world/effect/MobEffect;II)V\n      56: aload_3\n      57: invokevirtual #73                 // Method net/minecraft/world/entity/LivingEntity.m_147207_:(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z\n      60: pop\n      61: aload_0\n      62: invokevirtual #76                 // Method isGreater:()Z\n      65: ifeq          96\n      68: aload_3\n      69: invokevirtual #80                 // Method net/minecraft/world/entity/LivingEntity.m_9236_:()Lnet/minecraft/world/level/Level;\n      72: aconst_null\n      73: aload_3\n      74: getstatic     #86                 // Field net/sweenus/simplyswords/registry/SoundRegistry.MAGIC_SWORD_SPELL_02:Ldev/architectury/registry/registries/RegistrySupplier;\n      77: invokeinterface #92,  1           // InterfaceMethod dev/architectury/registry/registries/RegistrySupplier.get:()Ljava/lang/Object;\n      82: checkcast     #94                 // class net/minecraft/sounds/SoundEvent\n      85: aload_3\n      86: invokevirtual #98                 // Method net/minecraft/world/entity/LivingEntity.m_5720_:()Lnet/minecraft/sounds/SoundSource;\n      89: ldc           #99                 // float 0.1f\n      91: ldc           #100                // float 1.8f\n      93: invokevirtual #106                // Method net/minecraft/world/level/Level.m_6269_:(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V\n      96: return"
+        ],
+        "net.sweenus.simplyswords.power.powers.FreezePower": [
+          "  public void postHit(net.minecraft.world.item.ItemStack, net.minecraft.world.entity.LivingEntity, net.minecraft.world.entity.LivingEntity);\n    Code:\n       0: getstatic     #26                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n       3: getfield      #32                 // Field net/sweenus/simplyswords/config/GemPowersConfig.freeze:Lnet/sweenus/simplyswords/power/powers/FreezePower$Settings;\n       6: getfield      #36                 // Field net/sweenus/simplyswords/power/powers/FreezePower$Settings.chance:I\n       9: istore        4\n      11: aload_1\n      12: getstatic     #26                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n      15: getfield      #32                 // Field net/sweenus/simplyswords/config/GemPowersConfig.freeze:Lnet/sweenus/simplyswords/power/powers/FreezePower$Settings;\n      18: getfield      #39                 // Field net/sweenus/simplyswords/power/powers/FreezePower$Settings.duration:I\n      21: invokestatic  #45                 // Method net/sweenus/simplyswords/api/AwakeningApi.scaleGemPowerDuration:(Lnet/minecraft/world/item/ItemStack;I)I\n      24: istore        5\n      26: aload_1\n      27: getstatic     #26                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n      30: getfield      #32                 // Field net/sweenus/simplyswords/config/GemPowersConfig.freeze:Lnet/sweenus/simplyswords/power/powers/FreezePower$Settings;\n      33: getfield      #39                 // Field net/sweenus/simplyswords/power/powers/FreezePower$Settings.duration:I\n      36: iconst_3\n      37: imul\n      38: invokestatic  #45                 // Method net/sweenus/simplyswords/api/AwakeningApi.scaleGemPowerDuration:(Lnet/minecraft/world/item/ItemStack;I)I\n      41: istore        6\n      43: aload_2\n      44: new           #47                 // class net/minecraft/world/effect/MobEffectInstance\n      47: dup\n      48: getstatic     #53                 // Field net/minecraft/world/effect/MobEffects.f_19597_:Lnet/minecraft/world/effect/MobEffect;\n      51: iload         6\n      53: iconst_1\n      54: invokespecial #56                 // Method net/minecraft/world/effect/MobEffectInstance.\"<init>\":(Lnet/minecraft/world/effect/MobEffect;II)V\n      57: aload_3\n      58: invokevirtual #62                 // Method net/minecraft/world/entity/LivingEntity.m_147207_:(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z\n      61: pop\n      62: aload_3\n      63: invokevirtual #66                 // Method net/minecraft/world/entity/LivingEntity.m_217043_:()Lnet/minecraft/util/RandomSource;\n      66: bipush        100\n      68: invokeinterface #72,  2           // InterfaceMethod net/minecraft/util/RandomSource.m_188503_:(I)I\n      73: iload         4\n      75: if_icmpgt     128\n      78: aload_2\n      79: new           #47                 // class net/minecraft/world/effect/MobEffectInstance\n      82: dup\n      83: getstatic     #78                 // Field net/sweenus/simplyswords/registry/EffectRegistry.FREEZE:Ldev/architectury/registry/registries/RegistrySupplier;\n      86: invokestatic  #82                 // Method net/sweenus/simplyswords/registry/EffectRegistry.getReference:(Ldev/architectury/registry/registries/RegistrySupplier;)Lnet/minecraft/world/effect/MobEffect;\n      89: iload         5\n      91: iconst_1\n      92: invokespecial #56                 // Method net/minecraft/world/effect/MobEffectInstance.\"<init>\":(Lnet/minecraft/world/effect/MobEffect;II)V\n      95: aload_3\n      96: invokevirtual #62                 // Method net/minecraft/world/entity/LivingEntity.m_147207_:(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z\n      99: pop\n     100: aload_3\n     101: invokevirtual #86                 // Method net/minecraft/world/entity/LivingEntity.m_9236_:()Lnet/minecraft/world/level/Level;\n     104: aconst_null\n     105: aload_3\n     106: getstatic     #91                 // Field net/sweenus/simplyswords/registry/SoundRegistry.MAGIC_SWORD_SPELL_02:Ldev/architectury/registry/registries/RegistrySupplier;\n     109: invokeinterface #97,  1           // InterfaceMethod dev/architectury/registry/registries/RegistrySupplier.get:()Ljava/lang/Object;\n     114: checkcast     #99                 // class net/minecraft/sounds/SoundEvent\n     117: aload_3\n     118: invokevirtual #103                // Method net/minecraft/world/entity/LivingEntity.m_5720_:()Lnet/minecraft/sounds/SoundSource;\n     121: ldc           #104                // float 0.1f\n     123: ldc           #105                // float 1.8f\n     125: invokevirtual #111                // Method net/minecraft/world/level/Level.m_6269_:(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V\n     128: return"
+        ],
+        "net.sweenus.simplyswords.power.powers.SwiftnessPower": [
+          "  public void postHit(net.minecraft.world.item.ItemStack, net.minecraft.world.entity.LivingEntity, net.minecraft.world.entity.LivingEntity);\n    Code:\n       0: getstatic     #27                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n       3: getfield      #33                 // Field net/sweenus/simplyswords/config/GemPowersConfig.swiftness:Lnet/sweenus/simplyswords/power/powers/SwiftnessPower$Settings;\n       6: getfield      #37                 // Field net/sweenus/simplyswords/power/powers/SwiftnessPower$Settings.chance:I\n       9: istore        4\n      11: aload_1\n      12: getstatic     #27                 // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n      15: getfield      #33                 // Field net/sweenus/simplyswords/config/GemPowersConfig.swiftness:Lnet/sweenus/simplyswords/power/powers/SwiftnessPower$Settings;\n      18: getfield      #40                 // Field net/sweenus/simplyswords/power/powers/SwiftnessPower$Settings.duration:I\n      21: invokestatic  #46                 // Method net/sweenus/simplyswords/api/AwakeningApi.scaleGemPowerDuration:(Lnet/minecraft/world/item/ItemStack;I)I\n      24: istore        5\n      26: aload_3\n      27: invokevirtual #52                 // Method net/minecraft/world/entity/LivingEntity.m_217043_:()Lnet/minecraft/util/RandomSource;\n      30: bipush        100\n      32: invokeinterface #58,  2           // InterfaceMethod net/minecraft/util/RandomSource.m_188503_:(I)I\n      37: iload         4\n      39: if_icmpgt     100\n      42: aload_3\n      43: new           #60                 // class net/minecraft/world/effect/MobEffectInstance\n      46: dup\n      47: getstatic     #66                 // Field net/minecraft/world/effect/MobEffects.f_19596_:Lnet/minecraft/world/effect/MobEffect;\n      50: iload         5\n      52: aload_0\n      53: invokevirtual #69                 // Method isGreater:()Z\n      56: ifeq          63\n      59: iconst_1\n      60: goto          64\n      63: iconst_0\n      64: invokespecial #76                 // Method net/minecraft/world/effect/MobEffectInstance.\"<init>\":(Lnet/minecraft/world/effect/MobEffect;II)V\n      67: aload_3\n      68: invokevirtual #80                 // Method net/minecraft/world/entity/LivingEntity.m_147207_:(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z\n      71: pop\n      72: aload_3\n      73: invokevirtual #84                 // Method net/minecraft/world/entity/LivingEntity.m_9236_:()Lnet/minecraft/world/level/Level;\n      76: aconst_null\n      77: aload_3\n      78: getstatic     #90                 // Field net/sweenus/simplyswords/registry/SoundRegistry.MAGIC_SWORD_SPELL_02:Ldev/architectury/registry/registries/RegistrySupplier;\n      81: invokeinterface #96,  1           // InterfaceMethod dev/architectury/registry/registries/RegistrySupplier.get:()Ljava/lang/Object;\n      86: checkcast     #98                 // class net/minecraft/sounds/SoundEvent\n      89: aload_3\n      90: invokevirtual #102                // Method net/minecraft/world/entity/LivingEntity.m_5720_:()Lnet/minecraft/sounds/SoundSource;\n      93: ldc           #103                // float 0.1f\n      95: ldc           #104                // float 1.8f\n      97: invokevirtual #110                // Method net/minecraft/world/level/Level.m_6269_:(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V\n     100: return"
+        ],
+        "net.sweenus.simplyswords.effect.OnslaughtEffect": [
+          "  public void m_6742_(net.minecraft.world.entity.LivingEntity, int);\n    Code:\n       0: aload_1\n       1: invokevirtual #27                 // Method net/minecraft/world/entity/LivingEntity.m_9236_:()Lnet/minecraft/world/level/Level;\n       4: invokevirtual #33                 // Method net/minecraft/world/level/Level.m_5776_:()Z\n       7: ifne          174\n      10: aload_1\n      11: instanceof    #35                 // class net/minecraft/world/entity/player/Player\n      14: ifeq          174\n      17: aload_1\n      18: getfield      #38                 // Field net/minecraft/world/entity/LivingEntity.f_19797_:I\n      21: bipush        40\n      23: irem\n      24: ifne          47\n      27: aload_1\n      28: new           #40                 // class net/minecraft/world/effect/MobEffectInstance\n      31: dup\n      32: getstatic     #46                 // Field net/minecraft/world/effect/MobEffects.f_19598_:Lnet/minecraft/world/effect/MobEffect;\n      35: bipush        10\n      37: bipush        15\n      39: invokespecial #49                 // Method net/minecraft/world/effect/MobEffectInstance.\"<init>\":(Lnet/minecraft/world/effect/MobEffect;II)V\n      42: aload_1\n      43: invokevirtual #53                 // Method net/minecraft/world/entity/LivingEntity.m_147207_:(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z\n      46: pop\n      47: aload_1\n      48: getfield      #38                 // Field net/minecraft/world/entity/LivingEntity.f_19797_:I\n      51: bipush        65\n      53: irem\n      54: ifne          75\n      57: aload_1\n      58: getstatic     #46                 // Field net/minecraft/world/effect/MobEffects.f_19598_:Lnet/minecraft/world/effect/MobEffect;\n      61: invokevirtual #57                 // Method net/minecraft/world/entity/LivingEntity.m_21023_:(Lnet/minecraft/world/effect/MobEffect;)Z\n      64: ifeq          75\n      67: aload_1\n      68: getstatic     #46                 // Field net/minecraft/world/effect/MobEffects.f_19598_:Lnet/minecraft/world/effect/MobEffect;\n      71: invokevirtual #60                 // Method net/minecraft/world/entity/LivingEntity.m_21195_:(Lnet/minecraft/world/effect/MobEffect;)Z\n      74: pop\n      75: aload_1\n      76: getstatic     #66                 // Field net/sweenus/simplyswords/registry/EffectRegistry.ONSLAUGHT:Ldev/architectury/registry/registries/RegistrySupplier;\n      79: invokestatic  #70                 // Method net/sweenus/simplyswords/registry/EffectRegistry.getReference:(Ldev/architectury/registry/registries/RegistrySupplier;)Lnet/minecraft/world/effect/MobEffect;\n      82: invokevirtual #57                 // Method net/minecraft/world/entity/LivingEntity.m_21023_:(Lnet/minecraft/world/effect/MobEffect;)Z\n      85: ifeq          174\n      88: aload_1\n      89: getstatic     #66                 // Field net/sweenus/simplyswords/registry/EffectRegistry.ONSLAUGHT:Ldev/architectury/registry/registries/RegistrySupplier;\n      92: invokestatic  #70                 // Method net/sweenus/simplyswords/registry/EffectRegistry.getReference:(Ldev/architectury/registry/registries/RegistrySupplier;)Lnet/minecraft/world/effect/MobEffect;\n      95: invokevirtual #74                 // Method net/minecraft/world/entity/LivingEntity.m_21124_:(Lnet/minecraft/world/effect/MobEffect;)Lnet/minecraft/world/effect/MobEffectInstance;\n      98: astore_3\n      99: getstatic     #76                 // Field $assertionsDisabled:Z\n     102: ifne          117\n     105: aload_3\n     106: ifnonnull     117\n     109: new           #78                 // class java/lang/AssertionError\n     112: dup\n     113: invokespecial #81                 // Method java/lang/AssertionError.\"<init>\":()V\n     116: athrow\n     117: aload_3\n     118: invokevirtual #85                 // Method net/minecraft/world/effect/MobEffectInstance.m_19557_:()I\n     121: bipush        10\n     123: if_icmpge     174\n     126: aload_1\n     127: getstatic     #46                 // Field net/minecraft/world/effect/MobEffects.f_19598_:Lnet/minecraft/world/effect/MobEffect;\n     130: invokevirtual #57                 // Method net/minecraft/world/entity/LivingEntity.m_21023_:(Lnet/minecraft/world/effect/MobEffect;)Z\n     133: ifeq          174\n     136: aload_1\n     137: new           #40                 // class net/minecraft/world/effect/MobEffectInstance\n     140: dup\n     141: getstatic     #88                 // Field net/minecraft/world/effect/MobEffects.f_19613_:Lnet/minecraft/world/effect/MobEffect;\n     144: bipush        80\n     146: iconst_0\n     147: invokespecial #49                 // Method net/minecraft/world/effect/MobEffectInstance.\"<init>\":(Lnet/minecraft/world/effect/MobEffect;II)V\n     150: aload_1\n     151: invokevirtual #53                 // Method net/minecraft/world/entity/LivingEntity.m_147207_:(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z\n     154: pop\n     155: aload_1\n     156: getstatic     #46                 // Field net/minecraft/world/effect/MobEffects.f_19598_:Lnet/minecraft/world/effect/MobEffect;\n     159: invokevirtual #60                 // Method net/minecraft/world/entity/LivingEntity.m_21195_:(Lnet/minecraft/world/effect/MobEffect;)Z\n     162: pop\n     163: aload_1\n     164: getstatic     #66                 // Field net/sweenus/simplyswords/registry/EffectRegistry.ONSLAUGHT:Ldev/architectury/registry/registries/RegistrySupplier;\n     167: invokestatic  #70                 // Method net/sweenus/simplyswords/registry/EffectRegistry.getReference:(Ldev/architectury/registry/registries/RegistrySupplier;)Lnet/minecraft/world/effect/MobEffect;\n     170: invokevirtual #60                 // Method net/minecraft/world/entity/LivingEntity.m_21195_:(Lnet/minecraft/world/effect/MobEffect;)Z\n     173: pop\n     174: aload_0\n     175: aload_1\n     176: iload_2\n     177: invokespecial #90                 // Method net/minecraft/world/effect/MobEffect.m_6742_:(Lnet/minecraft/world/entity/LivingEntity;I)V\n     180: return"
+        ],
+        "net.sweenus.simplyswords.power.powers.OnslaughtPower": [
+          "  public void postHit(net.minecraft.world.item.ItemStack, net.minecraft.world.entity.LivingEntity, net.minecraft.world.entity.LivingEntity);\n    Code:\n       0: aload_2\n       1: getstatic     #23                 // Field net/minecraft/world/effect/MobEffects.f_19597_:Lnet/minecraft/world/effect/MobEffect;\n       4: invokevirtual #29                 // Method net/minecraft/world/entity/LivingEntity.m_21023_:(Lnet/minecraft/world/effect/MobEffect;)Z\n       7: ifeq          46\n      10: aload_3\n      11: getstatic     #32                 // Field net/minecraft/world/effect/MobEffects.f_19613_:Lnet/minecraft/world/effect/MobEffect;\n      14: invokevirtual #29                 // Method net/minecraft/world/entity/LivingEntity.m_21023_:(Lnet/minecraft/world/effect/MobEffect;)Z\n      17: ifne          46\n      20: aload_3\n      21: new           #34                 // class net/minecraft/world/effect/MobEffectInstance\n      24: dup\n      25: getstatic     #40                 // Field net/sweenus/simplyswords/registry/EffectRegistry.ONSLAUGHT:Ldev/architectury/registry/registries/RegistrySupplier;\n      28: invokestatic  #44                 // Method net/sweenus/simplyswords/registry/EffectRegistry.getReference:(Ldev/architectury/registry/registries/RegistrySupplier;)Lnet/minecraft/world/effect/MobEffect;\n      31: aload_1\n      32: bipush        80\n      34: invokestatic  #50                 // Method net/sweenus/simplyswords/api/AwakeningApi.scaleGemPowerDuration:(Lnet/minecraft/world/item/ItemStack;I)I\n      37: iconst_0\n      38: invokespecial #53                 // Method net/minecraft/world/effect/MobEffectInstance.\"<init>\":(Lnet/minecraft/world/effect/MobEffect;II)V\n      41: aload_3\n      42: invokevirtual #57                 // Method net/minecraft/world/entity/LivingEntity.m_147207_:(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z\n      45: pop\n      46: return"
+        ],
+        "net.sweenus.simplyswords.power.powers.RunicSlashPower": [
+          "  public void onSwing(net.minecraft.world.item.ItemStack, net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, net.minecraft.world.InteractionHand);\n    Code:\n       0: aload_2\n       1: aload_3\n       2: aload_1\n       3: invokestatic  #27                 // Method net/sweenus/simplyswords/world/RunicSlashManager.tryFire:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V\n       6: return"
+        ],
+        "net.sweenus.simplyswords.world.RunicSlashManager": [
+          "  public static void tryFire(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack);\n    Code:\n       0: aload_0\n       1: ifnull        32\n       4: aload_1\n       5: ifnull        32\n       8: aload_2\n       9: ifnull        32\n      12: aload_2\n      13: invokevirtual #83                 // Method net/minecraft/world/item/ItemStack.m_41619_:()Z\n      16: ifne          32\n      19: invokestatic  #85                 // Method isSuppressed:()Z\n      22: ifne          32\n      25: aload_1\n      26: invokevirtual #90                 // Method net/minecraft/world/entity/LivingEntity.m_6084_:()Z\n      29: ifne          33\n      32: return\n      33: getstatic     #70                 // Field IGNORE_ATTACK_READY:Ljava/lang/ThreadLocal;\n      36: invokevirtual #43                 // Method java/lang/ThreadLocal.get:()Ljava/lang/Object;\n      39: checkcast     #45                 // class java/lang/Boolean\n      42: invokevirtual #48                 // Method java/lang/Boolean.booleanValue:()Z\n      45: ifne          58\n      48: aload_0\n      49: aload_1\n      50: aload_2\n      51: invokestatic  #94                 // Method isAttackReady:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)Z\n      54: ifne          58\n      57: return\n      58: aload_1\n      59: fconst_1\n      60: invokevirtual #98                 // Method net/minecraft/world/entity/LivingEntity.m_20252_:(F)Lnet/minecraft/world/phys/Vec3;\n      63: astore_3\n      64: aload_3\n      65: invokevirtual #104                // Method net/minecraft/world/phys/Vec3.m_82556_:()D\n      68: ldc2_w        #105                // double 1.0E-4d\n      71: dcmpg\n      72: ifge          87\n      75: aload_1\n      76: invokevirtual #110                // Method net/minecraft/world/entity/LivingEntity.m_146909_:()F\n      79: aload_1\n      80: invokevirtual #113                // Method net/minecraft/world/entity/LivingEntity.m_146908_:()F\n      83: invokestatic  #117                // Method net/minecraft/world/phys/Vec3.m_82498_:(FF)Lnet/minecraft/world/phys/Vec3;\n      86: astore_3\n      87: aload_3\n      88: invokevirtual #104                // Method net/minecraft/world/phys/Vec3.m_82556_:()D\n      91: ldc2_w        #105                // double 1.0E-4d\n      94: dcmpg\n      95: ifge          99\n      98: return\n      99: aload_3\n     100: invokevirtual #121                // Method net/minecraft/world/phys/Vec3.m_82541_:()Lnet/minecraft/world/phys/Vec3;\n     103: astore_3\n     104: ldc2_w        #122                // double 0.05d\n     107: getstatic     #129                // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n     110: getfield      #135                // Field net/sweenus/simplyswords/config/GemPowersConfig.runicSlash:Lnet/sweenus/simplyswords/power/powers/RunicSlashPower$Settings;\n     113: getfield      #139                // Field net/sweenus/simplyswords/power/powers/RunicSlashPower$Settings.speed:D\n     116: invokestatic  #145                // Method java/lang/Math.max:(DD)D\n     119: dstore        4\n     121: ldc2_w        #146                // double 0.25d\n     124: getstatic     #129                // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n     127: getfield      #135                // Field net/sweenus/simplyswords/config/GemPowersConfig.runicSlash:Lnet/sweenus/simplyswords/power/powers/RunicSlashPower$Settings;\n     130: getfield      #150                // Field net/sweenus/simplyswords/power/powers/RunicSlashPower$Settings.distance:D\n     133: invokestatic  #145                // Method java/lang/Math.max:(DD)D\n     136: dstore        6\n     138: ldc           #152                // String runic_slash\n     140: invokestatic  #158                // Method net/sweenus/simplyswords/compat/SpellScalingComponents.power:(Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;\n     143: aload_1\n     144: aload_2\n     145: getstatic     #129                // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n     148: getfield      #135                // Field net/sweenus/simplyswords/config/GemPowersConfig.runicSlash:Lnet/sweenus/simplyswords/power/powers/RunicSlashPower$Settings;\n     151: getfield      #162                // Field net/sweenus/simplyswords/power/powers/RunicSlashPower$Settings.damageScaling:F\n     154: getstatic     #129                // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n     157: getfield      #135                // Field net/sweenus/simplyswords/config/GemPowersConfig.runicSlash:Lnet/sweenus/simplyswords/power/powers/RunicSlashPower$Settings;\n     160: getfield      #165                // Field net/sweenus/simplyswords/power/powers/RunicSlashPower$Settings.spellScaling:F\n     163: invokestatic  #171                // Method net/sweenus/simplyswords/util/HelperMethods.gemPowerScaledDamage:(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;FF)F\n     166: fstore        8\n     168: aload_1\n     169: invokevirtual #174                // Method net/minecraft/world/entity/LivingEntity.m_146892_:()Lnet/minecraft/world/phys/Vec3;\n     172: dconst_0\n     173: ldc2_w        #175                // double 0.15d\n     176: aload_1\n     177: invokevirtual #179                // Method net/minecraft/world/entity/LivingEntity.m_20206_:()F\n     180: f2d\n     181: ldc2_w        #180                // double 0.18d\n     184: dmul\n     185: invokestatic  #145                // Method java/lang/Math.max:(DD)D\n     188: dconst_0\n     189: invokevirtual #185                // Method net/minecraft/world/phys/Vec3.m_82492_:(DDD)Lnet/minecraft/world/phys/Vec3;\n     192: aload_3\n     193: ldc2_w        #186                // double 0.65d\n     196: invokevirtual #191                // Method net/minecraft/world/phys/Vec3.m_82490_:(D)Lnet/minecraft/world/phys/Vec3;\n     199: invokevirtual #195                // Method net/minecraft/world/phys/Vec3.m_82549_:(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;\n     202: astore        9\n     204: new           #197                // class net/sweenus/simplyswords/entity/RunicSlashProjectileEntity\n     207: dup\n     208: aload_0\n     209: aload_1\n     210: aload_2\n     211: invokevirtual #201                // Method net/minecraft/world/item/ItemStack.m_41777_:()Lnet/minecraft/world/item/ItemStack;\n     214: aload_3\n     215: dload         6\n     217: dload         4\n     219: fload         8\n     221: getstatic     #129                // Field net/sweenus/simplyswords/config/Config.gemPowers:Lnet/sweenus/simplyswords/config/GemPowersConfig;\n     224: getfield      #135                // Field net/sweenus/simplyswords/config/GemPowersConfig.runicSlash:Lnet/sweenus/simplyswords/power/powers/RunicSlashPower$Settings;\n     227: getfield      #204                // Field net/sweenus/simplyswords/power/powers/RunicSlashPower$Settings.width:D\n     230: invokespecial #207                // Method net/sweenus/simplyswords/entity/RunicSlashProjectileEntity.\"<init>\":(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/phys/Vec3;DDFD)V\n     233: astore        10\n     235: aload         10\n     237: aload         9\n     239: invokevirtual #211                // Method net/sweenus/simplyswords/entity/RunicSlashProjectileEntity.m_146884_:(Lnet/minecraft/world/phys/Vec3;)V\n     242: aload         10\n     244: aload_1\n     245: invokevirtual #113                // Method net/minecraft/world/entity/LivingEntity.m_146908_:()F\n     248: invokevirtual #215                // Method net/sweenus/simplyswords/entity/RunicSlashProjectileEntity.m_146922_:(F)V\n     251: aload         10\n     253: aload_1\n     254: invokevirtual #110                // Method net/minecraft/world/entity/LivingEntity.m_146909_:()F\n     257: invokevirtual #218                // Method net/sweenus/simplyswords/entity/RunicSlashProjectileEntity.m_146926_:(F)V\n     260: aload_0\n     261: aload         10\n     263: invokevirtual #224                // Method net/minecraft/server/level/ServerLevel.m_7967_:(Lnet/minecraft/world/entity/Entity;)Z\n     266: pop\n     267: aload_0\n     268: aconst_null\n     269: aload_1\n     270: invokevirtual #227                // Method net/minecraft/world/entity/LivingEntity.m_20185_:()D\n     273: aload_1\n     274: invokevirtual #230                // Method net/minecraft/world/entity/LivingEntity.m_20186_:()D\n     277: aload_1\n     278: invokevirtual #233                // Method net/minecraft/world/entity/LivingEntity.m_20189_:()D\n     281: getstatic     #239                // Field net/sweenus/simplyswords/registry/SoundRegistry.SWING_WOOSH:Ldev/architectury/registry/registries/RegistrySupplier;\n     284: invokeinterface #242,  1          // InterfaceMethod dev/architectury/registry/registries/RegistrySupplier.get:()Ljava/lang/Object;\n     289: checkcast     #244                // class net/minecraft/sounds/SoundEvent\n     292: getstatic     #250                // Field net/minecraft/sounds/SoundSource.PLAYERS:Lnet/minecraft/sounds/SoundSource;\n     295: ldc           #251                // float 0.75f\n     297: ldc           #252                // float 1.25f\n     299: aload_0\n     300: getfield      #256                // Field net/minecraft/server/level/ServerLevel.f_46441_:Lnet/minecraft/util/RandomSource;\n     303: invokeinterface #261,  1          // InterfaceMethod net/minecraft/util/RandomSource.m_188501_:()F\n     308: ldc_w         #262                // float 0.12f\n     311: fmul\n     312: fadd\n     313: invokevirtual #266                // Method net/minecraft/server/level/ServerLevel.m_6263_:(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V\n     316: aload_0\n     317: aconst_null\n     318: aload_1\n     319: invokevirtual #227                // Method net/minecraft/world/entity/LivingEntity.m_20185_:()D\n     322: aload_1\n     323: invokevirtual #230                // Method net/minecraft/world/entity/LivingEntity.m_20186_:()D\n     326: aload_1\n     327: invokevirtual #233                // Method net/minecraft/world/entity/LivingEntity.m_20189_:()D\n     330: getstatic     #269                // Field net/sweenus/simplyswords/registry/SoundRegistry.ELEMENTAL_SWORD_WIND_ATTACK_03:Ldev/architectury/registry/registries/RegistrySupplier;\n     333: invokeinterface #242,  1          // InterfaceMethod dev/architectury/registry/registries/RegistrySupplier.get:()Ljava/lang/Object;\n     338: checkcast     #244                // class net/minecraft/sounds/SoundEvent\n     341: getstatic     #250                // Field net/minecraft/sounds/SoundSource.PLAYERS:Lnet/minecraft/sounds/SoundSource;\n     344: ldc_w         #270                // float 0.45f\n     347: ldc_w         #271                // float 1.45f\n     350: aload_0\n     351: getfield      #256                // Field net/minecraft/server/level/ServerLevel.f_46441_:Lnet/minecraft/util/RandomSource;\n     354: invokeinterface #261,  1          // InterfaceMethod net/minecraft/util/RandomSource.m_188501_:()F\n     359: ldc_w         #262                // float 0.12f\n     362: fmul\n     363: fadd\n     364: invokevirtual #266                // Method net/minecraft/server/level/ServerLevel.m_6263_:(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V\n     367: aload_0\n     368: getstatic     #277                // Field net/minecraft/core/particles/ParticleTypes.f_123766_:Lnet/minecraft/core/particles/SimpleParticleType;\n     371: aload         9\n     373: getfield      #280                // Field net/minecraft/world/phys/Vec3.f_82479_:D\n     376: aload         9\n     378: getfield      #283                // Field net/minecraft/world/phys/Vec3.f_82480_:D\n     381: aload         9\n     383: getfield      #286                // Field net/minecraft/world/phys/Vec3.f_82481_:D\n     386: iconst_1\n     387: dconst_0\n     388: dconst_0\n     389: dconst_0\n     390: dconst_0\n     391: invokevirtual #290                // Method net/minecraft/server/level/ServerLevel.m_8767_:(Lnet/minecraft/core/particles/ParticleOptions;DDDIDDDD)I\n     394: pop\n     395: return"
+        ],
+        "net.sweenus.simplyswords.power.GemPowerComponent": [
+          "  public void postHit(net.minecraft.world.item.ItemStack, net.minecraft.world.entity.LivingEntity, net.minecraft.world.entity.LivingEntity);\n    Code:\n       0: aload_1\n       1: invokestatic  #128                // Method net/sweenus/simplyswords/api/AwakeningApi.areGemPowersActive:(Lnet/minecraft/world/item/ItemStack;)Z\n       4: ifne          8\n       7: return\n       8: aload_0\n       9: invokevirtual #103                // Method runic:()Lnet/sweenus/simplyswords/power/GemPower;\n      12: aload_1\n      13: aload_2\n      14: aload_3\n      15: invokevirtual #130                // Method net/sweenus/simplyswords/power/GemPower.postHit:(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)V\n      18: aload_0\n      19: invokevirtual #107                // Method nether:()Lnet/sweenus/simplyswords/power/GemPower;\n      22: aload_1\n      23: aload_2\n      24: aload_3\n      25: invokevirtual #130                // Method net/sweenus/simplyswords/power/GemPower.postHit:(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)V\n      28: return",
+          "  public void inventoryTick(net.minecraft.world.item.ItemStack, net.minecraft.world.level.Level, net.minecraft.world.entity.LivingEntity, int, boolean);\n    Code:\n       0: aload_1\n       1: invokestatic  #128                // Method net/sweenus/simplyswords/api/AwakeningApi.areGemPowersActive:(Lnet/minecraft/world/item/ItemStack;)Z\n       4: ifne          8\n       7: return\n       8: aload_0\n       9: invokevirtual #103                // Method runic:()Lnet/sweenus/simplyswords/power/GemPower;\n      12: aload_1\n      13: aload_2\n      14: aload_3\n      15: iload         4\n      17: iload         5\n      19: invokevirtual #204                // Method net/sweenus/simplyswords/power/GemPower.inventoryTick:(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;IZ)V\n      22: aload_0\n      23: invokevirtual #107                // Method nether:()Lnet/sweenus/simplyswords/power/GemPower;\n      26: aload_1\n      27: aload_2\n      28: aload_3\n      29: iload         4\n      31: iload         5\n      33: invokevirtual #204                // Method net/sweenus/simplyswords/power/GemPower.inventoryTick:(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;IZ)V\n      36: return"
+        ]
+      },
+      "data": {
+        "data/simplyswords/recipes/runic2_chakram.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_chakram"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_chakram",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_claymore.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_claymore"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_claymore",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_cutlass.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_cutlass"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_cutlass",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_glaive.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_glaive"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_glaive",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_greataxe.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_greataxe"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_greataxe",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_greathammer.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_greathammer"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_greathammer",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_halberd.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_halberd"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_halberd",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_katana.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_katana"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_katana",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_longsword.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_longsword"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_longsword",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_rapier.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_rapier"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_rapier",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_sai.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_sai"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_sai",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_scythe.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_scythe"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_scythe",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_spear.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_spear"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_spear",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_twinblade.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_twinblade"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_twinblade",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic2_warglaive.json": {
+          "type": "simplyswords:smithing_reroll",
+          "base": {
+            "item": "simplyswords:runic_warglaive"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_warglaive",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_chakram.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_chakram"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_chakram",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_claymore.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_claymore"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_claymore",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_cutlass.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_cutlass"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_cutlass",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_forge.json": {
+          "type": "minecraft:crafting_shaped",
+          "category": "misc",
+          "key": {
+            "A": {
+              "item": "minecraft:amethyst_shard"
+            },
+            "G": {
+              "item": "minecraft:gold_ingot"
+            },
+            "O": {
+              "item": "minecraft:obsidian"
+            },
+            "R": {
+              "item": "simplyswords:runic_tablet"
+            },
+            "S": {
+              "item": "minecraft:smithing_table"
+            }
+          },
+          "pattern": [
+            "GOG",
+            "ASA",
+            "GRG"
+          ],
+          "result": {
+            "count": 1,
+            "item": "simplyswords:runic_forge"
+          }
+        },
+        "data/simplyswords/recipes/runic_glaive.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_glaive"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_glaive",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_greataxe.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_greataxe"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_greataxe",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_greathammer.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_greathammer"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_greathammer",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_halberd.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_halberd"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_halberd",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_katana.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_katana"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_katana",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_longsword.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_longsword"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_longsword",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_rapier.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_rapier"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_rapier",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_sai.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_sai"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_sai",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_scythe.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_scythe"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_scythe",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_spear.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_spear"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_spear",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_twinblade.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_twinblade"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_twinblade",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        },
+        "data/simplyswords/recipes/runic_warglaive.json": {
+          "type": "minecraft:smithing_transform",
+          "base": {
+            "item": "simplyswords:netherite_warglaive"
+          },
+          "addition": {
+            "item": "minecraft:diamond"
+          },
+          "result": {
+            "item": "simplyswords:runic_warglaive",
+            "count": 1
+          },
+          "template": {
+            "item": "simplyswords:runic_tablet"
+          }
+        }
+      }
+    }
+  ],
+  "overrides": {
+    "overrides/defaultconfigs/create_enchantment_industry-server.toml": {
+      "sha256": "cd3fc7924ca5484f6e15033d98106ac2a2a99e52fce56bc6e07a6aaf10429798",
+      "text": "# Expedition: preserve normal enchantment caps and incompatibilities.\n[kinetics.enchantments]\nblazeEnchanterMaxLevelExtension = 0\nblazeForgerMaxLevelExtension = 0\nignoreEnchantmentCompatibility = false\n"
+    },
+    "overrides/config/simplyswords/gem_powers.toml": {
+      "sha256": "f35021ec978d5ed969718b59aae90c521d2509116704db20f9dc54382600a5ff",
+      "text": "# Don't change this! Version used to track needed updates.\nversion = 3\ndisabledPowers = [  ]\n\n[activeDefence]\nfrequency = 20\nradius = 5.0\n\n[floating]\nchance = 15\nduration = 50\n\n[freeze]\nchance = 15\nduration = 120\n\n[frostWard]\nfrequency = 20\nradius = 5.0\nduration = 60\n\n[dancingBlades]\nchance = 5\nmaxSwords = 3\nduration = 400\norbitRadius = 2.65\ndamageScaling = 0.8\nspellScaling = 1.6\n\n[imbued]\nchance = 15\nspellScaling = 1.0\n\n[immolation]\nspellScaling = 2.0\n\n[radiance]\nspellScaling = 2.0\n\n[momentum]\ncooldown = 140\n\n[shielding]\nchance = 15\nduration = 120\n\n[slow]\nchance = 50\nduration = 50\n\n[stormlash]\nchance = 15\nchainCount = 6\nrange = 6.0\ndamageScaling = 0.35\nspellScaling = 0.8\n\n[stoneskin]\nchance = 15\nduration = 60\n\n[swiftness]\nchance = 15\nduration = 300\n\n[trailblaze]\nchance = 15\nduration = 120\n\n[unstable]\nfrequency = 140\nduration = 140\n\n[weaken]\nchance = 15\nduration = 120\n\n[wildfire]\nchance = 10\nduration = 180\nradius = 10.0\n\n[zephyr]\nchance = 15\nduration = 180\n\n[verdantTrail]\nduration = 100\nplacementSpacing = 1.25\nplacementCooldown = 4\nradius = 1.35\nauraInterval = 20\nregenerationDuration = 60\nregenerationAmplifier = 0\ndamageScaling = 0.18\nspellScaling = 0.36\nvisualPointsMin = 7\nvisualPointsMax = 11\n\n[faultline]\nchance = 10\nlength = 8.0\nwidth = 2.4\nstepDistance = 1.0\ndamageScaling = 0.35\nspellScaling = 0.8\ncenterSpikeHeight = 1.05\nedgeSpikeHeight = 2.6\nriseTicks = 6\nholdTicks = 4\nsinkTicks = 8\nwaveStepDelayTicks = 1\n\n[necromanticArsenal]\nchance = 10\nmaxMinions = 3\nduration = 600\ndamageScaling = 0.6\nspellScaling = 1.2\nactiveAbilityChance = 10\nactiveAbilityCheckInterval = 110\nactiveAbilityInitialDelay = 40\n\n[wolfPack]\nchance = 40\nmaxMinions = 2\nduration = 1400\ndamageScaling = 1.0\nspellScaling = 2.0\nactiveAbilityChance = 35\nactiveAbilityCheckInterval = 40\nactiveAbilityInitialDelay = 40\n\n[goatStampede]\nchance = 15\ngoatCount = 4\nduration = 50\ndamageScaling = 0.3\nspellScaling = 0.6\nscreamingChance = 15\nscreamingDamageScaling = 0.5\nscreamingSpellScaling = 1.0\nknockbackStrength = 0.9\nchargeSpeed = 0.55\nsummonerKnockback = 0.5\nmaxActiveStampedes = 1\n\n[baneheadSwarm]\nmaxActiveHeads = 5\nspawnFrequency = 60\norbitRadius = 1.6\norbitHeight = 1.4\norbitAngularSpeed = 0.05\nhomingRange = 12.0\nhomingSpeed = 0.4\nhomingInitialSpeedFraction = 0.3\nhomingAccelerationTicks = 20\nhomingCooldownTicks = 30\nhomingTurnRateDegrees = 9.0\nexplosionProximity = 1.1\nexplosionRadius = 2.5\ndamageScaling = 0.6\nspellScaling = 1.2\nmaxHomingTicks = 100\n\n[wingBuffet]\nchance = 15\nrange = 5.5\nconeAngleDegrees = 70.0\ndamageScaling = 1.75\nspellScaling = 3.5\nknockbackStrength = 1.4\nupwardKnockback = 0.25\nvisualLifetime = 18\nvisualScale = 0.65\n\n[dragonMaw]\nchance = 15\nscanFrequencyTicks = 20\nrange = 8.0\nvisualLifetimeTicks = 300\nbreathDelayTicks = 12\nbreathRepeatTicks = 60\nbreathCloudDurationTicks = 50\nbreathRadius = 2.25\ndamageIntervalTicks = 10\ndamageScaling = 0.45\nspellScaling = 0.9\nheadScale = 2.35\nheadVerticalOffset = -0.59\nturnSpeedDegreesPerTick = 6.0\n\n[runicSlash]\ndistance = 16.0\nspeed = 1.2\nwidth = 1.15\ndamageScaling = 1.0\nspellScaling = 2.0\nminimumSwingCooldownTicks = 2\n\n[evocation]\nrange = 8.0\nscanFrequencyTicks = 10\nmaxTargetsPerScan = 3\ntargetCooldownTicks = 60\nfangWarmupTicks = 0\ndamageDelayTicks = 8\ndamageScaling = 0.2\nspellScaling = 0.4\nslownessDurationTicks = 60\nslownessAmplifier = 1\n\n[snifferSlam]\nchance = 5\ndamageScaling = 2.0\nspellScaling = 4.0\nfallHeight = 8.0\nfallSpeed = 0.75\nimpactRadius = 2.0\nimmobiliseDurationTicks = 20\nlingerTicks = 20\nmaxActiveSlams = 1\nscreamingGoatSoundChance = 5\n\n[simplySkills]\npreciseChance = 30\nmightyChance = 30\nstealthyChance = 30\nrenewedChance = 30\nleapingChance = 65\nspellshieldChance = 15"
+    }
+  },
+  "weaponCapabilities": {
+    "diamond_chakram": {
+      "type": "epicfight:dagger"
+    },
+    "diamond_claymore": {
+      "type": "epicfight:greatsword"
+    },
+    "diamond_cutlass": {
+      "type": "epicfight:sword"
+    },
+    "diamond_glaive": {
+      "type": "epicfight:spear"
+    },
+    "diamond_greataxe": {
+      "type": "epicfight:greatsword"
+    },
+    "diamond_greathammer": {
+      "type": "epicfight:greatsword"
+    },
+    "diamond_halberd": {
+      "type": "epicfight:spear"
+    },
+    "diamond_katana": {
+      "type": "epicfight:uchigatana"
+    },
+    "diamond_longsword": {
+      "type": "epicfight:longsword"
+    },
+    "diamond_rapier": {
+      "type": "epicfight:sword"
+    },
+    "diamond_sai": {
+      "type": "epicfight:dagger"
+    },
+    "diamond_scythe": {
+      "type": "epicfight:spear"
+    },
+    "diamond_spear": {
+      "type": "epicfight:spear"
+    },
+    "diamond_twinblade": {
+      "type": "epicfight:tachi"
+    },
+    "diamond_warglaive": {
+      "type": "epicfight:spear"
+    },
+    "gold_chakram": {
+      "type": "epicfight:dagger"
+    },
+    "gold_claymore": {
+      "type": "epicfight:greatsword"
+    },
+    "gold_cutlass": {
+      "type": "epicfight:sword"
+    },
+    "gold_glaive": {
+      "type": "epicfight:spear"
+    },
+    "gold_greataxe": {
+      "type": "epicfight:greatsword"
+    },
+    "gold_greathammer": {
+      "type": "epicfight:greatsword"
+    },
+    "gold_halberd": {
+      "type": "epicfight:spear"
+    },
+    "gold_katana": {
+      "type": "epicfight:uchigatana"
+    },
+    "gold_longsword": {
+      "type": "epicfight:longsword"
+    },
+    "gold_rapier": {
+      "type": "epicfight:sword"
+    },
+    "gold_sai": {
+      "type": "epicfight:dagger"
+    },
+    "gold_scythe": {
+      "type": "epicfight:spear"
+    },
+    "gold_spear": {
+      "type": "epicfight:spear"
+    },
+    "gold_twinblade": {
+      "type": "epicfight:tachi"
+    },
+    "gold_warglaive": {
+      "type": "epicfight:spear"
+    },
+    "iron_chakram": {
+      "type": "epicfight:dagger"
+    },
+    "iron_claymore": {
+      "type": "epicfight:greatsword"
+    },
+    "iron_cutlass": {
+      "type": "epicfight:sword"
+    },
+    "iron_glaive": {
+      "type": "epicfight:spear"
+    },
+    "iron_greataxe": {
+      "type": "epicfight:greatsword"
+    },
+    "iron_greathammer": {
+      "type": "epicfight:greatsword"
+    },
+    "iron_halberd": {
+      "type": "epicfight:spear"
+    },
+    "iron_katana": {
+      "type": "epicfight:uchigatana"
+    },
+    "iron_longsword": {
+      "type": "epicfight:longsword"
+    },
+    "iron_rapier": {
+      "type": "epicfight:sword"
+    },
+    "iron_sai": {
+      "type": "epicfight:dagger"
+    },
+    "iron_scythe": {
+      "type": "epicfight:spear"
+    },
+    "iron_spear": {
+      "type": "epicfight:spear"
+    },
+    "iron_twinblade": {
+      "type": "epicfight:tachi"
+    },
+    "iron_warglaive": {
+      "type": "epicfight:spear"
+    },
+    "netherite_chakram": {
+      "type": "epicfight:dagger"
+    },
+    "netherite_claymore": {
+      "type": "epicfight:greatsword"
+    },
+    "netherite_cutlass": {
+      "type": "epicfight:sword"
+    },
+    "netherite_glaive": {
+      "type": "epicfight:spear"
+    },
+    "netherite_greataxe": {
+      "type": "epicfight:greatsword"
+    },
+    "netherite_greathammer": {
+      "type": "epicfight:greatsword"
+    },
+    "netherite_halberd": {
+      "type": "epicfight:spear"
+    },
+    "netherite_katana": {
+      "type": "epicfight:uchigatana"
+    },
+    "netherite_longsword": {
+      "type": "epicfight:longsword"
+    },
+    "netherite_rapier": {
+      "type": "epicfight:sword"
+    },
+    "netherite_sai": {
+      "type": "epicfight:dagger"
+    },
+    "netherite_scythe": {
+      "type": "epicfight:spear"
+    },
+    "netherite_spear": {
+      "type": "epicfight:spear"
+    },
+    "netherite_twinblade": {
+      "type": "epicfight:tachi"
+    },
+    "netherite_warglaive": {
+      "type": "epicfight:spear"
+    },
+    "runic_chakram": {
+      "type": "epicfight:dagger"
+    },
+    "runic_claymore": {
+      "type": "epicfight:greatsword"
+    },
+    "runic_cutlass": {
+      "type": "epicfight:sword"
+    },
+    "runic_glaive": {
+      "type": "epicfight:spear"
+    },
+    "runic_greataxe": {
+      "type": "epicfight:greatsword"
+    },
+    "runic_greathammer": {
+      "type": "epicfight:greatsword"
+    },
+    "runic_halberd": {
+      "type": "epicfight:spear"
+    },
+    "runic_katana": {
+      "type": "epicfight:uchigatana"
+    },
+    "runic_longsword": {
+      "type": "epicfight:longsword"
+    },
+    "runic_rapier": {
+      "type": "epicfight:sword"
+    },
+    "runic_sai": {
+      "type": "epicfight:dagger"
+    },
+    "runic_scythe": {
+      "type": "epicfight:spear"
+    },
+    "runic_spear": {
+      "type": "epicfight:spear"
+    },
+    "runic_twinblade": {
+      "type": "epicfight:tachi"
+    },
+    "runic_warglaive": {
+      "type": "epicfight:spear"
+    }
+  }
+}
