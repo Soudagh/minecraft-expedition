@@ -26,6 +26,8 @@ files+=list((ROOT/'docs').glob('*0.25.*'))
 files+=list((ROOT/'docs').glob('*0.26.*'))
 for audit_version in ['0.27','0.28','0.29','0.30','0.31','0.32','0.33','0.34']:
     files+=list((ROOT/'docs').glob('*'+audit_version+'.json'))
+files += [ROOT/'docs/DRACONIC-RECIPE-MANIFEST.json', ROOT/'docs/DRACONIC-RECIPE-RESULTS.json']
+files += [ROOT/'tools'/name for name in ['build_draconic_recipes.py','test_draconic_recipes.py','draconic_recipe_probe.js']]
 files+=list((ROOT/'qa').rglob('*'))
 files+=list((ROOT/'docs').glob('*0.35.json'))
 files+=list((ROOT/'docs').glob('*0.36.json'))

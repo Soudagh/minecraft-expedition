@@ -1,6 +1,6 @@
 # Экспедиция — собственная сборка Minecraft
 
-Текущий предварительный релиз: [0.37](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.37.0-late-project-balance-dev) · [Клиентский установщик](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.37.0-late-project-balance-dev/expedition-0.37.0-late-project-balance-dev-bootstrap.zip) · [Готовый сервер](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.37.0-late-project-balance-dev/expedition-0.37.0-late-project-balance-dev-server.zip). Minecraft 1.20.1, Forge 47.4.10, Java 17; 73 клиентских / 68 серверных модов, 36 глав / 994 квеста / 1044 задачи. Полный игровой прогон ещё не завершён.
+Текущий предварительный релиз: [0.38.1](https://github.com/Soudagh/minecraft-expedition/releases/tag/v0.38.1-draconic-endgame-dev) · [Клиентский установщик](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.38.1-draconic-endgame-dev/expedition-0.38.1-draconic-endgame-dev-bootstrap.zip) · [Готовый сервер](https://github.com/Soudagh/minecraft-expedition/releases/download/v0.38.1-draconic-endgame-dev/expedition-0.38.1-draconic-endgame-dev-server.zip). Minecraft 1.20.1 / Forge 47.4.10 / Java 17; 77 клиентских / 72 серверных мода. Дорогая финальная экипировка Draconic через ZPM/UV, Gaia и шрабидий. Подробности: [Draconic endgame](demo-beta/docs/DRACONIC-ENDGAME.md).
 
 Полная экспертная сборка для четырёх игроков: требовательные бои, строительство, магия и производство от Create до поздних цепочек GregTech. Формат демо отменён; LV — начало электрической эпохи.
 

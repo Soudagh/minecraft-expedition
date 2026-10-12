@@ -1,0 +1,46 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "draconicevolution:dislocator"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "tag": "forge:ingots/draconium"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "tag": "forge:ingots/draconium"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "tag": "forge:ingots/draconium"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "tag": "forge:ingots/draconium"
+    },
+    {
+      "item": "gtceu:zpm_electric_motor"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "hbm_m:schrabidium_powder"
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:advanced_dislocator"
+  },
+  "tier": "WYVERN",
+  "total_energy": 1000000
+}

@@ -1,0 +1,340 @@
+[
+  {
+    "recipe": "draconicevolution/tools/advanced_dislocator",
+    "output": "draconicevolution:advanced_dislocator",
+    "tier": "WYVERN",
+    "added": [
+      "gtceu:zpm_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 11
+  },
+  {
+    "recipe": "draconicevolution/tools/chaotic_axe",
+    "output": "draconicevolution:chaotic_axe",
+    "tier": "CHAOTIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder",
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 14
+  },
+  {
+    "recipe": "draconicevolution/tools/chaotic_bow",
+    "output": "draconicevolution:chaotic_bow",
+    "tier": "CHAOTIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder",
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 14
+  },
+  {
+    "recipe": "draconicevolution/tools/chaotic_capacitor",
+    "output": "draconicevolution:chaotic_capacitor",
+    "tier": "CHAOTIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder",
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 14
+  },
+  {
+    "recipe": "draconicevolution/tools/chaotic_chestpiece",
+    "output": "draconicevolution:chaotic_chestpiece",
+    "tier": "CHAOTIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder",
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 14
+  },
+  {
+    "recipe": "draconicevolution/tools/chaotic_hoe",
+    "output": "draconicevolution:chaotic_hoe",
+    "tier": "CHAOTIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder",
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 14
+  },
+  {
+    "recipe": "draconicevolution/tools/chaotic_pickaxe",
+    "output": "draconicevolution:chaotic_pickaxe",
+    "tier": "CHAOTIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder",
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 14
+  },
+  {
+    "recipe": "draconicevolution/tools/chaotic_shovel",
+    "output": "draconicevolution:chaotic_shovel",
+    "tier": "CHAOTIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder",
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 14
+  },
+  {
+    "recipe": "draconicevolution/tools/chaotic_staff",
+    "output": "draconicevolution:chaotic_staff",
+    "tier": "CHAOTIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder",
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 16
+  },
+  {
+    "recipe": "draconicevolution/tools/chaotic_staff_alt",
+    "output": "draconicevolution:chaotic_staff",
+    "tier": "CHAOTIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder",
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 16
+  },
+  {
+    "recipe": "draconicevolution/tools/chaotic_sword",
+    "output": "draconicevolution:chaotic_sword",
+    "tier": "CHAOTIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder",
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 14
+  },
+  {
+    "recipe": "draconicevolution/tools/draconic_axe",
+    "output": "draconicevolution:draconic_axe",
+    "tier": "DRACONIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 11
+  },
+  {
+    "recipe": "draconicevolution/tools/draconic_bow",
+    "output": "draconicevolution:draconic_bow",
+    "tier": "DRACONIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 11
+  },
+  {
+    "recipe": "draconicevolution/tools/draconic_capacitor",
+    "output": "draconicevolution:draconic_capacitor",
+    "tier": "DRACONIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 11
+  },
+  {
+    "recipe": "draconicevolution/tools/draconic_chestpiece",
+    "output": "draconicevolution:draconic_chestpiece",
+    "tier": "DRACONIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 11
+  },
+  {
+    "recipe": "draconicevolution/tools/draconic_hoe",
+    "output": "draconicevolution:draconic_hoe",
+    "tier": "DRACONIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 11
+  },
+  {
+    "recipe": "draconicevolution/tools/draconic_pickaxe",
+    "output": "draconicevolution:draconic_pickaxe",
+    "tier": "DRACONIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 11
+  },
+  {
+    "recipe": "draconicevolution/tools/draconic_shovel",
+    "output": "draconicevolution:draconic_shovel",
+    "tier": "DRACONIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 11
+  },
+  {
+    "recipe": "draconicevolution/tools/draconic_staff",
+    "output": "draconicevolution:draconic_staff",
+    "tier": "DRACONIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 13
+  },
+  {
+    "recipe": "draconicevolution/tools/draconic_sword",
+    "output": "draconicevolution:draconic_sword",
+    "tier": "DRACONIC",
+    "added": [
+      "gtceu:uv_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 11
+  },
+  {
+    "recipe": "draconicevolution/tools/wyvern_axe",
+    "output": "draconicevolution:wyvern_axe",
+    "tier": "WYVERN",
+    "added": [
+      "gtceu:zpm_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 9
+  },
+  {
+    "recipe": "draconicevolution/tools/wyvern_bow",
+    "output": "draconicevolution:wyvern_bow",
+    "tier": "WYVERN",
+    "added": [
+      "gtceu:zpm_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 9
+  },
+  {
+    "recipe": "draconicevolution/tools/wyvern_capacitor",
+    "output": "draconicevolution:wyvern_capacitor",
+    "tier": "WYVERN",
+    "added": [
+      "gtceu:zpm_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 11
+  },
+  {
+    "recipe": "draconicevolution/tools/wyvern_chestpiece",
+    "output": "draconicevolution:wyvern_chestpiece",
+    "tier": "WYVERN",
+    "added": [
+      "gtceu:zpm_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 9
+  },
+  {
+    "recipe": "draconicevolution/tools/wyvern_hoe",
+    "output": "draconicevolution:wyvern_hoe",
+    "tier": "WYVERN",
+    "added": [
+      "gtceu:zpm_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 9
+  },
+  {
+    "recipe": "draconicevolution/tools/wyvern_pickaxe",
+    "output": "draconicevolution:wyvern_pickaxe",
+    "tier": "WYVERN",
+    "added": [
+      "gtceu:zpm_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 9
+  },
+  {
+    "recipe": "draconicevolution/tools/wyvern_shovel",
+    "output": "draconicevolution:wyvern_shovel",
+    "tier": "WYVERN",
+    "added": [
+      "gtceu:zpm_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 9
+  },
+  {
+    "recipe": "draconicevolution/tools/wyvern_sword",
+    "output": "draconicevolution:wyvern_sword",
+    "tier": "WYVERN",
+    "added": [
+      "gtceu:zpm_electric_motor",
+      "botania:gaia_ingot",
+      "hbm_m:schrabidium_powder"
+    ],
+    "injectors": 9
+  }
+]
