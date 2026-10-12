@@ -16,13 +16,16 @@ def message(text,color='gold'):
     return json.dumps({'text':'[Экспедиция] '+text,'color':color},ensure_ascii=False)
 
 def build():
-    objectives=['exp_stage','exp_timer','exp_batch']+[f'exp_b{i}' for i in range(1,10)]+[f'exp_i{i}' for i in range(5)]
+    objectives=['exp_stage','exp_timer','exp_batch','exp_cat','exp_divfin','exp_chaos','exp_storm']+[f'exp_b{i}' for i in range(1,10)]+[f'exp_i{i}' for i in range(5)]
     load=['scoreboard objectives add '+o+' dummy' for o in objectives]
     for i in range(1,10):load.append(f'execute unless score $expedition exp_b{i} matches 0.. run scoreboard players set $expedition exp_b{i} 0')
-    load += ['execute unless score $expedition exp_stage matches 0.. run scoreboard players set $expedition exp_stage 0',
+    load += ['execute unless score $expedition exp_cat matches 0.. run scoreboard players set $expedition exp_cat 0',
+             'execute unless score $expedition exp_stage matches 0.. run scoreboard players set $expedition exp_stage 0',
              'scoreboard players set $expedition exp_timer 0']
+    for objective in ['exp_divfin','exp_chaos','exp_storm']:
+        load.append(f'execute unless score $expedition {objective} matches 0.. run scoreboard players set $expedition {objective} 0')
     write(DATA/'functions/progression/load.mcfunction','\n'.join(load)+'\n')
-    sync=[]
+    sync=['function expedition:cataclysm/sync','function expedition:balance/slb','function expedition:final_bosses/sync']
     for i,slug,boss,_,_ in STAGES:
         sync.append(f'execute if score $expedition exp_stage matches {i-1} if score $expedition exp_b{i} matches 1 run function expedition:progression/open/{slug}')
         sync.append(f'execute if score $expedition exp_stage matches {i}.. as @a[advancements={{expedition:stages/{slug}=false}}] run advancement grant @s only expedition:stages/{slug}')
@@ -34,6 +37,8 @@ def build():
     dyes=['red','orange','yellow','lime','cyan','blue','purple','magenta','black']
     for i,slug,boss,title,inputs in STAGES:
         write(DATA/f'functions/progression/win/{slug}.mcfunction',
+              'execute unless score $expedition exp_cat matches 8.. run return 0\n'+
+              f'execute unless score $expedition exp_stage matches {i-1} run return 0\n'+
               f'execute unless score $expedition exp_b{i} matches 1 run tellraw @a '+message('Победа: '+boss+'. Она сохранена для всей экспедиции.','green')+'\n'+
               f'scoreboard players set $expedition exp_b{i} 1\nfunction expedition:progression/sync\n')
         write(DATA/f'functions/progression/open/{slug}.mcfunction',f'scoreboard players set $expedition exp_stage {i}\ntellraw @a '+message(f'Открыт этап {i}: {title}. Производство доступно на кузнечном столе по схеме.')+'\n')
@@ -55,7 +60,7 @@ def build():
         victory=f'140000000000{i:04X}';material=f'140100000000{i:04X}'
         quests.append({'id':victory,'title':f'{i} · Победа: {boss}','x':float((i-1)*4),'y':0.0,
           'description':['Зачёт по общему серверному этапу после настоящей победы. Предыдущие победы должны быть записаны; ручная галочка атласа ничего не открывает.'],
-          'dependencies':[f'140000000000{i-1:04X}'] if i>1 else [],
+          'dependencies':[f'140000000000{i-1:04X}'] if i>1 else ['1602000000000001','1C38000000000008'],
           'tasks':[{'id':f'250000000000{i:04X}','type':'advancement','advancement':f'expedition:stages/{slug}'}]})
         quests.append({'id':material,'title':title+' · первая партия','x':float((i-1)*4),'y':3.0,
           'description':['Сделайте схему из бумаги и красителя (JEI). Держите её в основной руке и нажмите ПКМ по кузнечному столу; входы должны лежать в вашем инвентаре. Схема многоразовая, выход — 4.','После открытия производите новые партии без повторного фарма босса. Предметы квеста не изымаются.'],
@@ -71,7 +76,15 @@ def build():
     startup.append('})');recipe_js.append('})')
     write(ROOT/'kubejs/startup_scripts/expedition_progression_items.js','\n'.join(startup)+'\n')
     write(ROOT/'kubejs/server_scripts/expedition_progression_recipes.js','\n'.join(recipe_js)+'\n')
-    write(ROOT/'config/ftbquests/quests/chapters/campaign.snbt',{'id':'3000000000000020','filename':'campaign','title':'Основной маршрут · общие открытия','order_index':1,'quests':quests})
+    write(ROOT/'config/ftbquests/quests/chapters/campaign.snbt',{'id':'3000000000000020','filename':'campaign','title':'Основной маршрут · общие открытия','order_index':2,'quests':quests})
+    from cataclysm_quests import write_cataclysm
+    write_cataclysm(ROOT/'config/ftbquests/quests')
+    from final_boss_quests import write_final_bosses
+    write_final_bosses(ROOT/'config/ftbquests/quests')
+    balance=json.loads((Path(__file__).resolve().parents[1]/'overrides/kubejs/config/boss_balance.json').read_text())
+    write(DATA/'functions/balance/slb.mcfunction','\n'.join(
+        f'scoreboard players set .s_l_b_global {slug}_health {spec["health"]}'
+        for slug,spec in balance['slb'].items() if slug!='sunflower')+'\n')
     # Keep the historical exp_progress objective; load/tick main entry points remain stable.
     write(DATA/'functions/load.mcfunction','scoreboard objectives add exp_progress dummy\nfunction expedition:progression/load\n')
     write(DATA/'functions/tick.mcfunction','# The old demo notification remains disabled.\nfunction expedition:progression/tick\n')

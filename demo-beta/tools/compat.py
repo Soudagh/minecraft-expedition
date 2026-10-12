@@ -6,6 +6,7 @@ files are instance-owned and hashed by install.py, like regular overrides.
 import json
 import re
 import zipfile
+from pathlib import Path
 from progression import SLB_HOOKS
 
 
@@ -16,6 +17,8 @@ def boss_overrides(entries, cache):
     if entry.get('curseforge_file_id') != 7955163:
         raise ValueError('SLB compatibility fixes require the verified 3.4 file 7955163')
     result = {}
+    balance_path=Path(__file__).resolve().parents[1]/'overrides/kubejs/config/boss_balance.json'
+    balance=json.loads(balance_path.read_text())['slb'] if balance_path.exists() else {}
     with zipfile.ZipFile(cache / entry['filename']) as jar:
         for name in jar.namelist():
             if not name.startswith('data/') or not name.endswith('.mcfunction'):
@@ -28,6 +31,40 @@ def boss_overrides(entries, cache):
                 if ' run #playsound ' in line:
                     line = '# Expedition: disabled upstream sound keyframe'
                 line = re.sub(r'(run damage @s 8 generic)\]$', r'\1', line)
+                # Preserve phases, movement and attack timing; change only the
+                # numeric damage of the owning boss (including its phantoms).
+                match=re.match(r'data/souls_like_bosses/functions/bosses/([^/]+)/',name)
+                owner=match.group(1) if match else None
+                rig=re.match(r'data/animated_java/functions/([^/]+)/',name)
+                if rig:
+                    owner={'slb_aw':'aw','slb_soc':'soc','slb_nl':'nl','slb_te':'te',
+                           'lothran_boss_test_1':'lothran','lothran_incantations':'lothran',
+                           'gigant_sunflower':'sunflower','gigant_sunflower_light':'sunflower',
+                           'light_wave':'soc','nl_light_wave':'nl','slb_lightning':'soc'}.get(rig.group(1))
+                    for prefix,slug in [('slb_aw_','aw'),('slb_nl_','nl'),('slb_te_','te')]:
+                        if rig.group(1).startswith(prefix):owner=slug
+                    if rig.group(1).startswith('sunflower_'):owner='sunflower'
+                spec=balance.get(owner)
+                if spec and not line.lstrip().startswith('#'):
+                    factor=spec['damage_multiplier']
+                    line=re.sub(r'(\bdamage\s+@\w(?:\[[^\]]*\])?\s+)(\d+(?:\.\d+)?)',
+                        lambda m:m.group(1)+format(round(float(m.group(2))*factor,3),'g'),line)
+                    # Nested NL/TE phantom starts previously reset high health
+                    # globals to 400. Accept the same bounds as the outer boss.
+                    line=re.sub(r'(score \.s_l_b_global (?:aw|nl|te|soc)_health matches 100\.\.)800',r'\g<1>490000',line)
+                    if owner=='sunflower':
+                        line=line.replace('scoreboard players set @s boss_health 500','scoreboard players set @s boss_health '+str(spec['health']))
+                sunflower=balance.get('sunflower')
+                if sunflower and not line.lstrip().startswith('#'):
+                    if name.startswith('data/animated_java/functions/gigant_sunflower/') and 'summon slime ' in line and 'Health:900' in line:
+                        health=sunflower['health']+400  # upstream hidden HP offset
+                        line=line.replace('Health:900','Health:'+str(health)).replace('Base:900f','Base:'+str(health)+'f')
+                    line=line.replace('bossbar set souls_like_bosses:sunflower max 500','bossbar set souls_like_bosses:sunflower max '+str(sunflower['health']))
+                    line=line.replace('bossbar set souls_like_bosses:sunflower max 350','bossbar set souls_like_bosses:sunflower max '+str(sunflower['health']))
+                    if owner=='sunflower':
+                        # Keep the halfway phase at half effective HP; 400 is
+                        # the upstream hidden offset and terminal threshold.
+                        line=line.replace('boss_health matches ..650','boss_health matches ..'+str(400+sunflower['health']//2))
                 for target in ('aw', 'nl'):
                     line = line.replace('type=!player,type=#souls_like_bosses:' + target + '_target',
                                         'type=#expedition:slb_' + target + '_mob_targets')

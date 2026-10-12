@@ -51,6 +51,19 @@
     "productionGraph": null
   },
   {
+    "chapter": "cataclysm",
+    "before": {
+      "width": 28.0,
+      "height": 0.0
+    },
+    "after": {
+      "width": 11.200000000000001,
+      "height": 0.0
+    },
+    "quests": 8,
+    "productionGraph": null
+  },
+  {
     "chapter": "combat_roles",
     "before": {
       "width": 16.0,
@@ -113,6 +126,19 @@
       "height": 9.6
     },
     "quests": 26,
+    "productionGraph": null
+  },
+  {
+    "chapter": "final_bosses",
+    "before": {
+      "width": 21.0,
+      "height": 0.0
+    },
+    "after": {
+      "width": 11.200000000000001,
+      "height": 0.0
+    },
+    "quests": 8,
     "productionGraph": null
   },
   {

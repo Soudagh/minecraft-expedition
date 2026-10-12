@@ -1,6 +1,6 @@
 {
   "name": "Expedition Demo Beta",
-  "version": "0.37.0-late-project-balance-dev",
+  "version": "0.38.0-linear-boss-campaign-dev",
   "minecraft": "1.20.1",
   "forge": "47.4.10",
   "java": 17,
@@ -89,6 +89,31 @@
         }
       ],
       "size": 12226445
+    },
+    {
+      "name": "Brandons Core",
+      "slug": "brandons-core",
+      "project_id": "iFDWVIFV",
+      "version_id": "qFTHdrDH",
+      "version": "3.2.1.302",
+      "filename": "BrandonsCore-1.20.1-3.2.1.302-universal.jar",
+      "url": "https://cdn.modrinth.com/data/iFDWVIFV/versions/qFTHdrDH/BrandonsCore-1.20.1-3.2.1.302-universal.jar",
+      "hashes": {
+        "sha1": "1378ba5f84267c18f945c52d787ac86e40d6c241",
+        "sha512": "5cdf22a6343dcc5c3e59d622344120e4314cce0be98ee9c865c69c333b8bd449812de380b8142065ab7bf873a51607995b5f2d83f69212f285f14f774ea16d8a",
+        "sha256": "79eb172fea57b1fa6424fda1c773aefb13c4e11277b810bb4c7577ed8c5f8ca6"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/brandons-core",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "2gq0ALnz",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 1358270
     },
     {
       "name": "Brewin' And Chewin'",
@@ -195,6 +220,24 @@
       "size": 1181413
     },
     {
+      "name": "CodeChicken Lib",
+      "slug": "codechicken-lib",
+      "project_id": "2gq0ALnz",
+      "version_id": "5zfJEMhM",
+      "version": "4.4.0.528",
+      "filename": "CodeChickenLib-1.20.1-4.4.0.528-universal.jar",
+      "url": "https://cdn.modrinth.com/data/2gq0ALnz/versions/5zfJEMhM/CodeChickenLib-1.20.1-4.4.0.528-universal.jar",
+      "hashes": {
+        "sha1": "66c614b047414e3cfcd69ff7f001b7033c5813c6",
+        "sha512": "ad518e3f169cbab5ba1aa421a12b8eed51ffffac7371722f20c6e5d8a042e5f16a466524f8cebef889ce84bf479d0a71e28e23d1a1d1a41d95dcefde18813782",
+        "sha256": "754240e1cd05caaf511a808ddf6fc74ece68a8fca7d94548d9ac967287f7960d"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/codechicken-lib",
+      "dependencies": [],
+      "size": 1473536
+    },
+    {
       "name": "Combat Roll",
       "slug": "combat-roll",
       "project_id": "wGKYL7st",
@@ -255,6 +298,24 @@
         }
       ],
       "size": 2003713
+    },
+    {
+      "name": "Cracker's Wither Storm Mod",
+      "slug": "crackers-wither-storm-mod",
+      "project_id": "kWjNGDUH",
+      "version_id": "nY68hRY1",
+      "version": "4.2.1",
+      "filename": "witherstormmod-1.20.1-4.2.1-all.jar",
+      "url": "https://cdn.modrinth.com/data/kWjNGDUH/versions/nY68hRY1/witherstormmod-1.20.1-4.2.1-all.jar",
+      "hashes": {
+        "sha1": "bd32ea3f44812b6b1744739633ea25d32197f4b8",
+        "sha512": "bbd0704962588c51337891cff0770b4ec3b008d504458b7323f4550c0ef3ac0515408d5ac8db2616b3f7f873ff3d58b8a7ebe7405ed237ae660eebfc020d1b5e",
+        "sha256": "a23c019b1465c87ba506ada49aa815866e5353ebdc2be3284d9087ff080018ac"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/crackers-wither-storm-mod",
+      "dependencies": [],
+      "size": 47342265
     },
     {
       "name": "Create",
@@ -458,6 +519,37 @@
       "source": "https://modrinth.com/mod/divinerpg",
       "dependencies": [],
       "size": 28016649
+    },
+    {
+      "name": "Draconic Evolution",
+      "slug": "draconic-evolution",
+      "project_id": "nBqivi8H",
+      "version_id": "YR33MHbk",
+      "version": "3.1.2.621",
+      "filename": "Draconic-Evolution-1.20.1-3.1.2.621-universal.jar",
+      "url": "https://cdn.modrinth.com/data/nBqivi8H/versions/YR33MHbk/Draconic-Evolution-1.20.1-3.1.2.621-universal.jar",
+      "hashes": {
+        "sha1": "8abd0ee849f9654ec91d3ecbd115e2c296f08c73",
+        "sha512": "202d3a0147f7a0614ab1fabf7c5795451f0f2fef91cf1cbd6dff3447c3d41ce8a62a43d8e8836ba80ef76752c46851f03390c32dee6a7a073803ebea8e5aec9a",
+        "sha256": "06ae009929799d7f912adcf83498b83328395bd53c90e4e03eb07d710b40441a"
+      },
+      "side": "both",
+      "source": "https://modrinth.com/mod/draconic-evolution",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "2gq0ALnz",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "iFDWVIFV",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "size": 5934411
     },
     {
       "name": "EEEAB's Mobs",

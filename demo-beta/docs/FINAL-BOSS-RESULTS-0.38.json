@@ -1,0 +1,72 @@
+{
+	"checks": 43,
+	"guardianHealth": 1000.0,
+	"stormHealth": 400.0,
+	"stormTerminalDamageKey": "witherstormmod:player_attack_wither_storm",
+	"catArmor": [
+		{
+			"id": "cataclysm:cursium_helmet",
+			"armor": 3,
+			"toughness": 1.5
+		},
+		{
+			"id": "cataclysm:cursium_chestplate",
+			"armor": 8,
+			"toughness": 1.5
+		},
+		{
+			"id": "cataclysm:cursium_leggings",
+			"armor": 6,
+			"toughness": 1.5
+		},
+		{
+			"id": "cataclysm:cursium_boots",
+			"armor": 2,
+			"toughness": 1.5
+		},
+		{
+			"id": "cataclysm:ignitium_helmet",
+			"armor": 3,
+			"toughness": 2
+		},
+		{
+			"id": "cataclysm:ignitium_chestplate",
+			"armor": 8,
+			"toughness": 2
+		},
+		{
+			"id": "cataclysm:ignitium_leggings",
+			"armor": 6,
+			"toughness": 2
+		},
+		{
+			"id": "cataclysm:ignitium_boots",
+			"armor": 3,
+			"toughness": 2
+		},
+		{
+			"id": "cataclysm:bone_reptile_helmet",
+			"armor": 3,
+			"toughness": 1.5
+		},
+		{
+			"id": "cataclysm:bone_reptile_chestplate",
+			"armor": 7,
+			"toughness": 1.5
+		},
+		{
+			"id": "cataclysm:ignitium_elytra_chestplate",
+			"armor": 8,
+			"toughness": 2
+		}
+	],
+	"incineratorAttack": 8,
+	"slbHealth": {
+		"aw": 1400,
+		"lothran": 2000,
+		"soc": 3600,
+		"nl": 4800,
+		"te": 6400
+	},
+	"scope": "Native registries, gates, attributes and terminal-state snapshots; no real Chaos/Storm or multiplayer fight."
+}

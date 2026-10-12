@@ -1,5 +1,5 @@
 {
-  "version": "0.37.0-late-project-balance-dev",
+  "version": "0.38.0-linear-boss-campaign-dev",
   "chapters": [
     {
       "id": "3000000000000001",
@@ -13,6 +13,13 @@
       "slug": "campaign",
       "count": 28,
       "title": "02 · Девять боссов и общие открытия",
+      "order": 10
+    },
+    {
+      "id": "3C38000000000001",
+      "slug": "cataclysm",
+      "count": 8,
+      "title": "Cataclysm · до Divine RPG",
       "order": 10
     },
     {
@@ -247,6 +254,13 @@
       "order": 980
     },
     {
+      "id": "3F38000000000001",
+      "slug": "final_bosses",
+      "count": 8,
+      "title": "Два боевых финала · Chaos Guardian и Wither Storm",
+      "order": 980
+    },
+    {
       "id": "3000000000000009",
       "slug": "practice_archive",
       "count": 18,
@@ -254,8 +268,8 @@
       "order": 990
     }
   ],
-  "questCount": 994,
-  "taskCount": 1044,
+  "questCount": 1010,
+  "taskCount": 1060,
   "questIDs": [
     "1100000000000000",
     "1100000000000001",
@@ -371,6 +385,14 @@
     "1602000000000008",
     "1602000000000009",
     "160200000000000A",
+    "1C38000000000001",
+    "1C38000000000002",
+    "1C38000000000003",
+    "1C38000000000004",
+    "1C38000000000005",
+    "1C38000000000006",
+    "1C38000000000007",
+    "1C38000000000008",
     "1500000000000001",
     "1500000000000002",
     "1500000000000003",
@@ -540,6 +562,14 @@
     "160300000000000F",
     "1603000000000010",
     "1603000000000011",
+    "1F38000000000001",
+    "1F38000000000002",
+    "1F38000000000003",
+    "1F38000000000004",
+    "1F38000000000005",
+    "1F38000000000006",
+    "1F38000000000007",
+    "1F38000000000008",
     "1C37000000000001",
     "1C37000000000002",
     "1C37000000000003",
@@ -1379,6 +1409,14 @@
     "2702000900000001",
     "2702000A00000000",
     "2702000A00000001",
+    "2C38000000000001",
+    "2C38000000000002",
+    "2C38000000000003",
+    "2C38000000000004",
+    "2C38000000000005",
+    "2C38000000000006",
+    "2C38000000000007",
+    "2C38000000000008",
     "2600000000000001",
     "2600000000000002",
     "2600000000000003",
@@ -1549,6 +1587,14 @@
     "2703000F00000000",
     "2703001000000000",
     "2703001100000000",
+    "2F38000000000001",
+    "2F38000000000002",
+    "2F38000000000003",
+    "2F38000000000004",
+    "2F38000000000005",
+    "2F38000000000006",
+    "2F38000000000007",
+    "2F38000000000008",
     "2C37000000000001",
     "2C37000000000002",
     "2C37000000000003",
@@ -2444,6 +2490,8 @@
     "divinerpg:wildwood_chunk",
     "divinerpg:wildwood_fragments",
     "divinerpg:wildwood_gem",
+    "draconicevolution:awakened_core",
+    "draconicevolution:draconium_core",
     "farmersdelight:bacon_sandwich",
     "farmersdelight:beef_stew",
     "farmersdelight:cabbage",
@@ -2829,7 +2877,10 @@
     "simplyswords:netherite_longsword",
     "simplyswords:runic_greathammer",
     "simplyswords:runic_longsword",
-    "simplyswords:runic_spear"
+    "simplyswords:runic_spear",
+    "witherstormmod:command_block_book",
+    "witherstormmod:command_block_sword",
+    "witherstormmod:formidibomb"
   ],
   "layout": [
     {
@@ -4031,7 +4082,8 @@
       "hideDependencyLines": false,
       "hideDependentLines": false,
       "dependencies": [
-        "1602000000000001"
+        "1602000000000001",
+        "1C38000000000008"
       ],
       "icon": "",
       "taskTypes": [
@@ -4420,6 +4472,116 @@
       "icon": "minecraft:bread",
       "taskTypes": [
         "item"
+      ]
+    },
+    {
+      "id": "1C38000000000001",
+      "x": 0.0,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
+      ]
+    },
+    {
+      "id": "1C38000000000002",
+      "x": 1.6,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C38000000000001"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
+      ]
+    },
+    {
+      "id": "1C38000000000003",
+      "x": 3.2,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C38000000000002"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
+      ]
+    },
+    {
+      "id": "1C38000000000004",
+      "x": 4.800000000000001,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C38000000000003"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
+      ]
+    },
+    {
+      "id": "1C38000000000005",
+      "x": 6.4,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C38000000000004"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
+      ]
+    },
+    {
+      "id": "1C38000000000006",
+      "x": 8.0,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C38000000000005"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
+      ]
+    },
+    {
+      "id": "1C38000000000007",
+      "x": 9.600000000000001,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C38000000000006"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
+      ]
+    },
+    {
+      "id": "1C38000000000008",
+      "x": 11.200000000000001,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1C38000000000007"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
       ]
     },
     {
@@ -5884,7 +6046,9 @@
       "y": 0.0,
       "hideDependencyLines": false,
       "hideDependentLines": false,
-      "dependencies": [],
+      "dependencies": [
+        "1C38000000000008"
+      ],
       "icon": "",
       "taskTypes": [
         "checkmark"
@@ -6011,8 +6175,7 @@
       "hideDependencyLines": false,
       "hideDependentLines": false,
       "dependencies": [
-        "1C35000000000009",
-        "1400000000000002"
+        "1C35000000000009"
       ],
       "icon": "divinerpg:twilight_clock",
       "taskTypes": [
@@ -6055,8 +6218,7 @@
       "hideDependencyLines": false,
       "hideDependentLines": false,
       "dependencies": [
-        "1C3500000000000A",
-        "1400000000000002"
+        "1C3500000000000A"
       ],
       "icon": "",
       "taskTypes": [
@@ -6113,7 +6275,7 @@
       "hideDependentLines": false,
       "dependencies": [
         "1C35000000000017",
-        "1400000000000003"
+        "1400000000000002"
       ],
       "icon": "",
       "taskTypes": [
@@ -6170,7 +6332,7 @@
       "hideDependentLines": false,
       "dependencies": [
         "1C3500000000001B",
-        "1400000000000004"
+        "1400000000000003"
       ],
       "icon": "",
       "taskTypes": [
@@ -6227,7 +6389,7 @@
       "hideDependentLines": false,
       "dependencies": [
         "1C3500000000001F",
-        "1400000000000005"
+        "1400000000000004"
       ],
       "icon": "",
       "taskTypes": [
@@ -6812,6 +6974,119 @@
       "icon": "",
       "taskTypes": [
         "checkmark"
+      ]
+    },
+    {
+      "id": "1F38000000000001",
+      "x": 0.0,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1400000000000007"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
+      ]
+    },
+    {
+      "id": "1F38000000000002",
+      "x": 1.6,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1F38000000000001",
+        "1400000000000009"
+      ],
+      "icon": "draconicevolution:draconium_core",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1F38000000000003",
+      "x": 3.2,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1F38000000000002"
+      ],
+      "icon": "draconicevolution:awakened_core",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1F38000000000004",
+      "x": 4.800000000000001,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1F38000000000003"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
+      ]
+    },
+    {
+      "id": "1F38000000000005",
+      "x": 6.4,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1F38000000000004"
+      ],
+      "icon": "witherstormmod:formidibomb",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1F38000000000006",
+      "x": 8.0,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1F38000000000005"
+      ],
+      "icon": "witherstormmod:command_block_book",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1F38000000000007",
+      "x": 9.600000000000001,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1F38000000000006"
+      ],
+      "icon": "witherstormmod:command_block_sword",
+      "taskTypes": [
+        "item"
+      ]
+    },
+    {
+      "id": "1F38000000000008",
+      "x": 11.200000000000001,
+      "y": 0.0,
+      "hideDependencyLines": false,
+      "hideDependentLines": false,
+      "dependencies": [
+        "1F38000000000007"
+      ],
+      "icon": "",
+      "taskTypes": [
+        "advancement"
       ]
     },
     {

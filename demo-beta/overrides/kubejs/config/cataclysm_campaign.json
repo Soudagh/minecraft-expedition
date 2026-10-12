@@ -1,0 +1,65 @@
+{
+  "bosses": [
+    {
+      "entity": "cataclysm:netherite_monstrosity",
+      "title": "Незеритовый монстр",
+      "order": 1
+    },
+    {
+      "entity": "cataclysm:ancient_remnant",
+      "title": "Древний остаток",
+      "order": 2
+    },
+    {
+      "entity": "cataclysm:the_harbinger",
+      "title": "Предвестник",
+      "order": 3
+    },
+    {
+      "entity": "cataclysm:ender_guardian",
+      "title": "Страж Края",
+      "order": 4
+    },
+    {
+      "entity": "cataclysm:scylla",
+      "title": "Сцилла",
+      "order": 5
+    },
+    {
+      "entity": "cataclysm:the_leviathan",
+      "title": "Левиафан",
+      "order": 6
+    },
+    {
+      "entity": "cataclysm:maledictus",
+      "title": "Маледиктус",
+      "order": 7
+    },
+    {
+      "entity": "cataclysm:ignis",
+      "title": "Игнис",
+      "order": 8
+    }
+  ],
+  "dimensions": {
+    "divinerpg:iceika": 0,
+    "divinerpg:eden": 0,
+    "divinerpg:wildwood": 2,
+    "divinerpg:apalachia": 3,
+    "divinerpg:skythern": 4,
+    "divinerpg:arcana": 5,
+    "divinerpg:mortum": 6,
+    "divinerpg:vethea": 7
+  },
+  "blocked_placements": [
+    "divinerpg:divine_rock",
+    "divinerpg:arcana_portal_frame",
+    "divinerpg:arcana_hard_portal_frame",
+    "divinerpg:nightmare_bed"
+  ],
+  "blocked_activators": [
+    "divinerpg:twilight_clock",
+    "divinerpg:nightmare_bed",
+    "divinerpg:snow_globe"
+  ]
+}

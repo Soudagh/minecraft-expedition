@@ -34,7 +34,7 @@ function expeditionFinalAdvanced(start,now) {
 function expeditionFinalWatch(player,pos) {
  var server=player.server
  if(player.isCreative() || player.isSpectator()) {player.tell('Зачёт выполняется в выживании.');return 0}
- if(expeditionFinalScore(server,'exp_complete')===1){player.tell('Экспедиция уже завершена.');return 0}
+ if(expeditionFinalScore(server,'exp_complete')===1){player.tell('Промышленный финал уже подтверждён.');return 0}
  if(!expeditionFinalVictories(server) || !expeditionFinalComponents(player)){player.tell('Нужны все девять побед и по четыре UV-мотора и UV-помпы в инвентаре. Компоненты сохраняются.');return 0}
  if(player.blockPosition().distSqr(pos)>64){player.tell('Подойдите к контроллеру на расстояние до восьми блоков.');return 0}
  var machine=expeditionFinalMachine.getMachine(player.level,pos),state=expeditionFinalState(machine)
@@ -59,7 +59,7 @@ ServerEvents.tick(event=>{
   if(!expeditionFinalVictories(event.server) || !expeditionFinalComponents(player) || expeditionFinalScore(event.server,'exp_complete')===1)return
   event.server.runCommandSilent('scoreboard players set $expedition exp_complete 1')
   event.server.runCommandSilent('advancement grant @a only expedition:completed')
-  event.server.runCommandSilent('tellraw @a {"text":"[Экспедиция] Девять побед и работающий UV-синтез подтверждены. Общий маршрут завершён!","color":"gold"}')
+  event.server.runCommandSilent('tellraw @a {"text":"[Экспедиция] Девять побед и работающий UV-синтез подтверждены. Промышленный финал подтверждён! Боевой финал продолжается.","color":"gold"}')
  })
 })
 ServerEvents.commandRegistry(event=>{

@@ -1,3 +1,6 @@
+function expedition:cataclysm/sync
+function expedition:balance/slb
+function expedition:final_bosses/sync
 execute if score $expedition exp_stage matches 0 if score $expedition exp_b1 matches 1 run function expedition:progression/open/watchers
 execute if score $expedition exp_stage matches 1.. as @a[advancements={expedition:stages/watchers=false}] run advancement grant @s only expedition:stages/watchers
 execute if score $expedition exp_stage matches 1 if score $expedition exp_b2 matches 1 run function expedition:progression/open/champion

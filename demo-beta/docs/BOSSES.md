@@ -1,3 +1,5 @@
+> Обновление 0.38: Cataclysm обязательный до DivineRPG; Chaos Guardian и Wither Storm добавлены. Текущая схема и баланс: [линейная кампания 0.38](LINEAR-BOSS-CAMPAIGN-0.38.md). Описания состава ниже исторические.
+
 # Боссы: выбранный состав 0.3
 
 Выбор пользователя от 7 октября: полный **Souls like Bosses**, **The Graveyard**, **EEEAB’s Mobs**. Всего девять основных боссов и два отложенных финала. Aquamirae, Meet Your Fight, Legendary Monsters (Колосс), Bosses’Rise (Йети) и отдельный Soul of Cinder Standalone не добавляются.

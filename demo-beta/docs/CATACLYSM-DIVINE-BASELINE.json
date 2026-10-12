@@ -1,0 +1,1229 @@
+{
+	"checks": 108,
+	"bosses": [
+		{
+			"id": "cataclysm:netherite_monstrosity",
+			"className": "com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.NewNetherite_Monstrosity.Netherite_Monstrosity_Entity",
+			"health": 600.0,
+			"armor": 12
+		},
+		{
+			"id": "cataclysm:ancient_remnant",
+			"className": "com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Ancient_Remnant.Ancient_Remnant_Entity",
+			"health": 450.0,
+			"armor": 12
+		},
+		{
+			"id": "cataclysm:the_harbinger",
+			"className": "com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Harbinger_Entity",
+			"health": 390.0,
+			"armor": 12
+		},
+		{
+			"id": "cataclysm:ender_guardian",
+			"className": "com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ender_Guardian_Entity",
+			"health": 333.0,
+			"armor": 20
+		},
+		{
+			"id": "cataclysm:scylla",
+			"className": "com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Scylla.Scylla_Entity",
+			"health": 390.0,
+			"armor": 12
+		},
+		{
+			"id": "cataclysm:the_leviathan",
+			"className": "com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.The_Leviathan_Entity",
+			"health": 400.0,
+			"armor": 10
+		},
+		{
+			"id": "cataclysm:maledictus",
+			"className": "com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Maledictus.Maledictus_Entity",
+			"health": 420.0,
+			"armor": 10
+		},
+		{
+			"id": "cataclysm:ignis",
+			"className": "com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ignis_Entity",
+			"health": 450.0,
+			"armor": 10
+		},
+		{
+			"id": "divinerpg:ancient_entity",
+			"className": "divinerpg.entities.boss.EntityAncientEntity",
+			"health": 800.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:ayeraco",
+			"className": "divinerpg.entities.boss.EntityAyeraco",
+			"health": 600.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:densos",
+			"className": "divinerpg.entities.boss.EntityDensos",
+			"health": 1000.0,
+			"armor": 10
+		},
+		{
+			"id": "divinerpg:dramix",
+			"className": "divinerpg.entities.boss.EntityDramix",
+			"health": 1400.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:eternal_archer",
+			"className": "divinerpg.entities.boss.EntityEternalArcher",
+			"health": 1550.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:experienced_cori",
+			"className": "divinerpg.entities.boss.EntityExperiencedCori",
+			"health": 1150.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:hive_queen",
+			"className": "divinerpg.entities.boss.EntityHiveQueen",
+			"health": 1500.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:karos",
+			"className": "divinerpg.entities.boss.EntityKaros",
+			"health": 4000.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:karot",
+			"className": "divinerpg.entities.boss.EntityKarot",
+			"health": 1250.0,
+			"armor": 10
+		},
+		{
+			"id": "divinerpg:king_of_scorchers",
+			"className": "divinerpg.entities.boss.EntityKingOfScorchers",
+			"health": 1100.0,
+			"armor": 10
+		},
+		{
+			"id": "divinerpg:kitra",
+			"className": "divinerpg.entities.boss.EntityKitra",
+			"health": 750.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:lady_luna",
+			"className": "divinerpg.entities.boss.EntityLadyLuna",
+			"health": 8000.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:parasecta",
+			"className": "divinerpg.entities.boss.EntityParasecta",
+			"health": 1000.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:quadro",
+			"className": "divinerpg.entities.boss.EntityQuadro",
+			"health": 4000.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:raglok",
+			"className": "divinerpg.entities.boss.EntityRaglok",
+			"health": 5000.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:reyvor",
+			"className": "divinerpg.entities.boss.EntityReyvor",
+			"health": 1000.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:soul_fiend",
+			"className": "divinerpg.entities.boss.EntitySoulFiend",
+			"health": 1100.0,
+			"armor": 10
+		},
+		{
+			"id": "divinerpg:sunstorm",
+			"className": "divinerpg.entities.boss.EntitySunstorm",
+			"health": 1000.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:termasect",
+			"className": "divinerpg.entities.boss.EntityTermasect",
+			"health": 1050.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:the_watcher",
+			"className": "divinerpg.entities.boss.EntityTheWatcher",
+			"health": 950.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:twilight_demon",
+			"className": "divinerpg.entities.boss.EntityTwilightDemon",
+			"health": 1600.0,
+			"armor": 10
+		},
+		{
+			"id": "divinerpg:vamacheron",
+			"className": "divinerpg.entities.boss.EntityVamacheron",
+			"health": 1350.0,
+			"armor": 0
+		},
+		{
+			"id": "divinerpg:wreck",
+			"className": "divinerpg.entities.boss.EntityWreck",
+			"health": 5000.0,
+			"armor": 0
+		}
+	],
+	"cataclysmGear": [
+		{
+			"id": "cataclysm:ancient_spear",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "forge.entity_reach",
+							"amount": 1.5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.6,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 8.5,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:astrape",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "forge.entity_reach",
+							"amount": 2,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.6,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 9.5,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:athame",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 4,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -1.7999999523162842,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "forge.entity_reach",
+							"amount": -1,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:black_steel_axe",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 8,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -3.0999999046325684,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:black_steel_hoe",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 0,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -1,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:black_steel_pickaxe",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 3,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.799999952316284,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:black_steel_shovel",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 3.5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -3,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:black_steel_sword",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.4000000953674316,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:bloom_stone_pauldrons",
+			"attributes": [
+				{
+					"slot": "CHEST",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 20,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 8,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.1,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 3,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 2,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.cataclysm.nature_heal",
+							"amount": 15,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:bone_reptile_chestplate",
+			"attributes": [
+				{
+					"slot": "CHEST",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 27.5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 11,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.15,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 4.125,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 2.5,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:bone_reptile_helmet",
+			"attributes": [
+				{
+					"slot": "HEAD",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 15,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 6,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.15,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 2.25,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 2.5,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:brontes",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 12,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -3,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:ceraunus",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "forge.entity_reach",
+							"amount": 1,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -3.3,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 15,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:coral_bardiche",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 9,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -3.200000047683716,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "forge.entity_reach",
+							"amount": 1.5,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:coral_spear",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 5.5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.9000000953674316,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:cursium_boots",
+			"attributes": [
+				{
+					"slot": "FEET",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 12.5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.05,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 1.875,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 4,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:cursium_chestplate",
+			"attributes": [
+				{
+					"slot": "CHEST",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 25,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 10,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.05,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 3.75,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 4,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:cursium_helmet",
+			"attributes": [
+				{
+					"slot": "HEAD",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 12.5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.05,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 1.875,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 4,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:cursium_leggings",
+			"attributes": [
+				{
+					"slot": "LEGS",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 20,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 8,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.05,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 3,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 4,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:gauntlet_of_bulwark",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 3,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.15000000596046448,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.4,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 3,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 10,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:gauntlet_of_guard",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 3,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.15000000596046448,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.4,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 3,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 10,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:gauntlet_of_maelstrom",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 3,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.15000000596046448,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.4,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 3,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 10,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:ignitium_boots",
+			"attributes": [
+				{
+					"slot": "FEET",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 15,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 6,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.15,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 2.25,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 4,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:ignitium_chestplate",
+			"attributes": [
+				{
+					"slot": "CHEST",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 27.5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 11,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.15,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 4.125,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 4,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:ignitium_elytra_chestplate",
+			"attributes": [
+				{
+					"slot": "CHEST",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 27.5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 11,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.15,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 4.125,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 4,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:ignitium_helmet",
+			"attributes": [
+				{
+					"slot": "HEAD",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 15,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 6,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.15,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 2.25,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 4,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:ignitium_leggings",
+			"attributes": [
+				{
+					"slot": "LEGS",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 22.5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 9,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.15,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 3.375,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 4,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:infernal_forge",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 12,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -3,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:khopesh",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 4,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.5999999046325684,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:meat_shredder",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 7.5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.6,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:monstrous_helm",
+			"attributes": [
+				{
+					"slot": "HEAD",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.epicfight.weight",
+							"amount": 7.5,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor",
+							"amount": 3,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.knockback_resistance",
+							"amount": 0.10000000149011612,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.epicfight.stun_armor",
+							"amount": 1.125,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.armor_toughness",
+							"amount": 3,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:soul_render",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "forge.entity_reach",
+							"amount": 2,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "forge.block_reach",
+							"amount": 2,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.95,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 14,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:the_annihilator",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.cataclysm.additional_critical_damage",
+							"amount": 75,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.4,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 7.5,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:the_immolator",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.cataclysm.additional_critical_damage",
+							"amount": 60,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.4,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 7.5,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:the_incinerator",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "forge.entity_reach",
+							"amount": 2,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.6,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 13,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:tidal_claws",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 7,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -2.4,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cataclysm:void_forge",
+			"attributes": [
+				{
+					"slot": "MAINHAND",
+					"modifiers": [
+						{
+							"attribute": "attribute.name.generic.attack_damage",
+							"amount": 12,
+							"operation": "ADDITION"
+						},
+						{
+							"attribute": "attribute.name.generic.attack_speed",
+							"amount": -3,
+							"operation": "ADDITION"
+						}
+					]
+				}
+			]
+		}
+	],
+	"scope": "Native gate and attribute QA; no animated multiplayer combat."
+}

@@ -27,10 +27,25 @@ function expeditionGearStage(stack, slot) {
   if (/^gtceu:(advanced_)?quarktech_/.test(id)) return 8
   return 0
 }
+function expeditionGearLocked(player, stack, slot) {
+  const id=String(stack.id)
+  // Transport in the backpack is allowed; equipped final-mod items are gated.
+  if(global.expeditionFinalModLocked && global.expeditionFinalModLocked(player.server,id))return true
+  const rule=expeditionDivineBalance.gear[String(stack.id)]
+  if (rule && (rule.kind==='weapon' ? (slot==='mainhand' || slot==='offhand') : ['head','chest','legs','feet'].indexOf(slot)>=0)) {
+    if (!global.expeditionCataclysmComplete(player.server)) return true
+    const board=player.server.getScoreboard(),objective=board.getObjective('exp_stage')
+    const campaign=objective ? board.getOrCreatePlayerScore('$expedition',objective).getScore() : 0
+    return expeditionGearStage(stack,slot)>campaign
+  }
+  return expeditionGearStage(stack,slot)>expeditionPlayerStage(player)
+}
 function expeditionPlayerStage(player) {
   const board=player.server.getScoreboard()
   const objective=board.getObjective('exp_stage')
-  return objective ? board.getOrCreatePlayerScore('$expedition',objective).getScore() : 0
+  const campaign=objective ? board.getOrCreatePlayerScore('$expedition',objective).getScore() : 0
+  // Cataclysm preparation: ordinary tier III gear by the Leviathan victory.
+  return Math.max(campaign,Math.min(3,Math.floor(global.expeditionCatStage(player.server)/2)))
 }
 function expeditionEquipmentReserve(player) {
   // KubeJS persistentData is a separate NBT root; use Forge's death-preserved root.
@@ -49,7 +64,7 @@ function expeditionReturnGear(player, stage) {
     const stack=expeditionEquipmentStack.of(queue.getCompound(index))
     let inserted=false
     for (let slot=0;slot<36;slot++) {
-      if (slot===player.inventory.selected && expeditionGearStage(stack,'mainhand')>stage) continue
+      if (slot===player.inventory.selected && expeditionGearLocked(player,stack,'mainhand')) continue
       if (!player.inventory.getItem(slot).isEmpty()) continue
       player.inventory.setItem(slot,stack)
       queue.remove(index);inserted=true;break
@@ -63,7 +78,7 @@ function expeditionCheckEquipment(player) {
   ;[['HEAD','head'],['CHEST','chest'],['LEGS','legs'],['FEET','feet'],['MAINHAND','mainhand'],['OFFHAND','offhand']].forEach(row=>{
     const slot=expeditionEquipmentSlot[row[0]]
     const stack=player.getItemBySlot(slot)
-    if (stack.isEmpty() || expeditionGearStage(stack,row[1])<=stage) return
+    if (stack.isEmpty() || !expeditionGearLocked(player,stack,row[1])) return
     expeditionReserveGear(player,stack)
     player.getAttributes().removeAttributeModifiers(stack.getAttributeModifiers(slot))
     player.setItemSlot(slot,expeditionEquipmentStack.EMPTY)
@@ -74,7 +89,7 @@ function expeditionCheckEquipment(player) {
     const stacks=handler.getStacks()
     for (let i=0;i<stacks.getSlots();i++) {
       const stack=stacks.getStackInSlot(i)
-      if (stack.isEmpty() || expeditionGearStage(stack,'curio')<=stage) continue
+      if (stack.isEmpty() || !expeditionGearLocked(player,stack,'curio')) continue
       expeditionReserveGear(player,stack)
       stacks.setStackInSlot(i,expeditionEquipmentStack.EMPTY)
       moved++
@@ -92,10 +107,9 @@ PlayerEvents.tick(event=>{
 EntityEvents.hurt(event=>{
   const player=event.source.player
   if (!player || event.level.clientSide) return
-  const stage=expeditionGearStage(player.mainHandItem,'mainhand')
-  if (stage>expeditionPlayerStage(player)) event.cancel()
+  if (expeditionGearLocked(player,player.mainHandItem,'mainhand')) event.cancel()
 })
 ItemEvents.rightClicked(event=>{
   if (event.level.clientSide) return
-  if (expeditionGearStage(event.item,'mainhand')>expeditionPlayerStage(event.player)) event.cancel()
+  if (expeditionGearLocked(event.player,event.item,'mainhand')) event.cancel()
 })

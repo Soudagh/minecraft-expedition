@@ -1,0 +1,254 @@
+{
+  "scope": "Initial four-player campaign tuning. Native mechanics and phases preserved; real multiplayer combat acceptance remains required.",
+  "native": {
+    "cataclysm:netherite_monstrosity": {
+      "health": 800,
+      "damage_multiplier": 1.0,
+      "cat_order": 1
+    },
+    "cataclysm:ancient_remnant": {
+      "health": 900,
+      "damage_multiplier": 1.04,
+      "cat_order": 2
+    },
+    "cataclysm:the_harbinger": {
+      "health": 1000,
+      "damage_multiplier": 1.08,
+      "cat_order": 3
+    },
+    "cataclysm:ender_guardian": {
+      "health": 1100,
+      "damage_multiplier": 1.12,
+      "cat_order": 4
+    },
+    "cataclysm:scylla": {
+      "health": 1200,
+      "damage_multiplier": 1.16,
+      "cat_order": 5
+    },
+    "cataclysm:the_leviathan": {
+      "health": 1300,
+      "damage_multiplier": 1.2,
+      "cat_order": 6
+    },
+    "cataclysm:maledictus": {
+      "health": 1500,
+      "damage_multiplier": 1.24,
+      "cat_order": 7
+    },
+    "cataclysm:ignis": {
+      "health": 1800,
+      "damage_multiplier": 1.28,
+      "cat_order": 8
+    },
+    "divinerpg:ancient_entity": {
+      "health": 1200,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:ayeraco": {
+      "health": 900,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:densos": {
+      "health": 1500,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:dramix": {
+      "health": 2100,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:eternal_archer": {
+      "health": 2300,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:experienced_cori": {
+      "health": 1700,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:hive_queen": {
+      "health": 2250,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:karos": {
+      "health": 5600,
+      "damage_multiplier": 1.25,
+      "requires_cataclysm": true
+    },
+    "divinerpg:karot": {
+      "health": 1900,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:king_of_scorchers": {
+      "health": 1650,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:kitra": {
+      "health": 1100,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:lady_luna": {
+      "health": 11200,
+      "damage_multiplier": 1.25,
+      "requires_cataclysm": true
+    },
+    "divinerpg:parasecta": {
+      "health": 1500,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:quadro": {
+      "health": 5600,
+      "damage_multiplier": 1.25,
+      "requires_cataclysm": true
+    },
+    "divinerpg:raglok": {
+      "health": 7000,
+      "damage_multiplier": 1.25,
+      "requires_cataclysm": true
+    },
+    "divinerpg:reyvor": {
+      "health": 1500,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:soul_fiend": {
+      "health": 1650,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:sunstorm": {
+      "health": 1500,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:termasect": {
+      "health": 1600,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:the_watcher": {
+      "health": 1400,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:twilight_demon": {
+      "health": 2400,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:vamacheron": {
+      "health": 2000,
+      "damage_multiplier": 1.15,
+      "requires_cataclysm": true
+    },
+    "divinerpg:wreck": {
+      "health": 7000,
+      "damage_multiplier": 1.25,
+      "requires_cataclysm": true
+    },
+    "graveyard:lich": {
+      "health": 1700,
+      "damage_multiplier": 1.15,
+      "realm": "eden"
+    },
+    "eeeabsmobs:relic_annihilator": {
+      "health": 3200,
+      "damage_multiplier": 1.3,
+      "realm": "skythern"
+    },
+    "eeeabsmobs:realm_warden": {
+      "health": 8000,
+      "damage_multiplier": 1.55,
+      "realm": "vethea"
+    }
+  },
+  "slb": {
+    "aw": {
+      "health": 1400,
+      "damage_multiplier": 1.1,
+      "realm": "eden"
+    },
+    "lothran": {
+      "health": 2000,
+      "damage_multiplier": 1.2,
+      "realm": "wildwood"
+    },
+    "sunflower": {
+      "health": 2600,
+      "damage_multiplier": 1.25,
+      "realm": "apalachia"
+    },
+    "soc": {
+      "health": 3600,
+      "damage_multiplier": 1.35,
+      "realm": "arcana"
+    },
+    "nl": {
+      "health": 4800,
+      "damage_multiplier": 1.45,
+      "realm": "mortum"
+    },
+    "te": {
+      "health": 6400,
+      "damage_multiplier": 1.55,
+      "realm": "vethea"
+    }
+  },
+  "cataclysm_attack_cap": 8,
+  "cataclysm_armor": {
+    "cataclysm:cursium_helmet": {
+      "armor": 3,
+      "toughness": 1.5
+    },
+    "cataclysm:cursium_chestplate": {
+      "armor": 8,
+      "toughness": 1.5
+    },
+    "cataclysm:cursium_leggings": {
+      "armor": 6,
+      "toughness": 1.5
+    },
+    "cataclysm:cursium_boots": {
+      "armor": 2,
+      "toughness": 1.5
+    },
+    "cataclysm:ignitium_helmet": {
+      "armor": 3,
+      "toughness": 2.0
+    },
+    "cataclysm:ignitium_chestplate": {
+      "armor": 8,
+      "toughness": 2.0
+    },
+    "cataclysm:ignitium_leggings": {
+      "armor": 6,
+      "toughness": 2.0
+    },
+    "cataclysm:ignitium_boots": {
+      "armor": 3,
+      "toughness": 2.0
+    },
+    "cataclysm:bone_reptile_helmet": {
+      "armor": 3,
+      "toughness": 1.5
+    },
+    "cataclysm:bone_reptile_chestplate": {
+      "armor": 7,
+      "toughness": 1.5
+    },
+    "cataclysm:ignitium_elytra_chestplate": {
+      "armor": 8,
+      "toughness": 2
+    }
+  }
+}

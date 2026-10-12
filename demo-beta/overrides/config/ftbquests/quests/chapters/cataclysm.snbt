@@ -1,0 +1,160 @@
+{
+  "id": "3C38000000000001",
+  "filename": "cataclysm",
+  "title": "Cataclysm · до Divine RPG",
+  "order_index": 10,
+  "quests": [
+    {
+      "id": "1C38000000000001",
+      "title": "1 · Cataclysm: Незеритовый монстр",
+      "x": 0.0,
+      "y": 0.0,
+      "dependencies": [],
+      "description": [
+        "Общие правила главы: Настоящая победа в выживании, общая для всего сервера. Убийство раньше предыдущего этапа не записывается; команды и творческий режим не засчитываются.",
+        "Общие правила главы: Подготовьте экипировку, магию, лечение и снабжение. Бой проходите на штатной арене."
+      ],
+      "tasks": [
+        {
+          "id": "2C38000000000001",
+          "type": "advancement",
+          "advancement": "expedition:cataclysm/netherite_monstrosity"
+        }
+      ]
+    },
+    {
+      "id": "1C38000000000002",
+      "title": "2 · Cataclysm: Древний остаток",
+      "x": 1.6,
+      "y": 0.0,
+      "dependencies": [
+        "1C38000000000001"
+      ],
+      "description": [
+        "Подготовка: 1 · Cataclysm: Незеритовый монстр."
+      ],
+      "tasks": [
+        {
+          "id": "2C38000000000002",
+          "type": "advancement",
+          "advancement": "expedition:cataclysm/ancient_remnant"
+        }
+      ]
+    },
+    {
+      "id": "1C38000000000003",
+      "title": "3 · Cataclysm: Предвестник",
+      "x": 3.2,
+      "y": 0.0,
+      "dependencies": [
+        "1C38000000000002"
+      ],
+      "description": [
+        "Подготовка: 2 · Cataclysm: Древний остаток."
+      ],
+      "tasks": [
+        {
+          "id": "2C38000000000003",
+          "type": "advancement",
+          "advancement": "expedition:cataclysm/the_harbinger"
+        }
+      ]
+    },
+    {
+      "id": "1C38000000000004",
+      "title": "4 · Cataclysm: Страж Края",
+      "x": 4.800000000000001,
+      "y": 0.0,
+      "dependencies": [
+        "1C38000000000003"
+      ],
+      "description": [
+        "Подготовка: 3 · Cataclysm: Предвестник."
+      ],
+      "tasks": [
+        {
+          "id": "2C38000000000004",
+          "type": "advancement",
+          "advancement": "expedition:cataclysm/ender_guardian"
+        }
+      ]
+    },
+    {
+      "id": "1C38000000000005",
+      "title": "5 · Cataclysm: Сцилла",
+      "x": 6.4,
+      "y": 0.0,
+      "dependencies": [
+        "1C38000000000004"
+      ],
+      "description": [
+        "Подготовка: 4 · Cataclysm: Страж Края."
+      ],
+      "tasks": [
+        {
+          "id": "2C38000000000005",
+          "type": "advancement",
+          "advancement": "expedition:cataclysm/scylla"
+        }
+      ]
+    },
+    {
+      "id": "1C38000000000006",
+      "title": "6 · Cataclysm: Левиафан",
+      "x": 8.0,
+      "y": 0.0,
+      "dependencies": [
+        "1C38000000000005"
+      ],
+      "description": [
+        "Подготовка: 5 · Cataclysm: Сцилла."
+      ],
+      "tasks": [
+        {
+          "id": "2C38000000000006",
+          "type": "advancement",
+          "advancement": "expedition:cataclysm/the_leviathan"
+        }
+      ]
+    },
+    {
+      "id": "1C38000000000007",
+      "title": "7 · Cataclysm: Маледиктус",
+      "x": 9.600000000000001,
+      "y": 0.0,
+      "dependencies": [
+        "1C38000000000006"
+      ],
+      "description": [
+        "Подготовка: 6 · Cataclysm: Левиафан."
+      ],
+      "tasks": [
+        {
+          "id": "2C38000000000007",
+          "type": "advancement",
+          "advancement": "expedition:cataclysm/maledictus"
+        }
+      ]
+    },
+    {
+      "id": "1C38000000000008",
+      "title": "8 · Cataclysm: Игнис",
+      "x": 11.200000000000001,
+      "y": 0.0,
+      "dependencies": [
+        "1C38000000000007"
+      ],
+      "description": [
+        "Подготовка: 7 · Cataclysm: Маледиктус.",
+        "После Игниса открываются порталы и экипировка Divine RPG. Девять боссов основного маршрута продолжат развитие между его измерениями."
+      ],
+      "tasks": [
+        {
+          "id": "2C38000000000008",
+          "type": "advancement",
+          "advancement": "expedition:cataclysm/ignis"
+        }
+      ]
+    }
+  ]
+}

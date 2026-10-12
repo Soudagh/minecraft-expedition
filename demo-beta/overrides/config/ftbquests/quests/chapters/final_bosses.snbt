@@ -1,0 +1,189 @@
+{
+  "id": "3F38000000000001",
+  "filename": "final_bosses",
+  "title": "Два боевых финала · Chaos Guardian и Wither Storm",
+  "order_index": 980,
+  "quests": [
+    {
+      "id": "1F38000000000001",
+      "title": "Divine RPG · Lady Luna",
+      "dependencies": [
+        "1400000000000007"
+      ],
+      "description": [
+        "Подготовка: 7 · Победа: Nightlord.",
+        "Пройдите Ветею и победите Lady Luna штатным способом в выживании. Зачёт общий. Для Draconic Evolution также нужны все девять побед основного маршрута."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2F38000000000001",
+          "type": "advancement",
+          "advancement": "expedition:final_bosses/lady_luna"
+        }
+      ]
+    },
+    {
+      "id": "1F38000000000002",
+      "title": "Draconic · первая основа",
+      "dependencies": [
+        "1F38000000000001",
+        "1400000000000009"
+      ],
+      "description": [
+        "Подготовка: Divine RPG · Lady Luna; 9 · Победа: Realmwarden.",
+        "После Lady Luna и девяти побед открываются оборудование и экипировка Draconic. Центральный алмаз рецепта draconium_core заменён возобновляемой матрицей синтеза Realmwarden; остальные восемь слитков сохранены.",
+        "Зачёт: предметы в инвентаре; вещи сохраняются."
+      ],
+      "x": 1.6,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2F38000000000002",
+          "type": "item",
+          "item": "draconicevolution:draconium_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "draconicevolution:draconium_core"
+    },
+    {
+      "id": "1F38000000000003",
+      "title": "Draconic · пробуждённое ядро",
+      "dependencies": [
+        "1F38000000000002"
+      ],
+      "description": [
+        "Подготовка: Draconic · первая основа.",
+        "Освойте нативное fusion crafting, питание и пробуждённые материалы. Подготовьте Draconic-снаряжение до Chaos Guardian; хаотическая ступень открывается только после него.",
+        "Зачёт: предметы в инвентаре; вещи сохраняются."
+      ],
+      "x": 3.2,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2F38000000000003",
+          "type": "item",
+          "item": "draconicevolution:awakened_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "draconicevolution:awakened_core"
+    },
+    {
+      "id": "1F38000000000004",
+      "title": "Финал I · Chaos Guardian",
+      "dependencies": [
+        "1F38000000000003"
+      ],
+      "description": [
+        "Подготовка: Draconic · пробуждённое ядро.",
+        "Победите настоящего Draconic Guardian в его штатном бою с кристаллами и щитом. Удаление сущности, /kill и творческий режим не засчитываются. Победа открывает хаотическую ступень и Wither Storm."
+      ],
+      "x": 4.800000000000001,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2F38000000000004",
+          "type": "advancement",
+          "advancement": "expedition:final_bosses/chaos_guardian"
+        }
+      ]
+    },
+    {
+      "id": "1F38000000000005",
+      "title": "Wither Storm · Formidibomb",
+      "dependencies": [
+        "1F38000000000004"
+      ],
+      "description": [
+        "Подготовка: Финал I · Chaos Guardian.",
+        "Подготовьте штатную Formidibomb и изучите последовательность фаз. Её взрыв и временное падение Шторма не являются финальной победой. Испытание затрагивает мир; первое полное прохождение проводится на его отдельной копии.",
+        "Зачёт: предметы в инвентаре; вещи сохраняются."
+      ],
+      "x": 6.4,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2F38000000000005",
+          "type": "item",
+          "item": "witherstormmod:formidibomb",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "witherstormmod:formidibomb"
+    },
+    {
+      "id": "1F38000000000006",
+      "title": "Wither Storm · книга командного блока",
+      "dependencies": [
+        "1F38000000000005"
+      ],
+      "description": [
+        "Подготовка: Wither Storm · Formidibomb.",
+        "Пройдите штатный этап Withered Symbiont и получите книгу для оружия командного блока. Обычное увеличение урона не заменяет необходимые механики Шторма.",
+        "Зачёт: предметы в инвентаре; вещи сохраняются."
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2F38000000000006",
+          "type": "item",
+          "item": "witherstormmod:command_block_book",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "witherstormmod:command_block_book"
+    },
+    {
+      "id": "1F38000000000007",
+      "title": "Wither Storm · оружие ядра",
+      "dependencies": [
+        "1F38000000000006"
+      ],
+      "description": [
+        "Подготовка: Wither Storm · книга командного блока.",
+        "Изготовьте штатное оружие командного блока и подготовьте совместное прохождение внутреннего финального боя.",
+        "Зачёт: предметы в инвентаре; вещи сохраняются."
+      ],
+      "x": 9.600000000000001,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2F38000000000007",
+          "type": "item",
+          "item": "witherstormmod:command_block_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "witherstormmod:command_block_sword"
+    },
+    {
+      "id": "1F38000000000008",
+      "title": "Финал II · Wither Storm",
+      "dependencies": [
+        "1F38000000000007"
+      ],
+      "description": [
+        "Подготовка: Wither Storm · оружие ядра.",
+        "Общий зачёт требует настоящего финального уничтожения через командный блок. Предмет-звезда в инвентаре, ранняя смерть, Formidibomb и /kill не завершают кампанию."
+      ],
+      "x": 11.200000000000001,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2F38000000000008",
+          "type": "advancement",
+          "advancement": "expedition:final_bosses/wither_storm"
+        }
+      ]
+    }
+  ]
+}

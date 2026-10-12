@@ -51,42 +51,42 @@
       "reason": "free flight or late equipment VII"
     },
     "divinerpg:apalachia_blade": {
-      "stage": 4,
+      "stage": 3,
       "kind": "weapon",
       "reason": "realm campaign stage"
     },
     "divinerpg:apalachia_blitz": {
-      "stage": 4,
+      "stage": 3,
       "kind": "weapon",
       "reason": "realm ranged weapon"
     },
     "divinerpg:apalachia_boots": {
-      "stage": 4,
+      "stage": 3,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:apalachia_bow": {
-      "stage": 4,
+      "stage": 3,
       "kind": "weapon",
       "reason": "realm ranged weapon"
     },
     "divinerpg:apalachia_chestplate": {
-      "stage": 4,
+      "stage": 3,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:apalachia_helmet": {
-      "stage": 4,
+      "stage": 3,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:apalachia_leggings": {
-      "stage": 4,
+      "stage": 3,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:apalachia_phaser": {
-      "stage": 4,
+      "stage": 3,
       "kind": "weapon",
       "reason": "realm ranged weapon"
     },
@@ -521,42 +521,42 @@
       "reason": "native basic equipment"
     },
     "divinerpg:eden_blade": {
-      "stage": 2,
+      "stage": 0,
       "kind": "weapon",
       "reason": "realm campaign stage"
     },
     "divinerpg:eden_blitz": {
-      "stage": 2,
+      "stage": 0,
       "kind": "weapon",
       "reason": "realm ranged weapon"
     },
     "divinerpg:eden_boots": {
-      "stage": 2,
+      "stage": 0,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:eden_bow": {
-      "stage": 2,
+      "stage": 0,
       "kind": "weapon",
       "reason": "realm ranged weapon"
     },
     "divinerpg:eden_chestplate": {
-      "stage": 2,
+      "stage": 0,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:eden_helmet": {
-      "stage": 2,
+      "stage": 0,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:eden_leggings": {
-      "stage": 2,
+      "stage": 0,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:eden_phaser": {
-      "stage": 2,
+      "stage": 0,
       "kind": "weapon",
       "reason": "realm ranged weapon"
     },
@@ -1441,42 +1441,42 @@
       "reason": "native basic equipment"
     },
     "divinerpg:skythern_blade": {
-      "stage": 5,
+      "stage": 4,
       "kind": "weapon",
       "reason": "realm campaign stage"
     },
     "divinerpg:skythern_blitz": {
-      "stage": 5,
+      "stage": 4,
       "kind": "weapon",
       "reason": "realm ranged weapon"
     },
     "divinerpg:skythern_boots": {
-      "stage": 5,
+      "stage": 4,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:skythern_bow": {
-      "stage": 5,
+      "stage": 4,
       "kind": "weapon",
       "reason": "realm ranged weapon"
     },
     "divinerpg:skythern_chestplate": {
-      "stage": 5,
+      "stage": 4,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:skythern_helmet": {
-      "stage": 5,
+      "stage": 4,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:skythern_leggings": {
-      "stage": 5,
+      "stage": 4,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:skythern_phaser": {
-      "stage": 5,
+      "stage": 4,
       "kind": "weapon",
       "reason": "realm ranged weapon"
     },
@@ -1636,42 +1636,42 @@
       "reason": "Arcana V"
     },
     "divinerpg:wildwood_blade": {
-      "stage": 3,
+      "stage": 2,
       "kind": "weapon",
       "reason": "realm campaign stage"
     },
     "divinerpg:wildwood_blitz": {
-      "stage": 3,
+      "stage": 2,
       "kind": "weapon",
       "reason": "realm ranged weapon"
     },
     "divinerpg:wildwood_boots": {
-      "stage": 3,
+      "stage": 2,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:wildwood_bow": {
-      "stage": 3,
+      "stage": 2,
       "kind": "weapon",
       "reason": "realm ranged weapon"
     },
     "divinerpg:wildwood_chestplate": {
-      "stage": 3,
+      "stage": 2,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:wildwood_helmet": {
-      "stage": 3,
+      "stage": 2,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:wildwood_leggings": {
-      "stage": 3,
+      "stage": 2,
       "kind": "armor",
       "reason": "realm campaign stage"
     },
     "divinerpg:wildwood_phaser": {
-      "stage": 3,
+      "stage": 2,
       "kind": "weapon",
       "reason": "realm ranged weapon"
     },
@@ -1756,20 +1756,20 @@
   },
   "armor_modifiers": {
     "divinerpg:eden_helmet": {
-      "armor": 3,
-      "toughness": 2
+      "armor": 4,
+      "toughness": 2.5
     },
     "divinerpg:eden_chestplate": {
       "armor": 8,
-      "toughness": 2
+      "toughness": 2.5
     },
     "divinerpg:eden_leggings": {
       "armor": 6,
-      "toughness": 2
+      "toughness": 2.5
     },
     "divinerpg:eden_boots": {
       "armor": 3,
-      "toughness": 2
+      "toughness": 2.5
     },
     "divinerpg:wildwood_helmet": {
       "armor": 4,
@@ -1784,7 +1784,7 @@
       "toughness": 3
     },
     "divinerpg:wildwood_boots": {
-      "armor": 3,
+      "armor": 4,
       "toughness": 3
     },
     "divinerpg:apalachia_helmet": {
@@ -1792,7 +1792,7 @@
       "toughness": 3.5
     },
     "divinerpg:apalachia_chestplate": {
-      "armor": 8,
+      "armor": 9,
       "toughness": 3.5
     },
     "divinerpg:apalachia_leggings": {
@@ -1812,7 +1812,7 @@
       "toughness": 4
     },
     "divinerpg:skythern_leggings": {
-      "armor": 6,
+      "armor": 7,
       "toughness": 4
     },
     "divinerpg:skythern_boots": {
@@ -1821,19 +1821,19 @@
     },
     "divinerpg:mortum_helmet": {
       "armor": 4,
-      "toughness": 4
+      "toughness": 4.5
     },
     "divinerpg:mortum_chestplate": {
       "armor": 9,
-      "toughness": 4
+      "toughness": 4.5
     },
     "divinerpg:mortum_leggings": {
       "armor": 7,
-      "toughness": 4
+      "toughness": 4.5
     },
     "divinerpg:mortum_boots": {
-      "armor": 4,
-      "toughness": 4
+      "armor": 5,
+      "toughness": 4.5
     },
     "divinerpg:halite_helmet": {
       "armor": 4,

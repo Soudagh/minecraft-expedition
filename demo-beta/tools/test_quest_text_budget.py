@@ -21,7 +21,11 @@ class QuestTextBudgetTests(unittest.TestCase):
    texts={p for q in c['quests'] for p in q['description']}
    for qid,q in before.items():
     for key in ('tasks','dependencies','title','icon','x','y'):
-     self.assertEqual(q.get(key),after[qid].get(key),(qid,key))
+     # Explicit 0.38 campaign change: preserve the old preparation dependency
+     # and add exactly the Cataclysm finale. No other historical field may drift.
+     expected=q.get(key)
+     if qid=='1400000000000001' and key=='dependencies':expected=expected+['1C38000000000008']
+     self.assertEqual(expected,after[qid].get(key),(qid,key))
     for paragraph in q['description']:
      if paragraph.startswith(('Зачёт:','Подготовка:')):continue
      self.assertTrue(paragraph in texts or 'Общие правила главы: '+paragraph in texts,(slug,qid,paragraph))
